@@ -1,0 +1,9 @@
+{
+  "slidev.preview-sync": true,
+  "slidev.include": [
+    "**/slides.md",
+    "new_slides.md",
+    "slidev/new_slides.md",
+    "slidev/塾の定期テスト.md"
+  ]
+}
