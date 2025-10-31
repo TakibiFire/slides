@@ -7,6 +7,9 @@ fonts:
   serif: Noto Serif JP
   # コードブロック用
   mono: Fira Code
+title: 塾の定期テストでがっかりするのはやめましょう
+titleTemplate: '%s'
+favicon: imgs/favicon.png
 ---
 
 # 塾の定期テストで

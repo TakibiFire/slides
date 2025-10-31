@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/local/bin/bash
 
 # Usage:
 # $ deploy.sh [dirname]
@@ -6,6 +6,7 @@
 # This builds the SPA of the md and copies to
 # ~/projects/takibi-fire/public_root/slides/$2/
 
+DRY_RUN=false
 # Parse options
 while getopts "n" opt; do
   case $opt in
@@ -29,6 +30,10 @@ function execute_cmd() {
     "$@"
   fi
 }
+
+declare -A potential_targets_map
+potential_targets_map["juku_test"]="塾の定期テスト"
+# COMMENT: Add more slide_dir_name:actual_base_name pairs here
 
 # $1: directory name.
 function build() {
@@ -54,10 +59,6 @@ function resolve_target() {
   local target_input=$1
   local resolved_target_key=""
   local match_count=0
-  declare -A potential_targets_map
-  potential_targets_map["juku_test"]="塾の定期テスト"
-  # COMMENT: Add more slide_dir_name:actual_base_name pairs here
-
   local potential_target_keys=("${!potential_targets_map[@]}")
 
   for key in "${potential_target_keys[@]}"; do
