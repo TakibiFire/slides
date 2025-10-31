@@ -31,10 +31,10 @@ function execute_cmd() {
   fi
 }
 
+# $1: directory name.
 function build() {
-  cd ~/projects/slides-spa/slidev
   # NOW: Make sure $1 exists.
-  execute_cmd npm exec -c "slidev build $1.md --out ~/projects/takibi-fire/public_root/slides/$1/ --base /slides/$1/"
+  execute_cmd npx slidev build $1/slides.md --out ~/projects/takibi-fire/public_root/slides/$2/ --base /slides/$2/
 }
 
 # Resolve target with dynamic prefix matching and check for ambiguity
@@ -43,7 +43,7 @@ function resolve_target() {
   local resolved_target_key=""
   local match_count=0
   local potential_targets=(
-    "塾の定期テスト"
+    "juku_test"
   )
 
   for key in "${potential_targets[@]}"; do
@@ -81,7 +81,8 @@ function resolve_target() {
 
 for arg in "$@"; do
   resolved_name=$(resolve_target "$arg")
-  if [ -n "$resolved_name.md" ]; then
-    build "$resolved_name"
+  if [ -n "$resolved_name/slides.md" ]; then
+    # NOW: Use `case`. juku_test should call build "juku_test" "塾の定期テスト"
+    build "$resolved_name" "塾の定期テスト"
   fi
 done

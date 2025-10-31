@@ -1,5 +1,18 @@
 {
-	"dependencies": {
-		"@slidev/theme-seriph": "^0.25.0"
-	}
+  "name": "slides-spa",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --root juku_test",
+    "dev": "slidev --open --root juku_test",
+    "export": "slidev export --root juku_test"
+  },
+  "dependencies": {
+    "@slidev/cli": "latest",
+    "@slidev/theme-bricks": "latest",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "slidev-theme-neversink": "^0.4.0",
+    "vue": "^3.5.22"
+  }
 }
