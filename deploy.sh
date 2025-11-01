@@ -33,6 +33,7 @@ function execute_cmd() {
 
 declare -A potential_targets_map
 potential_targets_map["juku_test"]="塾の定期テスト"
+potential_targets_map["transformative"]="やってみなよ！の落とし穴:経験を勧める時の注意点"
 # COMMENT: Add more slide_dir_name:actual_base_name pairs here
 
 # $1: directory name.
