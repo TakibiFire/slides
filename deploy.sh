@@ -31,10 +31,11 @@ function execute_cmd() {
   fi
 }
 
-declare -A potential_targets_map
-potential_targets_map["juku_test"]="塾の定期テスト"
-potential_targets_map["transformative"]="やってみなよ！の落とし穴:経験を勧める時の注意点"
-# COMMENT: Add more slide_dir_name:actual_base_name pairs here
+potential_targets=(
+  "juku_test" # "塾の定期テスト"
+  "transformative" #"やってみなよ！の落とし穴:経験を勧める時の注意点"
+  # COMMENT: Add more slide_dir_names here
+)
 
 # $1: directory name.
 function build() {
@@ -58,22 +59,21 @@ function build() {
 # Resolve target with dynamic prefix matching and check for ambiguity
 function resolve_target() {
   local target_input=$1
-  local resolved_target_key=""
+  local resolved_target=""
   local match_count=0
-  local potential_target_keys=("${!potential_targets_map[@]}")
 
-  for key in "${potential_target_keys[@]}"; do
-    if [[ "$key" == "$target_input"* ]]; then
-      if [ "$key" == "$target_input" ]; then
-        resolved_target_key="$key"
+  for target in "${potential_targets[@]}"; do
+    if [[ "$target" == "$target_input"* ]]; then
+      if [ "$target" == "$target_input" ]; then
+        resolved_target="$target"
         match_count=1
         break
-      elif [ -z "$resolved_target_key" ]; then
-        resolved_target_key="$key"
+      elif [ -z "$resolved_target" ]; then
+        resolved_target="$target"
         match_count=1
       else
-        if [[ "$key" == "$target_input"* && "$resolved_target_key" != "$key" ]]; then
-          if [[ "$resolved_target_key" != "$key"* ]]; then
+        if [[ "$target" == "$target_input"* && "$resolved_target" != "$target" ]]; then
+          if [[ "$resolved_target" != "$target"* ]]; then
             match_count=$((match_count + 1))
           fi
         fi
@@ -82,19 +82,19 @@ function resolve_target() {
   done
 
   if [ "$match_count" -eq 0 ]; then
-    echo "Error: Target '$target_input' not found. Available targets are: ${potential_target_keys[*]}" >&2
+    echo "Error: Target '$target_input' not found. Available targets are: ${potential_targets[*]}" >&2
     exit 1
   elif [ "$match_count" -gt 1 ]; then
     echo "Error: Target '$target_input' is ambiguous. Multiple matches found." >&2
     exit 1
   else
-    echo "$resolved_target_key"
+    echo "$resolved_target"
   fi
 }
 
 for arg in "$@"; do
   resolved_name=$(resolve_target "$arg")
   if [ -n "$resolved_name" ]; then
-    build "$resolved_name" "${potential_targets_map[$resolved_name]}"
+    build "$resolved_name" "$resolved_name"
   fi
 done
