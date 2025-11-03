@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { useNav } from '@slidev/client'
 import seedrandom from 'seedrandom'
+
 /**
- * A new glow effect system powered by blured polygons
+ * A new glow effect system powered by blured circles.
  *
  * Credits to @pi0 @Atinux
  *
@@ -14,7 +15,7 @@ import seedrandom from 'seedrandom'
  */
 import { computed, ref, watch } from 'vue'
 
-const { currentSlideRoute } = useNav()
+const { currentSlideRoute, currentLayout, currentPage, total } = useNav()
 
 export type Range = [number, number]
 
@@ -30,18 +31,37 @@ export type Distribution
     | 'bottom-right'
     | 'center'
     | 'topmost'
+    | 'full-left'
+    | 'full-right'
+
+export interface Circle {
+  x: number
+  y: number
+  r: number
+  w: number
+  vx: number
+  vy: number
+  vw: number
+  vh: number
+}
 
 const formatter = computed(() => (currentSlideRoute.value.meta?.slide as any)?.frontmatter || {})
-const distribution = computed(() => (formatter.value.glow || 'full') as Distribution)
-const opacity = computed<number>(() => +(formatter.value.glowOpacity ?? 0.25))
-const hue = computed<number>(() => +(formatter.value.glowHue || 120))
+const opacity = computed<number>(() => +(formatter.value.glowOpacity ?? 0.35))
+const hue = computed<number>(() => +(formatter.value.glowHue || 70))
 const seed = computed<string>(() => (formatter.value.glowSeed === 'false' || formatter.value.glowSeed === false)
   ? Date.now().toString()
   : formatter.value.glowSeed || 'default',
 )
-const overflow = 0.3
-const disturb = 0.3
-const disturbChance = 0.3
+const circleEndAlpha = 1;  // 0: eclipse-like. 1: full circle
+const numCircles = 10;  // Per sequence
+const blur = 35; // 8
+const overflow = 0.8;
+const disturb = 0.0;
+const disturbChance = 0.3;
+const borderWidthRatio = 0.5;
+const minRadius = 8; // % of viewport height
+const maxRadius = 20; // % of viewport height
+const maxCenterRadius = 14;
 
 function distributionToLimits(distribution: Distribution) {
   const min = -0.2
@@ -49,8 +69,8 @@ function distributionToLimits(distribution: Distribution) {
   let x: Range = [min, max]
   let y: Range = [min, max]
 
-  function intersection(a: Range, b: Range): Range {
-    return [Math.max(a[0], b[0]), Math.min(a[1], b[1])]
+  function intersection([a1, a2]: Range, [b1, b2]: Range): Range {
+    return [Math.max(a1, b1), Math.min(a2, b2)]
   }
 
   const limits = distribution.split('-')
@@ -67,10 +87,10 @@ function distributionToLimits(distribution: Distribution) {
         y = intersection(y, [0.4, max])
         break
       case 'left':
-        x = intersection(x, [min, 0.6])
+        x = intersection(x, [min, 0.3])
         break
       case 'right':
-        x = intersection(x, [0.4, max])
+        x = intersection(x, [0.7, max])
         break
       case 'xcenter':
         x = intersection(x, [0.25, 0.75])
@@ -94,109 +114,188 @@ function distributionToLimits(distribution: Distribution) {
   return { x, y }
 }
 
-function distance2([x1, y1]: Range, [x2, y2]: Range) {
-  return (x2 - x1) ** 2 + (y2 - y1) ** 2
-}
+function useCircleSequence(sequenceIndex: number) {
+  function getCircles(): Circle[] {
+    const rng = seedrandom(`${seed.value}-${currentSlideRoute.value.no}-${sequenceIndex}`)
 
-function usePloy(number = 16) {
-  function getPoints(): Range[] {
-    const limits = distributionToLimits(distribution.value)
-    const rng = seedrandom(`${seed.value}-${currentSlideRoute.value.no}`)
     function randomBetween([a, b]: Range) {
       return rng() * (b - a) + a
     }
+
     function applyOverflow(random: number, overflow: number) {
       random = random * (1 + overflow * 2) - overflow
       return rng() < disturbChance ? random + (rng() - 0.5) * disturb : random
     }
-    return Array.from({ length: number })
-      .fill(0)
-      .map(() => [
-        applyOverflow(randomBetween(limits.x), overflow),
-        applyOverflow(randomBetween(limits.y), overflow),
-      ])
+
+    const startDistributions: Distribution[] = ['full-left']
+    const endDistributions: Distribution[] = ['full-right']
+
+    const firstPointDistribution = startDistributions[Math.floor(rng() * startDistributions.length)]
+    const lastPointDistribution = endDistributions[Math.floor(rng() * endDistributions.length)]
+
+    const firstPointLimits = distributionToLimits(firstPointDistribution)
+    const lastPointLimits = distributionToLimits(lastPointDistribution)
+
+    let firstPointX: number, firstPointY: number, lastPointX: number, lastPointY: number
+    const distance = (x1: number, y1: number, x2: number, y2: number) => Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+
+    do {
+      firstPointX = applyOverflow(randomBetween(firstPointLimits.x), overflow)
+      firstPointY = applyOverflow(randomBetween(firstPointLimits.y), overflow)
+      lastPointX = applyOverflow(randomBetween(lastPointLimits.x), overflow)
+      lastPointY = applyOverflow(randomBetween(lastPointLimits.y), overflow)
+    } while (distance(firstPointX, firstPointY, lastPointX, lastPointY) < 0.6 || Math.abs(firstPointY - lastPointY) < 0.2);
+
+    let firstPointR: number, lastPointR: number;
+    do {
+      firstPointR = randomBetween([minRadius, maxRadius])
+      lastPointR = randomBetween([minRadius, maxRadius])
+    } while (firstPointR + lastPointR > maxCenterRadius * 2);
+    const a = randomBetween([-0.7, 0.7]);
+    const b = 0;  // randomBetween([-1, 1]);
+
+    const circles: Circle[] = []
+    for (let i = 0; i < numCircles; i++) {
+      const xRelPos = 2 * i / numCircles - 1;  // Mapping i to [-1, 1].
+      const yOffset = (xRelPos - b) * (xRelPos - b) * a;
+      const t = i / (numCircles - 1) // If numCicles==5: 0, 0.25, 0.5, 0.75, 1
+      const x = firstPointX * (1 - t) + lastPointX * t;
+      const y = firstPointY * (1 - t) + lastPointY * t + yOffset;
+      const r = firstPointR * (1 - t) + lastPointR * t;
+      const w = r * borderWidthRatio
+      const vw = r * 2
+      const vh = r * 2
+      const vx = 0
+      const vy = 0
+      circles.push({ x, y, r, w, vx, vy, vw, vh })
+    }
+    return circles
   }
 
-  const points = ref(getPoints())
-  const poly = computed(() => points.value.map(([x, y]) => `${x * 100}% ${y * 100}%`).join(', '))
+  const points = ref(getCircles())
 
   function jumpPoints() {
-    const newPoints = new Set(getPoints())
-    points.value = points.value.map((o) => {
-      let minDistance = Number.POSITIVE_INFINITY
-      let closest: Range | undefined
-      for (const n of newPoints) {
-        const d = distance2(o, n)
-        if (d < minDistance) {
-          minDistance = d
-          closest = n
-        }
-      }
-      newPoints.delete(closest)
-      return closest
-    })
+    points.value = getCircles()
   }
 
   watch(currentSlideRoute, () => {
     jumpPoints()
   })
 
-  return poly
+  return points
 }
 
-const poly1 = usePloy(10)
-const poly2 = usePloy(6)
-const poly3 = usePloy(3)
+const circles1 = useCircleSequence(1)
+const circles2 = useCircleSequence(2)
+const circles3 = useCircleSequence(3)
 </script>
 
 <template>
   <div
     class="bg transform-gpu overflow-hidden pointer-events-none"
-    :style="{ filter: `blur(70px) hue-rotate(${hue}deg)` }"
+    :style="{ filter: `blur(${blur}px) hue-rotate(${hue}deg)` }"
     aria-hidden="true"
   >
-    <div
-      class="clip bg-gradient-to-r from-[#00DC82] to-white/10"
-      :style="{ 'clip-path': `polygon(${poly1})`, 'opacity': opacity }"
-    />
-    <div
-      class="clip bg-gradient-to-l from-[#2f96ad] to-white/10"
-      :style="{ 'clip-path': `polygon(${poly2})`, 'opacity': opacity }"
-    />
-    <div
-      class="clip bg-gradient-to-t from-lime to-white/10"
-      :style="{ 'clip-path': `polygon(${poly3})`, 'opacity': 0.2 }"
-    />
+    <svg
+      v-for="(circle, i) in circles1"
+      :key="`s1-${i}`"
+      class="circle-container absolute transform -translate-x-1/2 -translate-y-1/2"
+      :style="{
+        'width': `${circle.r * 2}vh`,
+        'height': `${circle.r * 2}vh`,
+        'left': `${circle.x * 100}%`,
+        'top': `${circle.y * 100}%`,
+        'opacity': opacity,
+      }"
+      :viewBox="`${circle.vx} ${circle.vy} ${circle.vw} ${circle.vh}`"
+    >
+      <path
+        :d="`M ${circle.vw/2}, ${circle.w/2} a ${circle.r - circle.w/2},${circle.r - circle.w/2} 0 1,1 0,${circle.r*2 - circle.w} a ${circle.r - circle.w/2},${circle.r - circle.w/2} 0 1,1 0,-${circle.r*2 - circle.w}`"
+        fill="none"
+        stroke="url(#gradient1)"
+        :stroke-width="circle.w"
+      />
+      <defs>
+        <linearGradient id="gradient1" gradientTransform="rotate(135)">
+          <!-- (1-sqrt(2)/2)/2-->
+          <stop offset="0%" stop-color="rgba(19, 173, 147, 1)" />
+          <stop offset="60%" :stop-color="`rgba(19, 173, 147, ${circleEndAlpha})`" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <svg
+      v-for="(circle, i) in circles2"
+      :key="`s2-${i}`"
+      class="circle-container absolute transform -translate-x-1/2 -translate-y-1/2"
+      :style="{
+        'width': `${circle.r * 2}vh`,
+        'height': `${circle.r * 2}vh`,
+        'left': `${circle.x * 100}%`,
+        'top': `${circle.y * 100}%`,
+        'opacity': opacity,
+        'transition-delay': '100ms',
+      }"
+      :viewBox="`${circle.vx} ${circle.vy} ${circle.vw} ${circle.vh}`"
+    >
+      <path
+        :d="`M ${circle.vw/2}, ${circle.w/2} a ${circle.r - circle.w/2},${circle.r - circle.w/2} 0 1,1 0,${circle.r*2 - circle.w} a ${circle.r - circle.w/2},${circle.r - circle.w/2} 0 1,1 0,-${circle.r*2 - circle.w}`"
+        fill="none"
+        stroke="url(#gradient2)"
+        :stroke-width="circle.w"
+      />
+      <defs>
+        <linearGradient id="gradient2" gradientTransform="rotate(315)">
+          <stop offset="0%" stop-color="rgba(47, 150, 173, 1)" />
+          <stop offset="60%" :stop-color="`rgba(47, 150, 173, ${circleEndAlpha})`" />
+        </linearGradient>
+      </defs>
+    </svg>
+
+    <svg
+      v-for="(circle, i) in circles3"
+      :key="`s3-${i}`"
+      class="circle-container absolute transform -translate-x-1/2 -translate-y-1/2 "
+      :style="{
+        'width': `${circle.r * 2}vh`,
+        'height': `${circle.r * 2}vh`,
+        'left': `${circle.x * 100}%`,
+        'top': `${circle.y * 100}%`,
+        'opacity': opacity,
+        'transition-delay': '200ms',
+      }"
+      :viewBox="`${circle.vx} ${circle.vy} ${circle.vw} ${circle.vh}`"
+    >
+      <path
+        :d="`M ${circle.vw/2}, ${circle.w/2} a ${circle.r - circle.w/2},${circle.r - circle.w/2} 0 1,1 0,${circle.r*2 - circle.w} a ${circle.r - circle.w/2},${circle.r - circle.w/2} 0 1,1 0,-${circle.r*2 - circle.w}`"
+        fill="none"
+        stroke="url(#gradient3)"
+        :stroke-width="circle.w"
+      />
+      <defs>
+        <linearGradient id="gradient3" gradientTransform="rotate(45)">
+          <stop offset="0%" stop-color="rgba(19, 173, 96, 1)" />
+          <stop offset="100%" :stop-color="`rgba(19, 173, 96, ${circleEndAlpha})`" />
+        </linearGradient>
+      </defs>
+    </svg>
   </div>
 
   <footer
-    v-if="$slidev.nav.currentLayout !== 'cover'"
+    v-if="currentLayout !== 'cover'"
     class="absolute bottom-0 left-0 right-0 p-2"
   >
-    {{ $slidev.nav.currentPage }} / {{ $slidev.nav.total }}
+    {{ currentPage }} / {{ total }}
   </footer>
 </template>
 
 <style scoped>
-.bg,
-.clip {
-  transition: all 1.0s ease;
-}
-
 .bg {
   position: absolute;
   inset: 0;
   z-index: -10;
 }
 
-.clip {
-  clip-path: circle(75%);
-  aspect-ratio: 16 / 9;
-  position: absolute;
-  inset: 0;
-}
-
-.light .clip {
-  opacity: 1 !important;
+.circle-container {
+  transition: all 1.0s ease;
 }
 </style>
