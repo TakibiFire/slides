@@ -39,23 +39,29 @@ export interface Circle {
   y: number
   r: number
   w: number
+  vx: number
+  vy: number
+  vw: number
+  vh: number
 }
 
 const formatter = computed(() => (currentSlideRoute.value.meta?.slide as any)?.frontmatter || {})
 const opacity = computed<number>(() => +(formatter.value.glowOpacity ?? 0.5))
-const hue = computed<number>(() => +(formatter.value.glowHue || 90))
+const hue = computed<number>(() => +(formatter.value.glowHue || 70))
 const seed = computed<string>(() => (formatter.value.glowSeed === 'false' || formatter.value.glowSeed === false)
   ? Date.now().toString()
   : formatter.value.glowSeed || 'default',
 )
-const numCircles = 6;  // Per sequence
-const blur = 0; // 8
-const overflow = 0.7;
-const disturb = 0.5;
+const circleEndAlpha = 1;  // 0: eclipse-like. 1: full circle
+const numCircles = 10;  // Per sequence
+const blur = 35; // 8
+const overflow = 0.8;
+const disturb = 0.0;
 const disturbChance = 0.3;
-const borderWidthRatio = 0.02;
-const minRadius = 5; // % of viewport height
-const maxRadius = 15; // % of viewport height
+const borderWidthRatio = 0.5;
+const minRadius = 8; // % of viewport height
+const maxRadius = 20; // % of viewport height
+const maxCenterRadius = 14;
 
 function distributionToLimits(distribution: Distribution) {
   const min = -0.2
@@ -81,10 +87,10 @@ function distributionToLimits(distribution: Distribution) {
         y = intersection(y, [0.4, max])
         break
       case 'left':
-        x = intersection(x, [min, 0.5])
+        x = intersection(x, [min, 0.3])
         break
       case 'right':
-        x = intersection(x, [0.5, max])
+        x = intersection(x, [0.7, max])
         break
       case 'xcenter':
         x = intersection(x, [0.25, 0.75])
@@ -138,19 +144,30 @@ function useCircleSequence(sequenceIndex: number) {
       firstPointY = applyOverflow(randomBetween(firstPointLimits.y), overflow)
       lastPointX = applyOverflow(randomBetween(lastPointLimits.x), overflow)
       lastPointY = applyOverflow(randomBetween(lastPointLimits.y), overflow)
-    } while (distance(firstPointX, firstPointY, lastPointX, lastPointY) < 0.6)
+    } while (distance(firstPointX, firstPointY, lastPointX, lastPointY) < 0.6 || Math.abs(firstPointY - lastPointY) < 0.2);
 
-    const firstPointR = randomBetween([minRadius, maxRadius])
-    const lastPointR = randomBetween([minRadius, maxRadius])
+    let firstPointR: number, lastPointR: number;
+    do {
+      firstPointR = randomBetween([minRadius, maxRadius])
+      lastPointR = randomBetween([minRadius, maxRadius])
+    } while (firstPointR + lastPointR > maxCenterRadius * 2);
+    const a = randomBetween([-0.7, 0.7]);
+    const b = 0;  // randomBetween([-1, 1]);
 
     const circles: Circle[] = []
     for (let i = 0; i < numCircles; i++) {
+      const xRelPos = 2 * i / numCircles - 1;  // Mapping i to [-1, 1].
+      const yOffset = (xRelPos - b) * (xRelPos - b) * a;
       const t = i / (numCircles - 1) // If numCicles==5: 0, 0.25, 0.5, 0.75, 1
-      const x = firstPointX * (1 - t) + lastPointX * t
-      const y = firstPointY * (1 - t) + lastPointY * t
-      const r = firstPointR * (1 - t) + lastPointR * t
+      const x = firstPointX * (1 - t) + lastPointX * t;
+      const y = firstPointY * (1 - t) + lastPointY * t + yOffset;
+      const r = firstPointR * (1 - t) + lastPointR * t;
       const w = r * borderWidthRatio
-      circles.push({ x, y, r, w })
+      const vw = r * 2
+      const vh = r * 2
+      const vx = 0
+      const vy = 0
+      circles.push({ x, y, r, w, vx, vy, vw, vh })
     }
     return circles
   }
@@ -179,53 +196,88 @@ const circles3 = useCircleSequence(3)
     :style="{ filter: `blur(${blur}px) hue-rotate(${hue}deg)` }"
     aria-hidden="true"
   >
-    <div
+    <svg
       v-for="(circle, i) in circles1"
       :key="`s1-${i}`"
-      class="circle-container absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-br from-[#00DC82] to-white/0"
+      class="circle-container absolute transform -translate-x-1/2 -translate-y-1/2"
       :style="{
         'width': `${circle.r * 2}vh`,
         'height': `${circle.r * 2}vh`,
-        'padding': `${circle.w}vh`,
         'left': `${circle.x * 100}%`,
         'top': `${circle.y * 100}%`,
         'opacity': opacity,
       }"
+      :viewBox="`${circle.vx} ${circle.vy} ${circle.vw} ${circle.vh}`"
     >
-      <div class="w-full h-full bg-black rounded-full" />
-    </div>
-    <div
+      <path
+        :d="`M ${circle.vw/2}, ${circle.w/2} a ${circle.r - circle.w/2},${circle.r - circle.w/2} 0 1,1 0,${circle.r*2 - circle.w} a ${circle.r - circle.w/2},${circle.r - circle.w/2} 0 1,1 0,-${circle.r*2 - circle.w}`"
+        fill="none"
+        stroke="url(#gradient1)"
+        :stroke-width="circle.w"
+      />
+      <defs>
+        <linearGradient id="gradient1" gradientTransform="rotate(135)">
+          <!-- (1-sqrt(2)/2)/2-->
+          <stop offset="0%" stop-color="rgba(19, 173, 147, 1)" />
+          <stop offset="60%" :stop-color="`rgba(19, 173, 147, ${circleEndAlpha})`" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <svg
       v-for="(circle, i) in circles2"
       :key="`s2-${i}`"
-      class="circle-container absolute rounded-full bg-gray-800 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-tl from-[#2f96ad] to-white/0"
+      class="circle-container absolute transform -translate-x-1/2 -translate-y-1/2"
       :style="{
         'width': `${circle.r * 2}vh`,
         'height': `${circle.r * 2}vh`,
-        'padding': `${circle.w}vh`,
         'left': `${circle.x * 100}%`,
         'top': `${circle.y * 100}%`,
         'opacity': opacity,
         'transition-delay': '100ms',
       }"
+      :viewBox="`${circle.vx} ${circle.vy} ${circle.vw} ${circle.vh}`"
     >
-      <div class="w-full h-full bg-black rounded-full" />
-    </div>
-    <div
+      <path
+        :d="`M ${circle.vw/2}, ${circle.w/2} a ${circle.r - circle.w/2},${circle.r - circle.w/2} 0 1,1 0,${circle.r*2 - circle.w} a ${circle.r - circle.w/2},${circle.r - circle.w/2} 0 1,1 0,-${circle.r*2 - circle.w}`"
+        fill="none"
+        stroke="url(#gradient2)"
+        :stroke-width="circle.w"
+      />
+      <defs>
+        <linearGradient id="gradient2" gradientTransform="rotate(315)">
+          <stop offset="0%" stop-color="rgba(47, 150, 173, 1)" />
+          <stop offset="60%" :stop-color="`rgba(47, 150, 173, ${circleEndAlpha})`" />
+        </linearGradient>
+      </defs>
+    </svg>
+
+    <svg
       v-for="(circle, i) in circles3"
       :key="`s3-${i}`"
-      class="circle-container absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-bl from-lime to-white/0"
+      class="circle-container absolute transform -translate-x-1/2 -translate-y-1/2 "
       :style="{
         'width': `${circle.r * 2}vh`,
         'height': `${circle.r * 2}vh`,
-        'padding': `${circle.w}vh`,
         'left': `${circle.x * 100}%`,
         'top': `${circle.y * 100}%`,
-        'opacity': 0.2,
+        'opacity': opacity,
         'transition-delay': '200ms',
       }"
+      :viewBox="`${circle.vx} ${circle.vy} ${circle.vw} ${circle.vh}`"
     >
-      <div class="w-full h-full bg-black rounded-full" />
-    </div>
+      <path
+        :d="`M ${circle.vw/2}, ${circle.w/2} a ${circle.r - circle.w/2},${circle.r - circle.w/2} 0 1,1 0,${circle.r*2 - circle.w} a ${circle.r - circle.w/2},${circle.r - circle.w/2} 0 1,1 0,-${circle.r*2 - circle.w}`"
+        fill="none"
+        stroke="url(#gradient3)"
+        :stroke-width="circle.w"
+      />
+      <defs>
+        <linearGradient id="gradient3" gradientTransform="rotate(45)">
+          <stop offset="0%" stop-color="rgba(19, 173, 96, 1)" />
+          <stop offset="100%" :stop-color="`rgba(19, 173, 96, ${circleEndAlpha})`" />
+        </linearGradient>
+      </defs>
+    </svg>
   </div>
 
   <footer
