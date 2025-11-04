@@ -33,7 +33,21 @@ h1, p {
 
 「やってみなよ！」と言う前に一歩立ち止まろう
 
-たきび FIRE
+<div text-center grid grid-cols-2 gap-4 m-auto w-fit>
+  <div col-span-2>たきび FIRE</div>
+  <div>
+    <a href="http://note.com/takibi333">
+      <img src="/imgs/note-logo.svg" h8 inline />
+    </a>
+  </div>
+  <div>
+    <a href="http://x.com/takibi333">
+      <img src="/imgs/x-logo.svg" h8 inline />
+    </a>
+  </div>
+</div>
+
+<img src="/imgs/takibi.png" absolute w24 right-8 bottom-8 />
 
 ---
 
@@ -419,3 +433,4 @@ layout: center
 「やってみなよ！」と背中を押すことが、いつも相手のためになるとは限りません。
 
 相手が興味を持っているかをちゃんと確認しましょう。
+
