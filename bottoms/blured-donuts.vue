@@ -62,6 +62,9 @@ const borderWidthRatio = 0.5;
 const minRadius = 8; // % of viewport height
 const maxRadius = 20; // % of viewport height
 const maxCenterRadius = 16;
+// This prevents sequences to move a lot, which is distracting, by limiting
+// the y change of the first and last points.
+const maxAllowedYDistance = 1;  // 100% height
 
 function distributionToLimits(distribution: Distribution) {
   const min = -0.2
@@ -122,29 +125,60 @@ function useCircleSequence(sequenceIndex: number) {
       return rng() * (b - a) + a
     }
 
+    /**
+     * Expands a random number within a given range to include an overflow area,
+     * allowing for values outside the original bounds. It also introduces a
+     * chance-based disturbance to the final value.
+     * @param random The input random number, typically within a 0-1 range.
+     * @param overflow The amount to extend the range on both sides.
+     * @returns A new random number that has been adjusted for overflow and
+     * potential disturbance.
+     */
     function applyOverflow(random: number, overflow: number) {
       random = random * (1 + overflow * 2) - overflow
       return rng() < disturbChance ? random + (rng() - 0.5) * disturb : random
     }
 
-    const startDistributions: Distribution[] = ['full-left']
-    const endDistributions: Distribution[] = ['full-right']
+    /**
+     * Calculates the start and end points for a sequence of circles.
+     * This function ensures that the generated points meet specific criteria,
+     * such as minimum distance from each other and vertical displacement limits
+     * relative to the previous animation cycle. This prevents the animations
+     * from being too static or chaotic.
+     * @returns An object containing the coordinates for the first and last points.
+     */
+    function getEndPoints() {
+      const startDistributions: Distribution[] = ['full-left']
+      const endDistributions: Distribution[] = ['full-right']
 
-    const firstPointDistribution = startDistributions[Math.floor(rng() * startDistributions.length)]
-    const lastPointDistribution = endDistributions[Math.floor(rng() * endDistributions.length)]
+      const firstPointDistribution = startDistributions[Math.floor(rng() * startDistributions.length)]
+      const lastPointDistribution = endDistributions[Math.floor(rng() * endDistributions.length)]
 
-    const firstPointLimits = distributionToLimits(firstPointDistribution)
-    const lastPointLimits = distributionToLimits(lastPointDistribution)
+      const firstPointLimits = distributionToLimits(firstPointDistribution)
+      const lastPointLimits = distributionToLimits(lastPointDistribution)
+      const prevCircles = points.value || []
 
-    let firstPointX: number, firstPointY: number, lastPointX: number, lastPointY: number
-    const distance = (x1: number, y1: number, x2: number, y2: number) => Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+      let firstPointX: number, firstPointY: number, lastPointX: number, lastPointY: number
+      const distance = (x1: number, y1: number, x2: number, y2: number) => Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
 
-    do {
-      firstPointX = applyOverflow(randomBetween(firstPointLimits.x), overflow)
-      firstPointY = applyOverflow(randomBetween(firstPointLimits.y), overflow)
-      lastPointX = applyOverflow(randomBetween(lastPointLimits.x), overflow)
-      lastPointY = applyOverflow(randomBetween(lastPointLimits.y), overflow)
-    } while (distance(firstPointX, firstPointY, lastPointX, lastPointY) < 0.6 || Math.abs(firstPointY - lastPointY) < 0.2);
+      let isValid = false;
+      let maxTries = 20;
+      while (!isValid && maxTries-- > 0) {
+        firstPointX = applyOverflow(randomBetween(firstPointLimits.x), overflow)
+        firstPointY = applyOverflow(randomBetween(firstPointLimits.y), overflow)
+        lastPointX = applyOverflow(randomBetween(lastPointLimits.x), overflow)
+        lastPointY = applyOverflow(randomBetween(lastPointLimits.y), overflow)
+
+        const isDistanceValid = distance(firstPointX, firstPointY, lastPointX, lastPointY) >= 0.6;
+        const isYDifferenceValid = Math.abs(firstPointY - lastPointY) >= 0.2;
+        const isPrevFirstYValid = prevCircles.length === 0 || Math.abs(firstPointY - prevCircles[0].y) < maxAllowedYDistance;
+        const isPrevLastYValid = prevCircles.length === 0 || Math.abs(lastPointY - prevCircles[prevCircles.length - 1].y) < maxAllowedYDistance;
+
+        isValid = isDistanceValid && isYDifferenceValid && isPrevFirstYValid && isPrevLastYValid;
+      }
+      return { firstPointX: firstPointX!, firstPointY: firstPointY!, lastPointX: lastPointX!, lastPointY: lastPointY! }
+    }
+    const { firstPointX, firstPointY, lastPointX, lastPointY } = getEndPoints();
 
     let firstPointR: number, lastPointR: number;
     do {
@@ -172,7 +206,8 @@ function useCircleSequence(sequenceIndex: number) {
     return circles
   }
 
-  const points = ref(getCircles())
+  const points = ref<Circle[]>([])
+  points.value = getCircles()
 
   function jumpPoints() {
     points.value = getCircles()
