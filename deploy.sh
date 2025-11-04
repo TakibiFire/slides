@@ -32,6 +32,7 @@ function execute_cmd() {
 }
 
 potential_targets=(
+  "public"
   "juku_test" # "塾の定期テスト"
   "transformative" #"やってみなよ！の落とし穴:経験を勧める時の注意点"
   # COMMENT: Add more slide_dir_names here
@@ -94,7 +95,15 @@ function resolve_target() {
 
 for arg in "$@"; do
   resolved_name=$(resolve_target "$arg")
-  if [ -n "$resolved_name" ]; then
+  if [ "$resolved_name" == "public" ]; then
+    RSYNC_DRY_RUN_OPT=""
+    if "$DRY_RUN"; then
+      RSYNC_DRY_RUN_OPT="--list-only"
+    fi
+    rsync -av --delete $RSYNC_DRY_RUN_OPT \
+      ./public/ \
+      ~/projects/takibi-fire/public_root/slides/public/
+  elif [ -n "$resolved_name" ] && [ "$resolved_name" != "public" ]; then
     build "$resolved_name" "$resolved_name"
   fi
 done
