@@ -46,22 +46,22 @@ export interface Circle {
 }
 
 const formatter = computed(() => (currentSlideRoute.value.meta?.slide as any)?.frontmatter || {})
-const opacity = computed<number>(() => +(formatter.value.glowOpacity ?? 0.35))
+const opacity = computed<number>(() => +(formatter.value.glowOpacity ?? 0.15))
 const hue = computed<number>(() => +(formatter.value.glowHue || 70))
 const seed = computed<string>(() => (formatter.value.glowSeed === 'false' || formatter.value.glowSeed === false)
   ? Date.now().toString()
   : formatter.value.glowSeed || 'default',
 )
 const circleEndAlpha = 1;  // 0: eclipse-like. 1: full circle
-const numCircles = 10;  // Per sequence
-const blur = 35; // 8
+const numCircles = 20;  // Per sequence
+const blur = 40; // 8
 const overflow = 0.8;
 const disturb = 0.0;
 const disturbChance = 0.3;
 const borderWidthRatio = 0.5;
 const minRadius = 8; // % of viewport height
 const maxRadius = 20; // % of viewport height
-const maxCenterRadius = 14;
+const maxCenterRadius = 16;
 
 function distributionToLimits(distribution: Distribution) {
   const min = -0.2
