@@ -8,7 +8,7 @@ fonts:
   mono: Fira Code
 title: 「やってみなよ！」の落とし穴 経験を勧める時の注意点 | たきび FIRE
 titleTemplate: '%s'
-favicon: imgs/favicon.png
+favicon: https://takibi-fire.com/slides/public/imgs/favicon.png
 highlighter: shiki
 css: unocss
 colorSchema: dark
@@ -37,17 +37,17 @@ h1, p {
   <div col-span-2>たきび FIRE</div>
   <div>
     <a href="http://note.com/takibi333">
-      <img src="/imgs/note-logo.svg" h8 inline />
+      <img src="https://takibi-fire.com/slides/public/imgs/note-logo.svg" h8 inline />
     </a>
   </div>
   <div>
     <a href="http://x.com/takibi333">
-      <img src="/imgs/x-logo.svg" h8 inline />
+      <img src="https://takibi-fire.com/slides/public/imgs/x-logo.svg" h8 inline />
     </a>
   </div>
 </div>
 
-<img src="/imgs/takibi.png" absolute w24 right-8 bottom-8 />
+<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" absolute w24 right-8 bottom-8 />
 
 ---
 
