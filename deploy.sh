@@ -35,6 +35,8 @@ potential_targets=(
   "public"
   "juku_test" # "塾の定期テスト"
   "transformative" #"やってみなよ！の落とし穴:経験を勧める時の注意点"
+  "fire-textbook" # FIRE後の教科書
+
   # COMMENT: Add more slide_dir_names here
 )
 
