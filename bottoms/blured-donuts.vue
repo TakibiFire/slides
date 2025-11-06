@@ -15,7 +15,7 @@ import seedrandom from 'seedrandom'
  */
 import { computed, ref, watch } from 'vue'
 
-const { currentSlideRoute, currentLayout, currentPage, total } = useNav()
+const { currentSlideRoute, currentLayout } = useNav()
 
 export type Range = [number, number]
 
