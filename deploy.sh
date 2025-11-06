@@ -32,13 +32,67 @@ function execute_cmd() {
 }
 
 potential_targets=(
-  "public"
+  "public"  # Special dir to provide common files
+
   "juku_test" # "塾の定期テスト"
-  "transformative" #"やってみなよ！の落とし穴:経験を勧める時の注意点"
+
   "fire-textbook" # FIRE後の教科書
+  "fire-self-introduction" # 自己紹介
+
+  "transformative" #"やってみなよ！の落とし穴:経験を勧める時の注意点"
 
   # COMMENT: Add more slide_dir_names here
 )
+
+# $1: slide_dir
+# $2: base_name
+function validate() {
+  local slide_dir=$1
+  local base_name=$2
+  local index_html="$slide_dir/index.html"
+  local thumbnail_path="$slide_dir/public/imgs/thumbnail.png"
+
+  # 1. $slide_dir/index.html exists
+  if [ ! -f "$index_html" ]; then
+    echo "Validation Error: '$index_html' not found." >&2
+    exit 1
+  fi
+
+  # 2. index.html has og:url
+  local expected_og_url="https://takibi-fire.com/slides/${base_name}/"
+  if ! grep -q "property=\"og:url\" content=\"$expected_og_url\"" "$index_html"; then
+    echo "Validation Error: og:url in '$index_html' is not '$expected_og_url'." >&2
+    exit 1
+  fi
+
+  # 3. $slide_dir/public/imgs has thumbnail.png
+  if [ ! -f "$thumbnail_path" ]; then
+    echo "Validation Error: Thumbnail '$thumbnail_path' not found (800x418)." >&2
+    exit 1
+  fi
+
+  # 4. index.html has og:image
+  local expected_og_image="https://takibi-fire.com/slides/${base_name}/imgs/thumbnail.png"
+  if ! grep -q "property=\"og:image\" content=\"${expected_og_image}?r=3\"" "$index_html"; then
+    echo "Validation Error: og:image in '$index_html' does not point to the expected thumbnail." >&2
+    exit 1
+  fi
+
+  # 5. meta description and keywords are filled.
+  if ! egrep -q "name=\"description\" content=\".+\"" "$index_html" || \
+     ! egrep -q "name=\"keywords\" content=\".+\"" "$index_html" || \
+     ! egrep -q "property=\"og:description\" content=\".+\"" "$index_html"; then
+    echo "Validation Error: Meta description or keywords are not filled in '$index_html'." >&2
+    exit 1
+  fi
+
+  # 6. og:title matches the title of $slide_dir/slides.md
+  local md_title=$(grep -m 1 "^title: " "$slide_dir/slides.md" | sed 's/^title: //')
+  if ! grep -q "property=\"og:title\" content=\"$md_title\"" "$index_html"; then
+    echo "Validation Error: og:title in '$index_html' does not match the title in '$slide_dir/slides.md'." >&2
+    exit 1
+  fi
+}
 
 # $1: directory name.
 function build() {
@@ -53,6 +107,8 @@ function build() {
     echo "Error: Slide file '$slide_dir/slides.md' not found." >&2
     exit 1
   fi
+
+  validate "$slide_dir" "$base_name"
 
   execute_cmd npx slidev \
     build "$slide_dir/slides.md" \
