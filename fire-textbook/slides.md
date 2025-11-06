@@ -17,6 +17,7 @@ mdc: true
 layout: center
 lang: ja
 glowSeed: 4
+footerTitle: FIRE後の教科書
 ---
 
 <style scoped>
@@ -65,6 +66,14 @@ FIREをしていない人にも、FIREしてからの生活を想像するのに
 </div>
 
 ---
+layout: fact
+---
+
+2025/11/06: 「FIRE後の教科書」まだ建設中です。
+
+コンテンツを足しながらリンクも増やしていきます。
+
+---
 
 <style scoped>
 ul + h1 {
@@ -74,8 +83,8 @@ ul + h1 {
 
 # 序章
 
-* 自己紹介・FIREした経緯
-* 教科書を作ったきっかけ・なぜ教科書が必要か
+* [自己紹介・FIREした経緯](https://takibi-fire.com/slides/fire-self-introduction/)
+* FIRE後の教科書を作ったきっかけ
 
 ---
 
