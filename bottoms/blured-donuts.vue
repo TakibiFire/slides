@@ -268,7 +268,7 @@ const circles3 = useCircleSequence(3)
         'left': `${circle.x * 100}%`,
         'top': `${circle.y * 100}%`,
         'opacity': opacity,
-        'transition-delay': '100ms',
+        // 'transition-delay': '100ms',
       }"
       :viewBox="`${circle.vx} ${circle.vy} ${circle.vw} ${circle.vh}`"
     >
@@ -296,7 +296,7 @@ const circles3 = useCircleSequence(3)
         'left': `${circle.x * 100}%`,
         'top': `${circle.y * 100}%`,
         'opacity': opacity,
-        'transition-delay': '200ms',
+        // 'transition-delay': '200ms',
       }"
       :viewBox="`${circle.vx} ${circle.vy} ${circle.vw} ${circle.vh}`"
     >
@@ -324,6 +324,6 @@ const circles3 = useCircleSequence(3)
 }
 
 .circle-container {
-  transition: all 1.0s ease;
+  transition: all 0.1s ease;
 }
 </style>
