@@ -12,7 +12,8 @@ favicon: https://takibi-fire.com/slides/public/imgs/favicon.png
 highlighter: shiki
 css: unocss
 colorSchema: dark
-transition: fade-out
+transition: fade
+selectable: true
 mdc: true
 layout: center
 lang: ja

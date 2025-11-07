@@ -12,7 +12,8 @@ favicon: https://takibi-fire.com/slides/public/imgs/favicon.png
 highlighter: shiki
 css: unocss
 colorSchema: dark
-transition: fade-out
+transition: fade
+selectable: true
 mdc: true
 layout: center
 lang: ja
@@ -69,7 +70,7 @@ FIREをしていない人にも、FIREしてからの生活を想像するのに
 layout: fact
 ---
 
-2025/11/06: 「FIRE後の教科書」まだ建設中です。
+2025/11/07: 「FIRE後の教科書」はまだ建設中です (3%完了)。
 
 コンテンツを足しながらリンクも増やしていきます。
 
@@ -143,12 +144,18 @@ ul + h1 {
 
 # FIRE幸福論 2 & 3
 
+<style scoped>
+.slidev-layout {
+  font-size: 140%;
+}
+</style>
+
 <div grid grid-cols-2 gap-6 m-auto><div>
 
 <h2>2. 不幸せな習慣を減らそう</h2>
 
-* 達成の弊害・過程を楽しもう
-* 目標の弊害・好奇心を育てよう
+* 達成よりも過程を楽しもう
+* 目標は視野を狭める → 視野の広げかた
 * SNS・情報発信の弊害
 * 「だらだらしてしまう」の分析
 
@@ -162,7 +169,7 @@ ul + h1 {
 * 人間関係と幸福
 * 時間・年齢と幸福
 * 幸福は追求するものではない
-* 幸福の要素
+* 幸福の要素とは
 * 幸福よりも「良い人生」を！
 
 </div></div>
@@ -257,5 +264,3 @@ ul + h1 {
 * FIREと子育て
 
 </div></div>
-
-
