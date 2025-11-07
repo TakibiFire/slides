@@ -70,7 +70,7 @@ FIREをしていない人にも、FIREしてからの生活を想像するのに
 layout: fact
 ---
 
-2025/11/07: 「FIRE後の教科書」はまだ建設中です (3%完了)。
+2025/11/07: 「FIRE後の教科書」は建設し始めたばかりです (4%完了)。
 
 コンテンツを足しながらリンクも増やしていきます。
 
@@ -85,7 +85,7 @@ ul + h1 {
 # 序章
 
 * [自己紹介・FIREした経緯](https://takibi-fire.com/slides/fire-self-introduction/)
-* FIRE後の教科書を作ったきっかけ
+* [FIRE後の教科書を作ったきっかけ](https://takibi-fire.com/slides/fire-textbook-reason/)
 
 ---
 

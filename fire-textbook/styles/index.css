@@ -37,6 +37,7 @@ h2 {
 
 .slidev-layout a {
   border-color: #8888;
+  color: oklch(80.9% 0.105 251.813);  /* blue-300 */
 }
 
 a:has(> code) {
