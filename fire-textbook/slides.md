@@ -70,7 +70,7 @@ FIREをしていない人にも、FIREしてからの生活を想像するのに
 layout: fact
 ---
 
-2025/11/07: <span color-red>「FIRE後の教科書」は建設し始めたばかりです (6%完了)。</span>
+2025/11/07: <span color-red>「FIRE後の教科書」は建設し始めたばかりです (8%完了)。</span>
 
 コンテンツを足しながらリンクも増やしていきます。
 
@@ -96,7 +96,7 @@ ul + h1 {
 * [リタイア後の4つのステージ](https://takibi-fire.com/slides/fire-4-stages/)
 * [FIRE後の友達の作り方](https://takibi-fire.com/slides/fire-how-to-make-friends/)
 * FIRE = リタイア実験
-* FIREは一生の決断ではない
+* [FIREは一生の決断ではない](https://takibi-fire.com/slides/fire-not-lifelong-decision/)
 * 自分の変化を楽しもう
 * FIREはレールの乗り換え
 
