@@ -94,7 +94,7 @@ ul + h1 {
 <div grid grid-cols-2 gap-6 m-auto><div>
 
 * [リタイア後の4つのステージ](https://takibi-fire.com/slides/fire-4-stages/)
-* FIRE後の友達の作り方
+* [FIRE後の友達の作り方](https://takibi-fire.com/slides/fire-how-to-make-friends/)
 * FIRE = リタイア実験
 * FIREは一生の決断ではない
 * 自分の変化を楽しもう

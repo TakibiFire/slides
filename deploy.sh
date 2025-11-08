@@ -38,6 +38,7 @@ potential_targets=(
 
   "fire-4-stages" # リタイア後の4つのステージ
   "fire-how-to-make-friends"
+  "fire-not-lifelong-decision" # FIREは一生の決断ではない
   "fire-textbook" # FIRE後の教科書
   "fire-textbook-reason" # FIRE後の教科書のきっかけ
   "fire-self-introduction" # 自己紹介
