@@ -232,10 +232,11 @@ FIRE後の暮らしが心配な人は、<br>
 * FIRE生活を満喫するのは大切だけど、残りの人生はまだまだ長い
 * 10年・20年同じ生活を続けているはずがない
   * 何か起きるはず
-  * **自分自身も変わっていく**
+  * **自分自身も変わっていく！**<br>
+    参考: [自分の変化を楽しもう | FIRE後の教科書](https://takibi-fire.com/slides/fire-enjoy-your-change)
 
 <div text-7 text-center mt-10>
-<span text-red>「FIRE生活一生このまま」</span>というマインドではなく<br>
+<span>「FIRE生活一生このまま」</span>というマインドではなく<br>
 <span text-green>「何かあったらまた決断すればいいし」</span>というマインドにしよう
 </div>
 
