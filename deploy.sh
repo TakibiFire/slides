@@ -38,6 +38,7 @@ potential_targets=(
 
   "fire-4-stages" # リタイア後の4つのステージ
   "fire-enjoy-your-change" # 自分の変化を楽しもう
+  "fire-happiness-basic-types" # 幸福のタイプを知ろう
   "fire-how-to-make-friends"
   "fire-not-lifelong-decision" # FIREは一生の決断ではない
   "fire-textbook" # FIRE後の教科書
