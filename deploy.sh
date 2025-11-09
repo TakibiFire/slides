@@ -37,6 +37,7 @@ potential_targets=(
   "juku_test" # "塾の定期テスト"
 
   "fire-4-stages" # リタイア後の4つのステージ
+  "fire-enjoy-your-change" # 自分の変化を楽しもう
   "fire-how-to-make-friends"
   "fire-not-lifelong-decision" # FIREは一生の決断ではない
   "fire-textbook" # FIRE後の教科書
