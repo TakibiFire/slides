@@ -37,6 +37,7 @@ potential_targets=(
   "juku_test" # "塾の定期テスト"
 
   "fire-4-stages" # リタイア後の4つのステージ
+  "fire-brain-automation" # 脳の習慣化の仕組み
   "fire-enjoy-your-change" # 自分の変化を楽しもう
   "fire-happiness-basic-types" # 幸福のタイプを知ろう
   "fire-how-to-make-friends"

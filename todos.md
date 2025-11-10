@@ -39,6 +39,11 @@ thumbnail は 800 x 418
 * # FIRE後の教科書 > FIRE幸福論 > 幸福に関する脳の仕組み
   * リンクを後で足す
 
+# fire-brain-automation/slides.md
+
+* # まとめ
+  * 次のリンクを後で足す
+
 # 記事アイデアリスト
 
 * FIRE直後に役立つ知識・考え方 > FIRE = リタイア実験
