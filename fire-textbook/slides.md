@@ -120,7 +120,7 @@ ul + h1 {
 <h2>1. 幸福に関する脳の仕組み</h2>
 
 * [幸福のタイプを知ろう](http://takibi-fire.com/slides/fire-happiness-basic-types/)
-* 習慣化の仕組み
+* 脳の習慣化の仕組み
 * 依存・自己バイアス
 * 脳は暴れる
 * 脳は変えられる
