@@ -39,6 +39,7 @@ potential_targets=(
   "fire-4-stages" # リタイア後の4つのステージ
   "fire-brain-addiction" # 習慣化の罠：依存・自己バイアス
   "fire-brain-automation" # 脳の習慣化の仕組み
+  "fire-brain-out-of-control" # 脳は暴れる
   "fire-enjoy-your-change" # 自分の変化を楽しもう
   "fire-happiness-basic-types" # 幸福のタイプを知ろう
   "fire-how-to-make-friends"
