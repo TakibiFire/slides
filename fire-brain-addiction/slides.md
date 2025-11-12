@@ -118,8 +118,8 @@ h1, p {
 * [幸福のタイプを知ろう](http://takibi-fire.com/slides/fire-happiness-basic-types/) 
 * [脳の習慣化の仕組み](http://takibi-fire.com/slides/fire-brain-automation/) <carbon-ArrowLeft/> 前回
 * **習慣化の罠：依存・自己バイアス <carbon-ArrowUp/> 今回**
-* 脳は暴れる
-* 脳は変えられる
+* [脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/)
+* [脳は変えられる〜マインドフルネス瞑想のススメ](http://takibi-fire.com/slides/fire-brain-mindfulness/)
 
 </div><div italic text-5.5 mt--5>
 
@@ -764,4 +764,14 @@ layout: cover
   * 依存・ストレスは脳の理性の機能を弱める
 * リタイア者は、依存しそうなものを知ってそれを避ける努力をしましょう
 
-## 次回: [脳は暴れる](https://takibi-fire.com/slides/fire-brain-out-of-control/)へどうぞ！
+---
+
+# それでは次回、[脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/)へどうぞ
+
+* [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
+  * 幸福に関する脳の仕組み
+      * [幸福のタイプを知ろう](http://takibi-fire.com/slides/fire-happiness-basic-types/)
+      * [脳の習慣化の仕組み](https://takibi-fire.com/slides/fire-brain-automation/)
+      * [習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/)
+      * [脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/)  <carbon-ArrowLeft/> 次回
+      * [脳は変えられる〜マインドフルネス瞑想のススメ](http://takibi-fire.com/slides/fire-brain-mindfulness/)

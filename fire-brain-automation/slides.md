@@ -118,7 +118,7 @@ h1, p {
 * **脳の習慣化の仕組み <carbon-ArrowLeft/> 今回**
 * [習慣化の罠：依存・自己バイアス](http://takibi-fire.com/slides/fire-brain-addiction/)
 * [脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/)
-* 脳は変えられる
+* [脳は変えられる〜マインドフルネス瞑想のススメ](http://takibi-fire.com/slides/fire-brain-mindfulness/)
 
 </div><div italic text-5.5 mt--5>
 
@@ -589,4 +589,14 @@ layout: cover
   * 習慣化後には「深い考え」はスキップするようになる
 * 報酬学習自体は人間の大事な機能。**ただし罠が存在する**
 
-## 次回: [習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/)へどうぞ！
+---
+
+# それでは次回、[習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/)へどうぞ
+
+* [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
+  * 幸福に関する脳の仕組み
+      * [幸福のタイプを知ろう](http://takibi-fire.com/slides/fire-happiness-basic-types/)
+      * [脳の習慣化の仕組み](https://takibi-fire.com/slides/fire-brain-automation/)
+      * [習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/) <carbon-ArrowLeft/> 次回
+      * [脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/)
+      * [脳は変えられる〜マインドフルネス瞑想のススメ](http://takibi-fire.com/slides/fire-brain-mindfulness/)

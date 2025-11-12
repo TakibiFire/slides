@@ -121,7 +121,7 @@ h1, p {
 * [脳の習慣化の仕組み](https://takibi-fire.com/slides/fire-brain-automation)
 * [習慣化の罠：依存・自己バイアス](http://takibi-fire.com/slides/fire-brain-addiction/)
 * [脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/) <carbon-ArrowLeft/> 前回
-* **脳は変えられる <carbon-ArrowLeft/> 今回**
+* **脳は変えられる〜マインドフルネス瞑想のススメ <carbon-ArrowLeft/> 今回が最後**
 
 </div><div italic text-5.5 mt--5>
 
@@ -810,12 +810,14 @@ layout: section
 
 ---
 
-# 次回、この章の応用編です
+# 次回から、不幸せを減らす実践編です
 
-* [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/) > 幸福に関する脳の仕組み
-  * [幸福のタイプを知ろう](http://takibi-fire.com/slides/fire-happiness-basic-types/)
-  * [脳の習慣化の仕組み](https://takibi-fire.com/slides/fire-brain-automation/)
-  * [習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/)
-  * [脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/)
-  * **脳は変えられる〜マインドフルネス瞑想のススメ <carbon-ArrowLeft/> 今回**
-  * 応用編：「だらだらしてしまう」の分析 (未完: 2025/11/12)
+* [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
+  1. 幸福に関する脳の仕組み
+      * [幸福のタイプを知ろう](http://takibi-fire.com/slides/fire-happiness-basic-types/)
+      * [脳の習慣化の仕組み](https://takibi-fire.com/slides/fire-brain-automation/)
+      * [習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/)
+      * [脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/)
+      * [脳は変えられる〜マインドフルネス瞑想のススメ](http://takibi-fire.com/slides/fire-brain-mindfulness/) <carbon-ArrowLeft/> 今回
+  2. 不幸せな習慣を減らそう
+      * 「だらだらしてしまう」の分析 (未完: 2025/11/12)

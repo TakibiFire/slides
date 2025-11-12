@@ -70,7 +70,7 @@ FIREをしていない人にも、FIREしてからの生活を想像するのに
 layout: fact
 ---
 
-2025/11/07: <span color-red>「FIRE後の教科書」は建設し始めたばかりです (18%完了)。</span>
+2025/11/07: <span color-red>「FIRE後の教科書」は建設し始めたばかりです (22%完了)。</span>
 
 コンテンツを足しながらリンクも増やしていきます。
 
@@ -95,9 +95,9 @@ ul + h1 {
 
 * [リタイア後の4つのステージ](https://takibi-fire.com/slides/fire-4-stages/)
 * [FIRE後の友達の作り方](https://takibi-fire.com/slides/fire-how-to-make-friends/)
-* FIRE = リタイア実験
 * [FIREは一生の決断ではない](https://takibi-fire.com/slides/fire-not-lifelong-decision/)
 * [自分の変化を楽しもう](https://takibi-fire.com/slides/fire-enjoy-your-change/)
+* FIRE = リタイア実験
 * FIREはレールの乗り換え
 
 </div><div>
@@ -123,15 +123,14 @@ ul + h1 {
 * [脳の習慣化の仕組み](https://takibi-fire.com/slides/fire-brain-automation/)
 * [習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/)
 * [脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/)
-* 脳は変えられる
+* [脳は変えられる〜マインドフルネス瞑想のススメ](http://takibi-fire.com/slides/fire-brain-mindfulness/)
 
 </div><div>
 
 <h2>2. 不幸せな習慣を減らそう</h2>
 
+* 応用編:「だらだらしてしまう」の分析
 * 悪い習慣の種類を知ろう
-* 悪い習慣とおさらばしよう
-* マインドフルネス瞑想
 * 今ここに意識を集中しよう
 * 誘惑を知って防御力を高めよう
 * 将来の心配をやめよう
@@ -156,7 +155,6 @@ ul + h1 {
 * 達成よりも過程を楽しもう
 * 目標は視野を狭める → 視野の広げかた
 * SNS・情報発信の弊害
-* 「だらだらしてしまう」の分析
 
 </div><div>
 
