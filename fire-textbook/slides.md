@@ -70,7 +70,7 @@ FIREをしていない人にも、FIREしてからの生活を想像するのに
 layout: fact
 ---
 
-2025/11/07: <span color-red>「FIRE後の教科書」は建設し始めたばかりです (14%完了)。</span>
+2025/11/07: <span color-red>「FIRE後の教科書」は建設し始めたばかりです (18%完了)。</span>
 
 コンテンツを足しながらリンクも増やしていきます。
 
@@ -122,7 +122,7 @@ ul + h1 {
 * [幸福のタイプを知ろう](http://takibi-fire.com/slides/fire-happiness-basic-types/)
 * [脳の習慣化の仕組み](https://takibi-fire.com/slides/fire-brain-automation/)
 * [習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/)
-* 脳は暴れる
+* [脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/)
 * 脳は変えられる
 
 </div><div>

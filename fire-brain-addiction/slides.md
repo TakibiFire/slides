@@ -764,4 +764,4 @@ layout: cover
   * 依存・ストレスは脳の理性の機能を弱める
 * リタイア者は、依存しそうなものを知ってそれを避ける努力をしましょう
 
-## 次回: 脳は暴れるへどうぞ！ (11/11: 未完)
+## 次回: [脳は暴れる](https://takibi-fire.com/slides/fire-brain-out-of-control/)へどうぞ！

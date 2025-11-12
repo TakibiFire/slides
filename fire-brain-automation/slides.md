@@ -116,8 +116,8 @@ h1, p {
 
 * [幸福のタイプを知ろう](http://takibi-fire.com/slides/fire-happiness-basic-types/) <carbon-ArrowLeft/> 前回
 * **脳の習慣化の仕組み <carbon-ArrowLeft/> 今回**
-* 習慣化の罠：依存・自己バイアス
-* 脳は暴れる
+* [習慣化の罠：依存・自己バイアス](http://takibi-fire.com/slides/fire-brain-addiction/)
+* [脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/)
 * 脳は変えられる
 
 </div><div italic text-5.5 mt--5>
