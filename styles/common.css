@@ -17,9 +17,6 @@ h2 {
 .slidev-layout p {
   margin: 0.7em 0;
 }
-.slidev-layout fieldset {
-  border-radius: 3px;
-}
 
 .dark strong {
   /* color-yellow-200 */
