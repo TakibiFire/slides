@@ -227,10 +227,10 @@ h1, p {
 
 * 短期的満足の例
   * 直接的快楽: 食事、ゲーム、ライブ、ギャンブル
-  * ステータス: 結婚、タワマン、車、役職、権力、資産額、<span v-mark.box.orange v-mark="1">金メダル</span>、優越感
-  * 数字が伸びること: <span v-mark.box.orange v-mark="1">資産上昇</span>、売上上昇、チャンネル登録者増加
-  * 目標達成: <span v-mark.box.orange v-mark="1">念願の夢の達成</span>、<span v-mark.box.orange v-mark="1">プロジェクトの成功</span>、FIRE達成
-  * 他者からの評価: <span v-mark.box.orange v-mark="1">ほめられる</span>、<span v-mark.box.orange v-mark="1">称賛</span>、<span v-mark.box.orange v-mark="1">昇進</span>、SNSでいいねをもらう
+  * ステータス: 結婚、タワマン、車、役職、権力、資産額、<span v-mark.box.orange="2">金メダル</span>、優越感
+  * 数字が伸びること: <span v-mark.box.orange="2">資産上昇</span>、売上上昇、チャンネル登録者増加
+  * 目標達成: <span v-mark.box.orange="2">念願の夢の達成</span>、<span v-mark.box.orange="2">プロジェクトの成功</span>、FIRE達成
+  * 他者からの評価: <span v-mark.box.orange="2">ほめられる</span>、<span v-mark.box.orange="2">称賛</span>、<span v-mark.box.orange="2">昇進</span>、SNSでいいねをもらう
 
 <div border border-yellow rounded-4 mt-5 mx-auto px-6 w-fit>
 
@@ -239,7 +239,7 @@ h1, p {
 </div>
 
 <div border border-purple rounded-4 mt-5 mx-auto px-6 w-fit
-  absolute top-10 right-10 text-center
+  absolute top-10 right-10 text-center v-click
 >
 
 でも**世の中的には<br>良いこと・素晴らしいこと**と<br>されているものも多い
@@ -256,11 +256,11 @@ h1, p {
 
 ## <span text-rose>これらはすぐに慣れてしまい次がほしくなります</span>
 
-参考: [「馴化」 < 習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/6)の回
+<span ml-7>参考: [「馴化」 < 習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/6)の回</span>
 
 ## <span text-rose>「自分」に関連するものは、自己バイアスを強めます</span>
 
-参考: [「自己バイアス」 < 習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/11)の回
+<span ml-7>参考: [「自己バイアス」 < 習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/11)の回</span>
 
 ---
 
