@@ -116,7 +116,7 @@ h1, p {
 
 <div grid grid-cols-2 gap-6><div>
 
-* **「だらだらしてしまう」の分析<br><carbon-ArrowUp/> 今回**
+<ReducingUnhappiness current="fire-analyzing-couch-potato" />
 
 </div><div italic text-5.5 mt--5>
 
@@ -434,3 +434,13 @@ layout: cover
   * スライドではさらりと書いてありますが、難しいと思います。<br>
     なにせ、そもそも自分が気づいていない癖の話です。
   * でも「マインドフルネス瞑想にこういう効果があるよ」と<br>知ってもらうのが今回の目的です。
+
+---
+
+# 次回、[短期的満足に注意しよう](https://takibi-fire.com/slides/fire-hedonia/)へどうぞ
+
+2025/11/13: 未完
+
+* [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
+  * 不幸せを減らす
+    <ReducingUnhappiness/>

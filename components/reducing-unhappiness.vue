@@ -25,8 +25,7 @@ const articles = [
   <ul>
     <li v-for="article in articles" :key="article.id">
       <span v-if="article.id === props.current">
-        {{ article.title }}
-        <strong><carbon-arrow-left /> 今回</strong>
+        <strong>{{ article.title }} <carbon-arrow-left /> 今回</strong>
       </span>
       <a v-else :href="article.href">{{ article.title }}</a>
     </li>
