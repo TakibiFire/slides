@@ -282,21 +282,18 @@ layout: fact
 * 金融の機械学習 (中断)
 
 ---
-layout: fact
+layout: cover
 ---
 
-# おわり
+<style scoped>
+.slidev-layout h1 {
+  font-size: 56px;
+}
+</style>
 
-ここから先は未完です！　後で以下を足します。
+# 現在執筆中の[「FIRE後の教科書」](https://takibi-fire.com/slides/fire-textbook/)というスライド集シリーズも<br>ぜひ御覧ください
 
-<div w-fit mx-auto>
-<div text-align-left>
-
-* FIREしてみて感じた変化
-* FIREしてみて良かったこと
-
-</div>
-</div>
+FIREを達成した人・FIREしたい人がどう幸福に暮らせばよいか、<br>資産運用以外の生活・人生面での役立つヒントを書いています。
 
 ---
 
@@ -305,3 +302,9 @@ layout: fact
 * [たきびさん@FIRE　自己紹介](https://note.com/takibi333/n/n43675b5b6264)
 * [FIRE の失敗パターンと "RE" = "Retire Experiment" という考え方](https://note.com/takibi333/n/na9b49f05a28f)
 * [FIRE = 小休止という考え方](https://note.com/takibi333/n/nf98e65c971d9)
+* [FIRE後の教科書マガジン (note)](https://note.com/takibi333/m/m853747f2d3cc)
+
+自己紹介には後で以下を足す予定です。
+
+* FIREしてみて感じた変化
+* FIREしてみて良かったこと
