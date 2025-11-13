@@ -44,6 +44,7 @@ potential_targets=(
   "fire-brain-out-of-control" # 脳は暴れる
   "fire-enjoy-your-change" # 自分の変化を楽しもう
   "fire-happiness-basic-types" # 幸福のタイプを知ろう
+  "fire-hedonia" # 短期的満足に注意しよう
   "fire-how-to-make-friends"
   "fire-not-lifelong-decision" # FIREは一生の決断ではない
   "fire-textbook" # FIRE後の教科書
