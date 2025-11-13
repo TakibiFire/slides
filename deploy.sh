@@ -37,6 +37,7 @@ potential_targets=(
   "juku_test" # "塾の定期テスト"
 
   "fire-4-stages" # リタイア後の4つのステージ
+  "fire-analyzing-couch-potato" # 「だらだらしてしまう」の分析
   "fire-brain-addiction" # 習慣化の罠：依存・自己バイアス
   "fire-brain-automation" # 脳の習慣化の仕組み
   "fire-brain-mindfulness" # 脳は変えられる〜マインドフルネス瞑想のススメ
