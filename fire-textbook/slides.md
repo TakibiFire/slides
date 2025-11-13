@@ -70,7 +70,7 @@ FIREをしていない人にも、FIREしてからの生活を想像するのに
 layout: fact
 ---
 
-2025/11/07: <span color-red>「FIRE後の教科書」は建設し始めたばかりです (22%完了)。</span>
+2025/11/13: <span color-red>「FIRE後の教科書」は建設し始めたばかりです (24%完了)。</span>
 
 コンテンツを足しながらリンクも増やしていきます。
 
@@ -130,8 +130,7 @@ ul + h1 {
 <h2>2. 不幸せな習慣を減らそう</h2>
 
 * [「だらだらしてしまう」の分析](http://takibi-fire.com/slides/fire-analyzing-couch-potato/)
-* 悪い習慣の種類を知ろう
-* 今ここに意識を集中しよう
+* [短期的満足に注意しよう](http://takibi-fire.com/slides/fire-hedonia/)
 * 誘惑を知って防御力を高めよう
 * 将来の心配をやめよう
 * バケットリストの危険性
