@@ -810,7 +810,14 @@ layout: section
 
 ---
 
-# 次回から、不幸せを減らす実践編です
+<style scoped>
+.slidev-layout {
+  font-size: 140%;
+}
+</style>
+
+
+# 次回、実践編: [「だらだらしてしまう」の分析](http://takibi-fire.com/slides/fire-analyzing-couch-potato/) です
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   1. 幸福に関する脳の仕組み
@@ -820,4 +827,5 @@ layout: section
       * [脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/)
       * [脳は変えられる〜マインドフルネス瞑想のススメ](http://takibi-fire.com/slides/fire-brain-mindfulness/) <carbon-ArrowLeft/> 今回
   2. 不幸せな習慣を減らそう
-      * 「だらだらしてしまう」の分析 (未完: 2025/11/12)
+      * [「だらだらしてしまう」の分析](http://takibi-fire.com/slides/fire-analyzing-couch-potato/)<br>
+        <span text-orange><carbon-ArrowUp/>マインドフルネス瞑想がどう役に立つのかの事例を紹介！</span>
