@@ -118,11 +118,7 @@ h1, p {
 
 <div grid grid-cols-2 gap-6><div>
 
-* [幸福のタイプを知ろう](http://takibi-fire.com/slides/fire-happiness-basic-types/) 
-* [脳の習慣化の仕組み](https://takibi-fire.com/slides/fire-brain-automation)
-* [習慣化の罠：依存・自己バイアス](http://takibi-fire.com/slides/fire-brain-addiction/) <carbon-ArrowUp/> 前回
-* **脳は暴れる <carbon-ArrowLeft/> 今回**
-* [脳は変えられる〜マインドフルネス瞑想のススメ](http://takibi-fire.com/slides/fire-brain-mindfulness/)
+<SectionLinks section="happiness1" current="fire-brain-out-of-control" />
 
 </div><div italic text-5.5 mt--5>
 
@@ -474,13 +470,15 @@ DMNの過剰な活動が、私たちの幸福を妨げている
 
 ---
 
-# それでは次回へどうぞ
+<style scoped>
+.slidev-layout h1 {
+  font-size: 44px;
+}
+</style>
+
+# それでは次回、[脳は変えられる〜<br>マインドフルネス瞑想のススメ](https://takibi-fire.com/slides/fire-brain-mindfulness/)へどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   1. 幸福に関する脳の仕組み
-      * [幸福のタイプを知ろう](http://takibi-fire.com/slides/fire-happiness-basic-types/)
-      * [脳の習慣化の仕組み](https://takibi-fire.com/slides/fire-brain-automation/)
-      * [習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/)
-      * [脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/)
-      * [脳は変えられる〜マインドフルネス瞑想のススメ](http://takibi-fire.com/slides/fire-brain-mindfulness/)
+      <SectionLinks section="happiness1" />
 
