@@ -6,7 +6,7 @@ fonts:
   serif: Noto Serif JP
   # hack: コードブロック用
   mono: Klee One 
-title: 「だらだらしてしまう」の分析 | FIRE後の教科書 | たきび FIRE
+title: 「ついだらだらしてしまう」の分析 | FIRE後の教科書 | たきび FIRE
 titleTemplate: "%s"
 favicon: https://takibi-fire.com/slides/public/imgs/favicon.png
 highlighter: shiki
@@ -18,14 +18,14 @@ mdc: true
 layout: center
 lang: ja
 glowSeed: 4
-footerTitle: FIRE後の教科書 > FIRE幸福論 > 不幸せな習慣を減らそう > 「だらだらしてしまう」の分析
+footerTitle: FIRE後の教科書 > FIRE幸福論 > 不幸せな習慣を減らそう > 「ついだらだらしてしまう」の分析
 addons:
   - fancy-arrow
 ---
 
 <style scoped>
 h1 {
-  font-size: 60px;
+  font-size: 54px;
   line-height: 150%;
 }
 h1, p {
@@ -33,7 +33,7 @@ h1, p {
 }
 </style>
 
-#  「だらだらしてしまう」の分析
+#  「ついだらだらしてしまう」の分析
 
 ライフハックで解決するのではない別の方法
 
@@ -423,6 +423,27 @@ layout: cover
 
 ストレス源を自分が感じていないだけかもしれませんが、自分の体を観察する<br>
 癖がつくと、今まで見えなかった何かに気づいたりするかもしれません。
+
+---
+
+<style scoped>
+.slidev-layout {
+  font-size: 135%;
+}
+</style>
+
+# 他の「つい」も同じように対策できる
+
+例: 子供がうるさいと「つい子供を叱ってしまう」
+
+* 「子供を叱りたい」と1秒前までは全然思っていなかった
+* <span underline decoration-purple>うるさい声がストレスとなった瞬間に強固な習慣が顔を出す</span>
+  * ここに自分の深い意思は挟まっていない
+  * おそらくあなたが昔子供を叱って子供が黙ったことが正の報酬になっていて<br>その後ループで強化してきた習慣
+* 対策: **子供を叱りたくなった瞬間の自分を観察する**
+  * イライラを感じているはずです
+  * 「自分はイライラしている」と実況しましょう
+  * とりあえず Lv. 1 に行ければ後の習慣をほぐす部分までいけるでしょう
 
 ---
 

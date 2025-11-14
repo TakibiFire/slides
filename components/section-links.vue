@@ -52,7 +52,7 @@ const sections = {
       {
         id: 'fire-analyzing-couch-potato',
         href: 'http://takibi-fire.com/slides/fire-analyzing-couch-potato/',
-        title: '「だらだらしてしまう」の分析',
+        title: '「ついだらだらしてしまう」の分析',
       },
       {
         id: 'fire-hedonia',
