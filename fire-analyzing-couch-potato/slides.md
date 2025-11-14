@@ -116,7 +116,7 @@ h1, p {
 
 <div grid grid-cols-2 gap-6><div>
 
-<ReducingUnhappiness current="fire-analyzing-couch-potato" />
+<SectionLinks section="happiness2" current="fire-analyzing-couch-potato" />
 
 </div><div italic text-5.5 mt--5>
 
@@ -443,4 +443,4 @@ layout: cover
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * 不幸せを減らす
-    <ReducingUnhappiness/>
+    <SectionLinks section="happiness2" />

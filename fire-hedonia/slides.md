@@ -115,7 +115,7 @@ h1, p {
 
 <div grid grid-cols-2 gap-6><div>
 
-<ReducingUnhappiness current="fire-hedonia"/>
+<SectionLinks section="happiness2" current="fire-hedonia"/>
 
 </div><div italic text-5.5 mt--5>
 
@@ -411,4 +411,4 @@ h1, p {
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * 不幸せを減らす
-    <ReducingUnhappiness/>
+    <SectionLinks section="happiness2" />
