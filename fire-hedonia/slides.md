@@ -410,5 +410,5 @@ h1, p {
 2025/11/13: 未完
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * 不幸せを減らす
+  * 不幸せな習慣を減らそう
     <SectionLinks section="happiness2" />
