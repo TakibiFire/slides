@@ -64,6 +64,11 @@ const sections = {
         href: 'http://takibi-fire.com/slides/fire-validation-so-sweet/',
         title: '他者からの評価は蜜の味〜他者評価から脱却しよう',
       },
+      {
+        id: 'fire-reverse-bucket-list',
+        href: 'http://takibi-fire.com/slides/fire-reverse-bucket-list/',
+        title: 'バケットリストの欠点とリバースバケットリストの紹介',
+      },
     ],
   },
 };

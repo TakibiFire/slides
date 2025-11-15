@@ -47,6 +47,7 @@ potential_targets=(
   "fire-hedonia" # 短期的満足に注意しよう
   "fire-how-to-make-friends"
   "fire-not-lifelong-decision" # FIREは一生の決断ではない
+  "fire-reverse-bucket-list" # バケットリストの欠点とリバースバケットリストの紹介
   "fire-textbook" # FIRE後の教科書
   "fire-textbook-reason" # FIRE後の教科書のきっかけ
   "fire-self-introduction" # 自己紹介
