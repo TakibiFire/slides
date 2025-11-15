@@ -50,6 +50,7 @@ potential_targets=(
   "fire-textbook" # FIRE後の教科書
   "fire-textbook-reason" # FIRE後の教科書のきっかけ
   "fire-self-introduction" # 自己紹介
+  "fire-validation-so-sweet" # 他人からの評価は蜜の味
 
   "transformative" #"やってみなよ！の落とし穴:経験を勧める時の注意点"
 

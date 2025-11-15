@@ -59,6 +59,11 @@ const sections = {
         href: 'http://takibi-fire.com/slides/fire-hedonia/',
         title: '短期的満足に注意しよう',
       },
+      {
+        id: 'fire-validation-so-sweet',
+        href: 'http://takibi-fire.com/slides/fire-validation-so-sweet/',
+        title: '他者からの評価は蜜の味〜他者評価から脱却しよう',
+      },
     ],
   },
 };
