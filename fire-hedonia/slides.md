@@ -298,7 +298,7 @@ h1, p {
 
 </div><div col-span-7 text-center m-auto text-4.5>
 
-<img src="/imgs/tredmill.png">
+<img src="https://takibi-fire.com/slides/public/imgs/tredmill.png">
 
 「快楽のトレッドミル」
 
