@@ -45,6 +45,10 @@ const sections: {
         id: 'fire-enjoy-your-change',
         title: '自分の変化を楽しもう',
       },
+      {
+        id: 'fire-longterm-plan-unnecessary',
+        title: '長期目標を立てるのをやめよう',
+      }
     ],
   },
   happiness1: {

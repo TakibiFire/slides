@@ -45,7 +45,8 @@ potential_targets=(
   "fire-enjoy-your-change" # 自分の変化を楽しもう
   "fire-happiness-basic-types" # 幸福のタイプを知ろう
   "fire-hedonia" # 短期的満足に注意しよう
-  "fire-how-to-make-friends"
+  "fire-how-to-make-friends" # FIRE後の友達の作り方
+  "fire-longterm-plan-unnecessary" # 長期目標を立てるのをやめよう
   "fire-not-lifelong-decision" # FIREは一生の決断ではない
   "fire-reverse-bucket-list" # バケットリストの欠点とリバースバケットリストの紹介
   "fire-textbook" # FIRE後の教科書
