@@ -15,33 +15,59 @@ const props = defineProps({
   },
 });
 
-const sections = {
+type Article = {
+  id: string;
+  title: string;
+};
+
+const sections: {
+  [key: string]: {
+    title: string;
+    articles: Article[];
+  };
+} = {
+  usefulTips: {
+    title: 'FIRE直後に役立つ知識・考え方',
+    articles: [
+      {
+        id: 'fire-4-stages',
+        title: 'リタイア後の4つのステージ',
+      },
+      {
+        id: 'fire-how-to-make-friends',
+        title: 'FIRE後の友達の作り方',
+      },
+      {
+        id: 'fire-not-lifelong-decision',
+        title: 'FIREは一生の決断ではない',
+      },
+      {
+        id: 'fire-enjoy-your-change',
+        title: '自分の変化を楽しもう',
+      },
+    ],
+  },
   happiness1: {
     title: '幸福に関する脳の仕組み',
     articles: [
       {
         id: 'fire-happiness-basic-types',
-        href: 'http://takibi-fire.com/slides/fire-happiness-basic-types/',
         title: '幸福のタイプを知ろう',
       },
       {
         id: 'fire-brain-automation',
-        href: 'https://takibi-fire.com/slides/fire-brain-automation/',
         title: '脳の習慣化の仕組み',
       },
       {
         id: 'fire-brain-addiction',
-        href: 'https://takibi-fire.com/slides/fire-brain-addiction/',
         title: '習慣化の罠：依存・自己バイアス',
       },
       {
         id: 'fire-brain-out-of-control',
-        href: 'http://takibi-fire.com/slides/fire-brain-out-of-control/',
         title: '脳は暴れる',
       },
       {
         id: 'fire-brain-mindfulness',
-        href: 'http://takibi-fire.com/slides/fire-brain-mindfulness/',
         title: '脳は変えられる〜マインドフルネス瞑想のススメ',
       },
     ],
@@ -51,22 +77,18 @@ const sections = {
     articles: [
       {
         id: 'fire-analyzing-couch-potato',
-        href: 'http://takibi-fire.com/slides/fire-analyzing-couch-potato/',
         title: '「ついだらだらしてしまう」の分析',
       },
       {
         id: 'fire-hedonia',
-        href: 'http://takibi-fire.com/slides/fire-hedonia/',
         title: '短期的満足に注意しよう',
       },
       {
         id: 'fire-validation-so-sweet',
-        href: 'http://takibi-fire.com/slides/fire-validation-so-sweet/',
         title: '他者からの評価は蜜の味〜他者評価から脱却しよう',
       },
       {
         id: 'fire-reverse-bucket-list',
-        href: 'http://takibi-fire.com/slides/fire-reverse-bucket-list/',
         title: 'バケットリストの欠点とリバースバケットリストの紹介',
       },
     ],
@@ -78,13 +100,17 @@ const currentSection = sections[props.section as keyof typeof sections];
 
 <template>
   <div v-if="currentSection && props.withSection">
-    <h3>{{ currentSection.title }}</h3>
+    {{ currentSection.title }}
     <ul>
       <li v-for="article in currentSection.articles" :key="article.id">
         <span v-if="article.id === props.current">
           <strong>{{ article.title }} <carbon-arrow-left /> 今回</strong>
         </span>
-        <a v-else :href="article.href">{{ article.title }}</a>
+        <a
+          v-else
+          :href="`http://takibi-fire.com/slides/${article.id}/`"
+          >{{ article.title }}</a
+        >
       </li>
     </ul>
   </div>
@@ -93,7 +119,11 @@ const currentSection = sections[props.section as keyof typeof sections];
       <span v-if="article.id === props.current">
         <strong>{{ article.title }} <carbon-arrow-left /> 今回</strong>
       </span>
-      <a v-else :href="article.href">{{ article.title }}</a>
+      <a
+        v-else
+        :href="`http://takibi-fire.com/slides/${article.id}/`"
+        >{{ article.title }}</a
+      >
     </li>
   </ul>
 </template>
