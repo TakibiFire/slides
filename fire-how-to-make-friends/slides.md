@@ -103,6 +103,14 @@ h1, p {
 
 ---
 
+# [FIRE後の教科書](https://takibi-fire.com/slides/fire-textbook/) > FIRE直後に役立つ知識・考え方
+
+この章では、FIRE後に早めに知っておくと良いことをまとめています。
+
+<SectionLinks section="usefulTips" current="fire-how-to-make-friends" />
+
+---
+
 # この話のきっかけ
 
 <div grid grid-rols-2 gap-8><div>
@@ -376,3 +384,10 @@ FIREできるあなたは何かしらスキルがあるはずです。
   * 価値観が合うコミュニティを見つけましょう
   * 与える側に回ってみましょう
   * 場数が大事です
+
+---
+
+# 良ければ他のスライド・他の章もどうぞ
+
+* [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
+  * <SectionLinks section="usefulTips" withSection/>

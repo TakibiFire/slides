@@ -103,6 +103,14 @@ h1, p {
 
 ---
 
+# [FIRE後の教科書](https://takibi-fire.com/slides/fire-textbook/) > FIRE直後に役立つ知識・考え方
+
+この章では、FIRE後に早めに知っておくと良いことをまとめています。
+
+<SectionLinks section="usefulTips" current="fire-4-stages" />
+
+---
+
 # 動画紹介
 
 <div grid grid-cols-2 gap-8><div>
@@ -497,3 +505,10 @@ FIRE後の1年間は、まさにステージ1を経験したように感じた�
     * まだ私はそこに至っていませんが...
   * **アーリーリタイアなので、探求する時間はいっぱいあります!**
 * **<span text-emerald>FIREは少なくとも1年半は続けるのがオススメ！</span>**
+
+---
+
+# 良ければ他のスライド・他の章もどうぞ
+
+* [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
+  * <SectionLinks section="usefulTips" withSection/>

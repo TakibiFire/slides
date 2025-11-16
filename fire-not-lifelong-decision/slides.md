@@ -119,6 +119,14 @@ layout: fact
 
 ---
 
+# [FIRE後の教科書](https://takibi-fire.com/slides/fire-textbook/) > FIRE直後に役立つ知識・考え方
+
+この章では、FIRE後に早めに知っておくと良いことをまとめています。
+
+<SectionLinks section="usefulTips" current="fire-not-lifelong-decision" />
+
+---
+
 # FIREはまさに「一生の決断」
 
 ## 怒涛の**大決断のラッシュ**
@@ -295,4 +303,9 @@ layout: fact
 
 これだけだった気がします
 
-おわり
+---
+
+# 良ければ他のスライド・他の章もどうぞ
+
+* [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
+  * <SectionLinks section="usefulTips" withSection/>

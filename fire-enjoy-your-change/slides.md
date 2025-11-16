@@ -104,6 +104,14 @@ h1, p {
 
 ---
 
+# [FIRE後の教科書](https://takibi-fire.com/slides/fire-textbook/) > FIRE直後に役立つ知識・考え方
+
+この章では、FIRE後に早めに知っておくと良いことをまとめています。
+
+<SectionLinks section="usefulTips" current="fire-enjoy-your-change" />
+
+---
+
 # 「人格は形成されたら変わらないよ」は本当？
 
 <div grid grid-cols-12 gap-5><div col-span-7 m-auto>
@@ -466,3 +474,10 @@ SNSやオススメ機能はあなたの好みを学習しそれに沿ったも�
 **「もう何をしたって結局変わるんだから！」というマインドセットでいると、「じゃあ次はどう変わるかな？ニヤニヤ」という自分の変化を楽しめる気持ちになるのでオススメです！**
 
 </div>
+
+---
+
+# 良ければ他のスライド・他の章もどうぞ
+
+* [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
+  * <SectionLinks section="usefulTips" withSection/>
