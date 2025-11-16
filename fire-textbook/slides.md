@@ -97,14 +97,14 @@ ul + h1 {
 * [FIRE後の友達の作り方](https://takibi-fire.com/slides/fire-how-to-make-friends/)
 * [FIREは一生の決断ではない](https://takibi-fire.com/slides/fire-not-lifelong-decision/)
 * [自分の変化を楽しもう](https://takibi-fire.com/slides/fire-enjoy-your-change/)
+* [長期目標を立てるのをやめよう](https://takibi-fire.com/slides/fire-longterm-plan-unnecessary/)
 * FIRE = リタイア実験
-* FIREはレールの乗り換え
 
 </div><div>
 
+* FIREはレールの乗り換え
 * お金の心配をするのをやめよう
 * 定期的に現在の思考を吐き出そう
-* 長期プランを立てるのをやめよう
 * 情報発信に気をつけよう
 * マウンティングに気をつけよう
 * 後5年で死ぬとしたら何をする？
@@ -133,7 +133,6 @@ ul + h1 {
 * [短期的満足に注意しよう](http://takibi-fire.com/slides/fire-hedonia/)
 * [他者からの評価は蜜の味〜他者評価から脱却しよう](http://takibi-fire.com/slides/fire-validation-so-sweet/)
 * [バケットリストの欠点とリバースバケットリストの紹介](http://takibi-fire.com/slides/fire-reverse-bucket-list/)
-* 将来の心配をやめよう
 
 </div></div>
 
@@ -151,7 +150,6 @@ ul + h1 {
 
 <h2>2. 不幸せな習慣を減らそう</h2>
 
-* 達成よりも過程を楽しもう
 * 目標は視野を狭める → 視野の広げかた
 * SNS・情報発信の弊害
 * 誘惑を知って防御力を高めよう
@@ -191,7 +189,7 @@ ul + h1 {
 
 * Giver になりましょう
 * 寄付をしてみましょう
-* どんどん寄り道しよう
+* どんどん寄り道しよう・達成よりも過程を楽しもう
 * ひとりあそびを極めよう
 * ビジネスと幸福論は相性が悪い
 * アドバイス集まとめ
