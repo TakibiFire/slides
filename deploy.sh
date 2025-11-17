@@ -47,6 +47,7 @@ potential_targets=(
   "fire-hedonia" # 短期的満足に注意しよう
   "fire-how-to-make-friends" # FIRE後の友達の作り方
   "fire-longterm-plan-unnecessary" # 長期目標を立てるのをやめよう
+  "fire-mentally-fi"  # FIにもレベルがある〜「心のFI」とは
   "fire-not-lifelong-decision" # FIREは一生の決断ではない
   "fire-reverse-bucket-list" # バケットリストの欠点とリバースバケットリストの紹介
   "fire-textbook" # FIRE後の教科書

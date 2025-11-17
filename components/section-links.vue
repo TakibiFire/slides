@@ -48,6 +48,10 @@ const sections: {
       {
         id: 'fire-longterm-plan-unnecessary',
         title: '長期目標を立てるのをやめよう',
+      },
+      {
+        id: 'fire-mentally-fi',
+        title: 'FIにもレベルがある〜「心のFI」とは',
       }
     ],
   },
