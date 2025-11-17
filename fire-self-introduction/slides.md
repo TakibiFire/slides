@@ -70,6 +70,22 @@ h1, p {
 </div></div>
 
 ---
+
+# Business Insider Japan にインタビューが載りました
+
+<div grid grid-cols-2><div col-span-1>
+
+<img src="/imgs/bij.avif"/>
+
+</div><div col-span-1 m-auto p-6>
+
+[元GAFAMエンジニアが、早すぎるFIREで「人生の正解」を選んだ――。リタイアを10年"前借り"するに至った5つの決断 | Business Insider Japan](https://www.businessinsider.jp/article/2511-too-early-fire-chose-the-right-answer-for-life/)
+
+<span text-3>2025/11/13</span>
+
+</div></div>
+
+---
 layout: fact
 ---
 
@@ -181,6 +197,25 @@ layout: fact
 
 </div>
 
+---
+
+<style scoped>
+.slidev-layout {
+  font-size: 140%;
+}
+</style>
+
+# FI したからにはお金のことは気にしない
+
+FI=経済的「自立」。でもFIしているのに資産が気になってしまう人は多い。
+
+**ある時「FIREしたのにお金のことが気になるのはもったいない」と感じた。**
+
+* 資産の上下・他人の資産話・資産自慢...
+* こういうのは脳をくすぐるだけで、自分の役にたってないなと気づいた
+* 「資産がこのラインを下回ったら何かアクションを起こす」という **Action Number**を決めて、そこまで下がらない限り資産のことを気にしないと決めた
+
+## 詳しくは [FIにもレベルがある〜「心のFI」とは](https://takibi-fire.com/slides/fire-mentally-fi/)のスライドに<br>書きました。
 
 ---
 
@@ -190,7 +225,7 @@ layout: fact
 }
 </style>
 
-# FIRE = 「リタイア実験」
+# RE = 「リタイア実験」
 
 *   **リタイア生活が自分に合うかどうかを試す**
     * 多くの人が65歳で初めて経験するリタイア生活を「お試し」で経験できるのは幸運
