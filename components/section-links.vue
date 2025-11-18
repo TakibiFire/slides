@@ -101,6 +101,15 @@ const sections: {
       },
     ],
   },
+  happiness3: {
+    title: '幸福の性質を知ろう',
+    articles: [
+      {
+        id: 'fire-money-vs-happiness',
+        title: 'お金・豊かさと幸福',
+      },
+    ]
+  }
 };
 
 const currentSection = sections[props.section as keyof typeof sections];
