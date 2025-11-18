@@ -70,7 +70,7 @@ FIREをしていない人にも、FIREしてからの生活を想像するのに
 layout: fact
 ---
 
-2025/11/15: <span color-red>「FIRE後の教科書」は建設し始めたばかりです (30%完了)。</span>
+2025/11/15: <span color-red>「FIRE後の教科書」は建設し始めたばかりです (32%完了)。</span>
 
 コンテンツを足しながらリンクも増やしていきます。
 
@@ -119,20 +119,20 @@ ul + h1 {
 
 <h2>1. 幸福に関する脳の仕組み</h2>
 
-* [幸福のタイプを知ろう](http://takibi-fire.com/slides/fire-happiness-basic-types/)
+* [幸福のタイプを知ろう](https://takibi-fire.com/slides/fire-happiness-basic-types/)
 * [脳の習慣化の仕組み](https://takibi-fire.com/slides/fire-brain-automation/)
 * [習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/)
-* [脳は暴れる](http://takibi-fire.com/slides/fire-brain-out-of-control/)
-* [脳は変えられる〜マインドフルネス瞑想のススメ](http://takibi-fire.com/slides/fire-brain-mindfulness/)
+* [脳は暴れる](https://takibi-fire.com/slides/fire-brain-out-of-control/)
+* [脳は変えられる〜マインドフルネス瞑想のススメ](https://takibi-fire.com/slides/fire-brain-mindfulness/)
 
 </div><div>
 
 <h2>2. 不幸せな習慣を減らそう</h2>
 
-* [「ついだらだらしてしまう」の分析](http://takibi-fire.com/slides/fire-analyzing-couch-potato/)
-* [短期的満足に注意しよう](http://takibi-fire.com/slides/fire-hedonia/)
-* [他者からの評価は蜜の味〜他者評価から脱却しよう](http://takibi-fire.com/slides/fire-validation-so-sweet/)
-* [バケットリストの欠点とリバースバケットリストの紹介](http://takibi-fire.com/slides/fire-reverse-bucket-list/)
+* [「ついだらだらしてしまう」の分析](https://takibi-fire.com/slides/fire-analyzing-couch-potato/)
+* [短期的満足に注意しよう](https://takibi-fire.com/slides/fire-hedonia/)
+* [他者からの評価は蜜の味〜他者評価から脱却しよう](https://takibi-fire.com/slides/fire-validation-so-sweet/)
+* [バケットリストの欠点とリバースバケットリストの紹介](https://takibi-fire.com/slides/fire-reverse-bucket-list/)
 
 </div></div>
 
