@@ -108,6 +108,10 @@ const sections: {
         id: 'fire-money-vs-happiness',
         title: 'お金・豊かさと幸福',
       },
+      {
+        id: 'fire-job-vs-happiness',
+        title: '仕事・キャリアと幸福',
+      },
     ]
   }
 };

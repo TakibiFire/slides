@@ -46,6 +46,7 @@ potential_targets=(
   "fire-happiness-basic-types" # 幸福のタイプを知ろう
   "fire-hedonia" # 短期的満足に注意しよう
   "fire-how-to-make-friends" # FIRE後の友達の作り方
+  "fire-job-vs-happiness"  # 仕事・キャリアと幸福
   "fire-longterm-plan-unnecessary" # 長期目標を立てるのをやめよう
   "fire-mentally-fi"  # FIにもレベルがある〜「心のFI」とは
   "fire-money-vs-happiness"  # お金・豊かさと幸福
