@@ -159,7 +159,7 @@ ul + h1 {
 <h2>3. 幸福の性質を知ろう</h2>
 
 * [お金・豊かさと幸福](https://takibi-fire.com/slides/fire-money-vs-happiness/)
-* 仕事・キャリアと幸福
+* [仕事・キャリアと幸福](https://takibi-fire.com/slides/fire-job-vs-happiness/)
 * 健康と幸福
 * 人間関係と幸福
 * 時間・年齢と幸福
