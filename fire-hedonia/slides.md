@@ -349,14 +349,12 @@ h1, p {
 
 # 「自分」に関連する短期的満足には<br>「自己バイアスの強化」に気をつけよう
 
-参考: [「自己バイアス」 < 習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/10)
+自己バイアスとは **「自分自身に関する情報を、自分にとって都合の良いように<br>解釈してしまう傾向」** のことでした。<span text-4 inline>参考: [「自己バイアス」 < 習慣化の罠：依存・自己バイアス](https://takibi-fire.com/slides/fire-brain-addiction/10)</span>
 
-**"自分自身に関する情報を、自分にとって都合の良いように解釈してしまう傾向"**
+<div v-click=1 grid grid-cols-24 gap-2 mt-10>
+  <div v-click=2 col-span-6 row-span-5 text-5.5 m-auto>
 
-<div grid grid-cols-24 gap-2>
-  <div col-span-6 row-span-5 text-5.5 m-auto>
-
-**報酬のたびに<br>「自分にとって<br>都合の良いように<br>解釈する」傾向が<br>強化される**
+報酬のたびに<br>「自分にとって<br>都合の良いように<br>解釈する」傾向が<br>強化される
 
   </div>
   <div class="lef">他者からの評価</div>
@@ -370,28 +368,36 @@ h1, p {
   <div class="rgt">自分はたくさんの人に<br>認められている</div>
 </div>
 
-アドバイス:
+---
 
-<div border border-purple bg-purple-500 bg-opacity-10
+# 「自分」に関連する短期的満足には<br>「自己バイアスの強化」に気をつけよう
+
+
+<fieldset border border-purple bg-purple-500 bg-opacity-10
   rounded-4 px-2 py-2 w-fit
-  text-center relative top--15 left-33
+  text-center text-7
 >
-強化は防げないし気づきにくい。この仕組みを知っておいて謙虚にする
-</div>
+  <legend ml-7>アドバイス</legend>
+自己バイアスの強化は防げないし、<u>自分では気づきにくい</u>。<br>
+この仕組みを知っておいて謙虚にする
+</fieldset>
+
+<br>
+
+この話は、次回[「他者からの評価は蜜の味〜他者評価から脱却しよう」](https://takibi-fire.com/slides/fire-validation-so-sweet/)の回で<br>詳しく解説します。
 
 ---
 
 <style scoped>
 .slidev-layout {
-  font-size: 140%;
+  font-size: 135%;
 }
 </style>
 
 # まとめ
 
-* 短期的満足自体は悪いものではないけど、**性質を知っておくことがとても大事**
-
-<br>
+短期的満足自体は悪いものではないけど、**性質を知っておくことがとても大事。**<br>
+知識があることが一番の予防策。リタイア後にのめり込む事を少なくしよう！
 
 1. **種類が多い**
     * 外から・他人から得られる満足・楽しみ・快楽・評価は全て短期的満足
@@ -399,15 +405,12 @@ h1, p {
     * でも満足に至る前にはその事は気づきにくい
     * 満足したら次が欲しくなる。無限ループにならないように！
 1. **自己バイアスを強化する短期的満足がある**
-    * 防げない。謙虚に。
-  
-知っておけば、リタイア後にのめり込む事は少なくなりそう！
+    * 自分に都合の良い解釈をしていってしまうことは防げない
+    * 仕組みを知って謙虚に生きましょう
 
 ---
 
-# それでは次回、「他者評価は蜜の味」へどうぞ
-
-2025/11/13: 未完
+# それでは次回、[「他者からの評価は蜜の味<br>〜他者評価から脱却しよう」](https://takibi-fire.com/slides/fire-validation-so-sweet/)へどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * 不幸せな習慣を減らそう
