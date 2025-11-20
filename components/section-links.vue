@@ -112,6 +112,10 @@ const sections: {
         id: 'fire-job-vs-happiness',
         title: '仕事・キャリアと幸福',
       },
+      {
+        id: 'fire-health-vs-happiness',
+        title: '健康と幸福',
+      },
     ]
   }
 };

@@ -213,6 +213,11 @@ layout: cover
 幸福は健康を促進し、健康も幸福を支えるという相互作用
 </div>
 
+<!--
+Source: Happiness and Health
+Text: One is that positive emotions lead to positive behaviors and changes, such as exercise, sleep, a nutritious diet, supportive relationships, and coping skills. Another is that positive emotions function to decrease stress and the harmful toll it can take on the body. Some research suggests that people who are healthier just have a more positive outlook.
+-->
+
 ---
 
 # 幸福がもたらす健康上の利点
@@ -244,6 +249,11 @@ layout: cover
 いいことづくめ！
 </div>
 </FancyArrow>
+
+<!--
+Source: Happiness and Health
+Text: Happiness is associated with an array of physical health benefits, such as lower blood pressure, reduced risk of stroke, a stronger immune system, and even a longer life. Positive emotions are also linked to a reduced risk of injury in young adults and frailty in older adults.
+-->
 
 ---
 
@@ -294,6 +304,12 @@ layout: cover
 <FancyArrow
   static from="[data-id=mental]@right" to="[data-id=happiness]@left" arc="0.0" color="white"/>
 
+<!--
+Source: Happiness Hormones and their Impact on Mental Health
+Text: Mental health is defined as a state of health in which a person realizes his or her abilities, can cope with the normal pressures of life, can act effectively, and participate in the affairs of his or her community as a healthy person. Because research shows that mental health is the biggest factor and the most effective factor for happiness and happiness.
+Research: Machado & Tavares, 2015; Rahman, 2016; Shafiq, Naz, and Ansar, 2015
+-->
+
 ---
 
 # 運動とメンタルヘルス
@@ -327,6 +343,11 @@ layout: cover
 </div>
 </FancyArrow>
 
+<!--
+Source: Why Exercise Is So Crucial for Maintaining Mental Health
+Text: In fact, increasingly robust evidence suggests that exercise is not only necessary for the maintenance of good mental health, but it can be used to treat even chronic mental illness. For example, it is now clear that exercise reduces the likelihood of depression and also maintains mental health as we age. On the treatment side, exercise appears to be as good as existing pharmacological interventions across a range of conditions, such as mild to moderate depression, dementia, and anxiety, and even reduces cognitive issues in schizophrenia.
+-->
+
 ---
 
 # 食生活とメンタルヘルス
@@ -359,6 +380,16 @@ layout: cover
 いいことづくめ！
 </div>
 </FancyArrow>
+
+<!--
+Source: Can You Eat Yourself Happy?
+Text: Along with the pyramid, here are some more tips to grow a healthy set of gut microbes.
+- **Stop eating sugar.**
+- **Eat high-fiber veggies.**
+- **Eat fermented foods.**
+- **Eat some fish.**
+- **Try prebiotics.**
+-->
 
 ---
 
@@ -395,6 +426,11 @@ layout: cover
 いいことづくめ！
 </div>
 </FancyArrow>
+
+<!--
+Source: Happiness Hormones and their Impact on Mental Health
+Text: Adequate and high-quality sleep is essential to strengthening concentration, quick response, and healthy brain function. Reducing and relieving fatigue through highquality sleep helps the brain regulate the endocrine system and reduce the symptoms of depression and anxiety.
+-->
 
 ---
 
@@ -464,5 +500,11 @@ blockquote {
 }
 </style>
 
-# 参考 <span text-4>(研究論文を知りたい人は speaker note 参照)</span>
+# Sources
+
+*   [Psychology Today | Happiness and Health](https://www.psychologytoday.com/us/basics/happiness/happiness-and-health)
+*   [Psychology Today | Why Exercise Is So Crucial for Maintaining Mental Health](https://www.psychologytoday.com/us/blog/what-works-and-why/201803/why-exercise-is-so-crucial-maintaining-mental-health)
+*   [Psychology Today | Can You Eat Yourself Happy?](https://www.psychologytoday.com/us/blog/mood-by-microbe/201908/can-you-eat-yourself-happy)
+*   [The International Journal of Indian Psychology | Happiness Hormones and their Impact on Mental Health](https://ijip.in/wp-content/uploads/2021/08/18.01.036.0210903.pdf)
+*   [RIETI | 幸福感と自己決定―日本における実証研究](https://www.rieti.go.jp/jp/publications/summary/18090006.html)
 
