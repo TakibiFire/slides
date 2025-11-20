@@ -31,36 +31,17 @@ function execute_cmd() {
   fi
 }
 
+# NOW: Keep public, juku_test, and transformative in the list. Automatically
+# extract directories starting with "fire-" and extend the list, instead of enumerating all fire- directories.
 potential_targets=(
   "public"  # Special dir to provide common files
 
   "juku_test" # "塾の定期テスト"
-
-  "fire-4-stages" # リタイア後の4つのステージ
-  "fire-analyzing-couch-potato" # 「だらだらしてしまう」の分析
-  "fire-brain-addiction" # 習慣化の罠：依存・自己バイアス
-  "fire-brain-automation" # 脳の習慣化の仕組み
-  "fire-brain-mindfulness" # 脳は変えられる〜マインドフルネス瞑想のススメ
-  "fire-brain-out-of-control" # 脳は暴れる
-  "fire-enjoy-your-change" # 自分の変化を楽しもう
-  "fire-happiness-basic-types" # 幸福のタイプを知ろう
-  "fire-health-vs-happiness" # 健康と幸福
-  "fire-hedonia" # 短期的満足に注意しよう
-  "fire-how-to-make-friends" # FIRE後の友達の作り方
-  "fire-job-vs-happiness"  # 仕事・キャリアと幸福
-  "fire-longterm-plan-unnecessary" # 長期目標を立てるのをやめよう
-  "fire-mentally-fi"  # FIにもレベルがある〜「心のFI」とは
-  "fire-money-vs-happiness"  # お金・豊かさと幸福
-  "fire-not-lifelong-decision" # FIREは一生の決断ではない
-  "fire-reverse-bucket-list" # バケットリストの欠点とリバースバケットリストの紹介
-  "fire-textbook" # FIRE後の教科書
-  "fire-textbook-reason" # FIRE後の教科書のきっかけ
-  "fire-self-introduction" # 自己紹介
-  "fire-validation-so-sweet" # 他人からの評価は蜜の味
-
   "transformative" #"やってみなよ！の落とし穴:経験を勧める時の注意点"
 
-  # COMMENT: Add more slide_dir_names here
+  # Dynamically extracted fire-* directories
+  $(find . -maxdepth 1 -type d -name "fire-*" -print0 | xargs -0 -n 1 basename | sort)
+
 )
 
 # $1: slide_dir
