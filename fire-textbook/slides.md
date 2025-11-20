@@ -70,9 +70,15 @@ FIREをしていない人にも、FIREしてからの生活を想像するのに
 layout: fact
 ---
 
-2025/11/15: <span color-red>「FIRE後の教科書」は建設し始めたばかりです (32%完了)。</span>
+2025/11/20: <span color-red>「FIRE後の教科書」は建設途中です (30%完了)。</span>
 
 コンテンツを足しながらリンクも増やしていきます。
+
+<!--
+`asterisc ` が m 個
+`asterisc [` が x 個なら
+x / m
+-->
 
 ---
 
@@ -160,7 +166,7 @@ ul + h1 {
 
 * [お金・豊かさと幸福](https://takibi-fire.com/slides/fire-money-vs-happiness/)
 * [仕事・キャリアと幸福](https://takibi-fire.com/slides/fire-job-vs-happiness/)
-* 健康と幸福
+* [健康と幸福](https://takibi-fire.com/slides/fire-health-vs-happiness/)
 * 人間関係と幸福
 * 時間・年齢と幸福
 * 幸福は追求するものではない
@@ -180,8 +186,7 @@ ul + h1 {
 * 幸福は鍛えられるスキル
 * 幸福のスキルの優先順位
 * 自分の強みを知る (VIA Strength)
-* 幸福度に直結する強みを鍛えよう
-  * 感謝, 愛情, 好奇心, 熱意, 希望
+* 幸福度に直結する強みを鍛えよう (感謝, 愛情, 好奇心, 熱意, 希望)
 
 </div><div>
 
