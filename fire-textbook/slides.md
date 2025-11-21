@@ -70,7 +70,7 @@ FIREをしていない人にも、FIREしてからの生活を想像するのに
 layout: fact
 ---
 
-2025/11/20: <span color-red>「FIRE後の教科書」は建設途中です (30%完了)。</span>
+2025/11/21: <span color-red>「FIRE後の教科書」は建設途中です (32%完了)。</span>
 
 コンテンツを足しながらリンクも増やしていきます。
 
@@ -111,8 +111,6 @@ ul + h1 {
 * FIRE = リタイア実験
 * FIREはレールの乗り換え
 * 定期的に現在の思考を吐き出そう
-* 情報発信に気をつけよう
-* マウンティングに気をつけよう
 * 後5年で死ぬとしたら何をする？
 
 </div></div>
@@ -138,6 +136,7 @@ ul + h1 {
 * [「ついだらだらしてしまう」の分析](https://takibi-fire.com/slides/fire-analyzing-couch-potato/)
 * [短期的満足に注意しよう](https://takibi-fire.com/slides/fire-hedonia/)
 * [他者からの評価は蜜の味〜他者評価から脱却しよう](https://takibi-fire.com/slides/fire-validation-so-sweet/)
+* [SNS・情報発信の沼に注意しよう](https://takibi-fire.com/slides/fire-sns/)
 * [バケットリストの欠点とリバースバケットリストの紹介](https://takibi-fire.com/slides/fire-reverse-bucket-list/)
 
 </div></div>
@@ -157,7 +156,6 @@ ul + h1 {
 <h2>2. 不幸せな習慣を減らそう</h2>
 
 * 目標は視野を狭める → 視野の広げかた
-* SNS・情報発信の弊害
 * 誘惑を知って防御力を高めよう
 
 </div><div>
