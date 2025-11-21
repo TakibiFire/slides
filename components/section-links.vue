@@ -96,6 +96,10 @@ const sections: {
         title: '他者からの評価は蜜の味〜他者評価から脱却しよう',
       },
       {
+        id: 'fire-sns',
+        title: 'SNS・情報発信の沼に注意しよう',
+      },
+      {
         id: 'fire-reverse-bucket-list',
         title: 'バケットリストの欠点とリバースバケットリストの紹介',
       },
