@@ -124,6 +124,10 @@ const sections: {
         id: 'fire-health-vs-happiness',
         title: '健康と幸福',
       },
+      {
+        id: 'fire-relationship-vs-happiness',
+        title: '健康と幸福',
+      },
     ]
   }
 };

@@ -179,6 +179,11 @@ layout: cover
   * 問題のある結婚の解消後4年もすると、人々は結婚期間中よりも大幅に<br>幸せになっている
   * 離婚前の状態よりも幸福になる人もいる
 
+<!--
+Source: "7 Myths About Happiness We Need to Stop Believing"
+Text: Indeed, studies show that the happiness boost from marriage lasts an average of only two years. ... research shows that the low point in happiness occurs a couple years before the divorce. As soon as four years after the break of a troubled marriage, people are significantly happier than they ever had been during the union.
+-->
+
 ---
 
 <style scoped>
@@ -197,6 +202,11 @@ layout: cover
   * 夫婦以外の友人や家族との関係も大切にすることで、よりバランスの取れた、豊かな人生を送ることができる
   * **特に、男性は加齢に伴い、配偶者への依存度が高まる傾向がある**
   * 男性は意識的に、配偶者以外の人間関係を築くように心がける必要がある
+
+<!--
+Source: "What The Longest Study On Happiness Reveals", "Dare to Be Yourself"
+Text: It was their relationships. It was particularly their satisfaction with their marital relationships that was the strongest predictor. ... Authenticity is correlated with many aspects of psychological well-being, including vitality, self-esteem, and coping skills.
+-->
 
 ---
 
@@ -221,6 +231,12 @@ layout: cover
 * 愛情とセックス
   * セックスは性行為の直後だけでなく、何時間も後に愛情の感情を生み出すことが分かっている
 
+<!--
+Source: "Does More Sex Lead to Feeling Happier?"
+Text: in another study researchers explored the hypothesis that more sex would enhance a couple's happiness. They asked one group of heterosexual couples to double the amount of weekly intercourse sessions they normally would have, and the findings surprisingly showed that partners did not report feeling happier. ... The study found that sex created feelings of affection not just immediately after the sexual act, but hours later.
+Research: Loewenstein, G., Krishnamurti, T., Kopsic, J., & McDonald, D. (2015). Does Increased Sexual Frequency Enhance Happiness?. Journal of Economic Behavior & Organization, 116, 206-218. | Debrot, A., et al. (2017). More Than Just Sex: Affection Mediates the Association Between Sexual Activity and Well-Being. Personality and Social Psychology Bulletin, 43(3), 287–299.
+-->
+
 ---
 
 # **家族**と幸福
@@ -228,6 +244,12 @@ layout: cover
 * 出産も人生の満足度を大きく向上させる要因となる
   * 特に女性、とりわけ第一子の出産時にはその効果が顕著である
 * 家族との強い絆は、幸福度と健康を高める重要な要素
+
+<!--
+Source: "Happiness and life events: How key milestones shape our psychological well-being"
+Text: Childbirth, too, was associated with a significant uplift in life satisfaction, with effects that were more pronounced for women, especially around the birth of their first child.
+Research: Krämer, M. D., Rohrer, J. M., Lucas, R. E., & Richter, D. (2024). Life events and life satisfaction: Estimating effects of multiple life events in combined models. European Journal of Personality.
+-->
 
 ---
 
@@ -247,6 +269,11 @@ layout: cover
 * **ライフスタイル:**
   * 独身者は以下の要素が既婚者より高く、幸福度を高めることに繋がっている:
     * 社会活動からの幸福、仕事への満足度、自己決定力、自己肯定感、楽観主義
+  
+<!--
+Source: "19 Ways Single People Are Doing Way Better Than You Realized"
+Text: More than a dozen long-term studies have shown that when people marry, they become no happier than they were when they were single... never-married individuals were the most social, followed by divorced/separated people, widowed people, cohabiters, and lastly, married people.
+-->
 
 ---
 
@@ -269,6 +296,11 @@ layout: cover
   * 高齢期において、生涯未婚者は、結婚経験者よりも孤独を感じにくい傾向がある
   * 65歳時点では生涯未婚者の方がわずかに孤独を感じるものの、年齢を重ねるにつれて既婚者の孤独感が増加し、70歳以降は生涯未婚者の方が孤独を感じにくい
   * 生涯未婚者は、長期的に孤独を感じにくい傾向があることが示唆されています。
+
+<!--
+Source: "19 Ways Single People Are Doing Way Better Than You Realized"
+Text: All things being equal, divorced/separated individuals are the most proficient in interacting with friends and family over the Internet of the groups tested (15 percent more than couples), followed by the never-married (12 percent more than couples), while widowed individuals lag. ... By age 70, it is the people who married who are now lonelier, and that continues all the way through the oldest of ages. The lifelong single people are less lonely.
+-->
 
 ---
 
@@ -295,6 +327,11 @@ layout: cover
 * 高齢期の孤独
   * 高齢期における孤独は深刻な問題であり、有意義な人間関係への投資が重要
 
+<!--
+Source: "What The Longest Study On Happiness Reveals"
+Text: And her calculation was that being lonely is as dangerous to your health as smoking half a pack of cigarettes a day, or as dangerous as being obese.
+-->
+
 ---
 
 # **友情**と幸福
@@ -307,6 +344,11 @@ layout: cover
   * 良い友人は、困難な時に支えとなり、精神的な健康を支える
 * **双方向**
   * もちろん友人にも同じことをしてあげましょう
+
+<!--
+Source: "What Happy People Do Differently"
+Text: The happiest people are the ones who are present when things go right for others---and whose own wins are regularly celebrated by their friends as well.
+-->
 
 ---
 
@@ -323,6 +365,11 @@ layout: cover
   m-auto px-6 py-2 mt-5 w-fit>
 身近な人々に、見知らぬ人に親切にするのと同じように愛情深く接し、<br>肯定し、分かち合い、共に遊ぶことが大事
 </div>
+
+<!--
+Source: "The Importance of Deep Relationships"
+Text: Good relationships keep us happier and healthier. Period. ... It's not just the number of friends you have, and it's not whether or not you're in a committed relationship. It's the quality of your close relationships that matters.
+-->
 
 ---
 
@@ -422,3 +469,22 @@ blockquote {
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness3" withSection/>
+
+---
+
+<style scoped>
+.slidev-layout {
+  font-size: 135%;
+}
+</style>
+
+# 参考文献
+
+*   [Psychology Today | 7 Myths About Happiness We Need to Stop Believing](https://www.psychologytoday.com/us/blog/how-happiness/201303/7-myths-about-happiness-we-need-stop-believing)
+*   [YouTube | What The Longest Study On Happiness Reveals](https://www.youtube.com/watch?v=vSQjk9jKarg)
+*   [Psychology Today | Dare to Be Yourself](https://www.psychologytoday.com/us/articles/200805/dare-be-yourself)
+*   [Psychology Today | Does More Sex Lead to Feeling Happier?](https://www.psychologytoday.com/us/blog/sex-esteem/202012/does-more-sex-lead-feeling-happier)
+*   [PsyPost | Happiness and life events: How key milestones shape our psychological well-being](https://www.psypost.org/happiness-and-life-events-how-key-milestones-shape-our-psychological-well-being/)
+*   [Psychology Today | 19 Ways Single People Are Doing Way Better Than You Realized](https://www.psychologytoday.com/us/blog/living-single/201903/19-ways-single-people-are-doing-way-better-than-you-realized)
+*   [Psychology Today | What Happy People Do Differently](https://www.psychologytoday.com/us/articles/201307/what-happy-people-do-differently)
+*   [Psychology Today | The Importance of Deep Relationships](https://www.psychologytoday.com/us/blog/the-art-whole-being/202005/the-importance-deep-relationships)
