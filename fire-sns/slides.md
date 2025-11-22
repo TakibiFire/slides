@@ -208,12 +208,41 @@ SNSは「もともとの動機」を上書きしてしまう力がある
 いずれ自分自身にストレスを生む
 
 ---
+layout: center
+---
+
+<div text-center m-auto>
+
+# 「SNSは社会生活におけるジャンクフードです」
+
+<div flex>
+<img src="/imgs/junkfood.png" w-120 />
+<div text-5 text-left m-4>
+
+人はオキシトシンという神経ホルモンに飢えています。
+スキンシップやアイコンタクトにより分泌されるホルモンです。<br>
+しかしSNSを長く続けていると過度に接触を求めます。
+**フライドポテトを食べすぎると肥満や栄養不足になるようなものです。**
+
+</div>
+</div>
+
+[ハーバードの教授だけど「幸せについて」質問ある？<br>| YouTube](https://www.youtube.com/watch?v=l1zL4N7yvts&t=389)
+
+</div>
+
+---
 
 # 再掲: 1. 自分語りはそれ自体がドラッグに似た報酬
 
+**人はそもそも自分語りが好きです。それは脳が喜びを感じるからです。**<br>
+**そしてSNS・ブログ・動画によってそれらが簡単になってきました。**
+
+<hr/>
+
 参考: [脳の習慣化の仕組み > 自分語り](https://takibi-fire.com/slides/fire-brain-automation/17)
 
-<fieldset border rounded-3 p-2 mt-10 text-5.5 w-fit m-auto>
+<fieldset border rounded-3 p-2 mt-5 text-5 w-fit m-auto>
   <legend ml-20>豆知識</legend>
 「自分について話す」 ことは、<u>それ自体</u>が報酬 (側坐核が活性化)
 
@@ -224,8 +253,6 @@ SNSは「もともとの動機」を上書きしてしまう力がある
 
 </fieldset>
 
-**人はそもそも自分語りが好きです。<br>そしてSNS・ブログ・動画によってそれらが簡単になってきました。**
-
 ---
 
 <style scoped>
@@ -234,37 +261,15 @@ SNSは「もともとの動機」を上書きしてしまう力がある
 }
 </style>
 
-# 再掲: 2. SNSは報酬だらけ(1/2)
+# 再掲: 2. SNSは報酬だらけ
+
+**SNSで投稿するのもいいねをもらうのも報酬**
+
+<hr/>
 
 参考: [脳の習慣化の仕組み > SNSは報酬だらけ](https://takibi-fire.com/slides/fire-brain-automation/20)
 
-<fieldset border px-6 py-2 mb-6 border-pink>
-  <legend ml-6>SNSを見る</legend>
-
-* **刺激:** 退屈、孤独、不安、承認欲求
-* **行動:** SNSをチェックする、「いいね！」を押す、コメントする
-* **報酬:** 一時的な気晴らし、承認欲求の充足、他者とのつながり
-</fieldset>
-
-<fieldset border px-6 py-2 border-purple>
-  <legend ml-6>SNSで「いいね!」する</legend>
-
-* **刺激:** インスタグラムのフィード
-* **行動:** 写真に「いいね！」を押す
-* **報酬:** 他者からの「いいね！」を期待する承認欲求の充足、仲間意識の強化
-</fieldset>
-
----
-
-<style scoped>
-.slidev-layout {
-  font-size: 140%;
-}
-</style>
-
-# 再掲: 2. SNS は報酬だらけ (2/2)
-
-<fieldset border px-6 py-2 mb-6 border-violet>
+<fieldset border px-6 mb-6 border-violet text-5>
   <legend ml-6>SNSにアップする</legend>
 
 * **刺激:** 旅行などの特別なイベント、自己顕示欲、承認欲求
@@ -272,7 +277,7 @@ SNSは「もともとの動機」を上書きしてしまう力がある
 * **報酬:**「いいね！」やコメントによる承認欲求の充足、自己肯定感の向上
 </fieldset>
 
-<fieldset border px-6 py-2 border-rose>
+<fieldset border px-6 border-rose text-5>
   <legend ml-6>SNSで「いいね!」をもらう</legend>
 
 * **刺激:** SNSの投稿、「いいね！」通知
@@ -290,6 +295,13 @@ SNSは「もともとの動機」を上書きしてしまう力がある
 
 # 再掲 3. 間欠強化 : SNS はガチャと同じ性質を持つ
 
+* **SNSを見る**
+  * 大半がつまらない投稿でも、たまに面白い投稿がある → ずっと見てしまう
+* **SNSで「いいね」をもらう**
+  * もらえるか分からない、いつもらえるかもわからない → ずっと反応が気になる
+
+<hr/>
+
 参考: [習慣化の罠：依存・自己バイアス > 間欠強化 “ガチャ脳”](https://takibi-fire.com/slides/fire-brain-addiction/8)
 
 **間欠強化 = "毎回ではなく、時々（ランダムに）報酬を与える強化スケジュール"**
@@ -300,11 +312,6 @@ SNSは「もともとの動機」を上書きしてしまう力がある
 習慣の形成がより強固に。
 
 </div>
-
-* **SNSを見る**
-  * 大半がつまらない投稿でも、たまに面白い投稿がある → ずっと見てしまう
-* **SNSで「いいね」をもらう**
-  * もらえるか分からない、いつもらえるかもわからない → ずっと反応が気になる
 
 ---
 
@@ -333,6 +340,13 @@ SNSは「もともとの動機」を上書きしてしまう力がある
 
 # 再掲 4. 自己バイアスの強化
 
+<div text-8>
+
+**SNSでいいねされると、「自分は認められた」→「自分は人気がある」のような都合の良い解釈をする傾向が強化される**
+</div>
+
+<hr/>
+
 参考: [習慣化の罠：依存・自己バイアス > 自己バイアスの強化の例](https://takibi-fire.com/slides/fire-brain-addiction/13)
 
 <div grid grid-cols-18 gap-2>
@@ -342,11 +356,6 @@ SNSは「もともとの動機」を上書きしてしまう力がある
   <div class="lef">SNSで「いいね！」される</div>
   <div class="mid"><carbon-ArrowRight/></div>
   <div class="rgt">「いいね！」を多くもらえれば<br>自分は価値がある、人気がある。</div>
-</div>
-
-<div text-8>
-
-**褒められると、自分にとって都合の良いように解釈する傾向が脳内で強化される**
 </div>
 
 ---
@@ -377,9 +386,11 @@ SNSは「もともとの動機」を上書きしてしまう力がある
 
 # 再掲 5. もともとの動機を上書きしてしまう力がある
 
-参考: [不幸せな習慣を減らそう > 他者からの評価は蜜の味](https://takibi-fire.com/slides/fire-validation-so-sweet/12)
-
 **承認の力は強い。当初の動機を忘れて「承認」を目的にしてしまうことがある**
+
+<hr/>
+
+参考: [不幸せな習慣を減らそう > 他者からの評価は蜜の味](https://takibi-fire.com/slides/fire-validation-so-sweet/12)
 
 <div grid grid-cols-20 gap-2>
   <div class="lef">走るのが好きで<br>陸上を始めた</div>
@@ -423,24 +434,27 @@ SNSは「もともとの動機」を上書きしてしまう力がある
 
 ---
 
-# 再掲 6. いずれ自分自身に対してストレスを生む
-
-参考: [不幸せな習慣を減らそう > 他者からの評価は蜜の味](https://takibi-fire.com/slides/fire-validation-so-sweet/11?clicks=5)
-
 <style scoped>
+.slidev-layout h1 {
+  font-size: 32px;
+}
 .slidev-layout {
   font-size: 135%;
 }
 </style>
 
+# 再掲 6. **いずれ「いいね」が思ったより少ない時が来て苦しみ、注目目当てに走る**
+
+参考: [不幸せな習慣を減らそう > 他者からの評価は蜜の味](https://takibi-fire.com/slides/fire-validation-so-sweet/11?clicks=5)
+
 <div border border-yellow border-2 rounded-4 px-6 py-2 w-fit
-  absolute top-40 left-10 text-center data-id="begin" 
+  absolute top-50 left-10 text-center data-id="begin" 
 >
 いいねされると<br>嬉しくなって<br>もっと頑張る
 </div>
 
 <div border border-blue border-2 rounded-4 px-6 py-2 w-fit
-  absolute top-80 left-10 text-center data-id="reward" 
+  absolute top-90 left-10 text-center data-id="reward" 
 >
 頑張ってまた<br>いいねされた。<br>
 嬉しい!
@@ -452,7 +466,7 @@ SNSは「もともとの動機」を上書きしてしまう力がある
 </FancyArrow>
 
 <div border border-purple border-2 rounded-4 px-2 py-2 w-fit
-  absolute top-95 left-70 text-center data-id="bias" 
+  absolute top-105 left-70 text-center data-id="bias" 
 >
 
 **自己バイアスの強化**<br>
@@ -461,7 +475,7 @@ SNSは「もともとの動機」を上書きしてしまう力がある
 </div>
 
 <div border border-purple border-2 rounded-4 px-2 py-2 w-fit
-  absolute top-40 left-70 text-center data-id="simulation" 
+  absolute top-50 left-70 text-center data-id="simulation" 
 >
 
 **脳のシミュレーション**<br>
@@ -472,14 +486,14 @@ SNSは「もともとの動機」を上書きしてしまう力がある
 <FancyArrow static from="[data-id=reward]@right" to="[data-id=bias]@left" color="purple" arc="0" width=7 />
 
 <div border-yellow bg-yellow bg-opacity-20 border-2 rounded-4 px-2 w-fit
-  absolute top-80 left-90 data-id="over"
+  absolute top-90 left-90 data-id="over"
 >
 
 **高まる期待**
 </div>
 
 <div border border-red border-2 rounded-4 px-2 py-2 w-fit
-  absolute top-40 left-150 data-id="fact" 
+  absolute top-50 left-150 data-id="fact" 
 >
 
 でも実際思ったよりも<br>評価されなかった
@@ -487,8 +501,8 @@ SNSは「もともとの動機」を上書きしてしまう力がある
 結局は他人は<br>コントロールできない
 </div>
 
-<div border border-red bg-red bg-opacity-20 border-2 rounded-4 px-2 py-2 w-fit
-  absolute top-100 left-160 data-id="gap" text-center
+<div border border-red bg-red bg-opacity-20 border-2 rounded-4 px-2 w-fit
+  absolute top-105 left-160 data-id="gap" text-center
 >
 
 期待からの激しい落差<br>
@@ -712,16 +726,19 @@ FIREのタイミング前後で自分を語りたくなる
 
 # 再掲 8. 他者から評価された時に気をつけること
 
-参考: [不幸せな習慣を減らそう > 他者からの評価は蜜の味](https://takibi-fire.com/slides/fire-validation-so-sweet/8)
-
 <div border border-purple bg-purple-500 bg-opacity-10
-  rounded-4 px-6 py-2 w-fit text-6.4
+  rounded-4 px-6 py-2 w-fit text-6.4 mb-10
 >
+
 <span text-green-500 font-bold>◎</span> ほめられて喜ぶことは良いこと<br>
-<span text-red-500 font-bold>✘</span>「自分がこうすると褒められるだろうと思って行動すること」 は危険
+**<span text-red-500 font-bold>✘</span>「自分がこうすると褒められるだろうと思って行動すること」 は危険**
 </div>
 
-<div mt-20 text-center border-2 border-green bg-green-500 bg-opacity-20
+<hr/>
+
+参考: [不幸せな習慣を減らそう > 他者からの評価は蜜の味](https://takibi-fire.com/slides/fire-validation-so-sweet/8)
+
+<div mt-10 text-center border-2 border-green bg-green-500 bg-opacity-20
   rounded-4 m-5 mx-auto px-6 py-2 w-200
   text-9>
 初心を忘れずに行きましょう・生きましょう
@@ -737,11 +754,9 @@ FIREのタイミング前後で自分を語りたくなる
 
 # FIRE後の教科書は評価されなくてもいいものです
 
-参考: [FIRE後の教科書を作ったきっかけ](https://takibi-fire.com/slides/fire-textbook-reason/)
+FIRE後の教科書は、元々FIREコミュニティ内でFIRE仲間達向けに書いた<br>スライドを外に出しているものです。
 
-* FIRE後の教科書は、元々FIREコミュニティ内でFIRE仲間達向けに書いた<br>スライドを外に出しているものです。
-
-参考: [他者からの評価は蜜の味〜他者評価から脱却しよう](https://takibi-fire.com/slides/fire-validation-so-sweet/16) <carbon-ArrowRight/> 「自分軸で生きる」
+* 参考: [FIRE後の教科書を作ったきっかけ](https://takibi-fire.com/slides/fire-textbook-reason/)
 
 <div border border-purple bg-purple-500 bg-opacity-10
   rounded-4 m-5 mx-auto px-6 py-2 w-fit
@@ -755,6 +770,8 @@ FIREのタイミング前後で自分を語りたくなる
 **この質問に「はい」と思ったから外部に公開することにしました。**
 
 </div>
+
+* 参考: [他者からの評価は蜜の味〜他者評価から脱却しよう → 自分軸で生きる](https://takibi-fire.com/slides/fire-validation-so-sweet/16)
 
 ---
 
