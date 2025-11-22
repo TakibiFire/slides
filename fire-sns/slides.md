@@ -786,7 +786,7 @@ FIREのタイミング前後で自分を語りたくなる
 
 # それでは次回、[「マウンティングに気をつけよう」](https://takibi-fire.com/slides/fire-mounting/)へどうぞ
 
-様々なFIREマウンティングを紹介します！
+さらに一歩深堀りして様々なFIREマウンティングを紹介します！
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * 不幸せな習慣を減らそう
