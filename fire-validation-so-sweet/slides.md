@@ -676,8 +676,6 @@ FIREしてからは、お金のために働く必要がなくなった。本当�
 
 # それでは次回、[SNS・情報発信の沼に注意しよう](http://takibi-fire.com/slides/fire-sns/) へどうぞ
 
-2025/11/15: 未完
-
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * 不幸せな習慣を減らそう
     <SectionLinks section="happiness2" />
