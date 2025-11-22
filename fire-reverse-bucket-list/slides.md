@@ -686,7 +686,7 @@ layout: cover
 
 # まとめ
 
-* バケットリストの問題点を紹介した
+* バケットリストの問題点を紹介しました
   * 安易に作ると **<span text-red>「自分の本当にやりたいこと」から外れてきやすい</span>**
 * **過去型、未来型の手法は違うが、リバースバケットリストのやりたいことは同じ**
   * 「自分を深く知る」
@@ -698,9 +698,15 @@ layout: cover
 
 ---
 
-# それでは次回、「将来の心配をやめよう」へどうぞ
+<style scoped>
+.slidev-layout {
+  font-size: 140%;
+}
+</style>
 
-2025/11/15: 未完
+# 「不幸せな習慣を減らそう」の章は以上となります。<br>次回、第3章[「お金・豊かさと幸福」](https://takibi-fire.com/slides/fire-money-vs-happiness/)へどうぞ
+
+「幸福の性質を知ろう」の章が始まります。
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * 不幸せな習慣を減らそう
