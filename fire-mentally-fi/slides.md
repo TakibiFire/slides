@@ -319,22 +319,29 @@ FIRE を達成してやりたかったことでしょうか？
 .slidev-layout h1 {
   font-size: 32px;
 }
+.slidev-layout {
+  font-size: 130%;
+}
 </style>
 
 # 原因4. 資産を語りたくなっちゃう・認められたくなっちゃう
 
-FIREできる人は少ないです。あなたはすごい人です。
-
-でもあなたの周りにFIREに理解がある人は少ないですよね。お金の話をするのもはばかられたり、働かないことを悪く思う人も多いです。
+FIREできる人は少ないです。あなたはすごい人です。でもあなたの周りにFIREに理解がある人は少ないですよね。お金の話をするのもはばかられたり、働かないことを悪く思う人も多いです。
 
 **そんなあなたを認めてくれる絶好の場所がSNSや動画です。**
 
-"〇〇歳で〇〇円で FIRE！" を SNS で発信すれば人は集まってきます。<br>
+"〇〇歳で〇〇円で FIRE！" などと SNS で発信すれば人は集まってきます。<br>
 
 **資産推移をポストして皆から「いいね」をもらうと、認められている感覚が得られるでしょう。**
-これはハマるとそう簡単には抜け出せない脳内報酬の沼に陥ります。
+これはハマるとそう簡単には抜け出せない沼に陥ります。
 
-参考: [他者からの評価は蜜の味〜他者評価から脱却しよう](http://takibi-fire.com/slides/fire-validation-so-sweet/)
+<fieldset border-red border-2 rounded-4 bg-red-500 bg-opacity-20 px-8 py-2 w-fit m-auto>
+  <legend ml-4>たくさん関連スライドがあります (それだけ注意してほしい)</legend>
+
+* [他者からの評価は蜜の味〜他者評価から脱却しよう](https://takibi-fire.com/slides/fire-validation-so-sweet/)
+* [SNS・情報発信の沼に注意しよう](https://takibi-fire.com/slides/fire-sns/)
+* [マウンティングに気をつけよう](https://takibi-fire.com/slides/fire-mounting/)
+</fieldset>
 
 ---
 layout: section
