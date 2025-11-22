@@ -100,6 +100,10 @@ const sections: {
         title: 'SNS・情報発信の沼に注意しよう',
       },
       {
+        id: 'fire-mounting',
+        title: 'マウンティングに気をつけよう',
+      },
+      {
         id: 'fire-reverse-bucket-list',
         title: 'バケットリストの欠点とリバースバケットリストの紹介',
       },
