@@ -92,6 +92,12 @@ function validate() {
     echo "Validation Error: og:title in '$index_html' does not match the title in '$slide_dir/slides.md'." >&2
     exit 1
   fi
+
+  # 7. slides.md does not contain "TODO"
+  if grep -q "TODO" "$slide_dir/slides.md"; then
+    echo "Validation Error: '$slide_dir/slides.md' contains 'TODO'. Please resolve all TODOs before deploying." >&2
+    exit 1
+  fi
 }
 
 # $1: directory name.
