@@ -70,9 +70,13 @@ FIREをしていない人にも、FIREしてからの生活を想像するのに
 layout: fact
 ---
 
-2025/11/22: <span color-red>「FIRE後の教科書」は建設途中です (33%完了)。</span>
+<div text-8>
 
-コンテンツを足しながらリンクも増やしていきます。
+2025/11/22: <span color-orange>FIRE後の教科書は建設途中です (36%完了)。</span>
+
+毎日コンテンツを足しながらリンクも増やしていきます。
+
+</div>
 
 <!--
 `asterisc ` が m 個
@@ -144,7 +148,7 @@ ul + h1 {
 
 ---
 
-# FIRE幸福論 2 & 3
+# FIRE幸福論 3
 
 <style scoped>
 .slidev-layout {
@@ -153,13 +157,6 @@ ul + h1 {
 </style>
 
 <div grid grid-cols-2 gap-6 m-auto><div>
-
-<h2>2. 不幸せな習慣を減らそう</h2>
-
-* 目標は視野を狭める → 視野の広げかた
-* 誘惑を知って防御力を高めよう
-
-</div><div>
 
 <h2>3. 幸福の性質を知ろう</h2>
 
