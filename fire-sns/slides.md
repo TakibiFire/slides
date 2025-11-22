@@ -609,9 +609,8 @@ FIREしてからは、お金のために働く必要がなくなった。本当�
 <div v-click=4 m-auto w-fit text-center>
 
 次回[マウンティングに気をつけよう](https://takibi-fire.com/slides/fire-mounting/)
-の回で、<br>このような例をたっぷり紹介していきます (2025/11/21:未完)
-
-赤ペン先生が直していきます。
+の回で、<br>FIRE達成者の一部にありがちな<br>
+マウンティングの例をたっぷり紹介していきます。
 
 </div>
 
