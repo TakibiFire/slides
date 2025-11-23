@@ -937,3 +937,15 @@ from="[data-id=src3]@left" to="[data-id=dst3]@bottomright" color="orange" arc="0
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * 不幸せな習慣を減らそう
     <SectionLinks section="happiness2" />
+
+---
+
+# おまけ
+
+自分が一番「趣深いマウンティング」だと思ったのはこれです。
+
+<FakeX text-4.7 w-160 m-8 relative left-40>
+  <template #content>
+庭のハーブが育ってきたので、昼から自家製ミントティー作り。お金をかけなくても、時間をかければ生活はこんなにも豊かになる。丁寧な暮らし、最高です。
+  </template>
+</FakeX>
