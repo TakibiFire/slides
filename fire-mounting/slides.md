@@ -64,12 +64,10 @@ h1, p {
 
 <span text-10>今回はおふざけ回です！</span>
 
-<br>
-
 * なのに今までで一番長いよ！
 * 前回[「SNS・情報発信の沼に注意しよう」](https://takibi-fire.com/slides/fire-sns/)は真面目
   * SNSの注意として「投稿がいいね目的になって<br>いく」パターンを解説しました
-* その成れの果て、FIRE民がやりがちなSNSでの<br>マウンティングを見ていきましょう
+* その成れの果て、FIRE民がやりがちなSNSでの<br>マウンティングをたくさん見ていく鑑賞会です
   * AI に作ってもらいました
 * 以前の[note記事](https://note.com/takibi333/n/ne91ff3572f90)の完全リニューアル版です
 
@@ -897,13 +895,53 @@ from="[data-id=src3]@left" to="[data-id=dst3]@bottomright" color="orange" arc="0
 
 ---
 
+# **<span text-red>そしてこのスライドは <img src="https://takibi-fire.com/slides/public/imgs/takibi.png" w-12 inline /> の自戒でもあります</span>**
+
+* 自分はFIRE直後は資産を公開していました
+* 資産上下もポストしていました
+* 幸せポエムも書いたかもしれません
+
+<div v-click=1 border-orange border-2 bg-orange-500 bg-opacity-20 rounded-4 w-fit
+  p-2 text-5
+  absolute top-30 left-140>
+FIREコミュニティに属する時<br>
+最初の認知、スタートダッシュが<br>
+大事だと思った
+</div>
+<div v-click=2 border-pink border-2 bg-pink-500 bg-opacity-20 rounded-4 w-fit
+  p-2 text-5
+  absolute top-60 left-130>
+資産増えると言いたい気持ちは止められない。<br>
+それでいてすましている自分かっこいいを演出
+</div>
+
+<div v-click=3 mt-14>
+
+* そんな時「マウンティング大全」を<br>読んで「あっこれ自分だ」と反省し<br>削除しました
+</div>
+
+<div v-click=4 border-blue border-2 bg-blue-500 bg-opacity-20 rounded-4 w-fit
+  p-2 text-5
+  absolute top-82 left-130>
+
+いつの間にか「自分はこうなりたくないな」<br>という人になっていたことに気づいた
+</div>
+<div v-click=5 border-purple border-2 bg-purple-500 bg-opacity-20 rounded-4 w-fit
+  text-5 p-2
+  absolute top-110 left-35>
+
+実は今回のスライドは「今後繰り返さないぞ」という自分への戒めでもあります
+</div>
+
+---
+
 # 発信の時の表情に気をつけてみてもいいかも
 
 <div flex>
 <img src="/imgs/mounting.jpeg" w-120 inline-block/>
 
 <div m-auto>
-送信前に、この「ニチャァ」感を<br>出していたら要注意かも？
+昔の自分は送信前に、<br>この「ニチャァ」感を<br>出していたのかもしれません
 </div>
 </div>
 
