@@ -66,6 +66,7 @@ h1, p {
 
 <br>
 
+* なのに今までで一番長いよ！
 * 前回[「SNS・情報発信の沼に注意しよう」](https://takibi-fire.com/slides/fire-sns/)は真面目
   * SNSの注意として「投稿がいいね目的になって<br>いく」パターンを解説しました
 * その成れの果て、FIRE民がやりがちなSNSでの<br>マウンティングを見ていきましょう
@@ -248,9 +249,10 @@ layout: cover
 
 # そしてマウンティングへ
 
-<img src="/imgs/mounting.jpeg" w-100/>
-
-
+<div w-100>
+  <img src="/imgs/mounting.jpeg" w-100/>
+  <div text-3 text-center>生成画像</div>
+</div>
 
 ---
 layout: section
@@ -409,7 +411,7 @@ FIREは雲の上の話じゃなくて、誰でも再現可能な「技術」で�
 layout: center
 ---
 
-いらっとしましたか？
+いらっとしましたか？<br>
 
 <br>
 
@@ -517,6 +519,37 @@ _平日の昼間の優雅さや、カレンダー（月曜日の憂鬱など）�
 }
 </style>
 
+# <span text-orange>時間・自由・ライフスタイル マウント</span>
+
+<FakeX text-4.7 w-160 m-8 relative left-40>
+  <template #content>
+予定が何もない手帳を見るのが好き。空白は「暇」じゃなくて「自由の証」。何者にもなろうとしない、ただ在るだけの幸せを噛み締めてる。
+  </template>
+</FakeX>
+
+<FakeX text-4.7 w-160 m-8 relative left-20>
+  <template #content>
+ふと思い立って、明日から家族で沖縄に行くことに。安いチケットと空いてるビーチ、そして子供の笑顔。会社を辞めて手に入れたのは、こういう「選択の自由」だったんだな。
+  </template>
+</FakeX>
+
+<FakeX text-4.7 w-160 m-8 relative left-0>
+  <template #content>
+今朝は二度寝して、起きたら10時だった。誰にも怒られないし、予定変更の連絡もいらない。「自分の生理的欲求」を最優先にできる生活、体調が劇的に良くなりました。
+  </template>
+</FakeX>
+
+---
+
+<style scoped>
+.slidev-layout h1 {
+  font-size: 120%;
+  border: 2px outset white;
+  border-radius: 3px;
+  padding: 10px 12px;
+}
+</style>
+
 # <span text-yellow>キャリア・仕事観 マウント</span>
 
 _組織に縛られない働き方や、嫌な仕事を断れる「拒否権」を持っていることを<br>アピールする行為。_
@@ -538,7 +571,7 @@ _「社畜」を見下す視点と、自分の仕事を「高尚な遊び」と�
 
 <FakeX text-4.7 m-8 w-160 relative left-0>
   <template #content>
-まだ「会社」なんていうオワコン組織に依存してるの？ 個人で稼ぐ力をつけないと、45歳定年制が導入された瞬間に人生詰むよ。準備できてる人だけが生き残る時代。
+まだ「御社」に命握られてるの？ 資産があれば嫌な上司に「辞めます」の一言で終わるのに、そのカードを持たずに丸腰で戦うとか、勇気じゃなくて無謀だよ。
   </template>
 </FakeX>
 
@@ -567,21 +600,21 @@ _「社畜」を見下す視点と、自分の仕事を「高尚な遊び」と�
 
 # <span text-yellow>キャリア・仕事観 マウント</span>
 
-<FakeX text-4.7 w-160 m-8 relative left-30>
+<FakeX text-4.7 w-160 m-8 relative left-20>
   <template #content>
 趣味で始めたブログが、気づけば現役時代の月収を超えていた。好きなことを仕事にするって綺麗事だと思ってたけど、心に余裕がある状態で取り組めば案外実現できるものだね。
   </template>
 </FakeX>
 
-<FakeX text-4.7 w-160 m-8 relative left-0>
+<FakeX text-4.7 w-160 m-8 relative left-40>
   <template #content>
-嫌な仕事はしない、付き合いたい人とだけ付き合う。わがままに見えるかもしれないけど、ストレスフリーな環境で仕事をする方が、結果的にパフォーマンスも上がるんだよね。
+今日は天気が良いから、予定していたPC作業をキャンセルして公園へ。誰にも許可を取らずにスケジュールを変更できる、この「裁量権」こそが最大の報酬です。
   </template>
 </FakeX>
 
-<FakeX text-4.7 w-160 m-8 relative left-50>
+<FakeX text-4.7 w-160 m-8 relative left-0>
   <template #content>
-前職の部下と久しぶりにランチ。「課長が辞めてから職場が大変です」と聞いて心が痛むけど、一度きりの人生、会社のためじゃなく家族と自分のために使わせてもらうよ。
+元同僚と食事へ。「忙しい」が口癖の彼らを見て、かつての自分を重ねてしまった。それぞれの幸せがあるけれど、僕は今の穏やかな日々を手放せないな。
   </template>
 </FakeX>
 
@@ -678,6 +711,8 @@ layout: center
 
 投稿の内容は全部AIが作ったものですが、<br><span underline decoration-purple>現実のXでもありそうなものを選びました。</span>
 
+今から<span text-red>赤ペン先生が添削していきます。</span>
+
 ---
 
 # だいたい「一言二言余計」が多いです 1.
@@ -692,7 +727,7 @@ layout: center
   absolute top-65 right-10>
 
 さりげない資産アピール。<br>
-「書いておきたいな」という気持ちの現われ。<br>
+「書いておきたいな」という気持ちの表れ。<br>
 「資産があっても奥さんを大事にしていて<br>すごいですね！」という反応をほのかに期待
 </div>
 
@@ -741,10 +776,12 @@ from="[data-id=src2]@top" to="[data-id=dst2]@left" color="orange" arc="0.1" />
 </div>
 
 <div v-click=2 data-id="src3" border-1 border-orange rounded-4 px-4 text-5 w-fit
-  absolute top-60 left-20>
+  absolute top-60 left-10>
 
 あまりの配慮の無さ。<br>
-これは資産家ばかりの<br>コミュニティでは絶対に<br>言わないフレーズ。
+疑問文にすることで「自分が<br>
+煽っているわけではない」感を<br>
+演出する分余計煽り力が高い
 </div>
 
 <div v-click=2 data-id="src4" border-1 border-orange rounded-4 px-4 text-5 w-fit
@@ -775,6 +812,69 @@ from="[data-id=src4]@right" to="[data-id=dst4]@left" color="orange" arc="0.1" />
 
 ---
 
+# だいたい「一言二言余計」が多いです 3.
+
+<FakeX text-4.7 w-160 m-8 relative left-40>
+  <template #content>
+<span v-mark.underline.orange=1 data-id="dst1">予定が何もない手帳を見るのが好き。</span>空白は「暇」じゃなくて<br><span v-mark.underline.orange=1 data-id="dst2">「自由の証」</span>。<span v-mark.underline.orange=1 data-id="dst22">何者にもなろうとしない</span>、ただ在るだけの幸せを<br><span v-mark.underline.orange=1 data-id="dst3">噛み締めてる。</span>
+  </template>
+</FakeX>
+
+<div v-click=2 data-id="src1" border-1 border-orange rounded-4 px-4 text-5 w-fit
+  absolute top-30 left-10>
+
+ほんとに？<br>
+わざわざ空の<br>
+手帳見るの？
+</div>
+
+<div v-click=2 data-id="src11" border-1 border-orange rounded-4 px-4 text-5 w-fit
+  absolute top-65 left-10>
+
+少なくとも手帳より<br>
+SNS好きでしょ？
+</div>
+
+<div v-click=2 data-id="src2" border-1 border-orange rounded-4 px-4 text-5 w-fit
+  absolute top-65 left-90>
+
+ポエム
+</div>
+
+<div v-click=2 data-id="src3" border-1 border-orange rounded-4 px-4 text-5
+  absolute top-65 right-10 w-100>
+
+本当に噛み締めている人は<br>
+携帯持ってこんなポストしません
+</div>
+
+<FancyArrow v-click=2
+from="[data-id=src1]@right" to="[data-id=dst1]@bottomleft" color="orange" arc="-0.1" />
+<FancyArrow v-click=2
+from="[data-id=src11]@right" to="[data-id=dst1]@bottomleft" color="orange" arc="-0.1" />
+
+<FancyArrow v-click=2
+from="[data-id=src2]@top" to="[data-id=dst2]@bottom" color="orange" arc="0.1" />
+<FancyArrow v-click=2
+from="[data-id=src2]@top" to="[data-id=dst22]@bottom" color="orange" arc="0.1" />
+<FancyArrow v-click=2
+from="[data-id=src3]@left" to="[data-id=dst3]@bottomright" color="orange" arc="0.1" />
+
+<div v-click=3 flex mt-37 ml-30>
+
+<img src="/imgs/mounting.jpeg" w-70/>
+
+<div m-2 text-5>
+たぶん本当はこんな顔している。<br>
+投稿ネタを探し、空の手帳に気づいて<br>
+「あ、これで書けそう」と思った。<br>
+投稿前に「いい文章書けたな〜」って思ってそう。
+</div>
+
+</div>
+
+---
+
 <style scoped>
 .slidev-layout {
   font-size: 140%;
@@ -785,36 +885,15 @@ from="[data-id=src4]@right" to="[data-id=dst4]@left" color="orange" arc="0.1" />
 
 「自分はこんなこと書かないよ」と思っていても、似たトピックを語ることはありませんでしたか？
 
-マウンティングは、気をつけないとそうなっていきやすいです。
-
-<fieldset border-2 border-purple rounded-4 p-2 w-fit m-auto>
-  <legend ml-8>今回のメッセージ</legend>
-
-* 人の評価を気にして、投稿の方向性を歪めていくと、マウンティングに<br>向かう可能性がある。特にFIRE達成者は。
-* FIRE達成者のする話は、自分が気づかなくても、誰かにとっては<br>マウンティングになる場合がある
-* 自分のフォーロワーだけにメッセージを伝えているつもりでも、<br>拡散されると、あなたの投稿がムカつく人に届く可能性がある
-
-</fieldset>
-
----
-
-# まとめ。アドバイスの再掲
-
-投稿前に自問自答しましょう
-
-<div border border-purple bg-purple-500 bg-opacity-10
-  rounded-4 m-5 mx-auto px-6 py-2 w-fit
-  text-center text-9>
-
-「フォローワーが3人だったら<br>その発信をしますか？」<br>
-「みんなが10億持っているコミュニティで<br>その発信をしますか？」
+<div border-2 border-green rounded-2 w-fit m-auto p-2>
+マウンティングは、AIの振り見て我が振り直しましょう。
 </div>
 
-<div text-7 text-center>
+<br>
 
-**もし発信しないのであれば、あなたのポストは、<br>いいねの報酬が欲しい脳みそが作ったもの。**
+「こんなポスト見たことある」かもと思ったあなたや、今回のスライドを真面目に読んだあなたは**マウンティング感度が高くなっています！**
 
-</div>
+「あぁ〜リタイア生活マウントきたわ〜」なんて思えるようになってきましたね！
 
 ---
 
@@ -824,13 +903,36 @@ from="[data-id=src4]@right" to="[data-id=dst4]@left" color="orange" arc="0.1" />
 <img src="/imgs/mounting.jpeg" w-120 inline-block/>
 
 <div m-auto>
-送信前に、この「ニチャァ」感を<br>出していたら要注意
+送信前に、この「ニチャァ」感を<br>出していたら要注意かも？
 </div>
 </div>
 
 ---
 
+# 今回のメッセージ
+
+<fieldset border-2 border-purple rounded-4 p-2 w-fit m-auto text-5>
+
+* 人の評価を気にして、投稿の方向性を歪めていくと、マウンティングに向かう可能性がある。特にFIRE達成者はマウンティング属性が高い
+* FIRE達成者のする話は、自分が気づかなくても、誰かにとってはマウンティングになる場合がある
+* 自分のフォーロワーだけにメッセージを伝えているつもりでも、拡散されると、あなたの投稿がムカつく人に届く可能性がある
+* <span text-red>「マウンティングして気持ちいい」・「手に入れた『いいね』で気持ちいい」は両方とも一瞬だけの短期的満足</span>
+* そもそも「FIRE後の教科書」のスタンスとして、FIRE後にSNSにのめり込むことを「避けるべき不幸せな習慣」としています。
+  * 参考: [他者からの評価は蜜の味](https://takibi-fire.com/slides/fire-validation-so-sweet/)・[SNS・情報発信の沼に注意しよう](https://takibi-fire.com/slides/fire-sns/)
+
+</fieldset>
+
+---
+
+<style scoped>
+.slidev-layout {
+  font-size: 140%;
+}
+</style>
+
 # それでは次回、[「バケットリストの欠点とリバースバケットリストの紹介」](https://takibi-fire.com/slides/fire-reverse-bucket-list/)へどうぞ
+
+次回は「不幸せな習慣を減らそう」の最終回。真面目回です
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * 不幸せな習慣を減らそう
