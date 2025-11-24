@@ -469,9 +469,7 @@ blockquote {
 
 ---
 
-# それでは次回「時間・年齢と幸福」をどうぞ
-
-2025/11/22: 未完
+# それでは次回[「年齢と幸福」](https://takibi-fire.com/slides/fire-age-vs-happiness/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness3" withSection/>
