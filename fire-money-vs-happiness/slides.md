@@ -530,9 +530,7 @@ FIRE後、成金コミュニティに行くと幸福度が下がるかも
 
 ---
 
-# 良ければ次回[「お金・豊かさと幸福」](https://takibi-fire.com/slides/fire-money-vs-happiness/)をどうぞ
-
-2025/11/18: 未完
+# それでは次回[「仕事・キャリアと幸福」](https://takibi-fire.com/slides/fire-job-vs-happiness/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness3" withSection/>
