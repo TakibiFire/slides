@@ -539,9 +539,8 @@ layout: section
 
 ---
 
-# それでは次回「幸福は追求するものではない」をどうぞ
-
-2025/11/24: 未完
+# それでは次回[「幸福は追求するものではない」](https://takibi-fire.com/slides/fire-seeking-happiness/)
+をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness3" withSection/>
