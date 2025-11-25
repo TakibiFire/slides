@@ -126,7 +126,7 @@ const sections: {
       },
       {
         id: 'fire-relationship-vs-happiness',
-        title: '健康と幸福',
+        title: '人間関係と幸福',
       },
       {
         id: 'fire-age-vs-happiness',
