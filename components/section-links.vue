@@ -132,6 +132,10 @@ const sections: {
         id: 'fire-age-vs-happiness',
         title: '年齢と幸福',
       },
+      {
+        id: 'fire-seeking-happiness',
+        title: '幸福は追求するものではない',
+      },
     ]
   }
 };
