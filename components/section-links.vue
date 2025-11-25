@@ -128,6 +128,10 @@ const sections: {
         id: 'fire-relationship-vs-happiness',
         title: '健康と幸福',
       },
+      {
+        id: 'fire-age-vs-happiness',
+        title: '年齢と幸福',
+      },
     ]
   }
 };
