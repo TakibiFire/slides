@@ -161,7 +161,7 @@ layout: cover
 
 <div absolute right-30 top-70>
 
-人間関係と幸福度が<br>
+年齢と幸福度が<br>
 どう関係するかについて<br>
 心理学の研究結果を<br>
 紹介していきます
