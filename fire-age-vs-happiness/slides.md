@@ -543,7 +543,7 @@ layout: section
 をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="happiness3" withSection/>
+  * <SectionLinks text-5 section="happiness3" withSection/>
 
 ---
 

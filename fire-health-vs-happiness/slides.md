@@ -485,7 +485,7 @@ blockquote {
 # それでは次回[「人間関係と幸福」](https://takibi-fire.com/slides/fire-relationship-vs-happiness/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="happiness3" withSection/>
+  * <SectionLinks text-5 section="happiness3" withSection/>
 
 ---
 
