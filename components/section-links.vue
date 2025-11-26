@@ -136,6 +136,10 @@ const sections: {
         id: 'fire-seeking-happiness',
         title: '幸福は追求するものではない',
       },
+      {
+        id: 'fire-definition-of-happiness',
+        title: '幸福の要素と定義〜「幸福」よりも「良い人生」を目指そう',
+      },
     ]
   }
 };
