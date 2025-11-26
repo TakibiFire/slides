@@ -373,9 +373,7 @@ FIRE幸福論第3章「幸福の性質を知ろう」では、ここまで幸福
 
 ---
 
-# それでは次回、「幸福の要素と定義」をどうぞ
-
-2025/11/25: 未完
+# それでは次回、[幸福の要素と定義〜「幸福」よりも「良い人生」を目指そう](https://takibi-fire.com/slides/fire-definition-of-happiness/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness3" withSection/>
