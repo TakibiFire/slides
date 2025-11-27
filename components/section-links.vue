@@ -145,6 +145,15 @@ const sections: {
         title: '幸福の要素と定義〜「幸福」よりも「良い人生」を目指そう',
       },
     ]
+  },
+  happiness4: {
+    title: '幸せを増やす実践',
+    articles: [
+      {
+        id: 'fire-train-happiness',
+        title: '幸福は鍛えられるスキル',
+      }
+    ]
   }
 };
 
