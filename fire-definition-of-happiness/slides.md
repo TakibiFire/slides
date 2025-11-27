@@ -815,9 +815,7 @@ layout: center
 
 ---
 
-# それでは第4章「幸せを増やす実践」へどうぞ
-
-2025/11/26: 未完
+# それでは第4章[「幸せを増やす実践 > 幸福は鍛えられるスキル」](https://takibi-fire.com/slides/fire-train-happiness/)へどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks text-5 section="happiness3" withSection/>

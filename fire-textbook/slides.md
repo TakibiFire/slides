@@ -179,8 +179,7 @@ ul + h1 {
 
 <h2>4. 幸せを増やす実践</h2>
 
-* 幸福は鍛えられるスキル
-* 幸福のスキルの優先順位
+* [幸福は鍛えられるスキル](https://takibi-fire.com/slides/fire-train-happiness/)
 * 自分の強みを知る (VIA Strength)
 * 幸福度に直結する強みを鍛えよう (感謝, 愛情, 好奇心, 熱意, 希望)
 
