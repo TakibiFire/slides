@@ -12,7 +12,7 @@ The primary task is to update the `<title>`, `<meta name="description">`, `<meta
 3.  **Description Generation**:
     *   The `description` for both `<meta name="description">` and `<meta property="og:description">` should be a concise summary of the `slides.md` content.
     *   The summary must accurately reflect the core message and key points of the slide deck.
-    *   It should be approximately 100-160 characters in Japanese, providing a clear overview for search engines and social media.
+    *   It should provide a clear overview for search engines and social media.
 4.  **Keywords Extraction**:
     *   The `keywords` for `<meta name="keywords">` should be extracted directly from the main themes and specific terminology used within the `slides.md` content.
     *   Aim for 5-8 relevant keywords in Japanese.
