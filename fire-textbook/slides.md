@@ -151,12 +151,12 @@ ul + h1 {
 # FIRE幸福論 3
 
 <style scoped>
-.slidev-layout {
-  font-size: 140%;
+ul {
+  column-count: 2;
 }
 </style>
 
-<div grid grid-cols-2 gap-6 m-auto><div>
+<div w-180 gap-6><div>
 
 <h2>3. 幸福の性質を知ろう</h2>
 
