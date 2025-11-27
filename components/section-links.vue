@@ -133,6 +133,10 @@ const sections: {
         title: '年齢と幸福',
       },
       {
+        id: 'fire-freedom-to-make-life-choices-vs-happiness',
+        title: '人生選択の自由と幸福',
+      },
+      {
         id: 'fire-seeking-happiness',
         title: '幸福は追求するものではない',
       },
