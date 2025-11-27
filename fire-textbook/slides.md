@@ -72,7 +72,7 @@ layout: fact
 
 <div text-8>
 
-2025/11/27: <span color-orange>FIRE後の教科書は建設途中です (42%完了)。</span>
+2025/11/27: <span color-orange>FIRE後の教科書は建設途中です (44%完了)。</span>
 
 毎日コンテンツを足しながらリンクも増やしていきます。
 
