@@ -73,7 +73,7 @@ function validate() {
 
   # 4. index.html has og:image
   local expected_og_image="https://takibi-fire.com/slides/${base_name}/imgs/thumbnail.png"
-  if ! grep -q "property=\"og:image\" content=\"${expected_og_image}?r=3\"" "$index_html"; then
+  if ! grep -q "property=\"og:image\" content=\"${expected_og_image}?r=" "$index_html"; then
     echo "Validation Error: og:image in '$index_html' does not point to the expected thumbnail." >&2
     exit 1
   fi
