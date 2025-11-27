@@ -192,8 +192,6 @@ layout: cover
 
 豊かさのパラドックス
 
-幸福度を上げるお金の使い方
-
 <div absolute right-50 top-70>
 
 心理学で分かっていることを<br>紹介していきます
