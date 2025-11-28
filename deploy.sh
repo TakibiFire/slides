@@ -164,9 +164,16 @@ for arg in "$@"; do
     if "$DRY_RUN"; then
       RSYNC_DRY_RUN_OPT="--list-only"
     fi
+    # rsync public/google09a77623fab3ab83.html and public/sitemap.xml
+    rsync -av $RSYNC_DRY_RUN_OPT \
+      ./public/google09a77623fab3ab83.html \
+      ./public/sitemap.xml \
+      ~/projects/takibi-fire/public_root/slides/
+
+    # rsync public/imgs directory
     rsync -av --delete $RSYNC_DRY_RUN_OPT \
-      ./public/ \
-      ~/projects/takibi-fire/public_root/slides/public/
+      ./public/imgs/ \
+      ~/projects/takibi-fire/public_root/slides/public/imgs/
   elif [ -n "$resolved_name" ] && [ "$resolved_name" != "public" ]; then
     build "$resolved_name" "$resolved_name"
   fi
