@@ -9,31 +9,20 @@ const BASE_URL = 'https://takibi-fire.com/slides';
 const SITEMAP_FILE_PATH = 'public/sitemap.xml';
 
 /**
- * Get the last modification date of the newest file in a directory.
- * @param {string} dirPath - The path to the directory.
- * @returns {string|null} The last modification date in YYYY-MM-DD format, or null if an error occurs.
+ * Get the last modification date of the article's thumbnail.
+ * @param {string} dirPath - The path to the article's directory.
+ * @returns {string|null} The last modification date in YYYY-MM-DD format, or null if thumbnail.png is not found.
  */
 function getLatestModDate(dirPath) {
   try {
-    const files = fs.readdirSync(dirPath);
-    let latestModTime = 0;
-
-    for (const file of files) {
-      const filePath = path.join(dirPath, file);
-      const stats = fs.statSync(filePath);
-      if (stats.mtimeMs > latestModTime) {
-        latestModTime = stats.mtimeMs;
-      }
-    }
-
-    if (latestModTime > 0) {
-      const date = new Date(latestModTime);
-      return date.toISOString().split('T');
-    }
+    const thumbnailPath = path.join(dirPath, 'public/imgs/thumbnail.png');
+    const stats = fs.statSync(thumbnailPath);
+    const date = new Date(stats.mtimeMs);
+    return date.toISOString().split('T')[0]; // Format as YYYY-MM-DD
   } catch (error) {
-    console.error(`Error getting latest modification date for ${dirPath}:`, error);
+    console.log(`Skipping ${dirPath} from sitemap: thumbnail.png not found.`);
+    return null;
   }
-  return null;
 }
 
 function generateSitemap() {
