@@ -162,7 +162,7 @@ for arg in "$@"; do
   if [ "$resolved_name" == "public" ]; then
     RSYNC_DRY_RUN_OPT=""
     if "$DRY_RUN"; then
-      RSYNC_DRY_RUN_OPT="--list-only"
+      RSYNC_DRY_RUN_OPT="-ni"
     fi
     # rsync public/google09a77623fab3ab83.html and public/sitemap.xml
     rsync -av $RSYNC_DRY_RUN_OPT \
