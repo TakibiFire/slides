@@ -178,6 +178,18 @@ layout: cover
 
 ---
 
+# 健康とは？
+
+<fieldset basis-auto border-green border-2 rounded-6 bg-green-500 bg-opacity-20
+  w-fit px-6 py-2 col-span-5 m-auto text-9>
+  <legend ml-4>世界保健機関（WHO）の定義</legend>
+
+単に疾病または病弱でないということではなく、<br>
+**身体的、精神的、社会的に完全に良好な状態**
+</fieldset>
+
+---
+
 # 幸福と健康の相互作用
 
 <div border-1 border-red bg-red-500 bg-opacity-20 rounded-4 border-2 m-auto px-6 py-2
@@ -446,9 +458,9 @@ blockquote {
 
 幸福度を「前向き志向」「不安感」に分解した時:
 
-> 前向き志向に性別、年齢項といった本人がコントロール不能な属性以外で、**最も影響力が強いのが健康状態**
+> 前向き志向に性別、年齢項といった本人がコントロール不能な属性以外で、**<span text-8>最も影響力が強いのが健康状態</span>**
 
-> 不安感の決定要因において性別以外で**最も影響力が強いのが健康状態**
+> 不安感の決定要因において性別以外で **<span text-8>最も影響力が強いのが健康状態</span>**
 
 ---
 
