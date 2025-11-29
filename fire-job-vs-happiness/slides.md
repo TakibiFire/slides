@@ -512,6 +512,25 @@ This slide's content is based on the following sources:
 - Emotional Labor (Smiling): "Happiness and Your Immune System"
   Text: "When bus drivers' smiling and moods were monitored for two weeks, researchers found that the drivers' moods got worse and they withdrew from work when they faked smiles... However, when the drivers gave more authentic smiles... their moods and productivity improved."
 -->
+
+---
+
+# FIRE民へのアドバイス
+
+**仕事に人生の意味を感じている人、自己実現の場と捉えている人にとって、仕事は幸福感を与える大切なものです。** ただFIREしようとしている人・FIRE達成者には、仕事はそういう存在ではなかったのでしょう。
+
+<div border-1 rounded-2 px-4 border-purple bg-purple-500 bg-opacity-10
+  w-fit m-auto>
+あなたにとって仕事が幸福感を与えるものでなかったとしても、仕事をしている人をディスるような発言をするのは思いやりも尊敬もない行為です。
+
+<FakeX text-4.7 m-8 w-160 relative left-0>
+  <template #content>
+まだ「御社」に命握られてるの？ 資産があれば嫌な上司に「辞めます」の一言で終わるのに、そのカードを持たずに丸腰で戦うとか、勇気じゃなくて無謀だよ。
+  </template>
+</FakeX>
+
+こういうのは最悪ですので慎みましょう。<span text-5>参考: [マウンティングに気をつけよう](https://takibi-fire.com/slides/fire-mounting/)の回</span>
+</div>
   
 ---
 

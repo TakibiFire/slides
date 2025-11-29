@@ -503,7 +503,7 @@ FIRE達成者は自分の人生を<br>
 自分の価値観に基づいて行動する
 </div>
 <div>
-自己の可能性を実現していく感覚
+発達・成長する自分を感じる
 </div>
 <div v-click-hide=2>
 自分で人生を決めている感覚がある
@@ -556,13 +556,13 @@ FIRE達成者は自分の人生を<br>
   <div class="mid"><carbon-ArrowRight/></div>
   <div class="rgt">4章「自分の強みを知る」<br>8章「人生における意味」</div>
 
-  <div class="lef">自己の可能性を実現していく感覚</div>
+  <div class="lef">発達・成長する自分を感じる</div>
   <div class="mid"><carbon-ArrowRight/></div>
   <div class="rgt">4章「自分の強みを知る」</div>
 
   <div class="lef">自分に肯定的である</div>
   <div class="mid"><carbon-ArrowRight/></div>
-  <div class="rgt">カバーしないつもり...</div>
+  <div class="rgt">4章「自分の強みを知る」</div>
 
   <div class="lef">人生に意味や方向性を見出している</div>
   <div class="mid"><carbon-ArrowRight/></div>
