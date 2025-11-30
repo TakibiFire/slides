@@ -35,7 +35,7 @@ h1, p {
 
 # 健康と幸福
 
-〜心理学で分かっていること〜
+健康は本当に第一
 
 <div text-center mb-8 font-bold bg-gradient-to-r from-indigo-200 via-blue-500 to-purple-400 text-transparent bg-clip-text>
   <span text-13>FIRE後の教科書</span><br>
