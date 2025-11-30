@@ -102,3 +102,7 @@ thumbnail は 800 x 418
 * 目標は視野を狭める → 視野の広げかた
 * 将来の心配をやめよう
 
+Get Busy and Get Happy
+「退屈」を避けて活動的に過ごすことが、何もせずにいるよりも人を幸せにするという研究結果
+https://www.psychologytoday.com/us/blog/the-science-of-success/201007/get-busy-and-get-happy
+の話を退屈の章に入れてみる
