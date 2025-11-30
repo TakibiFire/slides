@@ -72,7 +72,7 @@ layout: fact
 
 <div text-8>
 
-2025/11/27: <span color-orange>FIRE後の教科書は建設途中です (44%完了)。</span>
+2025/11/30: <span color-orange>FIRE後の教科書は建設途中です (46%完了)。</span>
 
 毎日コンテンツを足しながらリンクも増やしていきます。
 
@@ -180,7 +180,7 @@ ul {
 <h2>4. 幸せを増やす実践</h2>
 
 * [幸福は鍛えられるスキル](https://takibi-fire.com/slides/fire-train-happiness/)
-* 自分の強みを知る (VIA Strength)
+* [自分の強みを知ろう (VIA Character Strength)](https://takibi-fire.com/slides/fire-via/)
 * 幸福度に直結する強みを鍛えよう (感謝, 愛情, 好奇心, 熱意, 希望)
 
 </div><div>
