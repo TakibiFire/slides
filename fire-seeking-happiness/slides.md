@@ -35,7 +35,7 @@ h1, p {
 
 # 幸福は追求するものではない
 
-じゃあ幸福って何するものなの？
+幸福は作るもの
 
 <div text-center mb-8 font-bold bg-gradient-to-r from-indigo-200 via-blue-500 to-purple-400 text-transparent bg-clip-text>
   <span text-13>FIRE後の教科書</span><br>
@@ -60,43 +60,18 @@ h1, p {
 
 ---
 
+<style scoped>
+.slidev-layout {
+  font-size: 175%;
+}
+</style>
+
 # 1枚で要約
 
-<div grid grid-cols-12 gap-6><div col-span-7 text-4.9>
-
-* 幸福は追求するものではない
-* 「幸福を目指すと不幸になる」という幸福のパラドックスを紹介 (2025年の研究)
-* では幸福とは目指すものでなければ、どうしたらいいのでしょうか
-* どう捉えるべきか解説します
-
-</div><div col-span-5 text-base>
-
-<fieldset border rounded-3 p-2>
-  <legend>自己紹介</legend>
-
-<div flex flex-row>
-  <div flex-0 mr-3>
-    <img src="https://takibi-fire.com/slides/public/imgs/takibi.png" w24 />
-  </div>
-  <div my-auto>
-    <ul>
-      <li>たきび (@takibi333)</li>
-      <li>40代</li>
-      <li>子供3人</li>
-    </ul>
-  </div>
-</div>
-
-- 東大 → GAFAM エンジニア → 2024 年 FIRE
-- 運動 1/3, 勉強 1/3, 育児 1/3
-- FI = FIRE したから資産のことは気にしない
-- RE = Retire Experiment! (リタイア実験)
-- 65 歳に「強くてニューゲーム」したい
-- 詳しくは[自己紹介](https://takibi-fire.com/slides/fire-self-introduction/)
-
-</fieldset>
-
-</div></div>
+* 「幸福を目指すと不幸になる」という幸福のパラドックスを紹介<br>(2025年の研究)
+* 幸福は追いかけるものでも、探すものでもなく、「作るもの」
+* 幸福は意義のある人生を目指す過程で出てくる「副産物」
+* 幸福は「鍛えられるスキル」
 
 <div text-base absolute bottom-8 left-8>スライド一覧を流し見したい人は左下から<carbon-apps />をクリック
 </div>
@@ -113,64 +88,38 @@ h1, p {
 
 <div grid grid-cols-2 gap-6><div>
 
-<SectionLinks section="happiness3" current="fire-seeking-happiness"/>
+<SectionLinks text-5.5 section="happiness3" current="fire-seeking-happiness"/>
 
-</div><div italic text-5.5 mt--5>
+</div><div mt--5>
 
-このシリーズでは、幸福に関連する要素、例えば健康・仕事・お金・人間関係などに関して心理学で分かっていることを紹介していきます。
+<div italic text-5.5>
+
+第3章では、幸福に関連する要素、例えば健康・仕事・お金・人間関係などに関して心理学で分かっていることを紹介します。
 
 「リタイア後幸福になりたい」と思う人はまず幸福の性質を知りましょう。それが分かれば、後々紹介する心理学による幸福の定義や、目指すべき方向が分かってくると思います。よくある誤解も解いていきます。
+</div>
 
-お付き合いいただけると嬉しいです
-<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" w-10 inline>
-
+<div text-4.5>
+序章はこちら<carbon-ArrowDown/><br>
+<SectionLinks section="intro" />
+</div>
 </div></div>
-
----
-
-<style scoped>
-.slidev-layout {
-  font-size: 115%;
-}
-</style>
-
-# 再掲: はじめに + お断り
-
-「FIRE幸福論」は最新の脳神経科学・心理学の動向を元に情報をお届けしたいと思っています。
-
-* 想定読者はFIRE達成者、定年退職者、FIREに興味がある人です
-* **私は脳神経科学・心理学の専門家ではありません**
-  * 信頼できる情報をお届けするよう努めていますが、内容に偏りや誤りが含まれる可能性があります
-  * [情報のソースには気を使っています](https://takibi-fire.com/slides/fire-textbook-reason/6)が個人の限界があることをご承知おき下さい
-* 宗教、哲学、スピリチュアルな話はできる限り排除しています
-  * でもそれらを否定しているわけではありません
-* 心理学は大衆の動向を対象にしています
-  * **「心理学で〇〇と言われている」という研究結果があっても、「当てはまらない人は変だ」「あなたはそうならなければならない」という解釈は誤りです。**
-  * 例: 「日本人男性の平均身長は170.8cm」が正しくても、170.8cmでない男性がほとんどですし、日本人男性は170.8cmであるべき、などと解釈しては絶対にいけません。
 
 ---
 layout: cover
 ---
 
-# <span font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-green-300 to-yellow-500>幸福は〇〇るもの</span>
+# <span font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-green-300 to-yellow-500>幸福を追求すると不幸になる</span>
 
-<span v-mark.underline.orange data-id="src">「幸福は追求するもの」って良く聞きますよね</span>
+<span v-mark.underline.orange data-id="src">「幸福は追求するもの」って良く聞きますよね。</span>
 
-でもタイトルで違うって言っちゃってて、どういうことでしょうか？...
+でも不幸になるとはどういうことでしょうか？
 
-じゃあ「幸福は見つけるもの」？
-
-はたまた「幸福はやってくるもの」？
-
-**〇〇には何が当てはまりますか？ 一つ決めてから次のスライドに行きましょう**
-
-<div v-click=1 data-id="dst" border-orange border-2 rounded-4 p-2 absolute right-5 top-20>
+<div v-click=1 data-id="dst" border-orange border-2 rounded-4 p-2 absolute right-5 top-70>
 会話では「幸福を追求する」と<br>
-あんまり言わないのになんで<br>
-聞いたことがあるんでしょうか？
+あまり言わないのに、なぜか<br>
+聞いたことありませんか？
 </div>
-<FancyArrow v-click=1
-  from="[data-id=src]@bottomright" to="[data-id=dst]@bottom" color=orange arc="-0.3" />
 
 ---
 
@@ -189,77 +138,90 @@ layout: cover
 
 ---
 
-# 幸福の直接的な追求の落とし穴
+# 幸福の追求の落とし穴
 
-**<span text-7 text-red>幸福を目標として直接的に追い求めることは多くの場合逆効果になる</span>**
+**<span text-7 text-red>「幸せになりたい！」を目標として追い求めると逆効果に</span>**
 
-<div my-5>
-幸福は感情や感覚に根ざした<u decoration-wavy>短命なもの</u>であり、直接的な追求は快楽順応を引き起こし、満足感を低下させる可能性がある。
-</div>
+<fieldset border-red border-2 rounded-6 bg-red-500 bg-opacity-20
+  m-auto px-6 mb-2 text-5.5 w-fit>
+  <legend ml-7>理由</legend>
 
-* **快楽順応による幸福の減衰**: 一時的な幸福感、喜びは持続しない
+外からの刺激で幸福感を得ようとしても、その場合の満足は<u decoration-wavy>一時的なもの</u>。それを続けると快楽順応を引き起こし、かえって満足感を低下させる可能性がある
+</fieldset>
+
+* **「快楽順応」**: 一時的な幸福感、喜びは持続しないこと
   * 昇進、転職、新しい家、タワマン、車、結婚
 
-参考: [短期的満足に注意しよう](https://takibi-fire.com/slides/fire-hedonia/)の回で解説
+参考: [短期的満足に注意しよう](https://takibi-fire.com/slides/fire-hedonia/)の回
 
 <img absolute bottom-10 right-10 src="https://takibi-fire.com/slides/public/imgs/tredmill.jpg" w-80/>
 
 ---
 
-# 幸福の直接的な追求の落とし穴
+# 幸福の追求の落とし穴
 
-* **目標達成後の空虚感**: 成功や目標達成は、達成感をもたらす一方で、内面の空虚さは満たさない
-* **外部からの評価に依存した幸福感は、かえって不安感を増大させる**ことがある
-  * 「次は大丈夫かな」　「次はどうしよう」
-  * 評価されなかった時のショックを想像
+* **目標達成の後に感じる空虚感**: 成功や目標達成は、一時の達成感をもたらす一方で、内面の空虚さは満たさない
+* **外部からの評価に依存した幸福感は、かえって不安感を増す**ことがある
+  * 「次は大丈夫かな」　「次はどうしよう」...のように<br>
+    評価されなかった時のショックを想像しがち
   * 加齢とともにいつかはパフォーマンスは落ちてくる
-    * 「目的」意識は大事だけど、「意味」が伴わないといけない
+* 「目的」を意識することは大事。ただしやることに<u decoration-orange decoration-wavy>自分にとっての「意味」</u>が伴わないといけない
 
 参考: [他者からの評価は蜜の味〜他者評価から脱却しよう](https://takibi-fire.com/slides/fire-validation-so-sweet/)の回で解説
 
 ---
 
+<style scoped>
+blockquote {
+  font-size: 100%;
+}
+</style>
+
 # 幸せのパラドックス: 幸せを目指すと不幸になる 1/2
 
-**「幸せを強く求めれば求めるほど意志力が枯渇し、甘い誘惑に負けて不健全な行動を取りやすくなる」 (A Kim 2025)**
-
-* 思考や感情を調整しようとする力は実は有限。
+* **重要: 思考や感情をコントロールしようとする意志力は、実は有限**
 * 幸せを求めることによって、その力が失われ、焦りやストレスが増幅される
 
 《その結果》
-* 甘い誘惑に負けて不健全な行動を取りやすくなる
-* 自己コントロール能力を奪っている
+
+<div grid grid-cols-12 gap-7><div col-span-7>
+
+* 甘い誘惑に負けて不健全な行動を<br>取りやすくなる
+* 自己コントロール能力が奪われる
 * <span text-orange>不幸を招く行動に没頭しやすくなる</span>
 * <span text-red>満足度を下げる</span>
 
-<div absolute top-110 left-140 right-10 text-4.5>
+
+</div><div col-span-5 text-4.5>
 
 参考: [ナゾロジー | 幸せを目指すと不幸になるのは「周りとの比較」のせいではなかった (2025)](https://nazology.kusuguru.co.jp/archives/172392)
-</div>
+
+> 「幸せを強く求めれば求めるほど意志力が枯渇し、甘い誘惑に負けて不健全な行動を取りやすくなる」 (A Kim 2025)
+</div></div>
 
 ---
 
 # 幸せを目指すと不幸になる 2/2
 
-**不幸になる原因は、他人との比較ではなく、意思力の消耗による没落。**
+**<span text-5.7>不幸になる原因は、意志力が減って自滅的な行動をとるせい</span>**
 
 <fieldset
   border-2 border-red rounded-4 bg-red-500 bg-opacity-20 px-3 py-2 w-fit mx-auto>
-  <legend ml-5>意志力を消耗させる要因</legend>
+  <legend ml-5 mb-3>幸福を目指そうとして意志力が減っていくパターン</legend>
 
 * 「もっとポジティブな気分にならなければならない」や<br>「これくらいでは満足してはいけない」と無理に自分を変えようとする
 * 過剰な楽観や過度な責任感
-* SNSをはじめとしたメディア環境
-  * より優れた「ハッピーライフ」「幸せ競争」をアピールし合う構造
-* 個人主義的な社会
-  * 「自分の幸せは自分でコントロールすべきである」というプレッシャー
+* SNSなどで優れた「ハッピーライフ」「幸せ競争」をアピールし合う構造
+* 「自分の幸せは自分でコントロールすべきである」という社会からの<br>プレッシャー
 </fieldset>
 
 ---
 layout: fact
 ---
 
-<div absolute top-0 left-0>つまり</div>
+<div absolute top-5 left-5>つまり</div>
+
+<div m-20></div>
 
 # 幸せになりたい人は「幸せそのもの」を目指してはいけない
 
@@ -275,7 +237,7 @@ layout: fact
 
 <div border-2 border-green rounded-4 bg-green-500 bg-opacity-20 px-6 py-2
   w-fit mx-auto text-7.8 text-center>
-幸福はそれ自体を直接的に目指すべきものではなく、<br>意味のある活動や価値観を追求する過程で生まれる副産物
+幸福はそれ自体を直接的に目指すべきものではなく、<br>意味のある活動や自身の価値観を追求する過程で生まれる「副産物」なのです。
 </div>
 
 <br>
@@ -287,17 +249,26 @@ layout: fact
   * 思いやりと貢献
 
 
-<div v-click=1 absolute top-110 left-155 text-8 font-bold data-id="practice">実践</div>
+<div v-click=1 absolute top-115 left-155 text-8 font-bold data-id="practice">実践</div>
 
-<div v-click=2 absolute top-70 left-140 text-8 font-bold data-id="life">有意義な人生</div>
+<div v-click=1
+  v-motion
+  :initial="{ opacity: 0 }"
+  :enter="{ opacity: 1, transition: { delay: 600 } }"
+  absolute top-75 left-140 text-8 font-bold data-id="life">有意義な人生</div>
 
-<FancyArrow v-click=2 animationDelay=500
+<FancyArrow v-click=1 animationDelay=300
   from="[data-id=practice]@top" to="[data-id=life]@bottom" width=7 color=blue arc="0.1" />
 
-<div v-click=3 absolute top-90 left-200 text-8 font-bold data-id="happiness">幸福</div>
+<div v-click=1
+  v-motion
+  :initial="{ opacity: 0 }"
+  :enter="{ opacity: 1, transition: { delay: 1500 } }"
+  absolute top-95 left-200 text-8 font-bold data-id="happiness">幸福</div>
 
-<FancyArrow v-click=3 animationDelay=500
-  from="[data-id=practice]@(50%,-100%)" to="[data-id=happiness]@left" width=7 color=red arc="0.1" />
+<FancyArrow v-click=1 animationDelay=1200
+  from="[data-id=practice]@(50%,-100%)" to="[data-id=happiness]@(-20%,50%)"
+  width=7 color=red arc="0.1" />
 
 ---
 
