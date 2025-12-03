@@ -116,7 +116,7 @@ h1, p {
 
 <div grid grid-cols-2 gap-6><div>
 
-<SectionLinks section="happiness3" current="fire-definition-of-happiness"/>
+<SectionLinks text-5.5 section="happiness3" current="fire-definition-of-happiness"/>
 
 </div><div italic text-5.5 mt--5>
 
