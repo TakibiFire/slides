@@ -156,6 +156,10 @@ export const sections: {
       {
         id: 'fire-gratitude',
         title: '幸福度に直結する強み 1. 感謝の強みを鍛えよう'
+      },
+      {
+        id: 'fire-love',
+        title: '幸福度に直結する強み 2. 愛情の強みを鍛えよう〜ギバーになろう'
       }
     ]
   }
