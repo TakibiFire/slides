@@ -504,7 +504,7 @@ researchers and used in mindfulness programs is as follows:
 2025/12/04: 未完
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks text-5 section="happiness4" withSection/>
+  * <SectionLinks section="happiness4" withSection/>
 
 ---
 

@@ -655,12 +655,10 @@ FIRE後は、**ぜひ認識力を鍛えて無限ポカポカ感を感じてみ�
 
 ---
 
-# それでは次回「幸福度に直結する強み 2. 愛情の強みを鍛えよう」をどうぞ
-
-2025/12/04: 未完
+# それでは次回[「幸福度に直結する強み 2. 愛情の強みを鍛えよう〜ギバーになろう」](https://takibi-fire.com/slides/fire-love/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks text-5 section="happiness4" withSection/>
+  * <SectionLinks section="happiness4" withSection/>
 
 ---
 
