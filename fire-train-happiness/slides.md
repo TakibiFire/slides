@@ -60,9 +60,13 @@ h1, p {
 
 ---
 
-# 1枚で要約
+<style scoped>
+.slidev-layout {
+  font-size: 175%;
+}
+</style>
 
-<div grid grid-cols-12 gap-6><div col-span-7 text-4.9>
+# 1枚で要約
 
 * 今回は第3章「幸福の性質」の総復習です
   * 幸福は「トレーニングで作れるスキル」です
@@ -70,34 +74,6 @@ h1, p {
 * FIRE達成者へのアドバイスも紹介します
 * それ以外の幸福の要素も今後の章でほとんどカバーします
 * 幸福のトレーニングはダイエットのように継続的な努力が必要です
-</div><div col-span-5 text-base>
-
-<fieldset border rounded-3 p-2>
-  <legend>自己紹介</legend>
-
-<div flex flex-row>
-  <div flex-0 mr-3>
-    <img src="https://takibi-fire.com/slides/public/imgs/takibi.png" w24 />
-  </div>
-  <div my-auto>
-    <ul>
-      <li>たきび (@takibi333)</li>
-      <li>40代</li>
-      <li>子供3人</li>
-    </ul>
-  </div>
-</div>
-
-- 東大 → GAFAM エンジニア → 2024 年 FIRE
-- 運動 1/3, 勉強 1/3, 育児 1/3
-- FI = FIRE したから資産のことは気にしない
-- RE = Retire Experiment! (リタイア実験)
-- 65 歳に「強くてニューゲーム」したい
-- 詳しくは[自己紹介](https://takibi-fire.com/slides/fire-self-introduction/)
-
-</fieldset>
-
-</div></div>
 
 <div text-base absolute bottom-8 left-8>スライド一覧を流し見したい人は左下から<carbon-apps />をクリック
 </div>
@@ -122,36 +98,14 @@ h1, p {
 
 このシリーズでは、幸福度を生活で増やすために心理学で分かっていることを紹介していきます。
 
-第3章[幸福の定義](https://takibi-fire.com/slides/fire-definition-of-happiness/)でお伝えした通り、幸福や「良い人生」は様々な要素を含むので、「これをやればよい」という単発のものはありません。
+第3章[幸福の定義](https://takibi-fire.com/slides/fire-definition-of-happiness/)でお伝えした通り、幸福や「良い人生」は様々な要素を含むので、「これをやればよい」という単発のものはありません。ダイエットと同じように幸福の実践でも色々やっていくことが大事です。系統立ててやっていく方法を今回お伝えします。
 
-ダイエットが運動だけではうまくいかないように、幸福の実践でも色々やっていくことが大事です。系統立ててやっていく方法を今回お伝えします。
-
-お付き合いいただけると嬉しいです
-<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" w-10 inline>
+<div text-4.5>
+序章はこちら<carbon-ArrowDown/><br>
+<SectionLinks section="intro" />
+</div>
 
 </div></div>
-
----
-
-<style scoped>
-.slidev-layout {
-  font-size: 115%;
-}
-</style>
-
-# 再掲: はじめに + お断り
-
-「FIRE幸福論」は最新の脳神経科学・心理学の動向を元に情報をお届けしたいと思っています。
-
-* 想定読者はFIRE達成者、定年退職者、FIREに興味がある人です
-* **私は脳神経科学・心理学の専門家ではありません**
-  * 信頼できる情報をお届けするよう努めていますが、内容に偏りや誤りが含まれる可能性があります
-  * [情報のソースには気を使っています](https://takibi-fire.com/slides/fire-textbook-reason/6)が個人の限界があることをご承知おき下さい
-* 宗教、哲学、スピリチュアルな話はできる限り排除しています
-  * でもそれらを否定しているわけではありません
-* 心理学は大衆の動向を対象にしています
-  * **「心理学で〇〇と言われている」という研究結果があっても、「当てはまらない人は変だ」「あなたはそうならなければならない」という解釈は誤りです。**
-  * 例: 「日本人男性の平均身長は170.8cm」が正しくても、170.8cmでない男性がほとんどですし、日本人男性は170.8cmであるべき、などと解釈しては絶対にいけません。
 
 ---
 layout: cover

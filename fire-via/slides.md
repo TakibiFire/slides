@@ -60,46 +60,21 @@ h1, p {
 
 ---
 
+<style scoped>
+.slidev-layout {
+  font-size: 150%;
+}
+</style>
+
 # 1枚で要約
 
-<div grid grid-cols-12 gap-6><div col-span-7 text-4.9>
-
-* 幸福度を増やす方法は、あなたの現状のスキルに<br>よってやり方が変わります。
 * VIA Character Strength という10分で終わるウェブ診断であなたの強みを判定しましょう
-  * オススメの理由: 1) 具体的に幸福度を増やすための方法が立てやすい、2) 研究に基づいている
+  * 結果に基づいて、あなたにあったやり方で幸福度を伸ばしていきます
+  * 実践の効果は心理学の研究で確かめられています
 * 診断結果をじっくり受け止めてみましょう
 * あなたの上位の強みを日々活かしていきましょう
-  * これも幸福度を増すと実証済み
+  * このやり方も幸福度を増すと実証済み
 * 次回も VIA の診断結果を使います
-
-</div><div col-span-5 text-base>
-
-<fieldset border rounded-3 p-2>
-  <legend>自己紹介</legend>
-
-<div flex flex-row>
-  <div flex-0 mr-3>
-    <img src="https://takibi-fire.com/slides/public/imgs/takibi.png" w24 />
-  </div>
-  <div my-auto>
-    <ul>
-      <li>たきび (@takibi333)</li>
-      <li>40代</li>
-      <li>子供3人</li>
-    </ul>
-  </div>
-</div>
-
-- 東大 → GAFAM エンジニア → 2024 年 FIRE
-- 運動 1/3, 勉強 1/3, 育児 1/3
-- FI = FIRE したから資産のことは気にしない
-- RE = Retire Experiment! (リタイア実験)
-- 65 歳に「強くてニューゲーム」したい
-- 詳しくは[自己紹介](https://takibi-fire.com/slides/fire-self-introduction/)
-
-</fieldset>
-
-</div></div>
 
 <div text-base absolute bottom-8 left-8>スライド一覧を流し見したい人は左下から<carbon-apps />をクリック
 </div>
@@ -122,12 +97,12 @@ h1, p {
 
 このシリーズでは、幸福度を生活で増やすために心理学で分かっていることを紹介していきます。
 
-第3章[幸福の定義](https://takibi-fire.com/slides/fire-definition-of-happiness/)でお伝えした通り、幸福や「良い人生」は様々な要素を含むので、「これをやればよい」という単発のものはありません。
+第3章[幸福の定義](https://takibi-fire.com/slides/fire-definition-of-happiness/)でお伝えした通り、幸福や「良い人生」は様々な要素を含むので、「これをやればよい」という単発のものはありません。ダイエットと同じように幸福の実践でも色々やっていくことが大事です。系統立ててやっていく方法を今回お伝えします。
 
-ダイエットが運動だけではうまくいかないように、幸福の実践でも色々やっていくことが大事です。系統立ててやっていく方法を今回お伝えします。
-
-お付き合いいただけると嬉しいです
-<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" w-10 inline>
+<div text-4.5>
+序章はこちら<carbon-ArrowDown/><br>
+<SectionLinks section="intro" />
+</div>
 
 </div></div>
 
