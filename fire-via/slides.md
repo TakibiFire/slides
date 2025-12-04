@@ -750,9 +750,7 @@ layout: cover
 
 ---
 
-# それでは次回「幸福度に直結する強みを鍛えよう」をどうぞ
-
-2025/11/30: 未完
+# それでは次回[「幸福度に直結する強み 1. 感謝の強みを鍛えよう」](https://takibi-fire.com/slides/fire-gratitude/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks text-5 section="happiness4" withSection/>
