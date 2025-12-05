@@ -167,7 +167,7 @@ ul {
 * [年齢と幸福](https://takibi-fire.com/slides/fire-age-vs-happiness/)
 * [人生選択の自由と幸福](https://takibi-fire.com/slides/fire-freedom-to-make-life-vs-happiness/)
 * [幸福は追求するものではない](https://takibi-fire.com/slides/fire-seeking-happiness/)
-* [幸福の要素と定義〜「幸福」よりも「良い人生」を目指そう](https://takibi-fire.com/slides/fire-definition-of-happiness/)
+* [幸福の要素と定義〜「幸福の◯大要素」は不十分](https://takibi-fire.com/slides/fire-definition-of-happiness/)
 
 </div></div>
 
@@ -183,12 +183,12 @@ ul {
 * [自分の強みを知ろう (VIA Character Strength)](https://takibi-fire.com/slides/fire-via/)
 * [幸福度に直結する強み 1. 感謝の強みを鍛えよう](https://takibi-fire.com/slides/fire-gratitude/)
 * [幸福度に直結する強み 2. 愛情の強みを鍛えよう〜ギバーになろう](https://takibi-fire.com/slides/fire-love/)
-* 幸福度に直結する強み 3. 熱意・好奇心・希望の強みを鍛えよう
 
 </div><div>
 
 <h2>&nbsp;</h2>
 
+* 幸福度に直結する強み 3. 熱意・好奇心・希望の強みを鍛えよう
 * 寄付をしてみよう
 * どんどん寄り道しよう・達成よりも過程を楽しもう
 * ひとりあそびを極めよう
