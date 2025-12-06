@@ -688,6 +688,89 @@ Aの要素があるならBという要素は不要じゃない？<br>
 
 ---
 
+# でも9要素でも足りない
+
+<style scoped>
+.yel {
+  @apply m-2 block px-6 py-2 border-white border-1 rounded-2 w-fit items-center;
+  text-shadow: 0 0 3px #888800, 0 0 10px #cccc00;
+}
+.org {
+  @apply m-2 block px-6 py-2 border-white border-1 rounded-2 w-fit items-center bg-orange bg-opacity-30;
+  text-shadow: 0 0 3px #884400, 0 0 10px #ff8800;
+}
+.red {
+  @apply m-2 block px-6 py-2 border-white border-1 rounded-2 w-fit items-center bg-red bg-opacity-30;
+  text-shadow: 0 0 3px #880000, 0 0 10px #cc0000;
+}
+</style>
+
+<Transform :scale="0.7" relative top-10 left--10 origin="top left">
+
+<div class="yel" absolute top-30 left-90 data-id="wel">幸福度</div>
+
+<div class="yel" absolute top-50 left-40 data-id="swb">主観的幸福感3つ</div>
+<div class="yel" absolute top-50 left-140 data-id="pwb">心理的幸福感6つ</div>
+
+<div class="org" absolute top-70 left-5 data-id="sat">人生満足度</div>
+<div class="org" absolute top-90 left-15 data-id="pos">ポジティブ感情の多さ</div>
+<div class="org" absolute top-110 left-25 data-id="neg">ネガティブ感情の少なさ</div>
+
+<div class="red" absolute top-70 left-105 data-id="acc">自己受容</div>
+<div class="red" absolute top-90 left-115 data-id="env">環境制御力</div>
+<div class="red" absolute top-110 left-125 data-id="gro">自己成長</div>
+
+<div class="red" absolute top-70 left-190 data-id="mea" whitespace-nowrap>人生の目的</div>
+<div class="red" absolute top-90 left-185 data-id="aut" whitespace-nowrap>自律性</div>
+<div class="red" absolute top-110 left-165 data-id="rel" whitespace-nowrap>他者との肯定的関係</div>
+
+</Transform>
+
+<FancyArrow static to="[data-id=swb]@top" from="[data-id=wel]@bottom" color=yellow head-size=0 />
+<FancyArrow static to="[data-id=pwb]@top" from="[data-id=wel]@bottom" color=yellow head-size=0 />
+
+<FancyArrow static
+  to="[data-id=sat]@top" from="[data-id=swb]@bottom" color=orange head-size=0 />
+<FancyArrow static
+  to="[data-id=pos]@top" from="[data-id=swb]@bottom" color=orange head-size=0 />
+<FancyArrow static
+  to="[data-id=neg]@(75%,0%)" from="[data-id=swb]@bottom" color=orange head-size=0 arc="0.5"/>
+
+<FancyArrow static to="[data-id=acc]@top" from="[data-id=pwb]@bottom" color=red head-size=0 />
+<FancyArrow static to="[data-id=env]@top" from="[data-id=pwb]@bottom" color=red head-size=0 />
+<FancyArrow static to="[data-id=gro]@(75%,0%)" from="[data-id=pwb]@bottom" color=red head-size=0 arc="0.3"/>
+<FancyArrow static to="[data-id=rel]@(25%,0%)" from="[data-id=pwb]@bottom" color=red head-size=0 arc="-0.1" />
+<FancyArrow static to="[data-id=aut]@top" from="[data-id=pwb]@bottom" color=red head-size=0 />
+<FancyArrow static to="[data-id=mea]@top" from="[data-id=pwb]@bottom" color=red head-size=0 />
+
+<v-clicks>
+
+* [「健康が一番の要素」](https://takibi-fire.com/slides/fire-health-vs-happiness/)じゃなかった？
+* [「人間関係が第二の要素」](https://takibi-fire.com/slides/fire-relationship-vs-happiness/)じゃなかった？
+</v-clicks>
+
+<div v-click=3
+  absolute top-10 left-130
+  border-green border-2 bg-green-500 bg-opacity-20 rounded-4 w-fit p-2>
+実は今回の幸福度の要素はあなたの<br>「心・内面」に関するもの
+</div>
+
+<div v-click=3
+  absolute top-38 left-150
+  border-green border-2 bg-green-500 bg-opacity-20 rounded-4 w-fit p-2>
+<strong>健康や人間関係なども含めた<br>「良い人生」を目指す必要が<br>ある。</strong>
+<carbon-ArrowRight/> 次回のテーマ
+</div>
+
+<div v-click=3 text-4.5
+  absolute top-95 left-170 w-60
+  border-green border-2 rounded-4 p-2>
+注:「他者との肯定的関係」はあなたの内面のスキル。
+すでに築かれた人間関係とは区別する
+</div>
+
+---
+
 # まとめ
 
 * 「FIRE後の教科書」がターゲットにする9種類の要素を紹介しました
@@ -704,7 +787,7 @@ Aの要素があるならBという要素は不要じゃない？<br>
 
 ---
 
-# それでは次回「幸福より『よい人生』を」へどうぞ
+# それでは次回「幸福よりも『よい人生』を」へどうぞ
 
 2025/12/5: 未完。**次のページから長い付録です**
 
@@ -1002,7 +1085,7 @@ layout: cover
 しかし「意思的な活動」(つまり自分の努力)で幸福度は上げられる
 </div>
 
-<!--
+---
 
 # 幸福を計るのは難しい by Seligman
 
@@ -1025,8 +1108,6 @@ layout: cover
   border-green border-2 bg-green-500 bg-opacity-20 rounded-4 w-fit p-2>
 ポジティブ心理学の誕生
 </div>
-
--->
 
 ---
 
