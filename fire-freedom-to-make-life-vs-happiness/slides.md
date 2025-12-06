@@ -347,4 +347,4 @@ FIREしたあなたは自分の人生を自分で紡いでいます。<br>
 # それでは次回[「幸福は追求するものではない」](https://takibi-fire.com/slides/fire-seeking-happiness/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks text-5 section="happiness3" withSection/>
+  * <SectionLinks text-5 columns-2 section="happiness3" withSection/>

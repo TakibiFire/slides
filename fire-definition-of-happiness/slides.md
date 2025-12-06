@@ -792,7 +792,7 @@ Aの要素があるならBという要素は不要じゃない？<br>
 2025/12/5: 未完。**次のページから長い付録です**
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks text-5 section="happiness3" withSection/>
+  * <SectionLinks text-5 columns-2 section="happiness3" withSection/>
 
 ---
 layout: section

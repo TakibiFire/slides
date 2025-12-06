@@ -548,7 +548,7 @@ layout: section
 # それでは次回[「人生選択の自由と幸福」](https://takibi-fire.com/slides/fire-freedom-to-make-life-vs-happiness/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks text-5 section="happiness3" withSection/>
+  * <SectionLinks text-5 columns-2 section="happiness3" withSection/>
 
 ---
 

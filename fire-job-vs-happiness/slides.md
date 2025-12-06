@@ -559,7 +559,7 @@ This slide's content is based on the following sources:
 # 良ければ次回[「健康と幸福」](https://takibi-fire.com/slides/fire-health-vs-happiness/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks text-5 section="happiness3" withSection/>
+  * <SectionLinks text-5 columns-2 section="happiness3" withSection/>
 
 ---
 
