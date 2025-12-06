@@ -6,7 +6,7 @@ fonts:
   serif: Noto Serif JP
   # コードブロック用
   mono: Fira Code
-title: 幸福の要素と定義〜「幸福の◯大要素」は不十分 | FIRE後の教科書 | たきび FIRE
+title: 幸福の要素と定義〜「幸福の三大要素」は不十分 | FIRE後の教科書 | たきび FIRE
 titleTemplate: "%s"
 favicon: https://takibi-fire.com/slides/public/imgs/favicon.png
 highlighter: shiki
@@ -18,7 +18,7 @@ mdc: true
 layout: center
 lang: ja
 glowSeed: 4
-footerTitle: FIRE後の教科書 > FIRE幸福論 > 幸福の性質を知ろう > 幸福の要素と定義〜「幸福の◯大要素」は不十分
+footerTitle: FIRE後の教科書 > FIRE幸福論 > 幸福の性質を知ろう > 幸福の要素と定義〜「幸福の◯三要素」は不十分
 addons:
   - fancy-arrow
 ---
@@ -35,7 +35,7 @@ h1, p {
 
 # 幸福の要素と定義
 
-〜「幸福の◯大要素」は不十分〜
+〜「幸福の三大要素」は不十分〜
 
 <div text-center mb-8 font-bold bg-gradient-to-r from-indigo-200 via-blue-500 to-purple-400 text-transparent bg-clip-text>
   <span text-13>FIRE後の教科書</span><br>

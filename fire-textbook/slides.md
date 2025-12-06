@@ -72,7 +72,7 @@ layout: fact
 
 <div text-8>
 
-2025/12/04: <span color-orange>FIRE後の教科書は建設途中です (48%完了)。</span>
+2025/12/06: <span color-orange>FIRE後の教科書は建設途中です (49%完了)。</span>
 
 毎日コンテンツを足しながらリンクも増やしていきます。
 
@@ -168,6 +168,7 @@ ul {
 * [人生選択の自由と幸福](https://takibi-fire.com/slides/fire-freedom-to-make-life-vs-happiness/)
 * [幸福は追求するものではない](https://takibi-fire.com/slides/fire-seeking-happiness/)
 * [幸福の要素と定義〜「幸福の◯大要素」は不十分](https://takibi-fire.com/slides/fire-definition-of-happiness/)
+* [幸福よりも『良い人生』を目指そう](https://takibi-fire.com/slides/fire-wellbeing/)
 
 </div></div>
 

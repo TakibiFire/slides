@@ -138,7 +138,7 @@ export const sections: {
       },
       {
         id: 'fire-definition-of-happiness',
-        title: '幸福の要素と定義〜「幸福の◯大要素」は不十分',
+        title: '幸福の要素と定義〜「幸福の三大要素」は不十分',
       },
     ]
   },

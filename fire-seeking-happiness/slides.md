@@ -344,7 +344,7 @@ FIRE幸福論第3章「幸福の性質を知ろう」では、ここまで幸福
 
 ---
 
-# それでは次回、[「幸福の要素と定義〜「幸福の◯大要素」は不十分」](https://takibi-fire.com/slides/fire-definition-of-happiness/)へどうぞ
+# それでは次回、[「幸福の要素と定義〜「幸福の三大要素」は不十分」](https://takibi-fire.com/slides/fire-definition-of-happiness/)へどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks text-5 section="happiness3" withSection/>
