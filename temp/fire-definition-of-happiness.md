@@ -1046,3 +1046,140 @@ layout: center
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks text-5 section="happiness3" withSection/>
+
+
+
+
+
+---
+layout: center
+---
+
+<style scoped>
+.slidev-layout.center h1 {
+  @apply text-center text-20/24;
+}
+</style>
+
+<div text-10 my-5 text-center>
+<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" w20 inline/>の持論
+</div>
+
+# <span font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-500 bg-transparent h-full>幸福を鍛えることは<br>ダイエットに似ている</span>
+
+<div text-center text-8>
+類似点を一覧にしました
+</div>
+
+---
+
+<style scoped>
+.slidev-layout {
+  font-size: 120%;
+}
+.lef {
+  grid-column: span 10 / span 10;
+  margin: auto 0 auto auto;
+  border: solid 2px oklch(90.5% 0.182 98.111);
+  border-radius: 6px;
+  padding: 6px 16px;
+}
+.mid {
+  margin: auto;
+}
+.rgt {
+  grid-column: span 10 / span 10;
+  margin: auto auto auto 0;
+  border: solid 2px oklch(64.5% 0.246 16.439);
+  border-radius: 6px;
+  padding: 6px 16px;
+}
+</style>
+
+<div mt--5 grid grid-cols-21 gap-1>
+  <div class="lef">体重の∩字カーブ (中年太り)</div>
+  <div class="mid"><carbon-ArrowsHorizontal/></div>
+  <div class="rgt">幸福のU字カーブ</div>
+
+  <div class="lef">「〇〇をすれば痩せられる」は嘘</div>
+  <div class="mid"><carbon-ArrowsHorizontal/></div>
+  <div class="rgt">「〇〇をすれば幸福になれる」も嘘</div>
+
+  <div class="lef">元から太りやすい人、痩せ型の人がいる</div>
+  <div class="mid"><carbon-ArrowsHorizontal/></div>
+  <div class="rgt">元から幸福度が高い、低い人がいる</div>
+
+  <div class="lef">でもダイエットを頑張れば痩せられる</div>
+  <div class="mid"><carbon-ArrowsHorizontal/></div>
+  <div class="rgt" v-mark.circle.purple=1>幸福も約70%は努力</div>
+
+  <div class="lef">何もしないと体重は元に戻る</div>
+  <div class="mid"><carbon-ArrowsHorizontal/></div>
+  <div class="rgt">幸福もセットポイントに戻る</div>
+
+  <div class="lef">だから続けないといけない</div>
+  <div class="mid"><carbon-ArrowsHorizontal/></div>
+  <div class="rgt" v-mark.circle.purple=1>続けないといけない</div>
+
+  <div class="lef">痩せやすい体は作れる</div>
+  <div class="mid"><carbon-ArrowsHorizontal/></div>
+  <div class="rgt" v-mark.circle.purple=1>幸福を感じやすい体は作れる</div>
+
+  <div class="lef">ダイエット自体を最終目標にすると失敗</div>
+  <div class="mid"><carbon-ArrowsHorizontal/></div>
+  <div class="rgt">「幸福になること」を目指すと失敗する</div>
+
+  <div class="lef">色々なことをしなくてはいけない<br>
+（有酸素、無酸素運動、食事、生活習慣）</div>
+  <div class="mid"><carbon-ArrowsHorizontal/></div>
+  <div class="rgt" v-mark.circle.purple=1>色々なことをしなくてはいけない！<br>第4章で解説します</div>
+</div>
+
+<div v-click=1 absolute top-60 right-3 text-8
+  border-purple border-2 bg-purple-500 bg-opacity-20 rounded-4 w-fit p-4>
+重要
+</div>
+
+---
+
+# 幸福はダイエットと似ている (たきび解釈)
+
+<div v-click=1 absolute top-100 left-70 text-8 text-center font-bold data-id="diet">ダイエット<br>(運動・食事)</div>
+
+<div v-click=1
+  v-motion
+  :initial="{ opacity: 0 }"
+  :enter="{ opacity: 1, transition: { delay: 600 } }"
+  absolute top-30 left-50 text-8 font-bold data-id="health">健康・みなぎる活力</div>
+
+<FancyArrow v-click=1 animationDelay=300
+  from="[data-id=diet]@top" to="[data-id=health]@bottom" width=7 color=blue arc="-0.1" />
+
+<div v-click=1
+  v-motion
+  :initial="{ opacity: 0 }"
+  :enter="{ opacity: 1, transition: { delay: 1500 } }"
+  absolute top-60 left-10 text-8 text-center font-bold data-id="body">引き締まった体<br>(副産物)</div>
+
+<FancyArrow v-click=1 animationDelay=1200
+  from="[data-id=diet]@(50%,-120%)" to="[data-id=body]@(110%,50%)" width=7 color=red arc="0.1" />
+
+<div v-click=2 absolute top-100 left-145 text-8 text-center font-bold data-id="practice">幸福の<br>トレーニング</div>
+
+<div v-click=2
+  v-motion
+  :initial="{ opacity: 0 }"
+  :enter="{ opacity: 1, transition: { delay: 600 } }"
+  absolute top-30 left-150 text-8 font-bold data-id="life">良い人生</div>
+
+<FancyArrow v-click=2 animationDelay=300
+  from="[data-id=practice]@top" to="[data-id=life]@bottom" width=7 color=blue arc="0.1" />
+
+<div v-click=2
+  v-motion
+  :initial="{ opacity: 0 }"
+  :enter="{ opacity: 1, transition: { delay: 1200 } }"
+  absolute top-60 left-200 text-8 font-bold data-id="happiness">幸福感<br>(副産物)</div>
+
+<FancyArrow v-click=2 animationDelay=1500
+  from="[data-id=practice]@(43%,-100%)" to="[data-id=happiness]@(-10%,50%)" width=7 color=red arc="0.1" />
