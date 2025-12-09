@@ -499,9 +499,7 @@ researchers and used in mindfulness programs is as follows:
 
 ---
 
-# それでは次回「幸福度に直結する強み 3. 熱意・好奇心・希望の強みを鍛えよう」をどうぞ
-
-2025/12/04: 未完
+# それでは次回[「3. 熱意・好奇心・希望の強みを鍛えよう」](https://takibi-fire.com/slides/fire-zest-curiosity-hope/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness4" withSection/>

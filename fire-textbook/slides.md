@@ -72,7 +72,7 @@ layout: fact
 
 <div text-8>
 
-2025/12/06: <span color-orange>FIRE後の教科書は建設途中です (49%完了)。</span>
+2025/12/09: <span color-orange>FIRE後の教科書は建設途中です (50%完了)。</span>
 
 毎日コンテンツを足しながらリンクも増やしていきます。
 
@@ -183,15 +183,15 @@ ul {
 * [幸福は鍛えられるスキル](https://takibi-fire.com/slides/fire-train-happiness/)
 * [自分の強みを知ろう (VIA Character Strength)](https://takibi-fire.com/slides/fire-via/)
 * [幸福度に直結する強み 1. 感謝の強みを鍛えよう](https://takibi-fire.com/slides/fire-gratitude/)
-* [幸福度に直結する強み 2. 愛情の強みを鍛えよう〜ギバーになろう](https://takibi-fire.com/slides/fire-love/)
+* [2. 愛情の強みを鍛えよう〜ギバーになろう](https://takibi-fire.com/slides/fire-love/)
+* [3. 熱意・好奇心・希望の強みを鍛えよう](https://takibi-fire.com/slides/fire-zest-curiosity-hope/)
 
 </div><div>
 
 <h2>&nbsp;</h2>
 
-* 幸福度に直結する強み 3. 熱意・好奇心・希望の強みを鍛えよう
-* 寄付をしてみよう
 * どんどん寄り道しよう・達成よりも過程を楽しもう
+* 寄付をしてみよう
 * ひとりあそびを極めよう
 * ビジネスと幸福論は相性が悪い
 * アドバイス集まとめ
