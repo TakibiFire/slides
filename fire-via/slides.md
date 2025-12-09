@@ -62,19 +62,18 @@ h1, p {
 
 <style scoped>
 .slidev-layout {
-  font-size: 150%;
+  font-size: 170%;
 }
 </style>
 
 # 1枚で要約
 
-* VIA Character Strength という10分で終わるウェブ診断であなたの強みを判定しましょう
-  * 結果に基づいて、あなたにあったやり方で幸福度を伸ばしていきます
-  * 実践の効果は心理学の研究で確かめられています
-* 診断結果をじっくり受け止めてみましょう
-* あなたの上位の強みを日々活かしていきましょう
-  * このやり方も幸福度を増すと実証済み
-* 次回も VIA の診断結果を使います
+* 幸福度を上げる近道は「自分の強み」を知ることです
+* まずは10分で終わるウェブ診断「VIA」をやってみましょう
+* 次に、診断結果の解釈の仕方を解説します
+* 自分の強みと課題を受け入れて<u>自己受容</u>のスキルを伸ばしましょう
+* その上で、強みを活かして幸福度を高めるアクションを紹介します
+  * 上位の強みを活かすと、エネルギーが湧き、充実感が得られます
 
 <div text-base absolute bottom-8 left-8>スライド一覧を流し見したい人は左下から<carbon-apps />をクリック
 </div>
@@ -135,12 +134,12 @@ layout: cover
 # 幸福度をあげるにはその人にあったやり方が必要
 
 * 前回「幸福を感じやすくする体作り」について解説しました。<br>
-  参考: [幸福は鍛えられるスキル](https://takibi-fire.com/slides/fire-train-happiness/)
+  参考: [幸福は鍛えられるスキル](https://takibi-fire.com/slides/fire-train-happiness/25)
 * 幸福の要素の内、今回のスライドで以下の要素にアプローチしていきます！<br>
-  <span class="lef">ポジティブな感情を増やす</span><br>
-  <span class="lef">自分の価値観に基づいて行動する</span><br>
+  <span class="lef">ポジティブな感情が多い</span><br>
+  <span class="lef">自分に肯定的である</span><br>
   <span class="lef">発達・成長する自分を感じる</span><br>
-  <span class="lef">自分に肯定的である</span>
+  <span class="lef">他者との肯定的関係</span>
 * これらを達成するには **「自分の強み」を理解することが**近道です
 
 ---
@@ -244,7 +243,7 @@ URL が https://www.viacharacter.org/surveys/takesurvey に変わります。
 <div v-click=3 text-6 absolute left-10 bottom-15
   border-blue border-2 rounded-6 bg-blue-500 bg-opacity-20
   w-fit px-3 py-2 col-span-5 m-auto text-5.4>
-大体10分で終わる。<br>
+大体10分で終わります。<br>
 10分くらい時間あるはず。やってみて！
 </div>
 
@@ -257,7 +256,7 @@ URL が https://www.viacharacter.org/surveys/takesurvey に変わります。
 
 <div basis-auto p-4>
 
-VIA が定めた「24個の人間の強みタイプ」がランキングされて出てきます。
+VIA が定めた「24種類の<br>強みタイプ」がランキングされて出てきます。
 
 左の画像は24個目まで続きます。
 
@@ -278,7 +277,7 @@ VIA が定めた「24個の人間の強みタイプ」がランキングされ�
 
 ---
 
-# 24の強み特性の例
+# 24の強み特性の例 <span text-5>(覚える必要ないです)</span>
 
 <style scoped>
 .slidev-layout {
@@ -421,9 +420,9 @@ layout: cover
 <div basis-350 p-2 text-5.8>
 下位の結果は普段意識していない、開花していないスキル。
 
-**超重要：これらは弱点・弱みという意味ではない。**
+**超重要：これらは弱点・弱みという意味ではありません。**
 
-**鍛えれば伸ばせる。**
+**鍛えれば伸ばせます。**
 
 <hr/>
 
@@ -489,13 +488,13 @@ layout: cover
 
 # 上位の強みを**活かす** 1/2
 
-上位の強みは、**あなたがそんなに苦なく行えるスキルで、しかもそれによってあなたは充実感を感じ、エネルギーも湧いてきます。**
+認識した後は使ってみましょう。上位の強みは**あなたがそんなに苦なく行えるスキルです。しかも使うとあなたは充実感を感じ、エネルギーも湧いてきます。**
 
 <fieldset border-green border-2 rounded-6 bg-green-500 bg-opacity-20
   w-fit h-fit text-center px-6 col-span-5 m-auto>
   <legend>研究結果</legend>
 
-上位の強みを一週間、毎日違う方法で使うと幸福度が上がり、<br>鬱傾向が減ることが分かっています。この効果は最長6ヶ月持続します。
+上位の強みを一週間、毎日違う方法で使うと幸福度が上がり、<br>鬱傾向が減る。この効果は最長6ヶ月持続する。
 </fieldset>
 
 例えば先程見た「大局観」の強みであれば「積極的に助言してみる」「人に別の視点からの意見を与える」などになります。
@@ -567,12 +566,12 @@ layout: cover
 
 ---
 
-# FIRE後の教科書は自分の強みをうまく活かしている
+# 余談: FIRE後の教科書は自分の強みを活かしている
 
 <fieldset border-blue border-2 rounded-6 bg-blue-500 bg-opacity-20
   w-fit h-fit text-center p-6 col-span-5 m-auto>
-  <legend mb--3>FIRE後の教科書</legend>
-FIRE達成者は色々なパターンがあるけど、<span v-mark.circle.orange=1 data-id="dst1">なるべくみんなに</span>役に立つような<span v-mark.circle.orange=2 data-id="dst2">知識を集め</span>、情報のソースがちゃんと<span v-mark.circle.orange=3 data-id="dst3">レビューされているもの</span>を選び、みんなが<span v-mark.circle.orange=4 data-id="dst4">納得しやすいアドバイス</span>にまとめ、<span v-mark.circle.orange=5 data-id="dst5">スライドにまとめて公表</span>
+  <legend mb--3>FIRE後の教科書のテーマ</legend>
+FIRE達成者は色々なパターンがあるけど、<span v-mark.circle.orange=1 data-id="dst1">なるべくみんなに</span>役に立つような<span v-mark.circle.orange=2 data-id="dst2">知識を集め</span>、情報のソースがちゃんと<span v-mark.circle.orange=3 data-id="dst3">レビューされているもの</span>を選び、<br>みんなが<span v-mark.circle.orange=4 data-id="dst4">納得しやすいアドバイス</span>にまとめ、<span v-mark.circle.orange=5 data-id="dst5">スライドにまとめて公表</span>する
 </fieldset>
 
 <style scoped>
@@ -620,6 +619,16 @@ FIRE達成者は色々なパターンがあるけど、<span v-mark.circle.orang
 * <u decoration-wavy decoration-orange>もちろんどう発揮するかは人それぞれ</u>
 
 ---
+layout: cover
+---
+
+# 特定の強みを極める
+
+人には24種類の「強みタイプ」のパラメーターがあると思いましょう。
+
+これらは「変えられない性格」ではなく**全て訓練で伸ばせるパラメーター**です。
+
+---
 
 # 特定の強みを極める
 
@@ -639,7 +648,7 @@ FIRE達成者は色々なパターンがあるけど、<span v-mark.circle.orang
 
 <div grid grid-cols-10>
 <div col-span-5>
-<div class="lef" data-id="relationship">深い人間関係</div>
+<div class="lef" data-id="relationship">他者との肯定的関係</div>
 <div class="lef" data-id="positive">ポジティブな感情を増やす</div>
 <div class="lef" data-id="self-acceptance">自分に肯定的である</div>
 <div class="lef" data-id="autonomy">自分の価値観に基づいて行動する</div>
@@ -710,8 +719,8 @@ layout: cover
 
 * あなたは戦士で攻撃力が強く魔法力が弱い
 * でも幸福というダンジョンを攻略するためには魔法力が必要
-* 重要: 鍛えればだれでも魔法力は伸ばせる
-* あなたは魔力を鍛えた結果、幸福も攻略できるようになるし、<br>魔法剣士になる(最強)
+* **重要: 鍛えればだれでも魔法力は伸ばせる**
+* あなたは魔力を鍛えた結果、幸福も攻略できるようになるし、<br>魔法剣士になる <u decoration-wavy>(最強)</u>
 </fieldset>
 
 ---
