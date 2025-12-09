@@ -88,7 +88,7 @@ h1, p {
 
 <div grid grid-cols-2 gap-6><div>
 
-<SectionLinks section="happiness4" current="fire-zest-curiosity-hope"/>
+<SectionLinks section="happiness4" text-5 current="fire-zest-curiosity-hope"/>
 
 </div><div italic text-5.5 mt--5>
 
@@ -568,7 +568,7 @@ for the future and can help you move from the realm of foggy ideas to concrete, 
 2025/12/09: 未完
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="happiness4" withSection/>
+  * <SectionLinks section="happiness4" text-5 withSection/>
 
 ---
 

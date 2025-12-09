@@ -90,7 +90,7 @@ h1, p {
 
 <div grid grid-cols-2 gap-6><div>
 
-<SectionLinks section="happiness4" current="fire-love"/>
+<SectionLinks section="happiness4" text-5 current="fire-love"/>
 
 </div><div italic text-5.5 mt--5>
 
@@ -502,7 +502,7 @@ researchers and used in mindfulness programs is as follows:
 # それでは次回[「3. 熱意・好奇心・希望の強みを鍛えよう」](https://takibi-fire.com/slides/fire-zest-curiosity-hope/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="happiness4" withSection/>
+  * <SectionLinks section="happiness4" text-5 withSection/>
 
 ---
 

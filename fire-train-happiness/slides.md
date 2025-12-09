@@ -91,7 +91,7 @@ h1, p {
 
 第4章始まりました！
 
-<SectionLinks section="happiness4" current="fire-train-happiness"/>
+<SectionLinks section="happiness4" text-5 current="fire-train-happiness"/>
 
 </div><div italic text-5.5 mt--5>
 
