@@ -68,10 +68,9 @@ h1, p {
 
 # 1枚で要約
 
-* VIAの24の強みのうち、5つの強みは特に幸福度に貢献します
-* 「感謝・愛情・熱意・好奇心・希望」
-* その中でも**感謝**の強みは特に重要。今回はこれを鍛えましょう
-* 人生の満足度、良い人間関係、温かい気持ちをもたらします
+* **幸福度を高め、人生の満足度を上げる<u decoration-wavy>感謝のスキル</u>を鍛えます**
+  * 科学的に幸福に直結するとされる5つの強み（感謝、愛情など）から鍛え始めます
+* 感謝の日記は10週間で15〜25%幸福度が上がります
 * 感謝をするためには**認識力**が必要です。認識力も鍛えましょう
 * 実践すると「世の中には感謝できることに取り囲まれている」という感覚になります。**心の中に無限ホッカイロを作る感覚です**
 
@@ -144,7 +143,7 @@ layout: cover
 }
 </style>
 
-<div class="yel" absolute top-30 left-70 data-id="wel">ウェルビーイング・良い人生</div>
+<div class="yel" absolute top-30 left-70 data-id="wel">幸福感</div>
 
 <div v-click=1 class="yel" absolute top-50 left-40 data-id="swb">主観的幸福感</div>
 <div v-click=1 class="yel" absolute top-50 left-140 data-id="pwb">心理的幸福感</div>
@@ -346,7 +345,7 @@ layout: cover
 
 ---
 
-# 感謝の強みの鍛え方 1/2 感謝の日記、感謝の手紙
+# 感謝の強みの鍛え方: やってみましょう！ 1/2
 
 <fieldset border-purple border-2 rounded-6 bg-purple-500 bg-opacity-20
   w-fit mx-auto my-5 px-4>
@@ -368,7 +367,7 @@ layout: cover
 
 ---
 
-# 感謝の強みの鍛え方 2/2 感謝の瞑想, 外での感謝
+# 感謝の強みの鍛え方: やってみましょう！ 2/2
 
 <fieldset border-blue border-2 rounded-6 bg-blue-500 bg-opacity-20
   w-fit mx-auto my-5 px-4>
@@ -421,13 +420,43 @@ layout: cover
 
 ---
 
+# 補足: 「存在しなかったこと」にも感謝はできる
+
+感謝の対象は、存在しているものや起きた事だけではありません。
+
+<div grid grid-cols-2 gap-3 text-5.5>
+<fieldset border-purple border-2 bg-purple-500 bg-opacity-20 rounded-4 w-fit px-2>
+
+「もし起きていたら悲惨なことになっていた」ようなことが起きなかったら、それに感謝できます
+</fieldset>
+
+<fieldset border-red border-2 bg-red-500 bg-opacity-20 rounded-4 w-fit px-2>
+
+自分が悪いことをしてしまった時に、誰かが寛大で、本来だったら叱ったり非難したりするところを我慢してくれたとき、それに感謝しましょう
+</fieldset>
+
+<fieldset border-blue border-2 bg-blue-500 bg-opacity-20 rounded-4 w-fit px-2>
+
+人を助けることがいつも正解になるとは限りません。自分の成長のために誰かが自分を助けるのを我慢してくれたとき、その行為に感謝しましょう
+</fieldset>
+
+</div>
+
+---
+layout: cover
+---
+
+# ただし感謝するには<br>別のスキルも必要
+
+---
+
 <style scoped>
 .slidev-layout :not(pre) > code {
   font-size: 130%;
 }
 </style>
 
-# 英単語 <code>appreciate</code>の日本語の意味が面白い話
+# 余談: 英単語 <code>appreciate</code>の和訳が面白い
 
 1. 〔～を〕<span v-mark.box.green=2>正しく［正当に］評価［理解・認識］する、十分［よく］理解する</span>、敏感に察する、〔～が〕分かる
 2. 〔～の〕<span v-mark.box.green=3>良さが分かる</span>、真価を認める
@@ -487,7 +516,7 @@ layout: cover
 「生まれ月」にも感謝できる人はなかなかいない。
 
 <div border-red border-2 rounded-6 bg-red-500 bg-opacity-20
-  w-fit m-auto my-3 px-6 text-center>
+  w-fit m-auto my-3 px-6 text-6.5 text-center>
 
 **すでに持っているものを<br>認識することはとても難しい**
 </div>
@@ -517,6 +546,49 @@ layout: cover
 「朝、ふとんが温かいこと」 「日本に生まれたこと」
 
 ---
+
+# 認識力を上げるにはマインドフルネス瞑想もオススメ
+
+[脳は変えられる〜マインドフルネス瞑想のススメ](https://takibi-fire.com/slides/fire-brain-mindfulness/)の回で紹介した呼吸瞑想。
+
+<div w-130>
+
+その時に行う**ボディスキャン**は「五感を鍛える」「普段意識していなかったことを意識する」<br>ことのいい訓練になっていると思います。
+
+<fieldset border-1 border-gray p-2 rounded-4 text-5 w-fit m-auto>
+  <legend text-center>再掲: ボディスキャンのやり方</legend>
+身体の感覚に意識を向ける
+
+* 足で床を押している重みを感じる
+* おしりで自分の体重を感じる
+* 自分の身体を観察している気持ちになる
+* 普段感じていない圧力・触覚・体の位置に<br>意識を向ける
+</fieldset>
+
+</div>
+
+<img src="/imgs/meditation.png" data-id="img"
+  absolute top-35 left-140 class="w-35%"/>
+
+<FancyArrow
+  from="[data-id=img]@(25%,25%)" to="[data-id=img]@(35%,35%)" color="red" />
+<FancyArrow
+  from="[data-id=img]@(68%,30%)" to="[data-id=img]@(58%,35%)" color="red" />
+
+<FancyArrow
+  from="[data-id=img]@(20%,60%)" to="[data-id=img]@(33%,57%)" color="red" />
+<FancyArrow
+  from="[data-id=img]@(30%,80%)" to="[data-id=img]@(39%,67%)" color="red" />
+
+<FancyArrow
+  from="[data-id=img]@(52%,100%)" to="[data-id=img]@(53%,91%)" color="red" />
+<FancyArrow
+  from="[data-id=img]@(68%,101%)" to="[data-id=img]@(63%,91%)" color="red" />
+<FancyArrow
+  from="[data-id=img]@(70%,50%)" to="[data-id=img]@(60%,54%)" color="red" />
+
+
+---
 layout: cover
 ---
 
@@ -544,11 +616,10 @@ layout: cover
 
 * 最初は「生まれ月にまで感謝するのはかなり難しいな」と思いました
 * しかし逆に、そこまで感謝するハードルを下げれば、何にでも感謝できるのではないかと思いました
-* 感謝の日記を書こうとすると、「確かにあれも書けるな、これも書けるな」という<br>感覚になりました
-* **別に空気でも布団でも構わないのです**
-* なくなったら困る物や人を考え直しました
+* 感謝の日記を書こうとすると、「確かにあれも書けるな、これも書けるな」という<br>感覚になりました。**別に空気でも布団でも構わないのです**
+* 無くなったら困る物や人を考え直しました
 * 日記には何にどうして感謝するかを書くので、書こうとすると改めて「良さを認識」する感覚が分かってきました
-* 心がポカポカする感じはよく分かります
+* 心がポカポカする感じがよく分かります
 
 ---
 
@@ -636,9 +707,9 @@ layout: cover
 
 「空気に感謝なんてバカバカしい」と思っていてもやってみることが大事です。これは脳のトレーニングなので、違いは後から感じてきます。
 
-FIRE前は、資産上昇・目標達成ばかり気にしていましたよね？　集中するのは楽しいですが、<u decoration-wavy>目標以外のことを無視するようになっていきますし、自分の周りにあるものを認識することが難しくなっていきます。</u>
+FIRE前は、資産上昇・目標達成ばかり気にしていましたよね？ <u decoration-wavy>実は目標に集中すればするほど目標以外のことを無視するようになっていきますし、自分の周りにあるものを認識することが難しくなっていきます。</u>目標に集中することは「認識力を下げる」という弊害も知っておきましょう。
 
-FIRE後は、**ぜひ認識力を鍛えて無限ポカポカ感を感じてみて下さい**。
+FIRE後は**認識力・感謝力を鍛えて無限ポカポカ感を感じてみて下さい**
 </fieldset>
 
 ---
@@ -649,9 +720,53 @@ FIRE後は、**ぜひ認識力を鍛えて無限ポカポカ感を感じてみ�
 * 今回は「感謝の強み」の鍛え方を紹介しました
 * 感謝の日記、感謝の手紙、感謝の瞑想、そして日常生活での感謝
 * 「10週間で15〜25%幸福度が上がる」という研究結果のお墨付きです
-* 実体験として、「自分は感謝できるものに取り囲まれている」と思えるまで至ると、楽しくなってきますし、満足感が変わります
-* 例えるなら、外からもらう満足はジャンクフード、感謝による満足は和食のようなものです
-* 内側から湧いてくる満足感です
+* 実体験として、「自分は感謝できるものに取り囲まれている」と思えるようになると、満足感が内側から湧いてくる満足感に変わります
+
+---
+
+# アドバイスのまとめ
+
+<div grid grid-cols-15 gap-5 text-5>
+
+<fieldset border-purple border-2 rounded-6 bg-purple-500 bg-opacity-20
+  w-fit h-fit p-2 col-span-5>
+  <legend text-center>感謝の日記</legend>
+
+1. 週に一回感謝あなたが今感謝していることや人のリストを作る
+2. 平日毎晩、そのこと、人によって、あなたがどのように良い影響を受けたかを振り返る
+</fieldset>
+
+<fieldset border-purple border-2 rounded-6 bg-purple-500 bg-opacity-20
+  w-fit h-fit p-2 col-span-5>
+  <legend text-center>感謝の瞑想</legend>
+
+1. 座って目を閉じて、自然な呼吸に意識を向ける
+2. 感謝したい人・ことをイメージして心の中で「ありがとう」を伝えていく
+3. 2分間、心ゆくまで感謝の気持ちに浸ってみる
+</fieldset>
+
+<div col-span-5>
+
+<fieldset
+  border-purple border-2 rounded-6 bg-purple-500 bg-opacity-20
+  w-fit h-fit p-2 mb-5>
+  <legend text-center>外での感謝</legend>
+
+実際に感謝を口に出して感謝しやすい体作りをします
+</fieldset>
+
+<fieldset
+  border-purple border-2 rounded-6 bg-purple-500 bg-opacity-20
+  w-fit h-fit p-2>
+  <legend text-center>マインドフルネス瞑想</legend>
+
+ボディスキャンで五感を鍛えましょう。<br>
+普段見ていないものを意識的に「見て」みましょう。
+</fieldset>
+
+</div>
+
+</div>
 
 ---
 
@@ -665,3 +780,4 @@ FIRE後は、**ぜひ認識力を鍛えて無限ポカポカ感を感じてみ�
 # 参考
 
 * https://www.viacharacter.org/character-strengths/gratitude
+* [Psychology Today | Can You Be Grateful for a Life You Didn’t Live?](https://www.psychologytoday.com/us/blog/gratefully/202512/can-you-be-grateful-for-a-life-you-didnt-live)
