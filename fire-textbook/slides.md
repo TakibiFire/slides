@@ -174,23 +174,24 @@ ul {
 
 ---
 
+<style scoped>
+ul {
+  column-count: 2;
+}
+</style>
+
 # FIRE幸福論 4
 
-<div grid grid-cols-2 gap-6 m-auto><div>
+<div w-200 gap-6><div>
 
 <h2>4. 幸せを増やす実践</h2>
 
 * [幸福は鍛えられるスキル](https://takibi-fire.com/slides/fire-train-happiness/)
 * [自分の強みを知ろう (VIA Character Strength)](https://takibi-fire.com/slides/fire-via/)
 * [幸福度に直結する強み 1. 感謝の強みを鍛えよう](https://takibi-fire.com/slides/fire-gratitude/)
-* [2. 愛情の強みを鍛えよう〜ギバーになろう](https://takibi-fire.com/slides/fire-love/)
+* [2. 愛情の強みを鍛えよう<br>〜ギバーになろう](https://takibi-fire.com/slides/fire-love/)
 * [3. 熱意・好奇心・希望の強みを鍛えよう](https://takibi-fire.com/slides/fire-zest-curiosity-hope/)
-
-</div><div>
-
-<h2>&nbsp;</h2>
-
-* どんどん寄り道しよう・達成よりも過程を楽しもう
+* どんどん寄り道しよう・<br>達成よりも過程を楽しもう
 * 寄付をしてみよう
 * ひとりあそびを極めよう
 * ビジネスと幸福論は相性が悪い
