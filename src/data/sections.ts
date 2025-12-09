@@ -163,7 +163,11 @@ export const sections: {
       },
       {
         id: 'fire-love',
-        title: '幸福度に直結する強み 2. 愛情の強みを鍛えよう〜ギバーになろう'
+        title: '2. 愛情の強みを鍛えよう〜ギバーになろう'
+      },
+      {
+        id: 'fire-zest-curiosity-hope',
+        title: '3. 熱意・好奇心・希望の強みを鍛えよう'
       }
     ]
   }
