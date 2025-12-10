@@ -168,7 +168,11 @@ export const sections: {
       {
         id: 'fire-zest-curiosity-hope',
         title: '3. 熱意・好奇心・希望の強みを鍛えよう'
-      }
+      },
+      {
+        id: 'fire-side-trip',
+        title: 'どんどん寄り道しよう・達成よりも過程を楽しもう'
+      },
     ]
   }
 };
