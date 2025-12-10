@@ -1063,4 +1063,4 @@ FIRE達成者は自分の<br>人生を自分で決めて<br>いるのでアド�
 # それでは次回[「自分の強みを知ろう (VIA Character Strength)」](https://takibi-fire.com/slides/fire-via/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks text-5 section="happiness4" withSection/>
+  * <SectionLinks section="happiness4" text-5 withSection/>
