@@ -199,7 +199,7 @@ layout: section
 
 </div><div col-span-3 m-auto text-4 text-center>
 
-<img src="/imgs/mindfulness-book.png"/>
+<img src="https://takibi-fire.com/slides/public/imgs/mindfulness-book.png"/>
 
 [図解 マインドフルネス瞑想がよくわかる本 (健康ライブラリースペシャル)](https://www.amazon.co.jp/dp/4062598590)
 
