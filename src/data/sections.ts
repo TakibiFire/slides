@@ -173,6 +173,10 @@ export const sections: {
         id: 'fire-side-trip',
         title: 'どんどん寄り道しよう・達成よりも過程を楽しもう'
       },
+      {
+        id: 'fire-solo-play',
+        title: 'ひとりあそびを極めよう'
+      },
     ]
   }
 };
