@@ -155,7 +155,7 @@ export const sections: {
       },
       {
         id: 'fire-via',
-        title: '自分の強みを知ろう (VIA Character Strength)'
+        title: '自分の強みを知ろう (VIA Character Strengths)'
       },
       {
         id: 'fire-gratitude',

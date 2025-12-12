@@ -6,7 +6,7 @@ fonts:
   serif: Noto Serif JP
   # コードブロック用
   mono: Fira Code
-title: 自分の強みを知ろう (VIA Character Strength) | FIRE後の教科書 | たきび FIRE
+title: 自分の強みを知ろう (VIA Character Strengths) | FIRE後の教科書 | たきび FIRE
 titleTemplate: "%s"
 favicon: https://takibi-fire.com/slides/public/imgs/favicon.png
 highlighter: shiki
@@ -35,7 +35,7 @@ h1, p {
 
 # 自分の強みを知ろう
 
-〜VIA Character Strength によるあなたの強み診断〜
+〜VIA Character Strengths によるあなたの強み診断〜
 
 <div text-center mb-8 font-bold bg-gradient-to-r from-indigo-200 via-blue-500 to-purple-400 text-transparent bg-clip-text>
   <span text-13>FIRE後の教科書</span><br>
@@ -145,11 +145,11 @@ layout: cover
 
 ---
 
-# 「VIA Character Strength」というWebでの強み判定
+# 「VIA Character Strengths」というWebでの強み判定
 <div flex flex-row>
 <div class="basis-34/100" text-7>
 
-性格判定や強み判定は世の中に色々なものがありますが、 **VIA Character Strength** というものをオススメします。
+性格判定や強み判定は世の中に色々なものがありますが、 **VIA Character Strengths** というものをオススメします。
 
 </div>
 
