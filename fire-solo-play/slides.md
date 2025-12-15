@@ -18,7 +18,7 @@ mdc: true
 layout: center
 lang: ja
 glowSeed: 4
-footerTitle: FIRE後の教科書 > FIRE幸福論 > 幸せを増やす実践 > ひとりあそびを極めよう
+footerTitle: FIRE後の教科書 > FIRE幸福論 > 幸せを増やす実践 > 寄付をしてみよう
 addons:
   - fancy-arrow
 ---
@@ -77,6 +77,33 @@ h1, p {
 ---
 
 <style scoped>
+.slidev-layout h1 {
+  font-size: 34px;
+}
+</style>
+
+# [FIRE後の教科書](https://takibi-fire.com/slides/fire-textbook/) > FIRE幸福論 > 幸せを増やす実践
+
+<div grid grid-cols-2 gap-6><div>
+
+<SectionLinks section="happiness4" text-5 current="fire-solo-play"/>
+
+</div><div italic text-5.5 mt--5>
+
+このシリーズでは、幸福度を生活で増やすために心理学で分かっていることを紹介していきます。
+
+第3章[幸福の定義](https://takibi-fire.com/slides/fire-definition-of-happiness/)でお伝えした通り、幸福や「良い人生」は様々な要素を含むので、「これをやればよい」という単発のものはありません。ダイエットと同じように幸福の実践でも色々やっていくことが大事です。系統立ててやっていく方法を今回お伝えします。
+
+<div text-4.5>
+序章はこちら<carbon-ArrowDown/><br>
+<SectionLinks section="intro" />
+</div>
+
+</div></div>
+
+---
+
+<style scoped>
 p {
   @apply my-6;
 }
@@ -98,6 +125,7 @@ p {
 <u decoration-wavy>今スライドの引用は全てこの本からの引用です。</u>
 </div>
 </div>
+
 ---
 
 <style scoped>
