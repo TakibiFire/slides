@@ -602,9 +602,7 @@ layout: cover
 
 ---
 
-# それでは次回「ひとりあそびを極めよう」をどうぞ
-
-2025/12/11: 未完
+# それでは次回[「ひとりあそびを極めよう」](https://takibi-fire.com/slides/fire-solo-play/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness4" text-5 withSection/>
