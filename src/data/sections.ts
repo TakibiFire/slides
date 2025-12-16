@@ -177,6 +177,10 @@ export const sections: {
         id: 'fire-solo-play',
         title: 'ひとりあそびを極めよう'
       },
+      {
+        id: 'fire-donation',
+        title: '寄付をしてみよう'
+      },
     ]
   }
 };

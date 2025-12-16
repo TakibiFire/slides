@@ -1,0 +1,6 @@
+.slidev-layout blockquote {
+  font-size: 90%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  @apply my-3 ml-5 pl-3 bg-gray-500 bg-opacity-20;
+}
