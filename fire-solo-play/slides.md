@@ -365,9 +365,7 @@ layout: cover
 
 ---
 
-# それでは次回「寄付をしてみよう」をどうぞ
-
-2025/12/13: 未完
+# それでは次回[「寄付をしてみよう」](https://takibi-fire.com/slides/fire-donation/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness4" text-5 withSection/>

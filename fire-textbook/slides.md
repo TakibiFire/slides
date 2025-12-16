@@ -72,7 +72,7 @@ layout: fact
 
 <div text-8>
 
-2025/12/13: <span color-orange>FIRE後の教科書は建設途中です (54%完了)。</span>
+2025/12/16: <span color-orange>FIRE後の教科書は建設途中です (58%完了)。</span>
 
 毎日コンテンツを足しながらリンクも増やしていきます。
 
@@ -193,8 +193,7 @@ ul {
 * [3. 熱意・好奇心・希望の強みを鍛えよう](https://takibi-fire.com/slides/fire-zest-curiosity-hope/)
 * [どんどん寄り道しよう・<br>達成よりも過程を楽しもう](https://takibi-fire.com/slides/fire-side-trip/)
 * [ひとりあそびを極めよう](https://takibi-fire.com/slides/fire-solo-play/)
-* 寄付をしてみよう
-* ビジネスと幸福論は相性が悪い
+* [寄付をしてみよう](https://takibi-fire.com/slides/fire-donation/)
 * アドバイス集まとめ
 
 </div></div>
@@ -207,9 +206,8 @@ ul {
 
 <h2>5. 「やりたいこと！」の前に</h2>
 
-* 他者評価からの脱却
-* 解像度を上げて満足を深める
 * 思い出志向を避ける
+* ビジネスと幸福論は相性が悪い
 
 </div><div>
 
