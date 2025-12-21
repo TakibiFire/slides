@@ -18,7 +18,7 @@ mdc: true
 layout: center
 lang: ja
 glowSeed: 4
-footerTitle: FIRE後の教科書 > FIRE幸福論 > 幸せを増やす実践 > 寄付をしてみよう
+footerTitle: FIRE後の教科書 > FIRE幸福論 > 幸せを増やす実践 > ひとりあそびを極めよう
 addons:
   - fancy-arrow
 ---
@@ -86,7 +86,7 @@ h1, p {
 
 <div grid grid-cols-2 gap-6><div>
 
-<SectionLinks section="happiness4" text-5 current="fire-solo-play"/>
+<SectionLinks section="happiness4" text-4.7 current="fire-solo-play"/>
 
 </div><div italic text-5.5 mt--5>
 
@@ -368,4 +368,4 @@ layout: cover
 # それでは次回[「寄付をしてみよう」](https://takibi-fire.com/slides/fire-donation/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="happiness4" text-5 withSection/>
+  * <SectionLinks section="happiness4" columns-2 text-5 withSection/>
