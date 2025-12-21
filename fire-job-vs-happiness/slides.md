@@ -464,7 +464,7 @@ This slide's content is based on the following sources:
   * **FIREした人にとって、仕事以外の「意味」を見出すことは重要なテーマです**
 
 <br>
-<carbon-ArrowRight/> FIRE幸福論の第8章でお話します (2025/11/19: 未完)
+<carbon-ArrowRight/> FIRE幸福論の第7章でお話します (2025/12/21: 未完)
 
 ---
 

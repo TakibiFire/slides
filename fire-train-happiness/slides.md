@@ -1001,7 +1001,7 @@ layout: cover
 
   <div class="lef">人生に意味や方向性を見出している</div>
   <div class="mid"><carbon-ArrowRight/></div>
-  <div class="rgt">8章「人生における意味」</div>
+  <div class="rgt">7章「人生における意味」</div>
 </div>
 
 ---

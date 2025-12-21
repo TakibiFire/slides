@@ -194,6 +194,7 @@ ul {
 * [どんどん寄り道しよう・<br>達成よりも過程を楽しもう](https://takibi-fire.com/slides/fire-side-trip/)
 * [ひとりあそびを極めよう](https://takibi-fire.com/slides/fire-solo-play/)
 * [寄付をしてみよう](https://takibi-fire.com/slides/fire-donation/)
+* [思い出志向を避けよう](https://takibi-fire.com/slides/fire-peak-end/)
 * アドバイス集まとめ
 
 </div></div>
@@ -204,10 +205,13 @@ ul {
 
 <div grid grid-cols-2 gap-6 m-auto><div>
 
-<h2>5. 「やりたいこと！」の前に</h2>
+<h2>5. 承認欲求との向き合い方</h2>
 
-* 思い出志向を避ける
-* ビジネスと幸福論は相性が悪い
+* 承認欲求の正体
+* 承認欲求の弊害と深層心理
+* 承認欲求から解放されるためには
+* FIRE後のアドバイス
+* 承認欲求に関する質問集
 
 </div><div>
 
@@ -223,21 +227,11 @@ ul {
 
 ---
 
-# FIRE幸福論 7 & 8
+# FIRE幸福論 7
 
 <div grid grid-cols-2 gap-6 m-auto><div>
 
-<h2>7. 承認欲求との向き合い方</h2>
-
-* 承認欲求の正体
-* 承認欲求の弊害と深層心理
-* 承認欲求から解放されるためには
-* FIRE後のアドバイス
-* 承認欲求に関する質問集
-
-</div><div>
-
-<h2>8. 人生における意味</h2>
+<h2>7. 人生における意味</h2>
 
 * 人生に意味なんてあるの？
 * 人生の意味の構成要素
