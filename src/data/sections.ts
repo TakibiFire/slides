@@ -181,6 +181,10 @@ export const sections: {
         id: 'fire-donation',
         title: '寄付をしてみよう'
       },
+      {
+        id: 'fire-peak-end',
+        title: '思い出志向を避けよう'
+      },
     ]
   }
 };
