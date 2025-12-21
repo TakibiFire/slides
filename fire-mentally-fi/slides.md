@@ -247,7 +247,7 @@ FIRE 以前の習慣の継続
 
 <div grid grid-cols-7 gap-10><div col-span-2 text-4>
 
-<img src="/imgs/DIEWITHZERO.jpg"/>
+<img src="https://takibi-fire.com/slides/public/imgs/DIEWITHZERO.jpg"/>
 
 [DIE WITH ZERO 人生が豊かになりすぎる究極のルール | Amazon](https://www.amazon.co.jp/dp/4478109680)
 
