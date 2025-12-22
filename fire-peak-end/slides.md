@@ -69,9 +69,9 @@ h1, p {
 # 1枚で要約
 
 * DIE WITH ZERO の「記憶の配当」「思い出貯金」の考え方はやめよう
-* 思い出のために行動することの弊害をたくさん紹介
-* 人生の99%は思い出に残らない
-* 思い出づくりよりも思い出に残らない日々を大切にしよう
+* 思い出の仕組みが分かれば、思い出作りの弊害が分かります
+* そもそも人生のほとんどは思い出に残らないので<br>
+  思い出作りよりも思い出に残らない日々を大切にしましょう
 
 <div text-base absolute bottom-8 left-8>スライド一覧を流し見したい人は左下から<carbon-apps />をクリック
 </div>
@@ -194,106 +194,65 @@ DIE WITH ZERO という本で紹介されていて<br>有名かもしれませ�
 layout: section
 ---
 
-# 思い出の重要な性質
+# DIE WITH ZERO の間違い
 <div mt--10 mb-10>
 〜ここから心理学の話〜
 </div>
 
-ポジティブな回想は幸福度を増幅させる
+何度も味わえる思い出と「経験に投資」の方向性の違い
 
-ピーク・エンドの法則
+思い出作りをしようとして思い出を作るのはナンセンス
 
-経験する自己・記憶する自己
+思い出を重視すると人生のほとんどが無視される
+
+---
+layout: cover
+---
+
+# 「幸せな思い出を溜めよう」<br>ってどういう意味？
+
+「経験に投資」の経験ってなんでしょうか
 
 ---
 
-# ポジティブな回想は幸福度を増幅させる
+# 「思い出作り」によくある発想
 
-<fieldset border-green border-2 rounded-4 bg-green-500 bg-opacity-20 w-fit px-6 m-auto>
-  <legend ml-7>研究結果</legend>
+<fieldset border-rose border-2 rounded-4 bg-rose-500 bg-opacity-20 px-6 mt-10 mx-auto>
+  <legend ml-7>こんな感じ</legend>
 
-幸せな記憶を意図的に思い出し味わう人は幸福度が増す。<br>
-自尊心も増すし、ネガティブ思考を断ち切ることもでき、<br>
-ストレスホルモンも減り、医者にかかる割合も減る。
-</fieldset>
-
-<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 w-fit px-6 mx-auto mt-5>
-  <legend ml-7>ただしやるなら徹底的に！</legend>
-
-* 思い出せる幸せな記憶を書き出して、一つ選び、10分思い出してみる
-* 心の目の中に、当時の光景が浮かび上がり、それに続いて、感情が溢れてくる。それにすべてに浸り、ポジティブな感覚に包まれる
-* 浸った後にそれを誰かに伝えてみたり、記憶や感情を紙に書いたりする
-</fieldset>
-
----
-
-# ポジティブな回想は幸福度を増幅させる 2/2
-
-<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 w-fit px-6 mx-auto
-  text-8>
-
-「幸せな記憶は喜びを与え続けてくれる」は間違っていないが、<u decoration-orange decoration-wavy>記憶を思い出し深く味わう行為・習慣が必要。</u>
-それなしに勝手に「人生に彩り」を与えたりはしない。
-</fieldset>
-
-<fieldset v-click=1 border-red border-2 rounded-4 bg-red-500 bg-opacity-20 w-fit px-6 mt-10 mx-auto
-  text-8 text-center>
-
-しかしここでいう幸せな記憶って何でしょう？<br>
-思い出作りが幸せな記憶に結びついてほしいですよね？
-</fieldset>
-
----
-
-# 「思い出作り」でよく言われがちなもの
-
-* 海外旅行
+* 海外旅行・スキー旅行・バックパック旅行
 * 家族・恋人とのお盆休暇・年末年始休暇
-* スキー旅行
 * スキューバダイビング・パラセーリングなどのアクティビティ
-* 遠くのライブやフェス
+* 語学留学
+* ライブやフェス
 * 子供の年齢に合わせたアクティビティ
+</fieldset>
+
+<div v-click=1 w-fit m-auto>
+
+どれも「貴重感」「特別感」が重要。<br>
+お金と時間があればできるものが多い。インスタ映えしやすい。<br>
+</div>
 
 ---
 
-# <u decoration-wavy>現時点のあなたにとって</u>幸せな記憶ってなんですか？
+# では<u decoration-wavy>現時点のあなたにとって</u>幸せな思い出とは？
 
-<div grid grid-cols-2 gap-6 mt--10><div>
-
-<fieldset border-emerald border-2 rounded-4 bg-emerald-500 bg-opacity-20 px-6 mt-10 mx-auto>
-  <legend ml-7>例えばこんな感じ？</legend>
+<fieldset v-click=1 border-emerald border-2 rounded-4 bg-emerald-500 bg-opacity-20 px-6 mt-10 mx-auto>
+  <legend ml-7>人によりますが例えばこんな感じ？</legend>
 
 * 友達と笑いあった思い出
+* 昇進・メダル獲得などの瞬間、周りに認められた時
+* 苦労・努力の後にした達成、そこで見られた景色
 * プロポーズや結婚式
-* 昇進・メダル獲得などの瞬間
-* 苦労の後に見た景色
-* 自分の子供が初めて◯した時
+* 自分の子供が初めて◯◯した時
 </fieldset>
 
-<fieldset v-click=2 border-yellow border-2 rounded-4 bg-yellow-500 bg-opacity-20 w-fit px-6 mt-10 mx-auto>
+<div v-click=2 w-fit m-auto>
 
-左側は回想した時深く何度も幸福感を味わうことができそう
-</fieldset>
-
-</div><div>
-
-<fieldset v-click=1
-  border-rose border-2 rounded-4 bg-rose-500 bg-opacity-20 px-6 mt-10 mx-auto>
-  <legend ml-7>それともこっち系？</legend>
-
-* 豪華ホテル・豪華客船
-* スキー旅行
-* レアな体験 (スキューバ)
-* 海外旅行
-* ライブやフェス
-</fieldset>
-
-<fieldset v-click=3 border-pink border-2 rounded-4 bg-pink-500 bg-opacity-20 w-fit px-6 mt-10 mx-auto>
-
-右側は「あの時幸せだったなぁ」と<u>何度も</u>味わうのは難しい
-</fieldset>
-
-</div></div>
+お金を払う経験かどうかは関係ない。<br>
+むしろ、他の人との交流や、自分の努力と関連していることが多い。
+</div>
 
 ---
 
@@ -315,18 +274,28 @@ layout: section
 </div>
 
 ---
+
+# DIE WITH ZERO の間違い - その１ - 補足
+
+<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w10 />は「やりたいことをやる」「今しかできないことを優先する」には賛成です。
+
+ただし**その動機が重要です。「語学留学をしたい」のは学びたいこと・好奇心・自分の成長のためであり、「幸せな思い出を作りたいから」にはなりえません。**
+
+DIE WITH ZERO も一応「投資するべき経験は人それぞれ」としています。経験の選び方として、「人生で最も重要な価値観をリストアップし、それに基づいた経験や目標を特定し、優先順位をつける」としています。<span text-red font-bold>それはいい意見だと思いますが、「人生で最も重要な価値観をリストアップし」が一番大事で、とても難しい箇所です</span>。
+
+海外旅行・ライブ・家族とのアクティビティなど、どれでもいいですが「人生で最も重要な価値観に合っていますか？」と聞かれたら悩むでしょう？
+
+---
 layout: cover
 ---
 
-# 思い出を<br>どれだけ覚えていられるか
+# あなたは自分の記憶を<br>どれだけ信じていますか？
 
-さて次は「思い出」について、あなたが何を思い出せるかという話です。
-
-思い出に関して重要な①ピーク・エンドの法則、②予測誤差を知りましょう
+さて次は、あなたの「思い出」がいかに不確かで、<br>面白い仕組みでできているか、簡単な実験で体感してもらいましょう。
 
 ---
 
-# 思い出し実験をしてみましょう
+# 思い出す実験をしてみましょう
 
 このスライドは早送りしないでじっくり思い出して下さい。
 
@@ -350,7 +319,7 @@ layout: cover
 
 ---
 
-# 要素①：ピーク・エンドの法則
+# 思い出の性質①：ピーク・エンドの法則
 
 <fieldset border-orange border-2 rounded-4 bg-orange-500 bg-opacity-20 w-fit mx-auto my-6
   px-6 text-6.4 text-center>
@@ -394,7 +363,13 @@ layout: cover
 
 ---
 
-# 要素②：強い思い出には予測が外れることが大事
+<style scoped>
+.slidev-layout h1 {
+  font-size: 34px;
+}
+</style>
+
+# 思い出の性質②：強い思い出は予測が外れた時にできる
 
 * 記憶の定着にはドーパミンが影響
 * 脳は「自分の予測が外れた時に」ドーパミンをたくさん出す
@@ -434,9 +409,9 @@ layout: cover
 layout: cover
 ---
 
-# 思い出志向のリスク
+# 思い出志向の危険性
 
-「経験する自己」と「記憶する自己」
+「思い出重視」の考え方が生まれてくるメカニズム
 
 「今」を生きるの誤解
 
@@ -444,113 +419,142 @@ layout: cover
 
 ---
 
-# 「経験する自己」と「記憶する自己」
+# 人の中の2つの人格
 
-<div grid grid-cols-2 gap-6><div>
-
-<fieldset border-blue border-2 rounded-4 bg-blue-500 bg-opacity-20 my-5
-  text-7.5 text-center>
-  <legend>経験する自己</legend>
-
-今まさに経験中の自分
-</fieldset>
-
-<fieldset border-orange border-2 rounded-4 bg-orange-500 bg-opacity-20 my-5
-  text-7.5 text-center>
-  <legend>記憶する自己</legend>
-
-経験したことを思い出し<br>評価する時の自分
-</fieldset>
-
-<div v-click=1 text-9 text-center text-red>
-最重要: これらは全く別
-</div>
-
-</div><div text-4>
+<div grid grid-cols-2 gap-6><div text-4>
 <img src="/imgs/daniel-ted.png"/>
 
 [ダニエル・カーネマン： 経験と記憶の謎 | TED | YouTube](https://www.youtube.com/watch?v=XgRlrBl-7Yg)<br>
 ノーベル賞受賞者であり、行動経済学をつくり上げたダニエル・カーネマンが、「経験の自己」と「記憶の自己」の幸福の捉え方の違いを語ります。
 
 ほぼこのスライドの趣旨と一緒です。オススメ！
-</div></div>
+</div><div>
 
----
+ピーク・エンドの法則を元に、人の中にある2つの<u decoration-wavy decoration-purple>全く別の人格</u>があるとする考え方を提唱した。
 
-# 記憶する自己
+<fieldset border-blue border-2 rounded-4 bg-blue-500 bg-opacity-20 my-5
+  text-7.5 text-center>
 
-<div grid grid-cols-5 gap-6><div col-span-3 text-5.5>
-
-* 経験を人生の物語として記憶する
-* しかし<span text-red>ピーク・エンドの法則に支配されている</span>ため、「覚えている箇所が自分の人生だ」というイメージを植え付ける
-* しかも将来の選択・判断に影響を与えるのは記憶する自己だけ
-
-<fieldset border-red border-2 rounded-4 bg-red-500 bg-opacity-20 my-5
-  text-7 text-center>
-
-「記憶する自己」は脳に意見の口出しをたくさんする。
-「将来の人生は思い出の合計」と認識するのはこいつのせい
+今まさに経験中の自分
 </fieldset>
 
-</div><div text-5 col-span-2 m-auto text-center italic>
+<fieldset border-orange border-2 rounded-4 bg-orange-500 bg-opacity-20 my-5
+  text-7.5 text-center>
 
-<img src="/imgs/experience.jpg" h-80 text-center/>
-背景は経験したこと。ストーリー<br>として思い出せることは一部。
+経験したことを思い出し<br>評価する時の自分
+</fieldset>
 
 </div></div>
 
 ---
 
-# 経験する自己
+# 記憶し評価する自分
 
-* 今現在を経験する自分。このスライドを読んでいるあなた自身
-* 1週間の休暇をしたら、1週間分の経験する
-  * 記憶する自己は全然覚えられない
+<div grid grid-cols-3 gap-6 mt--3><div col-span-2 text-5.5>
+
+* 経験を人生の物語として記憶する役割
+* ただし<span text-red>ピーク・エンドの法則に支配されていて</span><br>実は記憶している部分はほんの一部
+* **おしゃべりなイメージ**
+  * 「覚えている箇所が自分の人生だ」というイメージを自分に植え付ける
+  * 将来の選択・判断をする脳の箇所に常に喋りかける
+  * 最近幸せか、などの過去の評価にも答える
+
+</div><div col-span-1 text-5 m-auto text-center italic>
+
+<img src="/imgs/experience.jpg" text-center/>
+ほんの一部しか思い出せないけど、おしゃべり好き
+</div></div>
+
+<fieldset v-click=1 border-red border-2 rounded-4 bg-red-500 bg-opacity-20 my-5
+  text-7 w-fit px-6 text-center m-auto>
+
+「人生は思い出の合計」と認識するのはこいつのせい
+</fieldset>
+
+---
+
+# 経験する自分
+
+<div grid grid-cols-4 gap-6 mt--3><div col-span-3 text-6>
+
+* 今現在をずっと経験し続ける自分
+  * このスライドを読んでいるあなた自身
+* 1週間の休暇で1週間分の経験する
+* **経験するけど全て忘れる寡黙な人のイメージ**
+  * 「この瞬間瞬間が人生だ」と、か細く言う
+</div><div col-span-1 text-5 m-auto text-center italic>
+
+<img src="/imgs/experiencing-self.jpg" text-center/>
+
+</div></div>
 
 <fieldset border-red border-2 rounded-4 bg-red-500 bg-opacity-20 my-5
   text-8 text-center w-fit px-6 m-auto>
 
-「記憶する自己」が口やかましいせいで<br>「経験する自己」は重要視されないことがほとんど
+「記憶・評価する自分」が口やかましいせいで<br>「経験する自分」の声はほとんど聞こえない
 </fieldset>
 
 <div text-center>
-実際に経験するのは経験する自己なのに！
+実際に経験するのは経験する自分なのに！
 </div>
 
 ---
 
-<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 my-5
-  text-10 text-center w-fit px-10 m-auto>
-  <legend mb--5>アドバイス</legend>
+<style scoped>
+legend {
+  font-size: 90%;
+}
+</style>
 
-思い出作りよりも<br>
-思い出に残らない日々を有意義にしよう
+# 思い出偏重の考え方の概念図: <img src="/imgs/experience.jpg" h18 inline> vs. <img src="/imgs/experiencing-self.jpg" h18 inline>
+
+<div flex>
+<fieldset border-orange border-2 rounded-4 bg-orange-500 bg-opacity-20 px-5
+  w-fit mr-10>
+  <legend text-center>おしゃべりな記憶する自分</legend>
+
+<p v-click=1> 
+将来のことを考えよう！
+</p>
+
+<p v-click=2>
+将来って「記憶の合計」だよ！<br>
+だって今覚えている人生って<br>
+それでしょ？
+</p>
+
+<p v-click=3>
+記憶に残りそうないいなぁ。<br>何か派手なものがいいんじゃない？
+</p>
+
+<p v-click=4>
+そうだね、豪華客船とかどう？
+</p>
 </fieldset>
 
-<div v-click=1>
+<fieldset border-blue border-2 rounded-4 bg-blue-500 bg-opacity-20 px-5
+  w-fit>
+  <legend text-center>寡黙な経験する自分</legend>
 
-* そもそも人生の99%は記憶に残らない
-* 「記憶に残らない部分をどれだけ幸せにするか」という視点を持とう
-  * [「どんどん寄り道しよう・達成よりも過程を楽しもう」](https://takibi-fire.com/slides/fire-side-trip/)・[「ひとりあそびを極めよう」](https://takibi-fire.com/slides/fire-solo-play/)の回で「日々の満足度」の重要さを解説しました
+<p v-click=1>
+...
+</p>
 
-</div> 
+<p v-click=2>
+...<br>
+(...毎日毎日が人生だと思う...)<br><br>
+</p>
 
----
+<p v-click=3>
+...<br>
+...
+</p>
 
-# 思い出志向のリスク
-
-「食事中、旅行中、映え写真を撮りまくる」行為は未来を想像してその未来から見た過去を楽しんでいる行為。つまり「記憶する自己」を重視している。
-
-写真を撮らなければ、もっと今の瞬間に集中し楽しむことができる。
-
-<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 w-fit px-6 mx-auto
-  text-7.5 text-center my-5>
-  <legend>重要</legend>
-
-「今ここを生きる」を「若いうちに経験に投資しよう」<br>とするのは全くの解釈間違い。
-
-そもそも、未来の自分を喜ばそうとする「思い出作り」<br>という発想自体が「今ここを生きる」とは逆の考え方。
+<p v-click=4>
+(...それもいいけど今を<br>もっと大事にしたいよ...)
+</p>
 </fieldset>
+</div>
 
 ---
 
@@ -563,40 +567,74 @@ layout: cover
 人生のほぼ全ては記憶に残らないのだから、<br>記憶に残らない日々の満足度を上げるべき。
 </fieldset>
 
+<div v-click=1>
+
+* <u decoration-wavy decoration-orange>「記憶に残らない部分をどれだけ幸せに生きるか」という視点を持とう</u>
+  * 「日々の満足度」の重要さを以前解説しました<sup>1,2</sup>
+* 「記憶する自分」を大事にするのは不幸せの方向にまっしぐら<sup>3</sup>
+
+<div text-4 ml-20 mt-5>
+
+1. [「どんどん寄り道しよう・達成よりも過程を楽しもう」](https://takibi-fire.com/slides/fire-side-trip/)
+2. [「ひとりあそびを極めよう」](https://takibi-fire.com/slides/fire-solo-play/)
+3. [「幸福は追求するものではない」](https://takibi-fire.com/slides/fire-seeking-happiness/)
+</div>
+
+</div> 
+
 ---
 
-# 補足 1. 経験すること自体は良い。動機が大事
+# 思い出志向のリスク
 
-* DIE WITH ZERO の言う「若いうちに経験をしよう」という結論自体はいいと思います。**それは経験をしないと経験を味わう力が伸びないからです**
-  * 味わう力が増えれば日々の充実感が増します
-* しかし「思い出を作るのは早めのほうが良いから」という理由で経験をするのは、<span text-red>今を楽しむ気持ちが減るので逆効果です</span>
-* そしてこの話で言っている「経験」とは何かもう一度深く考えましょう。
-  * 「友達と笑いあった思い出」にお金は全く関係ありません
+「食事中や旅行中に映え写真を撮りまくる」行為は未来を想像している。その未来から見た過去を楽しんでいる行為。つまり「記憶する自分」を重視している。
 
----
+写真を撮らなければ、もっと今の瞬間に集中し楽しむことができる。
 
-# 補足 2. 思い出とうつ病との関連
+<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 w-fit px-6 mx-auto
+  text-7.5 text-center my-5>
+  <legend>重要</legend>
 
-* 「幸せな記憶を思い出す」のはほとんどの人にとってはポジティブな気持ちになりますが、うつ病の人には逆効果になることがあります（例: 今との比較をし始めたり）
-* 「将来後悔しないために思い出作りする」という主張が DIE WITH ZERO にありますが、**高齢になると**ネガティブ感情やストレスを上手く処理できるようになり、**そもそも後悔しにくくなります。** <br>しかしうつ病の人はそうなりません。
+そもそも、未来の自分を喜ばそうとする「思い出作り」<br>という発想自体が「今ここを生きる」とは逆の考え方。
+</fieldset>
+
+<div text-center>
+ちなみに「今ここを生きる」を「若いうちに経験に投資しよう」<br>と解釈するのも完全な間違い。
+</div>
 
 ---
 
 # まとめ
 
-<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 px-6 py-2 mx-auto
-  text-7
->
+<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 my-3
+  text-10 text-center w-fit px-10 m-auto>
 
-* 「経験する自己」を大事にしよう
-  * 記憶に残らない99%の日々の方が大事
-  * 経験している瞬間を味わうようにしよう
-* 「記憶する自己」の言うことを聞きすぎないようにしよう
-  * 幸せな記憶を演出するのは無理
-  * 幸せな記憶と「幸せそうな経験」はだいたい方向性が違う
-  * 思い出が人生に彩りを与えるためには訓練が必要
-
+思い出作りよりも<br>
+思い出に残らない日々を有意義にしよう
 </fieldset>
+
+<div flex>
+
+<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 my-5
+  text-7 text-center class="w-1/2" h-fit px-5 mr-5>
+
+「思い出作り」として<br>やりそうな経験は、
+将来<br>何度も味わえるような<br>思い出にならない。
+</fieldset>
+
+<div class="w-1/2">
+<fieldset border-red border-2 rounded-4 bg-red-500 bg-opacity-20 my-5
+  text-7 text-center h-fit px-2 m-auto>
+
+幸せな記憶を演出するのは無理
+</fieldset>
+
+<fieldset border-red border-2 rounded-4 bg-red-500 bg-opacity-20 my-5
+  text-7 text-center h-fit px-2 m-auto>
+
+幸せな記憶と「幸せそうな<br>経験」は方向性が違う
+</fieldset>
+</div>
+</div>
 
 ---
 
@@ -611,9 +649,103 @@ layout: cover
 
 # 参考
 
-* https://www.psychologytoday.com/us/blog/the-good-life-ritual/202308/the-power-of-reminiscence
-* https://www.psychologytoday.com/us/blog/a-buoyant-life/202303/the-benefits-of-reliving-your-happy-memories
-* https://management-psychology.amebaownd.com/posts/32901209/
-* https://nazology.kusuguru.co.jp/archives/189141/3
-* https://positivepsychology.com/what-is-peak-end-theory/
-* https://www.psychologytoday.com/us/blog/the-mindful-self-express/201206/the-neuroscience-regret
+* [PositivePsychology | What Is the Peak–End Rule? How to Use It Smartly](https://positivepsychology.com/what-is-peak-end-theory/)
+* [楽しさ・苦痛の記憶：ピーク・エンドの法則、デュレーションネグレクト](https://management-psychology.amebaownd.com/posts/32901209/) 
+
+---
+layout: cover
+---
+
+# 付録
+
+＝ あぶれたスライド達
+
+---
+
+# ポジティブな回想は幸福度を増幅させる 1/3
+
+<fieldset border-green border-2 rounded-4 bg-green-500 bg-opacity-20 w-fit px-6 m-auto>
+  <legend ml-7>研究結果</legend>
+
+幸せな記憶を意図的に思い出し味わう人は幸福度が増す。<br>
+自尊心も増すし、ネガティブ思考を断ち切ることもでき、<br>
+ストレスホルモンも減り、医者にかかる割合も減る。
+</fieldset>
+
+<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 w-fit px-6 mx-auto mt-5>
+  <legend ml-7>ただしやるなら徹底的に！</legend>
+
+* 思い出せる幸せな記憶を書き出して、一つ選び、10分思い出してみる
+* 心の目の中に、当時の光景が浮かび上がり、それに続いて、感情が溢れてくる。それにすべてに浸り、ポジティブな感覚に包まれる
+* 浸った後にそれを誰かに伝えてみたり、記憶や感情を紙に書いたりする
+</fieldset>
+
+---
+
+# ポジティブな回想は幸福度を増幅させる 2/3
+
+<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 w-fit px-6 mx-auto
+  text-8>
+
+「幸せな記憶は喜びを与え続けてくれる」は間違っていないが、<u decoration-orange decoration-wavy>記憶を思い出し深く味わう行為・習慣が必要。</u>
+それなしに勝手に「人生に彩り」を与えたりはしない。
+</fieldset>
+
+<fieldset v-click=1 border-red border-2 rounded-4 bg-red-500 bg-opacity-20 w-fit px-6 mt-10 mx-auto
+  text-8 text-center>
+
+しかしここでいう幸せな記憶って何でしょう？<br>
+思い出作りが幸せな記憶に結びついてほしいですよね？
+</fieldset>
+
+---
+
+# ポジティブな回想は幸福度を増幅させる 3/3
+
+「幸せな記憶を思い出す」のはほとんどの人にとってはポジティブな気持ちになりますが、<u decoration-wavy>うつ病の人には逆効果になることがあります</u>。
+
+* 同時に辛い記憶を思い出しがち
+* 過去の自分と今の自分の違いを意識する場合もある
+
+参考:
+
+* [PsychologyToday | The Power of Reminiscence](https://www.psychologytoday.com/us/blog/the-good-life-ritual/202308/the-power-of-reminiscence)
+* [PsychologyToday | The Benefits of Reliving Your Happy Memories](https://www.psychologytoday.com/us/blog/a-buoyant-life/202303/the-benefits-of-reliving-your-happy-memories)
+* [PsychologyToday | When Happy Memories Make Us Sad](https://www.psychologytoday.com/us/blog/days-gone/202208/when-happy-memories-make-us-sad)
+
+---
+
+# 補足: 経験すること自体は良い。動機が大事
+
+* DIE WITH ZERO の言う「若いうちに経験をしよう」という結論自体はいいと思います。**それは経験をしないと経験を味わう力が伸びないからです**
+  * 味わう力が増えれば日々の充実感が増します
+* しかし「思い出を作るのは早めのほうが良いから」という理由で経験をするのは、<span text-red>今を楽しむ気持ちが減るので逆効果です</span>
+* そしてこの話で言っている「経験」とは何かもう一度深く考えましょう。
+  * 「友達と笑いあった思い出」にお金は全く関係ありません
+
+---
+
+# 補足:「将来後悔しないために」という部分も怪しい
+
+* 「将来後悔しないために思い出作りする」という主張が DIE WITH ZERO にありますが、**高齢になると**ネガティブ感情やストレスを上手く処理できるようになり、**そもそも後悔しにくくなります。**
+* ただしうつ病の人はそうなりません。
+
+<br>
+
+参考
+* [PsychologyToday | The Neuroscience of Regret](https://www.psychologytoday.com/us/blog/the-mindful-self-express/201206/the-neuroscience-regret)
+
+---
+
+# 補足: 脳は思い出すたびに思い出を書き換えている
+
+2025年の研究
+
+* 記憶は写真やビデオのように過去そのままを再生するものではなく、呼び出すごとに現在の状況に合わせて再構成される即興作品のようなものである
+* 新たに作られた即興作品が再び記憶されることで、記憶が徐々に書き換わる
+  * 思い出している「今」の影響を受ける
+* 記憶はどんどん不確実な（自分に都合の良い）ものになっていく
+
+参考：
+
+* [ナゾロジー | 脳は思い出すたびに記憶を書き換えている――なぜそんな余計なことを？](https://nazology.kusuguru.co.jp/archives/189141/)
