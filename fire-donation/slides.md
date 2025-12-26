@@ -86,7 +86,7 @@ h1, p {
 
 <div grid grid-cols-2 gap-6><div>
 
-<SectionLinks section="happiness4" text-5 current="fire-donation"/>
+<SectionLinks section="happiness4" text-4.7 current="fire-donation"/>
 
 </div><div italic text-5.5 mt--5>
 
@@ -303,17 +303,17 @@ fieldset > p {
 <fieldset border-red border-2 bg-red-500 bg-opacity-20 rounded-4 w-fit px-2>
   <legend ml-7>寄付と金額</legend>
 
-**寄付の影響が明らかである場合、より多く寄付した人がより高い幸福感を得る。** 影響が明確でない場合、寄付額と幸福感の間に大きな関連はない。寄付で上がる幸福度は上限があると考えられている。
+**「いくらの寄付で何が届く」など寄付の影響が明らかな場合、より多く寄付した人がより高い幸福感を得る (ただし上限はある)。** 影響が明確でない場合、寄付額と幸福感の間に大きな関連はない。
 </fieldset>
 
 <fieldset border-blue border-2 bg-blue-500 bg-opacity-20 rounded-4 w-fit px-2>
   <legend ml-7>寄付の動機も重要</legend>
 
-自己中心的な動機（他人からどう見られるか気にするなど）で寄付すると人生の満足度は下がる。**真の利他的な気持ちが重要。** 利他的な高齢者は長生きをする。
+自己志向の寄付 (例:自己高揚感のため) より他者志向の寄付の方が人生の満足度と強く相関する。**利他的な気持ちで寄付の効果が増す。** 
 </fieldset>
 
 <fieldset border-emerald border-2 bg-emerald-500 bg-opacity-20 rounded-4 w-fit px-2>
-  <legend ml-7>寄付先を慎重に選ぶことも大事</legend>
+  <legend ml-7>寄付先を慎重に選んでみてもいいかも</legend>
 
 慈善団体を通して「他人の幸福がどれだけ上がったかの合計」を考えた場合、その費用対効果は団体に寄って数百倍もの差が出たりする。
 </fieldset>
@@ -407,9 +407,7 @@ FIした人は上振れたお金をちょっとだけ使ってみる気持ちで
 
 ---
 
-# それでは次回「アドバイス集まとめ」をどうぞ
-
-2025/12/16: 未完
+# それでは次回[「思い出志向を避けよう」](https://takibi-fire.com/slides/fire-peak-end/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="happiness4" text-5 withSection/>
+  * <SectionLinks section="happiness4" text-5 columns-2 withSection/>

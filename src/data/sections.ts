@@ -147,7 +147,7 @@ export const sections: {
     ]
   },
   happiness4: {
-    title: '幸せを増やす実践',
+    title: 'FIRE幸福論第4章: 幸せを増やす実践',
     articles: [
       {
         id: 'fire-train-happiness',
