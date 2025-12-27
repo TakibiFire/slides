@@ -72,9 +72,9 @@ layout: fact
 
 <div text-8>
 
-2025/12/16: <span color-orange>FIRE後の教科書は建設途中です (58%完了)。</span>
+2025/12/27: <span color-yellow>FIRE後の教科書は建設途中です (62%完了)。</span>
 
-毎日コンテンツを足しながらリンクも増やしていきます。
+コンテンツを足しながらリンクも増やしていきます。
 
 </div>
 
@@ -195,7 +195,7 @@ ul {
 * [ひとりあそびを極めよう](https://takibi-fire.com/slides/fire-solo-play/)
 * [寄付をしてみよう](https://takibi-fire.com/slides/fire-donation/)
 * [思い出志向を避けよう](https://takibi-fire.com/slides/fire-peak-end/)
-* アドバイス集まとめ
+* [アドバイス集まとめ](https://takibi-fire.com/slides/fire-advice-for-happiness/)
 
 </div></div>
 
