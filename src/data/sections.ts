@@ -185,6 +185,10 @@ export const sections: {
         id: 'fire-peak-end',
         title: '思い出志向を避けよう'
       },
+      {
+        id: 'fire-advice-for-happiness',
+        title: 'アドバイス集まとめ'
+      },
     ]
   }
 };
