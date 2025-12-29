@@ -190,5 +190,14 @@ export const sections: {
         title: 'アドバイス集まとめ'
       },
     ]
+  },
+  happiness5: {
+    title: 'FIRE幸福論第5章: 承認欲求との向き合い方',
+    articles: [
+      {
+        id: 'fire-problems-of-approval',
+        title: '承認欲求とは何か・そのプロセスと弊害',
+      }
+    ]
   }
 };
