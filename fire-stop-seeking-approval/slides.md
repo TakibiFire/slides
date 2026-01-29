@@ -504,8 +504,7 @@ FIREしたからには<br>
 
 </fieldset>
 
-* 最初の一歩: 「価値」とは何か、その定義を変える
-  * 「価値」とは、大きな成功や他人からの賞賛といったものである必要はないと理解しましょう
+* 最初の一歩: 「価値」とは、必ずしも大きな成功や他人からの賞賛といった<br>ものである<u decoration-wavy decoration-orange>必要はありません</u>
 
 ---
 
@@ -523,7 +522,7 @@ FIREしたからには<br>
 
 ---
 layout: image
-image: /public/imgs/kannyo.jpg
+image: https://takibi-fire.com/slides/fire-stop-seeking-approval/imgs/kannyo.jpg
 ---
 
 ---
