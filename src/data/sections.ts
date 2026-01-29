@@ -197,7 +197,11 @@ export const sections: {
       {
         id: 'fire-problems-of-approval',
         title: '承認欲求とは何か・そのプロセスと弊害',
-      }
+      },
+      {
+        id: 'fire-stop-seeking-approval',
+        title: '承認欲求から自由になるためのステップ',
+      },
     ]
   }
 };
