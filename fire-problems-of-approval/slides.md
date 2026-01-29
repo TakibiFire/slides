@@ -563,9 +563,7 @@ layout: section
 
 ---
 
-# それでは次回「承認欲求から解放されるためには」をどうぞ
-
-2025/12/28: 未完
+# それでは次回[「承認欲求から解放されるためには」](https://takibi-fire.com/slides/fire-stop-seeking-approval/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness5" withSection/>
