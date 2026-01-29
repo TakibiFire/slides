@@ -72,7 +72,7 @@ layout: fact
 
 <div text-8>
 
-2025/12/29: <span color-yellow>FIRE後の教科書は建設途中です (65%完了)。</span>
+2026/01/29: <span color-yellow>FIRE後の教科書は建設途中です (67%完了)。</span>
 
 コンテンツを足しながらリンクも増やしていきます。
 
@@ -209,7 +209,6 @@ ul {
 
 * [承認欲求の正体・そのプロセスと弊害](https://takibi-fire.com/slides/fire-problems-of-approval/)
 * [承認欲求から解放されるためには](https://takibi-fire.com/slides/fire-stop-seeking-approval/)
-* FIRE後のアドバイス
 * 承認欲求に関する質問集
 
 </div><div>
