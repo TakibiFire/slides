@@ -202,6 +202,10 @@ export const sections: {
         id: 'fire-stop-seeking-approval',
         title: '承認欲求から自由になるためのステップ',
       },
+      {
+        id: 'fire-approval-qa',
+        title: '承認欲求に関するQ&A',
+      },
     ]
   }
 };
