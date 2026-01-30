@@ -579,9 +579,7 @@ image: https://takibi-fire.com/slides/fire-stop-seeking-approval/imgs/kannyo.jpg
 
 ---
 
-# それでは次回「承認欲求に関するQ&A」をどうぞ
-
-2026/01/29: 未完
+# それでは次回[「承認欲求に関するQ&A」](https://takibi-fire.com/slides/fire-approval-qa/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness5" withSection/>
