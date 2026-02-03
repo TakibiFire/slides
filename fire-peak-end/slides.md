@@ -256,7 +256,7 @@ layout: cover
 
 ---
 
-# DIE WITH ZERO の間違い - その１
+# DIE WITH ZERO の間違い - その1
 
 <fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 w-fit px-6 mx-auto
   text-7.5 text-center my-5>
@@ -275,13 +275,15 @@ layout: cover
 
 ---
 
-# DIE WITH ZERO の間違い - その１ - 補足
+# DIE WITH ZERO の間違い - その1 - 補足
+
+「思い出作り」の弊害は、行動の動機を歪めるところです。
 
 <img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w10 />は「やりたいことをやる」「今しかできないことを優先する」には賛成です。
 
-ただし**その動機が重要です。「語学留学をしたい」のは学びたいこと・好奇心・自分の成長のためであり、「幸せな思い出を作りたいから」にはなりえません。**
+ただし**その動機が重要です。「語学留学をする」目的は好奇心や自分の成長のためであり、「幸せな思い出を作りたいから」は本末転倒になります。**
 
-DIE WITH ZERO も一応「投資するべき経験は人それぞれ」としています。経験の選び方として、「人生で最も重要な価値観をリストアップし、それに基づいた経験や目標を特定し、優先順位をつける」としています。<span text-red font-bold>それはいい意見だと思いますが、「人生で最も重要な価値観をリストアップし」が一番大事で、とても難しい箇所です</span>。
+DIE WITH ZERO も経験の選び方として「人生で最も重要な価値観をリストアップし、それに基づいた経験や目標を特定し、優先順位をつける」としています。そのやり方はいいと思いますが、<span text-red font-bold>実はそれが一番曖昧で難しい箇所です</span>。
 
 海外旅行・ライブ・家族とのアクティビティなど、どれでもいいですが「人生で最も重要な価値観に合っていますか？」と聞かれたら悩むでしょう？
 
@@ -291,7 +293,7 @@ layout: cover
 
 # あなたは自分の記憶を<br>どれだけ信じていますか？
 
-さて次は、あなたの「思い出」がいかに不確かで、<br>面白い仕組みでできているか、簡単な実験で体感してもらいましょう。
+さて次は、あなたの「思い出」がいかに不確かか、<br>簡単な実験で体感してもらいましょう。
 
 ---
 
@@ -354,7 +356,7 @@ layout: cover
 <fieldset border-orange border-2 rounded-4 bg-orange-500 bg-opacity-20 w-fit mx-auto my-6
   px-6 text-7.5 text-center>
 
-出来事の途中にどれくらい全体的に楽しかった・嬉しかった<br>（または辛かった・嫌な気分になった）かという<br>「期間の長さ」「平均的な満足度」は<br>最終的な思い出に繋がらない
+出来事が全体的にどれくらい楽しかった・嬉しかったか<br>（または辛かった・嫌な気分になったか）という<br>「期間の長さ」「平均的な満足度」は<br>最終的な思い出に繋がらない
 </fieldset>
 
 <div w-fit m-auto>
@@ -435,28 +437,28 @@ layout: cover
 <fieldset border-blue border-2 rounded-4 bg-blue-500 bg-opacity-20 my-5
   text-7.5 text-center>
 
-今まさに経験中の自分
+① 今まさに経験中の自分
 </fieldset>
 
 <fieldset border-orange border-2 rounded-4 bg-orange-500 bg-opacity-20 my-5
   text-7.5 text-center>
 
-経験したことを思い出し<br>評価する時の自分
+② 経験したことを思い出し<br>評価する時の自分
 </fieldset>
 
 </div></div>
 
 ---
 
-# 記憶し評価する自分
+# 「記憶し評価する自分」の性質
 
 <div grid grid-cols-3 gap-6 mt--3><div col-span-2 text-5.5>
 
 * 経験を人生の物語として記憶する役割
-* ただし<span text-red>ピーク・エンドの法則に支配されていて</span><br>実は記憶している部分はほんの一部
+  * ただし<span text-red>ピーク・エンドの法則に支配されていて</span><br>実は記憶している部分はほんの一部
 * **おしゃべりなイメージ**
-  * 「覚えている箇所が自分の人生だ」というイメージを自分に植え付ける
-  * 将来の選択・判断をする脳の箇所に常に喋りかける
+  * 「覚えている箇所が自分の人生だ」と信じがち
+  * 将来の選択・判断をする脳の箇所に喋りかける
   * 最近幸せか、などの過去の評価にも答える
 
 </div><div col-span-1 text-5 m-auto text-center italic>
@@ -495,7 +497,7 @@ layout: cover
 </fieldset>
 
 <div text-center>
-実際に経験するのは経験する自分なのに！
+実際に経験するのは「経験する自分」なのに！
 </div>
 
 ---
@@ -586,9 +588,7 @@ legend {
 
 # 思い出志向のリスク
 
-「食事中や旅行中に映え写真を撮りまくる」行為は未来を想像している。その未来から見た過去を楽しんでいる行為。つまり「記憶する自分」を重視している。
-
-写真を撮らなければ、もっと今の瞬間に集中し楽しむことができる。
+「食事中や旅行中に映え写真を撮りまくる」行為は未来から見た過去を楽しんでいる行為。つまり「記憶する自分」を重視している。写真を撮らなければ、もっと今の瞬間に集中し楽しむことができる。
 
 <fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 w-fit px-6 mx-auto
   text-7.5 text-center my-5>
