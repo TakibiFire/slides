@@ -1,5 +1,5 @@
 {
-  "slidev.preview-sync": true,
+  "slidev.preview-sync": false,
   "slidev.include": [
     "**/slides.md",
     "new_slides.md",

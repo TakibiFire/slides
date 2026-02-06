@@ -1570,19 +1570,57 @@ layout: cover
 
 ---
 
-# アドバイス②： 経験を深めるには経験が必要
+# アドバイス②： 経験を深めるには
 
-* 経験をする時に「どうやったら満足度を高められるか」を考えるのは重要
-  * 食事→ゆっくり味わう、旅行→現地生活を味わってみる、など
-* 何事も、繰り返して極めていくと「違いが分かって」きます
-  * 「通」しかわからない楽しみ方！
+DIE WITH ZERO の「経験は早めにするべき」という主張は良いと思います。<br>ただし理由は「若い時の方が深く経験できるから」「思い出の配当があるから」ではありません。
+
+<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 my-3
+  text-9 text-center w-fit px-10 m-auto>
+
+経験を深めるためには経験が必要です
+</fieldset>
+
+* 何事も繰り返して極めていくと「通」しかわからない<u decoration-wavy decoration-orange>違いが分かってきます</u>
   * 例: たくさんの旅をして初めて気づく着眼点
   * 違いがわかる → 視野・好奇心が広がる → 長期的満足へ
-* 経験を深めるのは「若さ」ではなく「経験」。この理由での「早めの経験」はオススメする。
 
 <div text-5>
 
 参考: [ひとりあそびを極めよう | FIRE後の教科書](https://takibi-fire.com/slides/fire-solo-play/)
+</div>
+
+---
+
+<style scoped>
+.slidev-layout {
+  font-size: 175%;
+}
+</style>
+
+# アドバイス②： 過程を楽しむ気持ちが大事
+
+<div grid grid-cols-2 gap-8 text-7>
+
+<div mx-10 col-span-2 p-4 border-1 rounded-3 bg-yellow-500 bg-opacity-10>
+<h3 text-red-300 text-center><span text-8>テーマ: やりたいことの満足度を限りなく上げる</span></h3>
+</div>
+
+<div p-3 border-1 rounded-3 bg-green-500 bg-opacity-10>
+<h3 text-green-300>五感を鍛える</h3>
+<p mt-4>「食べる」「歩く」といった<br>日常の<span text-yellow-300>「過程」</span>そのものの<br>解像度を上げ、満足度を高める
+</p>
+</div>
+
+<div p-3 border-1 rounded-3 bg-purple-500 bg-opacity-10>
+<h3 text-purple-300>過程を楽しむ</h3>
+<p mt-4>やりたいことの達成よりも、<br>そこに至るまでの<span text-yellow-300>「過程」</span>に<br>楽しみや喜びを見出す
+</p>
+</div>
+</div>
+
+<div text-6>
+
+参考: [どんどん寄り道しよう・達成よりも過程を楽しもう | FIRE後の教科書](https://takibi-fire.com/slides/fire-side-trip/)
 </div>
 
 ---
@@ -1596,15 +1634,70 @@ layout: cover
 思い出に残らない日々を有意義にしよう
 </fieldset>
 
-* 人生の99%は記憶に残らない
-* 人生の満足度を上げるなら<u decoration-wavy decoration-orange>「記憶に残らない部分をどれだけ幸せに生きるか」という視点を持とう</u> <carbon-ArrowRight/> [FIRE後の教科書](https://takibi-fire.com/slides/fire-textbook/) へ
+* 人生のほぼ全ては記憶に残らない
+* 人生の満足度を上げるなら<u decoration-wavy decoration-orange>「記憶に残らない部分をどれだけ幸せに生きるか」という視点を持とう</u><carbon-ArrowRight/> [FIRE後の教科書](https://takibi-fire.com/slides/fire-textbook/) へ
+  * 「今を生きる」
 
-<div text-5 mt-10>
+<div text-6 mt-10>
 
 参考: [思い出志向を避けよう | FIRE後の教科書](https://takibi-fire.com/slides/fire-peak-end/)
 </div>
 
 ---
 
-# アドバイス④: 「やりたいこと」ではなく「なりたい自分へ」
+# アドバイス④:<br>「やりたいこと」ではなく「なりたい自分へ」
+
+<div text-7>
+『自分にとって重要なことを明確にしなさい』の話。
+</div>
+
+FIRE後の教科書第6章「人生の意味」で詳しく解説予定。
+<span text-red>2026/02/07: 未完</span>
+
+---
+
+# アドバイス④: なぜなぜ法
+
+* 子どもが聞くみたいになぜなぜと聞く (出典: [意味を見つける5つの方法](https://www.psychologytoday.com/us/blog/unnatural-selection/202101/5-tips-finding-meaning-in-regular-old-life))
+  * あなたが思ういい人とは？ なぜ？を最低2回聞く
+  * いつ・どこにいるのが快適？　なぜ？なぜ？
+  * あなたにとって理想の一日とは？ なぜ？なぜ？
+
+* 豪華客船が好き → なぜ？<br>「豪華にもてなしてくれるのが好きだから」 → なぜ？
+* 豪華客船が好き → なぜ？<br>「海風も新しい景色も好きだから」 → なぜ？
+
+2回聞くと自分が大切にしているものが見えてき始めます
+
+---
+
+# アドバイス④:<br>やりたいことリストから「なりたい自分リスト」へ
+
+* 「BBQ が好き」→なぜ？<br>
+「みんなで笑える空間が好きだから」→なぜ？<span v-click=1><br>「人を楽しませるのが好きだから」</span>
+
+<div grid grid-cols-11>
+
+<fieldset col-span-5 v-click=2
+  border-2 rounded-4 bg-opacity-20
+  border-red bg-red-500
+  my-6 px-6 py-2 text-7>
+  <legend text-center>やりたいことリスト</legend>
+
+* 豪華客船!
+* BBQ!
+</fieldset>
+
+<div v-click=3 w-fit m-auto><carbon-ArrowRight/></div>
+
+<fieldset col-span-5 v-click=4
+  border-2 rounded-4 bg-opacity-20
+  border-green bg-green-500
+  my-6 px-6 py-2 text-7>
+  <legend text-center>なりたい自分リスト</legend>
+
+* 自然・景色を楽しむ
+* 人を楽しませる
+</fieldset>
+
+</div>
 
