@@ -1663,8 +1663,7 @@ FIRE後の教科書第6章「人生の意味」で詳しく解説予定。
   * いつ・どこにいるのが快適？　なぜ？なぜ？
   * あなたにとって理想の一日とは？ なぜ？なぜ？
 
-* 豪華客船が好き → なぜ？<br>「豪華にもてなしてくれるのが好きだから」 → なぜ？
-* 豪華客船が好き → なぜ？<br>「海風も新しい景色も好きだから」 → なぜ？
+* あなたが思ういい人とは？<br>「〇〇さん」→なぜいいと思う？<br>「誰の話でも上手に受け答えするから」→なぜそれはあなたにとって大事？<br>「まず他人の尊重からできているから」
 
 2回聞くと自分が大切にしているものが見えてき始めます
 
@@ -1677,27 +1676,65 @@ FIRE後の教科書第6章「人生の意味」で詳しく解説予定。
 
 <div grid grid-cols-11>
 
-<fieldset col-span-5 v-click=2
+<div col-span-4 m-auto>
+<fieldset v-click=2
   border-2 rounded-4 bg-opacity-20
   border-red bg-red-500
-  my-6 px-6 py-2 text-7>
+  px-6 py-2 text-7>
   <legend text-center>やりたいことリスト</legend>
 
-* 豪華客船!
 * BBQ!
 </fieldset>
+</div>
 
-<div v-click=3 w-fit m-auto><carbon-ArrowRight/></div>
+<div v-click=3 m-auto><carbon-ArrowRight/></div>
 
-<fieldset col-span-5 v-click=4
+<fieldset col-span-6 v-click=4
   border-2 rounded-4 bg-opacity-20
   border-green bg-green-500
-  my-6 px-6 py-2 text-7>
+  my-6 px-6 py-2 text-7 h-fit>
   <legend text-center>なりたい自分リスト</legend>
 
-* 自然・景色を楽しむ
 * 人を楽しませる
+* 人を尊重できるようにする
 </fieldset>
 
 </div>
 
+---
+layout: cover
+---
+
+# まとめ
+
+---
+
+# DIE WITH ZERO の弊害
+
+* 「思い出づくり」のための経験は逆効果
+  * 思い出にほぼならない
+  * 思い出は配当を生まない・経験にポイントなんかない
+  * 深い経験はできない
+* 無理にお金を使わせようとする
+  * 短期的満足のループにまっしぐら
+* その方向では満足度の最大化はされない
+* でも好まれがちな論法
+
+---
+
+# 自分の思う目指すべき方向
+
+* 経験を深く楽しむなら「違いがわかるほど」繰り返す
+* 「やりたいことリスト」ではなく「なりたい自分リスト」を作る
+  * そのリストに従って行動しましょう
+  * 実はそんなにお金はかからない
+* 「自分の価値観は変わる」という視点を持って「将来後悔するから」という論法に乗らない
+* 思い出に残らない日々を大切に！
+  * 「毎日ワクワクして起きられる人生」を目指す
+* 健康第一
+
+---
+layout: section
+---
+
+# ありがとうございました！
