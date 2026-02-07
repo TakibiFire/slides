@@ -62,11 +62,10 @@ h1, p {
 # 1枚で要約
 
 * DIE WITH ZERO の意見は一見聞き心地が良いですね！
-* ただその根拠となる話は**非常に怪しいです**
-  * 思い出の配当理論
-  * 若い人のほうが深く経験できる
-  * 経験への早めの投資で人生の価値を最大化しよう
-* 色々おかしい点を指摘し、どう考えればいいか解説します
+* ただその根拠となる話は**色々怪しいです**
+* 色々おかしい点を指摘します
+* 「どうして説得力があるのか」を心理学の面から解説します
+* ではどういう生き方をしたほうがいいか提案します
 
 <div text-base absolute bottom-8 left-8>スライド一覧を流し見したい人は左下から<carbon-apps />をクリック
 </div>
@@ -1318,7 +1317,7 @@ DIE WITH ZERO の「経験」は<br>
 </div>
 
 <div absolute v-click=3 top-60 left-10 right-10 text-10 text-center>
-DIE WITH ZERO は全部間違っていると思う。
+DIE WITH ZERO はほぼ全部間違っていると思う。
 </div>
 
 <div absolute v-click=4 top-90 left-10 right-10 text-10 text-center>
@@ -1556,11 +1555,11 @@ DIE WITH ZERO はあなたの今の欲求をダイレクトにサポート。
 
 話はよく聞こえるけど理論はことごとくおかしい。
 
-「思い出が大事」はそう思ってしまう脳の仕組みがあるせい。
-
 自分が変化していくことを考慮していない。
 
-お金を使って手に入れる満足はほぼ全て短期的満足。
+「思い出が大事」はそう思ってしまう脳の仕組みがあるせい。
+
+「思い出作り」は方向性が間違い。ほぼ全て短期的満足。
 
 人生の満足度の最大化とは真逆の方向。
 </div>
@@ -1596,21 +1595,48 @@ layout: cover
 
 # アドバイス②： 経験を深めるには
 
-DIE WITH ZERO の「経験は早めにするべき」という主張は良いと思います。<br>ただし理由は「若い時の方が深く経験できるから」「思い出の配当があるから」ではありません。
+<div text-center text-9>
+「経験は早めにするべき」という主張には賛成する。
+</div>
 
-<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 my-3
-  text-9 text-center w-fit px-10 m-auto>
+<div grid grid-cols-21>
 
-経験を深めるためには経験が必要です
+<div col-span-10 my-auto>
+<fieldset
+  border-2 rounded-4 bg-opacity-20
+  border-red bg-red-500 text-5.8
+  px-2 py-2>
+  <legend text-center>間違っている理由</legend>
+
+* 若い時の方が深く経験できるから
+* 思い出の配当があるから
 </fieldset>
+</div>
+
+<div m-auto><carbon-ArrowRight/></div>
+
+<fieldset col-span-10 v-click=1
+  border-2 rounded-4 bg-opacity-20
+  border-green bg-green-500
+  my-6 py-2 h-fit text-5.8>
+  <legend text-center><img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w10  />が考える理由</legend>
+
+* 健康でない確率が上がるから
+* <span v-click=2>**経験を深めるには経験が必要だから**</span>
+</fieldset>
+
+</div>
+
+<div v-click=3>
 
 * 何事も繰り返して極めていくと「通」しかわからない<u decoration-wavy decoration-orange>違いが分かってきます</u>
   * 例: たくさんの旅をして初めて気づく着眼点
-  * 違いがわかる → 視野・好奇心が広がる → 長期的満足へ
+  * 違いがわかる → 解像度が上がる → 好奇心が広がる → 長期的満足へ
 
 <div text-5>
 
 参考: [ひとりあそびを極めよう | FIRE後の教科書](https://takibi-fire.com/slides/fire-solo-play/)
+</div>
 </div>
 
 ---
@@ -1621,12 +1647,12 @@ DIE WITH ZERO の「経験は早めにするべき」という主張は良いと
 }
 </style>
 
-# アドバイス②： 過程を楽しむ気持ちが大事
+# アドバイス②： 経験を深めるには
 
 <div grid grid-cols-2 gap-8 text-7>
 
 <div mx-10 col-span-2 p-4 border-1 rounded-3 bg-yellow-500 bg-opacity-10>
-<h3 text-red-300 text-center><span text-8>テーマ: やりたいことの満足度を限りなく上げる</span></h3>
+<h3 text-red-300 text-center><span text-8>過程を楽しむ気持ちが大事</span></h3>
 </div>
 
 <div p-3 border-1 rounded-3 bg-green-500 bg-opacity-10>
@@ -1671,12 +1697,18 @@ DIE WITH ZERO の「経験は早めにするべき」という主張は良いと
 
 # アドバイス④:<br>「やりたいこと」ではなく「なりたい自分へ」
 
-<div text-7>
-『自分にとって重要なことを明確にしなさい』の話。
+<div text-13 text-center
+  border-yellow border-2 rounded-4 bg-yellow-500 bg-opacity-20 my-3
+  text-10 w-fit p-6 m-auto>
+『自分にとって重要なことを<br>
+明確にしなさい』を<br>
+ちゃんとやりましょう
 </div>
 
+<!-- 
 FIRE後の教科書第6章「人生の意味」で詳しく解説予定。
 <span text-red>2026/02/07: 未完</span>
+-->
 
 ---
 
@@ -1687,9 +1719,11 @@ FIRE後の教科書第6章「人生の意味」で詳しく解説予定。
   * いつ・どこにいるのが快適？　なぜ？なぜ？
   * あなたにとって理想の一日とは？ なぜ？なぜ？
 
-* あなたが思ういい人とは？<br>「〇〇さん」→なぜいいと思う？<br>「誰の話でも上手に受け答えするから」→なぜそれはあなたにとって大事？<br>「まず他人の尊重からできているから」
+* あなたが思ういい人とは？<br><span v-click=1>「〇〇さん」→なぜいいと思う？</span><span v-click=2><br>「誰の話でも上手に受け答えするから」→なぜそれはあなたにとって大事？</span><span v-click=3><br>「他人の尊重ができているから」</span>
 
+<span v-click=4>
 2回聞くと自分が大切にしているものが見えてき始めます
+</span>
 
 ---
 
@@ -1719,7 +1753,7 @@ FIRE後の教科書第6章「人生の意味」で詳しく解説予定。
   my-6 px-6 py-2 text-7 h-fit>
   <legend text-center>なりたい自分リスト</legend>
 
-* 人を楽しませる
+* 人と楽しんでいる空間を作る
 * 人を尊重できるようにする
 </fieldset>
 
@@ -1746,16 +1780,21 @@ layout: cover
 
 ---
 
-# 自分の思う目指すべき方向
+# <img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w12/>の思う目指すべき方向
+
+<div border-2 rounded-4 bg-opacity-20
+  border-purple bg-purple-500 pl-4 pr-8 py-2
+  w-fit mx-auto mt--5>
 
 * 経験を深く楽しむなら「違いがわかるほど」繰り返す
 * 「やりたいことリスト」ではなく「なりたい自分リスト」を作る
   * そのリストに従って行動しましょう
   * 実はそんなにお金はかからない
-* 「自分の価値観は変わる」という視点を持って「将来後悔するから」という論法に乗らない
+* 「自分の価値観は変わる」という視点を持って<br>「将来後悔するから」という論法に乗らない
 * 思い出に残らない日々を大切に！
   * 「毎日ワクワクして起きられる人生」を目指す
 * 健康第一
+</div>
 
 ---
 layout: section
