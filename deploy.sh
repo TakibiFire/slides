@@ -39,6 +39,7 @@ potential_targets=(
   "juku_test" # "塾の定期テスト"
   "transformative" #"やってみなよ！の落とし穴:経験を勧める時の注意点"
   "flaws-in-die-with-zero"
+  "two-years-after-retirement"
 
   # Dynamically extracted fire-* directories
   $(find . -maxdepth 1 -type d -name "fire-*" -print0 | xargs -0 -n 1 basename | sort)
