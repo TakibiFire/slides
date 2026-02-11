@@ -6,6 +6,9 @@
 .my-transition-leave-to {
   opacity: 0;
 }
+.slidev-layout.default h1 {
+  display: none;
+}
 
 .slidev-layout blockquote {
   font-size: 90%;

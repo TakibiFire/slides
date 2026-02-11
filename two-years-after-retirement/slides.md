@@ -41,6 +41,8 @@ Jumpei
 
 ---
 
+# リタイアして2年が経ちました
+
 <div class="clock" relative w-full h-full>
   <div><div
     v-motion text-16
@@ -111,6 +113,85 @@ Jumpei
     家族の反応
   </div></div>
 
+</div>
+
+<!-- This is just a placeholder to enable clicks=4. Without this, v-motion does not work due to a bug.-->
+<div v-click="6"></div>
+
+---
+
+# 失ったものと得たもの
+
+<div class="clock" relative w-full h-full>
+  <div><div
+    v-motion
+    class="animation-inner"
+    :enter="{ rotate: 0, opacity: 1 }"
+    :click-1="{ rotate: 10, opacity: 0.11 }"
+    :click-2="{ rotate: 20, opacity: 0 }"
+    :duration="1000">
+    失ったもの
+  </div></div>
+
+  <div><div
+    v-motion
+    class="animation-inner"
+    :enter="{ rotate: -11, opacity: 0.11 }"
+    :click-1="{ rotate: 0, opacity: 1 }"
+    :click-2="{ rotate: 10, opacity: 0.11 }"
+    :click-3="{ rotate: 20, opacity: 0 }"
+    :duration="1000">
+    人間関係
+  </div></div>
+
+  <div><div
+    v-motion
+    class="animation-inner"
+    :enter="{ rotate: -20, opacity: 0 }"
+    :click-1="{ rotate: -11, opacity: 0.1 }"
+    :click-2="{ rotate: 0, opacity: 1 }"
+    :click-3="{ rotate: 10, opacity: 0.11 }"
+    :click-4="{ rotate: 20, opacity: 0 }"
+    :duration="1000">
+    スキル？
+  </div></div>
+
+  <div><div
+    v-motion
+    class="animation-inner"
+    :enter="{ rotate: -20, opacity: 0 }"
+    :click-2="{ rotate: -11, opacity: 0.11 }"
+    :click-3="{ rotate: 0, opacity: 1 }"
+    :click-4="{ rotate: 10, opacity: 0.11 }"
+    :click-5="{ rotate: 20, opacity: 0 }"
+    :duration="1000">
+    得たもの
+  </div></div>
+
+  <div><div
+    v-motion
+    class="animation-inner"
+    :enter="{ rotate: -20, opacity: 0 }"
+    :click-3="{ rotate: -11, opacity: 0.11 }"
+    :click-4="{ rotate: 0, opacity: 1 }"
+    :click-5="{ rotate: 10, opacity: 0.11 }"
+    :click-6="{ rotate: 20, opacity: 0 }"
+    :duration="1000">
+    時間
+  </div></div>
+
+  <div><div
+    v-motion
+    class="animation-inner"
+    :enter="{ rotate: -20, opacity: 0 }"
+    :click-4="{ rotate: -11, opacity: 0.11 }"
+    :click-5="{ rotate: 0, opacity: 1 }"
+    :click-6="{ rotate: 10, opacity: 0.11 }"
+    :click-7="{ rotate: 20, opacity: 0 }"
+    :duration="1000">
+    暇じゃないの？
+  </div></div>
+
   <div><div
     v-motion
     class="animation-inner"
@@ -120,7 +201,7 @@ Jumpei
     :click-7="{ rotate: 10, opacity: 0.11 }"
     :click-8="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    暇じゃないの？
+    家族
   </div></div>
 
   <div><div
@@ -132,7 +213,7 @@ Jumpei
     :click-8="{ rotate: 10, opacity: 0.11 }"
     :click-9="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    家族
+    運動
   </div></div>
 
   <div><div
@@ -144,7 +225,7 @@ Jumpei
     :click-9="{ rotate: 10, opacity: 0.11 }"
     :click-10="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    運動
+    自分の時間
   </div></div>
 
   <div><div
@@ -156,18 +237,6 @@ Jumpei
     :click-10="{ rotate: 10, opacity: 0.11 }"
     :click-11="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    残りの時間
-  </div></div>
-
-  <div><div
-    v-motion
-    class="animation-inner"
-    :enter="{ rotate: -20, opacity: 0 }"
-    :click-9="{ rotate: -11, opacity: 0.11 }"
-    :click-10="{ rotate: 0, opacity: 1 }"
-    :click-11="{ rotate: 10, opacity: 0.11 }"
-    :click-12="{ rotate: 20, opacity: 0 }"
-    :duration="1000">
     Life Life Balance
   </div></div>
 </div>
@@ -176,6 +245,8 @@ Jumpei
 <div v-click="10"></div>
 
 ---
+
+# あれっ、パッとしてないな？
 
 <style scoped>
 .clock > div {
@@ -190,7 +261,7 @@ Jumpei
 <div class="clock" relative w-full h-full>
   <!-- First Item (Starts at 9 o'clock) -->
   <div><div
-    v-motion text-16
+    v-motion text-17
     class="animation-inner"
     :enter="{ rotate: 0, opacity: 1 }"
     :click-1="{ rotate: 10, opacity: 0.11 }"
@@ -201,14 +272,14 @@ Jumpei
 
   <!-- 2nd Item (Starts at 8 o'clock) -->
   <div><div
-    v-motion text-16
+    v-motion
     class="animation-inner"
     :enter="{ rotate: -11, opacity: 0.11 }"
     :click-1="{ rotate: 0, opacity: 1 }"
     :click-2="{ rotate: 10, opacity: 0.11 }"
     :click-3="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    リタイア後の4つのステージ
+    リタイア後の<br>4つのステージ
   </div></div>
 
   <div><div
@@ -273,22 +344,35 @@ Jumpei
 
   <div><div
     v-motion
-    class="animation-inner" text-16
+    class="animation-inner"
     :enter="{ rotate: -20, opacity: 0 }"
-    :click-6="{ rotate: -11, opacity: 0.11 }"
+    :click-6="{ rotate: -9, opacity: 0.11 }"
     :click-7="{ rotate: 0, opacity: 1 }"
     :click-8="{ rotate: 10, opacity: 0.11 }"
     :click-9="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    自分の学びを紹介していきます
+    得たもの＝<span v-click=7>変化</span>
   </div></div>
 
+  <div><div
+    v-motion
+    class="animation-inner" text-18
+    :enter="{ rotate: -20, opacity: 0 }"
+    :click-7="{ rotate: -11, opacity: 0.11 }"
+    :click-8="{ rotate: 0, opacity: 1 }"
+    :click-9="{ rotate: 10, opacity: 0.11 }"
+    :click-10="{ rotate: 20, opacity: 0 }"
+    :duration="1000">
+    自分の学びを<br>紹介していきます
+  </div></div>
 </div>
 
 <!-- This is just a placeholder to enable clicks=4. Without this, v-motion does not work due to a bug.-->
-<div v-click="8"></div>
+<div v-click="9"></div>
 
 ---
+
+# 自分は変化する
 
 <style scoped>
 .clock > div {
@@ -317,7 +401,7 @@ Jumpei
 
 <div class="clock" relative w-full h-full>
   <div><div
-    v-motion text-16
+    v-motion
     class="animation-inner"
     :enter="{ rotate: 0, opacity: 1 }"
     :click-1="{ rotate: 10, opacity: 0.11 }"
@@ -422,7 +506,7 @@ Jumpei
     :click-9="{ rotate: 10, opacity: 0.11 }"
     :click-10="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-  Self-worth <span v-click="[8]" text-12>(自己価値観)</span>
+  Self-worth <span v-click="8" text-12>(自己価値観)</span>
   </div></div>
 
   <div><div
@@ -442,6 +526,8 @@ Jumpei
 <div v-click="10"></div>
 
 ---
+
+# 梅の花が綺麗
 
 <style scoped>
 .clock > div {
@@ -479,7 +565,7 @@ Jumpei
 
   <div><div
     v-motion
-    class="animation-inner" text-16
+    class="animation-inner"
     :enter="{ rotate: -20, opacity: 0 }"
     :click-1="{ rotate: -11, opacity: 0.05 }"
     :click-2="{ rotate: 0, opacity: 1 }"
@@ -491,7 +577,7 @@ Jumpei
 
   <div><div
     v-motion
-    class="animation-inner text-24/30"
+    class="animation-inner text-20/30"
     :enter="{ rotate: -20, opacity: 0 }"
     :click-2="{ rotate: -13, opacity: 0.11, height: 300 }"
     :click-3="{ rotate: 0, opacity: 1, height: 250 }"
@@ -591,6 +677,8 @@ Jumpei
 
 ---
 
+# 今思えば<良くなかった働き方
+
 <div class="clock" relative w-full h-full>
   <!-- First Item (Starts at 9 o'clock) -->
   <div><div
@@ -600,7 +688,7 @@ Jumpei
     :click-1="{ rotate: 10, opacity: 0.11 }"
     :click-2="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    良くなかった働き方
+    今思えば<br>良くなかった働き方
   </div></div>
 
   <!-- 2nd Item (Starts at 8 o'clock) -->
@@ -693,6 +781,8 @@ Jumpei
 
 ---
 
+# もったいなくないの？
+
 <div class="clock" relative w-full h-full>
   <div><div
     v-motion
@@ -734,6 +824,8 @@ Jumpei
 
 ---
 
+# アーリーリタイア後とはどういうものか
+
 <div class="clock" relative w-full h-full>
   <div><div
     v-motion
@@ -766,7 +858,7 @@ Jumpei
     :click-3="{ rotate: 10, opacity: 0.11 }"
     :click-4="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    自分の軸を知る
+    自分の強みを知る
   </div></div>
 
   <div><div
@@ -795,7 +887,7 @@ Jumpei
     :click-5="{ rotate: 10, opacity: 0.11 }"
     :click-6="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    入社の頃にやらなかった<br>自己分析
+    就活の頃にやらなかった<br>自己分析
   </div></div>
 
   <div><div
@@ -812,22 +904,46 @@ Jumpei
 
   <div><div
     v-motion
-    class="animation-inner"
+    class="animation-inner" text-18
     :enter="{ rotate: -20, opacity: 0 }"
-    :click-5="{ rotate: -13, opacity: 0.11 }"
+    :click-5="{ rotate: -12, opacity: 0.11 }"
     :click-6="{ rotate: 0, opacity: 1 }"
-    :click-7="{ rotate: 10, opacity: 0.11 }"
+    :click-7="{ rotate: 10, opacity: 0.3 }"
     :click-8="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    みなさんは何歳まで<br>働きそうですか？
+    まぁでも1年後には<br>違うこと言っているかも！
+  </div></div>
+
+  <div><div
+    v-motion
+    class="animation-inner" text-16
+    :enter="{ rotate: -20, opacity: 0 }"
+    :click-6="{ rotate: -12, opacity: 0.11 }"
+    :click-7="{ rotate: 0, opacity: 1 }"
+    :click-8="{ rotate: 10, opacity: 0.3 }"
+    :click-9="{ rotate: 20, opacity: 0 }"
+    :duration="1000">
+    こんなこと考えているなんて<br>思ってもみなかった
+  </div></div>
+
+  <div><div
+    v-motion
+    class="animation-inner" text-18
+    :enter="{ rotate: -20, opacity: 0 }"
+    :click-7="{ rotate: -12, opacity: 0.11 }"
+    :click-8="{ rotate: 0, opacity: 1 }"
+    :click-9="{ rotate: 10, opacity: 0.3 }"
+    :click-10="{ rotate: 20, opacity: 0 }"
+    :duration="1000">
+    最近みなさんは<br>変化できてますか？
   </div></div>
 </div>
 
 <!-- This is just a placeholder to enable clicks=4. Without this, v-motion does not work due to a bug.-->
-<div v-click="7"></div>
+<div v-click="9"></div>
 
 ---
-layout: center
+layout: section
 ---
 
 # ありがとうございました
