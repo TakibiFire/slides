@@ -153,7 +153,7 @@ Jumpei
     :click-3="{ rotate: 10, opacity: 0.11 }"
     :click-4="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    スキル？
+    発表する機会
   </div></div>
 
   <div><div
@@ -165,7 +165,7 @@ Jumpei
     :click-4="{ rotate: 10, opacity: 0.11 }"
     :click-5="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    得たもの
+    スキル？
   </div></div>
 
   <div><div
@@ -177,7 +177,7 @@ Jumpei
     :click-5="{ rotate: 10, opacity: 0.11 }"
     :click-6="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    時間
+    得たもの
   </div></div>
 
   <div><div
@@ -189,7 +189,7 @@ Jumpei
     :click-6="{ rotate: 10, opacity: 0.11 }"
     :click-7="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    暇じゃないの？
+    時間
   </div></div>
 
   <div><div
@@ -201,7 +201,7 @@ Jumpei
     :click-7="{ rotate: 10, opacity: 0.11 }"
     :click-8="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    家族
+    暇じゃないの？
   </div></div>
 
   <div><div
@@ -213,7 +213,7 @@ Jumpei
     :click-8="{ rotate: 10, opacity: 0.11 }"
     :click-9="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    運動
+    家族
   </div></div>
 
   <div><div
@@ -225,7 +225,7 @@ Jumpei
     :click-9="{ rotate: 10, opacity: 0.11 }"
     :click-10="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    自分の時間
+    運動
   </div></div>
 
   <div><div
@@ -236,6 +236,18 @@ Jumpei
     :click-9="{ rotate: 0, opacity: 1 }"
     :click-10="{ rotate: 10, opacity: 0.11 }"
     :click-11="{ rotate: 20, opacity: 0 }"
+    :duration="1000">
+    自分の時間
+  </div></div>
+
+  <div><div
+    v-motion
+    class="animation-inner"
+    :enter="{ rotate: -20, opacity: 0 }"
+    :click-9="{ rotate: -11, opacity: 0.11 }"
+    :click-10="{ rotate: 0, opacity: 1 }"
+    :click-11="{ rotate: 10, opacity: 0.11 }"
+    :click-12="{ rotate: 20, opacity: 0 }"
     :duration="1000">
     Life Life Balance
   </div></div>
@@ -605,7 +617,7 @@ Jumpei
     :enter="{ rotate: -20, opacity: 0 }"
     :click-4="{ rotate: -11, opacity: 0.04 }"
     :click-5="{ rotate: 0, opacity: 1 }"
-    :click-6="{ rotate: 10, opacity: 0.11 }"
+    :click-6="{ rotate: 10, opacity: 0.40 }"
     :click-7="{ rotate: 20, opacity: 0 }"
     :duration="1000">
     <img src="/imgs/looking-down3.jpg" h-100 m-auto/>
@@ -620,29 +632,17 @@ Jumpei
     :click-7="{ rotate: 10, opacity: 0.11 }"
     :click-8="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-     昔の自分はおそらく<br>今の自分が嫌い
+     目標を持つことの効果
   </div></div>
 
   <div><div
     v-motion
     class="animation-inner"
     :enter="{ rotate: -20, opacity: 0 }"
-    :click-6="{ rotate: -11, opacity: 0.11 }"
-    :click-7="{ rotate: 0, opacity: 1 }"
+    :click-6="{ rotate: -11, opacity: 0.11, scale: 0.1 }"
+    :click-7="{ rotate: 0, opacity: 1, scale: 1 }"
     :click-8="{ rotate: 10, opacity: 0.11 }"
     :click-9="{ rotate: 20, opacity: 0 }"
-    :duration="1000">
-    目標を持つこと
-  </div></div>
-
-  <div><div
-    v-motion
-    class="animation-inner"
-    :enter="{ rotate: -20, opacity: 0 }"
-    :click-7="{ rotate: -11, opacity: 0.11, scale: 0.1 }"
-    :click-8="{ rotate: 0, opacity: 1, scale: 1 }"
-    :click-9="{ rotate: 10, opacity: 0.11 }"
-    :click-10="{ rotate: 20, opacity: 0 }"
     :duration="1000">
     <img src="/imgs/hitoriasobi-book.jpg" h100 m-auto/>
   </div></div>
@@ -651,10 +651,10 @@ Jumpei
     v-motion
     class="animation-inner"
     :enter="{ rotate: -20, opacity: 0 }"
-    :click-8="{ rotate: -11, opacity: 0.11 }"
-    :click-9="{ rotate: 0, opacity: 1 }"
-    :click-10="{ rotate: 10, opacity: 0.11 }"
-    :click-11="{ rotate: 20, opacity: 0 }"
+    :click-7="{ rotate: -11, opacity: 0.11 }"
+    :click-8="{ rotate: 0, opacity: 1 }"
+    :click-9="{ rotate: 10, opacity: 0.11 }"
+    :click-10="{ rotate: 20, opacity: 0 }"
     :duration="1000">
     目標のない世界
   </div></div>
@@ -663,17 +663,17 @@ Jumpei
     v-motion
     class="animation-inner"
     :enter="{ rotate: -20, opacity: 0 }"
-    :click-9="{ rotate: -12, opacity: 0.11 }"
-    :click-10="{ rotate: 0, opacity: 1 }"
-    :click-11="{ rotate: 10, opacity: 0.11 }"
-    :click-12="{ rotate: 20, opacity: 0 }"
+    :click-8="{ rotate: -12, opacity: 0.11 }"
+    :click-9="{ rotate: 0, opacity: 1 }"
+    :click-10="{ rotate: 10, opacity: 0.11 }"
+    :click-11="{ rotate: 20, opacity: 0 }"
     :duration="1000">
     全力で寄り道する
   </div></div>
 </div>
 
 <!-- This is just a placeholder to enable clicks=4. Without this, v-motion does not work due to a bug.-->
-<div v-click="11"></div>
+<div v-click="10"></div>
 
 ---
 
@@ -935,7 +935,7 @@ Jumpei
     :click-9="{ rotate: 10, opacity: 0.3 }"
     :click-10="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    最近みなさんは<br>変化できてますか？
+    最近みなさんは<br>ワクワクしていますか？
   </div></div>
 </div>
 
