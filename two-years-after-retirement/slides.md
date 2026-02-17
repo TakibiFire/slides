@@ -286,12 +286,22 @@ Jumpei
   <div><div
     v-motion
     class="animation-inner"
-    :enter="{ rotate: -11, opacity: 0.11 }"
+    :enter="{ rotate: -10, opacity: 0.05 }"
     :click-1="{ rotate: 0, opacity: 1 }"
     :click-2="{ rotate: 10, opacity: 0.11 }"
     :click-3="{ rotate: 20, opacity: 0 }"
     :duration="1000">
-    リタイア後の<br>4つのステージ
+
+<div grid grid-cols-5>
+<div col-span-3 text-10>
+
+The 4 phases of retirement <br>| Dr. Riley Moynes<br>| TEDxSurrey
+</div>
+<div col-span-2>
+<img src="/imgs/4-stages-youtube.png" />
+</div>
+</div>
+
   </div></div>
 
   <div><div
@@ -407,7 +417,7 @@ Jumpei
 }
 .slidev-layout table th:first-child,
 .slidev-layout table td:first-child {
-  @apply w-28;
+  @apply w-30;
 }
 </style>
 
@@ -455,7 +465,7 @@ Jumpei
     :click-5="{ rotate: 20, opacity: 0 }"
     :duration="1000">
 
-| Taker | 自分の利得を極大化するためにギブする。<wbr/>利益がないならギブしない。|
+| Taker | 自分の利得を最大化するためにギブする。<wbr/>利益がないならギブしない。|
 |----|----|
 | Giver | まずギブしようとする。<wbr/>相手のことを考えて、<wbr/>与えるという行動が先行する。 |
 | Matcher | 人間関係の損得はお互いに五分と五分であるべきだと考える。<wbr/>自分と相手の損得を<wbr/>その都度公平にバランスして<wbr/>帳尻を合わそうとする。|
