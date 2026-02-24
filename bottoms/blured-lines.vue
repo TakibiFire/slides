@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useNav } from '@slidev/client'
+import { useNav, useSlideContext } from '@slidev/client'
 import seedrandom from 'seedrandom'
 
 /**
@@ -12,10 +12,13 @@ import seedrandom from 'seedrandom'
  * - glowOpacity: number - Opacity of the polygons (4)
  * - glowHue: number - Hue shift for the polygons (default: 0)
  * - glowSeed: string | false - Seed for the stable random distribution (default: 'default')
+ * - glowDuration: string - Transition duration for the path (default: '1s')
+ * - glowOnClicks: boolean - Whether to change the shape on clicks (default: false)
  */
 import { computed, ref, watch } from 'vue'
 
-const { currentSlideRoute, currentLayout, clicks } = useNav()
+const { currentSlideRoute, clicks } = useNav()
+const { $slidev } = useSlideContext()
 
 export type Range = [number, number]
 
@@ -35,12 +38,18 @@ export type Distribution
     | 'full-right'
 
 const formatter = computed(() => (currentSlideRoute.value.meta?.slide as any)?.frontmatter || {})
-const opacity = computed<number>(() => +(formatter.value.glowOpacity ?? 0.3))
-const hue = computed<number>(() => +(formatter.value.glowHue || 70))
-const seed = computed<string>(() => (formatter.value.glowSeed === 'false' || formatter.value.glowSeed === false)
-  ? Date.now().toString()
-  : formatter.value.glowSeed || 'default',
-)
+
+const opacity = computed<number>(() => +(formatter.value.glowOpacity ?? $slidev.configs.glowOpacity ?? 0.3))
+const hue = computed<number>(() => +(formatter.value.glowHue ?? $slidev.configs.glowHue ?? 70))
+const seed = computed<string>(() => {
+  const s = formatter.value.glowSeed ?? $slidev.configs.glowSeed ?? 'default'
+  return (s === 'false' || s === false) ? Date.now().toString() : s
+})
+const onClicks = computed<boolean>(() => {
+  const c = formatter.value.glowOnClicks ?? $slidev.configs.glowOnClicks ?? false
+  return c !== 'false' && c !== false
+})
+const duration = computed<string>(() => (formatter.value.glowDuration || $slidev.configs.glowDuration || '1s'))
 const lineEndAlpha = 1;  // 0: transparent at end. 1: full color at end
 const blur = 40; // 8
 const overflow = 0.8;  // Distance beyond the screen bounds for point generation
@@ -115,7 +124,7 @@ function useCircleSequence(sequenceIndex: number) {
   const prevEndPoints = ref<{ firstPointY: number, lastPointY: number } | null>(null)
 
   function getShapePath(): string {
-    const rng = seedrandom(`${seed.value}-${currentSlideRoute.value.no}-${clicks.value}-${sequenceIndex}`)
+    const rng = seedrandom(`${seed.value}-${currentSlideRoute.value.no}-${onClicks.value ? clicks.value : 0}-${sequenceIndex}`)
 
     function randomBetween([a, b]: Range) {
       return rng() * (b - a) + a
@@ -277,7 +286,7 @@ const shape3 = useCircleSequence(3)
 <template>
   <div
     class="bg transform-gpu overflow-hidden pointer-events-none"
-    :style="{ filter: `blur(${blur}px) hue-rotate(${hue}deg)` }"
+    :style="{ filter: `blur(${blur}px) hue-rotate(${hue}deg)`, '--glow-duration': duration }"
     aria-hidden="true"
   >
     <!-- Shape 1 -->
@@ -357,6 +366,7 @@ const shape3 = useCircleSequence(3)
 }
 
 path {
-  transition: d 1s ease;
+  transition: d var(--glow-duration) ease;
 }
 </style>
+
