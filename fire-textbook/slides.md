@@ -215,7 +215,7 @@ ul {
 
 <h2>6. 退屈との向き合い方</h2>
 
-* 退屈の種類
+* [退屈の種類](https://takibi-fire.com/slides/fire-boredom-types/)
 * 退屈とは一体何なのか
 * 退屈した時の危険な行動
 * 退屈の良い点

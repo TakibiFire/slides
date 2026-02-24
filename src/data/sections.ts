@@ -207,5 +207,14 @@ export const sections: {
         title: '承認欲求に関するQ&A',
       },
     ]
+  },
+  happiness6: {
+    title: 'FIRE幸福論第6章: 退屈との向き合い方',
+    articles: [
+      {
+        id: 'fire-boredom-types',
+        title: '退屈の種類',
+      },
+    ]
   }
 };
