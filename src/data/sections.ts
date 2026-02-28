@@ -9,6 +9,12 @@ export const sections: {
     articles: Article[];
   };
 } = {
+  top: {
+    title: 'ホーム',
+    articles: [
+      { id: 'fire-textbook', title: 'FIRE後の教科書' }
+    ]
+  },
   intro: {
     title: '序章',
     articles: [
