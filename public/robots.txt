@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://takibi-fire.com/slides/sitemap.xml
