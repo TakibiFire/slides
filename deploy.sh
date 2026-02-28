@@ -51,6 +51,24 @@ potential_targets=(
 
 # $1: slide_dir
 # $2: base_name
+function ensure_canonical() {
+  local slide_dir=$1
+  local base_name=$2
+  local index_html="$slide_dir/index.html"
+  local canonical_url="https://takibi-fire.com/slides/${base_name}/"
+
+  if ! grep -q "<link rel=\"canonical\"" "$index_html"; then
+    if "$DRY_RUN"; then
+      echo "DRY RUN: Inserting canonical link to $index_html"
+    else
+      echo "Inserting canonical link to $index_html"
+      sed -i '' "s|<\/head>|<link rel=\"canonical\" href=\"$canonical_url\">\n<\/head>|" "$index_html"
+    fi
+  fi
+}
+
+# $1: slide_dir
+# $2: base_name
 function validate() {
   local slide_dir=$1
   local base_name=$2
@@ -103,6 +121,14 @@ function validate() {
     echo "Validation Error: '$slide_dir/slides.md' contains 'TODO'. Please resolve all TODOs before deploying." >&2
     exit 1
   fi
+
+  # 8. index.html has canonical url
+  local expected_canonical="<link rel=\"canonical\" href=\"https://takibi-fire.com/slides/${base_name}/\">"
+  if ! grep -qF "$expected_canonical" "$index_html"; then
+    echo "Validation Error: Canonical URL in '$index_html' is missing or incorrect." >&2
+    echo "Expected: $expected_canonical" >&2
+    exit 1
+  fi
 }
 
 # $1: directory name.
@@ -119,7 +145,12 @@ function build() {
     exit 1
   fi
 
-  validate "$slide_dir" "$base_name"
+  ensure_canonical "$slide_dir" "$base_name"
+  if ! "$DRY_RUN"; then
+    validate "$slide_dir" "$base_name"
+  else
+    echo "DRY RUN: Skipping validation."
+  fi
 
   execute_cmd npx slidev \
     build "$slide_dir/slides.md" \
