@@ -1,17 +1,26 @@
 #!/usr/local/bin/bash
 
 # Usage:
-# $ deploy.sh [dirname]
+# $ deploy.sh [-n] [-s] [dirname]
 #
-# This builds the SPA of the md and copies to
-# ~/projects/takibi-fire/public_root/slides/$2/
+# Options:
+#   -n  Dry run (print commands without executing)
+#   -s  Skip confirmation (run rsync without preview or prompt)
+#
+# This builds the SPA of the md to ./dist/[dirname] and rsyncs (-av --delete) to
+# ~/projects/takibi-fire/public_root/slides/[dirname]/
 
 DRY_RUN=false
+SKIP_CONFIRM=false
+
 # Parse options
-while getopts "n" opt; do
+while getopts "ns" opt; do
   case $opt in
     n)
       DRY_RUN=true
+      ;;
+    s)
+      SKIP_CONFIRM=true
       ;;
     \?)
       echo "Invalid option: -$OPTARG" >&2
@@ -31,8 +40,35 @@ function execute_cmd() {
   fi
 }
 
-# NOW: Keep public, juku_test, and transformative in the list. Automatically
-# extract directories starting with "fire-" and extend the list, instead of enumerating all fire- directories.
+# Function to run rsync with interactive confirmation
+function run_rsync() {
+  local cmd=("rsync" "$@")
+
+  if "$DRY_RUN"; then
+    echo "DRY RUN: ${cmd[*]}"
+    return 0
+  fi
+
+  if "$SKIP_CONFIRM"; then
+    echo "> ${cmd[*]}"
+    "${cmd[@]}"
+  else
+    echo "Previewing changes:"
+    # Run with -ni to show itemized changes (dry-run)
+    execute_cmd rsync -ni "$@"
+    
+    echo ""
+    read -p "Proceed with rsync? (y/n): " confirm
+    if [[ "$confirm" == "y" || "$confirm" == "Y" ]]; then
+      echo "> ${cmd[*]}"
+      "${cmd[@]}"
+    else
+      echo "Aborted."
+      exit 1
+    fi
+  fi
+}
+
 potential_targets=(
   "public"  # Special dir to provide common files
 
@@ -62,7 +98,7 @@ function ensure_canonical() {
       echo "DRY RUN: Inserting canonical link to $index_html"
     else
       echo "Inserting canonical link to $index_html"
-      sed -i '' "s|<\/head>|<link rel=\"canonical\" href=\"$canonical_url\">\n<\/head>|" "$index_html"
+      sed -i '' "s|<\/head>|  <link rel=\"canonical\" href=\"$canonical_url\">\n<\/head>|" "$index_html"
     fi
   fi
 }
@@ -135,6 +171,8 @@ function validate() {
 function build() {
   local slide_dir=$1
   local base_name=$2
+  local dest_dir1="$HOME/projects/slides-spa/dist/${base_name}"
+  local dest_dir2="$HOME/projects/takibi-fire/public_root/slides/${base_name}/"
 
   if [ ! -d "$slide_dir" ]; then
     echo "Error: Slide directory '$slide_dir' not found." >&2
@@ -152,10 +190,24 @@ function build() {
     echo "DRY RUN: Skipping validation."
   fi
 
+  execute_cmd rm -rf "$dest_dir1"
+  execute_cmd mkdir -p "$dest_dir1"
   execute_cmd npx slidev \
     build "$slide_dir/slides.md" \
-    --out ~/projects/takibi-fire/public_root/slides/"$base_name"/ \
+    --out "$dest_dir1"/ \
     --base /slides/"$base_name"/
+
+  # Ensure destination directory exists
+  if ! "$DRY_RUN"; then
+    mkdir -p "$dest_dir2"
+  else
+    echo "DRY RUN: mkdir -p $dest_dir2"
+  fi
+
+  # Sync build artifacts to final destination
+  run_rsync -av --delete \
+    "$dest_dir1"/ \
+    "$dest_dir2"
 }
 # Resolve target with dynamic prefix matching and check for ambiguity
 function resolve_target() {
@@ -204,12 +256,12 @@ for arg in "$@"; do
     rsync -av $RSYNC_DRY_RUN_OPT \
       ./public/google09a77623fab3ab83.html \
       ./public/sitemap.xml \
-      ~/projects/takibi-fire/public_root/slides/
+      "$HOME/projects/takibi-fire/public_root/slides/"
 
     # rsync public/imgs directory
     rsync -av --delete $RSYNC_DRY_RUN_OPT \
       ./public/imgs/ \
-      ~/projects/takibi-fire/public_root/slides/public/imgs/
+      "$HOME/projects/takibi-fire/public_root/slides/public/imgs/"
   elif [ -n "$resolved_name" ] && [ "$resolved_name" != "public" ]; then
     build "$resolved_name" "$resolved_name"
   fi
