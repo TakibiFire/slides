@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import BluredDonuts from '../bottoms/blured-donuts.vue';
+import BluredLines from '../bottoms/blured-lines.vue';
 import FooterTitle from '../bottoms/footer-title.vue';
 import PageTotal from '../bottoms/page-total.vue';
 </script>
 
 <template>
-  <BluredDonuts />
+  <BluredLines />
   <PageTotal />
   <FooterTitle />
 </template>
