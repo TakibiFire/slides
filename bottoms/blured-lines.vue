@@ -39,7 +39,7 @@ export type Distribution
 
 const formatter = computed(() => (currentSlideRoute.value.meta?.slide as any)?.frontmatter || {})
 
-const opacity = computed<number>(() => +(formatter.value.glowOpacity ?? $slidev.configs.glowOpacity ?? 0.3))
+const opacity = computed<number>(() => +(formatter.value.glowOpacity ?? $slidev.configs.glowOpacity ?? 0.2))
 const hue = computed<number>(() => +(formatter.value.glowHue ?? $slidev.configs.glowHue ?? 70))
 const seed = computed<string>(() => {
   const s = formatter.value.glowSeed ?? $slidev.configs.glowSeed ?? 'default'
@@ -49,19 +49,19 @@ const onClicks = computed<boolean>(() => {
   const c = formatter.value.glowOnClicks ?? $slidev.configs.glowOnClicks ?? false
   return c !== 'false' && c !== false
 })
-const duration = computed<string>(() => (formatter.value.glowDuration || $slidev.configs.glowDuration || '1s'))
+const duration = computed<string>(() => (formatter.value.glowDuration || $slidev.configs.glowDuration || '0.4s'))
 const lineEndAlpha = 1;  // 0: transparent at end. 1: full color at end
-const blur = 40; // 8
+const blur = 30; // 8
 const overflow = 0.8;  // Distance beyond the screen bounds for point generation
 const disturb = 0.0;  // Magnitude of random displacement applied to points
 const disturbChance = 0.3;  // Probability (0-1) of applying the disturbance
 const minRadius = 8; // % of viewport height. Note: minRadius < maxAvgTotalRadius
 const maxRadius = 30; // % of viewport height.
 const maxAvgTotalRadius = 16;  // Limit for the average of start and end radii to prevent overly thick lines
-const numSteps = 50; // Number of points used to define the line geometry
+const numSteps = 10; // Number of points used to define the line geometry
 // This prevents sequences to move a lot, which is distracting, by limiting
 // the y change of the first and last points.
-const maxAllowedYDistance = 1;  // 100% height
+const maxAllowedYDistance = 0.5;  // 100% height
 
 function distributionToLimits(distribution: Distribution) {
   const min = -0.2
