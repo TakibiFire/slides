@@ -461,8 +461,9 @@ layout: section
 陥っても気づかないし、<br>そこから抜け出そうともしないままになってしまう。
 </fieldset>
 
-
-<img absolute class="top-70% left-45%" src="/imgs/brain copy.png" h-40 m-auto brightness-200/>
+<img absolute class="top-70% left-45%" 
+  src="https://takibi-fire.com/slides/public/imgs/boredom-brain.png"
+  h-40 m-auto brightness-200/>
 
 <fieldset class="absolute top-71% left-60%" border-2 border-gray bg-gray-500 bg-opacity-20 rounded-4
   w-fit px-6 py-2 text-center mb-2>
@@ -485,7 +486,7 @@ layout: section
 
 <div flex flex-columns>
 <div class="w-90" m-auto>
-<img src="/imgs/post-actions.png"/>
+<img src="https://takibi-fire.com/slides/public/imgs/boredom-post-actions.png"/>
 </div>
 <div>
 
