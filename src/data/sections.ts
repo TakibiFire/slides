@@ -219,7 +219,7 @@ export const sections: {
     articles: [
       {
         id: 'fire-boredom-types',
-        title: '退屈の種類',
+        title: '退屈とは一体何か',
       },
     ]
   }
