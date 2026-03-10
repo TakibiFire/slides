@@ -221,6 +221,10 @@ export const sections: {
         id: 'fire-boredom-types',
         title: '退屈とは一体何か',
       },
+      {
+        id: 'fire-boredom-risk-reward',
+        title: '退屈な時してはいけないこと・退屈の良い効果',
+      }
     ]
   }
 };
