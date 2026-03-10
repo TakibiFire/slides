@@ -518,9 +518,7 @@ layout: section
 
 ---
 
-# それでは次回「退屈した時にやってはいけないこと」へどうぞ
-
-2026/03/09: 未完
+# それでは次回[「退屈した時にやってはいけないこと・退屈の良い効果」](https://takibi-fire.com/slides/fire-boredom-risk-reward/)へどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness6" withSection/>
