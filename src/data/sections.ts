@@ -224,7 +224,11 @@ export const sections: {
       {
         id: 'fire-boredom-risk-reward',
         title: '退屈な時してはいけないこと・退屈の良い効果',
-      }
+      },
+      {
+        id: 'fire-boredom-advice',
+        title: '退屈した時にするべきこと',
+      },
     ]
   }
 };
