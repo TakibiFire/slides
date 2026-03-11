@@ -579,9 +579,7 @@ li li {
 
 ---
 
-# それでは次回「退屈した時にやってはいけないこと」へどうぞ
-
-2026/03/09: 未完
+# それでは次回[「退屈した時にするべきこと」](https://takibi-fire.com/slides/fire-boredom-advice/)へどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness6" withSection/>

@@ -72,7 +72,7 @@ layout: fact
 
 <div text-8>
 
-2026/03/10: <span color-green>FIRE後の教科書は建設途中です (75%完了)。</span>
+2026/03/11: <span color-green>FIRE後の教科書は建設途中です (77%完了)。</span>
 
 コンテンツを足しながらリンクも増やしていきます。
 
@@ -217,7 +217,7 @@ ul {
 
 * [退屈とは一体何か](https://takibi-fire.com/slides/fire-boredom-types/)
 * [退屈した時にやってはいけないこと・退屈の良い効果](https://takibi-fire.com/slides/fire-boredom-risk-reward/)
-* 退屈した時のアドバイス
+* [退屈した時にするべきこと](https://takibi-fire.com/slides/fire-boredom-advice/)
 
 </div></div>
 
