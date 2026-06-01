@@ -1,0 +1,119 @@
+<head>
+<style>
+@font-face {
+  font-family: 'Textar';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Textar'),
+  url('https://marmooo.github.io/fonts/textar-light.woff2') format('woff2'),
+  url('https://marmooo.github.io/fonts/textar-light.woff') format('woff'),
+  url('https://marmooo.github.io/fonts/textar-light.ttf') format('ttf');
+}
+
+pre.aa, textarea.aa {
+  font-size  : 16px;
+  line-height: 18px;
+  font-family: IPAMonaPGothic,'Mona','ＭＳ Ｐゴシック','MS PGothic','梅Pゴシック',Textar,sans-serif;
+  white-space: pre;
+  word-wrap: normal;
+}
+textarea.aa {
+  color: white !important;
+  background: none !important;
+  background-color: transparent !important;
+  border: 1px solid #666 !important;
+  outline: none !important;
+  overflow: hidden !important;
+}
+body { background: #333; color: white; font-family: sans-serif; }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+  <div style="margin: 10px;">
+    <label for="fontSize">Font Size (px): </label>
+    <input type="number" id="fontSize" value="16" min="8" max="100" style="width: 60px; margin-right: 10px;" oninput="updateFontSize(this.value)">
+    <button onclick="download()">Download PNG</button>
+  </div>
+
+<!--
+http://2ch.ja.utf8art.com/arc/syoboon_46.html 何言ってんだこいつ
+　　　　人生における意味が大事なんだ
+￣￣￣￣￣￣￣l/￣￣￣￣￣￣￣￣￣￣￣
+　　　　 ∧＿∧
+　　　　( ´･ω･`) 　　 　∧＿∧
+　　　 ／ 　　　 ＼　 　（　　　　）　　何言ってんだコイツ？
+.＿＿|　|　　　 .|　|＿　/ 　　 　 ヽ
+||＼　￣￣￣￣　　 ／ .|　　　|　|
+||＼..∧＿∧　 　　(⌒＼|_＿./ ./
+||.　 （ 　　　）　　　　 ~＼___＿_ノ|　　 ∧＿∧　　　人生における
+　　/　　　ヽ　空気読めよ　　 ＼| 　 （　　　　）　　意味の意味が
+　　|　　　　　ヽ　　　 　　　　　　　＼/ 　　　 ヽ. 　　わかんねーよ
+　　|　　　　|ヽ、二⌒) 　　　　 　　／ .|　　　|　|
+　　.|　　　　ヽ　＼∧＿∧　　　 (⌒＼|_＿./　/
+-->
+  <textarea class="aa" rows="11" cols="100" style="width: 702px; height: 251px;">　　うえーん、わけわからんよ～
+￣￣￣￣￣￣∨￣￣￣￣￣￣￣￣
+　　　　　 　 ∧＿∧
+　　　　　　（ ´Д⊂ヽ
+　　　　 ⊂　　　　ノ
+　　　　　 人　 Ｙ
+　　　　　し （＿）</textarea>
+<script>
+function updateFontSize(size) {
+  const textarea = document.querySelector('textarea.aa');
+  const numSize = parseInt(size, 10) || 16;
+  textarea.style.fontSize = numSize + 'px';
+  // Keep the original 18/16 ratio for line height (1.125)
+  textarea.style.lineHeight = (numSize * 1.125) + 'px';
+}
+
+async function download() {
+  const textarea = document.querySelector('textarea.aa');
+  const captureArea = document.createElement('pre');
+  captureArea.className = 'aa';
+  captureArea.textContent = textarea.value;
+  
+  const computedStyle = window.getComputedStyle(textarea);
+
+  // Use clientWidth/Height to exclude the border from the PNG dimensions
+  const captureWidth = textarea.clientWidth;
+  const captureHeight = textarea.clientHeight;
+
+  // Mirror styles for accurate capture
+  Object.assign(captureArea.style, {
+    position: 'absolute',
+    left: '-9999px',
+    top: '0',
+    width: captureWidth + 'px',
+    height: captureHeight + 'px',
+    color: 'white',
+    backgroundColor: 'transparent',
+    margin: '0',
+    padding: '0',
+    border: 'none',
+    boxSizing: 'content-box',
+    fontSize: computedStyle.fontSize,
+    lineHeight: computedStyle.lineHeight,
+    overflow: 'hidden'
+  });
+  document.body.appendChild(captureArea);
+
+  try {
+    const canvas = await html2canvas(captureArea, {
+      backgroundColor: null,
+      useCORS: true,
+      scale: 2 // Higher resolution
+    });
+    const link = document.createElement('a');
+    link.download = 'aa.png';
+    link.href = canvas.toDataURL("image/png");
+    link.click();
+  } catch (e) {
+    console.error("Capture failed", e);
+  } finally {
+    document.body.removeChild(captureArea);
+  }
+}
+</script>
+</body>
