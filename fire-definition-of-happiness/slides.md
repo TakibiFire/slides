@@ -330,7 +330,7 @@ FIRE後の教科書ではこれらを採用しません。
   text-7 text-center>
   <legend text-5.5>幸福の例</legend>
 
-健康の3大要素は「<span whitespace-nowrap>自己受容</span>・<span whitespace-nowrap>他者信頼</span>・<span whitespace-nowrap>他者貢献</span>」です！
+幸福の3大要素は「<span whitespace-nowrap>自己受容</span>・<span whitespace-nowrap>他者信頼</span>・<span whitespace-nowrap>他者貢献</span>」です！
 </fieldset>
 <div text-center>と言われたらどう思いますか？</div>
 </div>
@@ -787,9 +787,9 @@ Aの要素があるならBという要素は不要じゃない？<br>
 
 ---
 
-# それでは次回「幸福よりも『よい人生』を」へどうぞ
+# それでは次回[「幸福よりも『よい人生』を」](https://takibi-fire.com/slides/fire-wellbeing/)へどうぞ
 
-2025/12/5: 未完。**次のページから長い付録です**
+**次のページから長い付録です**
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks text-5 columns-2 section="happiness3" withSection/>
@@ -1089,8 +1089,7 @@ layout: cover
 
 # 幸福を計るのは難しい by Seligman
 
-* 「幸福度」や「人生満足度」を測定すると「その時どう感じるか」という
-気分に流されやすい
+* 「幸福度」や「人生満足度」を測定すると「その時どう感じるか」という<br>気分に流されやすい
   * 陽気で外交的な人ほど高い点数をつける傾向
   * 内向的な人が他の要素での幸福を実現していても、結果に表れない
 
