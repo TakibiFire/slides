@@ -72,7 +72,7 @@ layout: fact
 
 <div text-8>
 
-2026/03/11: <span color-green>FIRE後の教科書は建設途中です (77%完了)。</span>
+2026/06/02: <span color-green>FIRE後の教科書は建設途中です (80%完了)。</span>
 
 コンテンツを足しながらリンクも増やしていきます。
 
@@ -229,9 +229,8 @@ ul {
 
 <h2>7. 人生における意味</h2>
 
-* 人生に意味なんてあるの？
+* [人生における意味とは](https://takibi-fire.com/slides/fire-meaning-in-life/)
 * 人生の意味の構成要素
-* 人生の意味とは「見つけるもの」
 * 人生の意味の見つけ方
 
 </div></div>

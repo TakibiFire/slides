@@ -452,9 +452,7 @@ li li {
 
 ---
 
-# 次回から第7章「人生における意味」です。<br>「人生に意味なんてあるの？」へどうぞ！
-
-2026/03/10: 未完
+# 次回から第7章「人生における意味」です。<br>[「人生における意味とは」](https://takibi-fire.com/slides/fire-meaning-in-life/)へどうぞ！
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness6" withSection/>
