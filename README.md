@@ -2,25 +2,9 @@
 
 This repository contains slide presentations built with [Slidev](https://sli.dev/).
 
-## Development
+## Generate sitemap
 
-To start the development server:
-
-```bash
-pnpm run dev
 ```
-
-## Build
-
-To build the slides as a static web application:
-
-```bash
-pnpm run build
+npx tsx src/sitemap-generator.js
+./deploy.sh public
 ```
-
-## Export
-
-To export the slides to PDF, PPTX, or PNGs:
-
-```bash
-pnpm run export
