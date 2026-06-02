@@ -230,5 +230,14 @@ export const sections: {
         title: '退屈した時にするべきこと',
       },
     ]
+  },
+  happiness7: {
+    title: 'FIRE幸福論第7章: 人生における意味',
+    articles: [
+      {
+        id: 'fire-meaning-in-life',
+        title: '人生における意味とは',
+      }
+    ]
   }
 };
