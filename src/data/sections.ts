@@ -237,7 +237,11 @@ export const sections: {
       {
         id: 'fire-meaning-in-life',
         title: '人生における意味とは',
-      }
+      },
+      {
+        id: 'fire-nature-of-meaning',
+        title: '「人生における意味」の性質',
+      },
     ]
   }
 };
