@@ -68,7 +68,7 @@ h1, p {
 
 * **人生における意味**:「この人生は生きるに値する」という実感
   * 将来の目標があり、自分の過去や現在に繋がりを感じ、<br>自分の人生には価値があると思えること
-* 哲学的な「人生**の**意味」ではなく、日々の<br>「人生**における**意味」を扱います
+* 社会や人類にとっての「人生**の**意味」ではなく、<br>自分にとっての日々の「人生**における**意味」を扱います
 * 「意味の危機（空虚感）」や「実存的無関心（無気力）」は<br>幸福度を著しく下げます
 
 ---
@@ -103,9 +103,26 @@ h1, p {
 
 ---
 
-# 再掲: 「良い人生の要素」
+# みなさんは人生に意味を感じていますか？
 
-[第4章「幸福は鍛えられるスキル」](https://takibi-fire.com/slides/fire-train-happiness/)で、幸福の要素を紹介しました。
+<div v-click=1>
+
+* あぶない宗教っぽい発言ですね
+</div>
+<div v-click=2>
+
+* でも[第4章「幸福は鍛えられるスキル」](https://takibi-fire.com/slides/fire-train-happiness/)で幸福の要素を紹介した時に、<br><span data-id="src">**人生に意味や方向性を見出すことは幸福感に繋がる**という話をしました</span>
+</div>
+<div v-click=4 absolute top-65 left-135>
+
+この話を第7章まで先延ばしにしたのは<br>
+2つの点でややこしいからです。
+<div ml-5>
+
+1. 「人生の意味」が多義語で曖昧
+1. 答えは一人ひとり違う
+</div>
+</div>
 
 <style scoped>
 .yel {
@@ -126,7 +143,7 @@ h1, p {
 }
 </style>
 
-<Transform :scale="0.6" relative top--10 left--10 origin="top left">
+<Transform :scale="0.5" v-click=3 relative top-0 left--10 origin="top left">
 
 <div class="yel" absolute top-30 left-90 data-id="wel">幸福度</div>
 
@@ -151,191 +168,94 @@ h1, p {
 
 </Transform>
 
-<FancyArrow static to="[data-id=swb]@top" from="[data-id=wel]@bottom" color=yellow head-size=0 />
-<FancyArrow static to="[data-id=pwb]@top" from="[data-id=wel]@bottom" color=yellow head-size=0 />
+<FancyArrow v-click=3 static to="[data-id=swb]@top" from="[data-id=wel]@bottom" color=yellow head-size=0 />
+<FancyArrow v-click=3 static to="[data-id=pwb]@top" from="[data-id=wel]@bottom" color=yellow head-size=0 />
 
-<FancyArrow static
+<FancyArrow v-click=3 static
   to="[data-id=sat]@top" from="[data-id=swb]@bottom" color=orange head-size=0 />
-<FancyArrow static
+<FancyArrow v-click=3 static
   to="[data-id=pos]@top" from="[data-id=swb]@bottom" color=orange head-size=0 />
-<FancyArrow static
+<FancyArrow v-click=3 static
   to="[data-id=neg]@(75%,0%)" from="[data-id=swb]@bottom" color=orange head-size=0 arc="0.5"/>
 
-<FancyArrow static to="[data-id=acc]@top" from="[data-id=pwb]@bottom" color=red head-size=0 />
-<FancyArrow static to="[data-id=env]@top" from="[data-id=pwb]@bottom" color=red head-size=0 />
-<FancyArrow static to="[data-id=gro]@(75%,0%)" from="[data-id=pwb]@bottom" color=red head-size=0 arc="0.3"/>
-<FancyArrow static to="[data-id=rel]@(25%,0%)" from="[data-id=pwb]@bottom" color=red head-size=0 arc="-0.1" />
-<FancyArrow static to="[data-id=aut]@top" from="[data-id=pwb]@bottom" color=red head-size=0 />
-<FancyArrow static to="[data-id=mea]@top" from="[data-id=pwb]@bottom" color=red head-size=0 />
+<FancyArrow v-click=3 static to="[data-id=acc]@top" from="[data-id=pwb]@bottom" color=red head-size=0 />
+<FancyArrow v-click=3 static to="[data-id=env]@top" from="[data-id=pwb]@bottom" color=red head-size=0 />
+<FancyArrow v-click=3 static to="[data-id=gro]@(75%,0%)" from="[data-id=pwb]@bottom" color=red head-size=0 arc="0.3"/>
+<FancyArrow v-click=3 static to="[data-id=rel]@(25%,0%)" from="[data-id=pwb]@bottom" color=red head-size=0 arc="-0.1" />
+<FancyArrow v-click=3 static to="[data-id=aut]@top" from="[data-id=pwb]@bottom" color=red head-size=0 />
+<FancyArrow v-click=3 static to="[data-id=mea]@top" from="[data-id=pwb]@bottom" color=red head-size=0 />
 
-<FancyArrow static from="[data-id=life]@bottom" to="[data-id=wel]@top" color=green head-size=0 />
-<FancyArrow static from="[data-id=life]@bottom" to="[data-id=health]@top" color=green head-size=0 />
-<FancyArrow static from="[data-id=life]@bottom" to="[data-id=deeprel]@top" color=green head-size=0 />
+<FancyArrow v-click=3 static from="[data-id=life]@bottom" to="[data-id=wel]@top" color=green head-size=0 />
+<FancyArrow v-click=3 static from="[data-id=life]@bottom" to="[data-id=health]@top" color=green head-size=0 />
+<FancyArrow v-click=3 static from="[data-id=life]@bottom" to="[data-id=deeprel]@top" color=green head-size=0 />
 
-<div absolute top-40 left-145>
-<div v-click=1 m-6>
-この中で「人生の目的」以外は<br>全て第4章でどう鍛えるべきか<br>解説しました。
-</div>
+<FancyArrow v-click=3 from="[data-id=src]@bottom" to="[data-id=mea]@right" color=orange arc="0.4"  />
 
-<div v-click=2 m-4 p-2
-  border-2 border-orange rounded-4 bg-orange-700 bg-opacity-40 text-center w-80>
-では「人生の目的」とは<br>何でしょうか？
-</div>
+---
+
+# 「意味」がそもそも多義語すぎて難しい
+
+Weblio より「意味」の内容を抜粋
+
+> 1. 言葉や文章、発言などが何を表しているか 「この単語の意味がわからない」
+>
+> 1. その行為や出来事に価値や重要性があるかどうか 「今さら謝っても意味がない」
+
+<div v-click=1 mt-10> 
+
+「人生の意味を考える」の用法は 2. に近いですが、「人生の価値を考える」と<br>全く同じ意味だと感じますか？
+
+「人生の価値を考える」という表現は、「役に立つか」「何をもたらすか」という<br>客観的な評価のニュアンスが強調されますが、「人生の意味を考える」は<br>それよりも内面的ですよね。
 </div>
 
 ---
 
-<style scoped>
-.slidev-layout {
-  font-size: 120%;
-}
-.lft {
-  grid-column: span 3 / span 3;
-  border: solid 1px #ccc;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.rgt {
-  grid-column: span 8 / span 8;
-  border: solid 1px #ccc;
-  padding: 2px 4px;
-}
-.rgt p {
-  margin: 4px;
-}
-</style>
+# こういう人は時々いますよね
 
-# 再掲: 心理的ウェルビーイング (Ryff 1989)
+<div flex>
+<div mt-15>
 
-[第3章「幸福の要素と定義」](https://takibi-fire.com/slides/fire-definition-of-happiness/)では「人生の目的」をこう解説しました。
+<FakeX text-4.7 w-110>
+  <template #account>
+    だぎび@努力なしのFIRE戦略
+  </template>
+  <template #content>
+自分が生きてることに何の意味もないよな
+  </template>
+</FakeX>
 
-<div grid grid-cols-11 w-215 m-auto>
-<div class="lft">自律性</div>
-<div class="rgt">
-
-他者からの圧力や社会的期待に影響されず、自分自身の<span text-orange>信念や価値観に基づいて行動する</span>
+<FakeX text-4.7 w-110 mt-10 ml-0>
+  <template #account>
+    だぎび@努力なしのFIRE戦略
+  </template>
+  <template #content>
+まぁ逆に意味なんて無いからさっさと<br>FIREしたとも言えるけどね
+  </template>
+</FakeX>
 </div>
-<div class="lft">環境制御力</div>
-<div class="rgt">
 
-複雑な環境を効果的に管理し、自分のニーズや価値観に合わせて<span text-orange>環境を選択・創造する能力</span>
-</div>
-<div class="lft">自己成長</div>
-<div class="rgt">
+<div text-5.3 v-click=1 w-110 pl-5>
 
-継続的に発達し、新しい経験に開かれていて、<span text-orange>自己の可能性を実現していく</span>という感覚
-</div>
-<div class="lft">他者との肯定的関係</div>
-<div class="rgt">
+この人が語っているのは**人生<span text-orange>の</span>意味**
+* 人間社会の中で自分が生きている<br>という意味付け（価値・役割）
+* 広い宇宙の中で自分や人類という<br>生がある意味（理由・奇跡）
+* より大きな存在にとっての自分の重要性
 
-温かく、信頼に基づく<span text-orange>人間関係を構築・維持</span>する能力
-</div>
-<div class="lft">人生における目的</div>
-<div class="rgt" v-mark.circle.yellow>
+<hr my-3/>
 
-人生に意味や方向性を見出し、<span text-orange>目標を持って生きている</span>と感じること
-</div>
-<div class="lft">自己受容</div>
-<div class="rgt">
+今回テーマにするのは**人生<span text-orange>における</span>意味**
 
-<span text-orange>自分自身に対する肯定的な態度</span>を持ち、自己の多面性（長所と短所の両方）を受け入れること
+* 人生は生きる価値があると感じるか
+* 自分にとっての自分の人生の重要性
 
 </div>
 </div>
-  
----
-
-# 「人生の目的」の上位概念の「人生における意味」
-
-<style scoped>
-.yel {
-  @apply text-8 m-2 block px-6 py-2 border-white border-1 rounded-2 w-fit items-center bg-yellow bg-opacity-10
-  text-shadow: 0 0 3px #888800, 0 0 10px #cccc00;
-}
-.grn {
-  @apply text-8 m-2 block px-6 py-2 border-white border-1 rounded-2 w-fit items-center bg-green bg-opacity-10;
-  text-shadow: 0 0 3px #008800, 0 0 10px #00cc00;
-}
-.ppl {
-  @apply text-7 m-2 block px-6 py-2 border-purple border-1 rounded-2 w-fit m-auto text-center items-center bg-purple bg-opacity-20;
-}
-</style>
-
-<div class="ppl">
-
-FIRE後の教科書では「人生の目的」より広い概念である<br>
-**「人生における意味」** に関する最新研究を紹介します。
-</div>
-
-<div class="yel" absolute top-70 left-80 data-id="mea">人生における意味</div>
-
-<div class="grn" absolute top-100 left-50 data-id="pur">目的</div>
-<div class="grn" absolute top-100 left-100 data-id="coh">一貫性</div>
-<div class="grn" absolute top-100 left-150 data-id="imp">重要性</div>
-
-<FancyArrow to="[data-id=pur]@top" from="[data-id=mea]@bottom" color=yellow />
-<FancyArrow to="[data-id=coh]@top" from="[data-id=mea]@bottom" color=yellow />
-<FancyArrow to="[data-id=imp]@top" from="[data-id=mea]@bottom" color=yellow />
 
 ---
 
 <img src="/imgs/naniittenda.png" h-110 m-auto/>
 
 <div v-mark.box.red=1 border-red absolute top-75 left-167 right-27 bottom-33></div>
-
----
-layout: section
----
-
-# 「人生における意味」とは
-
-なぜこの話が重要か
-
-「人生の意味」とどう違うか
-
-幸福とどう関係するか
-
----
-
-# 「人生における意味」とは
-
-<fieldset border-2 border-green bg-green-200 bg-opacity-20 rounded-4 px-10 pb-2 mb-5 w-fit m-auto text-9>
-  <legend text-center>わかりやすい捉え方</legend>
-
-「人生は生きるに値する」という感覚のこと
-</fieldset>
-
-<fieldset v-click=1 border-2 border-red bg-red-200 bg-opacity-10 rounded-4 px-10 py-2 w-fit m-auto text-7 text-center>
-  <legend text-center>逆の考え方の方がわかりやすい？</legend>
-
-「人生における意味を見いだせない」<br><br>
-「この人生は生きるに値すると思えない」
-</fieldset>
-
----
-
-# 人生における意味とは
-
-<fieldset border-2 border-green bg-green-200 bg-opacity-20 rounded-4 px-10 pb-2 mb-5 w-fit m-auto
-  text-8 text-center>
-  <legend text-center>心理学者による定義 (George & Park, 2016)</legend>
-
-人生に明確な**目的**を与え、<br>
-人生を**首尾一貫**したものとして理解させ、<br>
-人生を**生きるに値する**ものとして認識させる<u decoration-wavy decoration-orange>**機能**</u>
-</fieldset>
-
-<div v-click=1 mt-10 text-center>
-でも「人生の意味とはなんなんだ〜」と考える人にはしっくりこない定義です。<br>
-そしてそれはおそらく用語のせいです。
-</div>
-
-<div v-click=2 text-center>
-
-「人生**の**意味」と「人生**における**意味」を区別しましょう。
-</div>
 
 ---
 
@@ -384,8 +304,8 @@ strong {
 <div text-5>
 
 * 抽象的・哲学的
-* 宗教的信念や科学的な<br>宇宙論などに関連
-* <u decoration-wavy decoration-orange>幸福感とはあまり結びつかない</u>
+* 宗教的信念や科学的な宇宙論などに<br>関連
+* **実はこれを考えても、幸福感とは<br>あまり結びつかない**
 </div>
 </div>
 
@@ -422,7 +342,7 @@ strong {
 *「なぜこれが私に起きたのか？」*
 <div pl-5 text-5>
 
-* 困難な状況を人生の文脈で解釈し<br>「意味の種」を見つけ出す
+* 困難な状況を人生のストーリーとして<br>解釈し「意味の種」を見つけ出す
 </div>
 
 *「私は今ここにいていいのだ」*
@@ -461,20 +381,90 @@ strong {
 
 <div flex justify-center items-center>
 <div>
-日常会話で「人生<u decoration-wavy>における</u>意味」という言葉を使うことはないかと<br>
-思いますが、このスライドでは「人生における意味」のみに注目<br>します。(研究ではよく使われます)
+英語では meaning of life と meaning in life を区別していますが、<br>
+日本語に普通に訳すとどちらも「人生の意味」になりがちです。
 
-「人生の意味」は今回のテーマ外です。
+このスライドでは、区別するために「人生における意味」という<br>単語を使います。
+これは自分の人生を主観的に見た時の納得感を<br>表します。
 
-<div v-click=1 mt-10 text-8 text-red>
-では、この「人生における意味」が無いと<br>どうなるのでしょうか？
-</div>
 </div>
 </div>
 
 ---
+layout: section
+---
 
-# 人生における意味がない状態
+# 「人生における意味」とは
+
+なぜこの話が重要か
+
+幸福とどう関係するか
+
+---
+
+# 「人生における意味」とは
+
+<fieldset border-2 border-green bg-green-200 bg-opacity-20 rounded-4 px-10 pb-2 mb-5 w-fit m-auto text-9>
+  <legend text-center>わかりやすい捉え方</legend>
+
+「人生は生きるに値する」という感覚のこと
+</fieldset>
+
+<fieldset v-click=1 border-2 border-gray bg-gray-200 bg-opacity-15 rounded-4 px-4 py-4 w-fit m-auto text-6.5 text-center mt-10>
+  <legend>逆に「人生に意味なんかない」と感じている場合</legend>
+自分が社会や人類や世界にとって意味ないと感じている話なのか、<br>自分自身が「この人生は生きるに値すると思えない」と<br>感じているのか区別しましょう。
+</fieldset>
+
+---
+
+# 人生における意味とは
+
+<fieldset border-2 border-green bg-green-200 bg-opacity-20 rounded-4 px-10 pb-2 mb-5 w-fit m-auto
+  text-8 text-center>
+  <legend text-center>心理学者による定義 (George & Park, 2016)</legend>
+
+人生に明確な**目的**を与え、<br>
+人生を**首尾一貫**したものとして理解させ、<br>
+人生を**生きるに値する**ものとして認識させる<u decoration-wavy decoration-orange>**機能**</u>
+</fieldset>
+
+<div v-click=1 mt-10 text-center>
+
+「人生における意味」とは「あなたの心に作用を持たせる**機能**」です。
+
+「人生における意味を感じている」とはその機能を十分備えている状態です。
+</div>
+
+---
+
+# 人生における意味を感じることの効果
+
+<fieldset border-2 border-green bg-green-200 bg-opacity-20 rounded-4 px-10 pb-2 mb-5 w-fit m-auto
+  text-5.5>
+  <legend text-center>研究結果</legend>
+
+<div columns-2>
+
+* 幸福感とウェルビーイングの向上
+  * 満足度・自尊心・感情処理能力
+* 自殺願望とうつ症状の軽減
+* レジリエンス（精神回復力）の強化
+  * 困難に立ち向かいやすい
+  * 燃え尽き症候群の防止
+* 孤独感の軽減
+* 寿命を伸ばす効果
+* ストレスへの耐性。心拍数を落ち着かせ、血糖値を下げる
+* 免疫システムの修復
+* ポジティブな変化を経験しやすい
+* 自分の人生を自分でコントロールしているという感覚（自己効力感）を得やすい
+</div>
+
+
+</fieldset>
+
+---
+
+# 人生における意味がない状態の方が分かりやすい
 
 <style scoped>
 .slidev-layout {
@@ -571,8 +561,8 @@ strong {
 * 研究結果
   * 有能感（自分が効果的に行動できているという感覚）が平均以下
   * 成功する見込みが他人より低いと考えており、成功への希望も平均以下
-  * 対人関係において「愛着回避」の傾向がある
-  * 「本当の自分」を知るための自己探求を避ける傾向
+  * 対人関係において深入りしない傾向（愛着回避）がある
+  * 「本当の自分」を知るための自己探求を避ける傾向もある
   * 強み・弱みを知らないため、自分自身の人生を主体的に生きることが困難
   * プレッシャーや失敗からの逃走、ひきこもりなどの孤立化へとつながる
 
@@ -583,7 +573,7 @@ strong {
 <div text-7>
 
 * 「人生における意味」の定義を紹介しました
-  * 人生の目的の上位概念です
+  * 意味の意味がややこしいです
 * 「人生における意味」が無かったり、無関心でいると<br>幸福感が下がる以上の弊害があります
 * 次回は「人生における意味」の性質を紹介します
 * その次に「人生における意味」の探し方を紹介します
@@ -592,9 +582,7 @@ strong {
 
 ---
 
-# それでは次回「「人生における意味」の性質」へどうぞ！
-
-2026/06/01: 未完
+# それでは次回[「人生における意味」の性質](https://takibi-fire.com/slides/fire-meaning-in-life/)へどうぞ！
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness7" withSection/>

@@ -236,7 +236,7 @@ export const sections: {
     articles: [
       {
         id: 'fire-meaning-in-life',
-        title: '人生における意味とは',
+        title: '「人生における意味」とは',
       },
       {
         id: 'fire-nature-of-meaning',
