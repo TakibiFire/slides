@@ -229,8 +229,8 @@ ul {
 
 <h2>7. 人生における意味</h2>
 
-* [人生における意味とは](https://takibi-fire.com/slides/fire-meaning-in-life/)
-* 人生の意味の構成要素
+* [「人生における意味」とは](https://takibi-fire.com/slides/fire-meaning-in-life/)
+* [「人生における意味」の性質](https://takibi-fire.com/slides/fire-nature-of-meaning/)
 * 人生の意味の見つけ方
 
 </div></div>

@@ -582,7 +582,7 @@ layout: section
 
 ---
 
-# それでは次回[「人生における意味」の性質](https://takibi-fire.com/slides/fire-meaning-in-life/)へどうぞ！
+# それでは次回[「人生における意味」の性質](https://takibi-fire.com/slides/fire-nature-of-meaning/)へどうぞ！
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness7" withSection/>
