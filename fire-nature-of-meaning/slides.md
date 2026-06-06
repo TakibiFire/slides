@@ -373,7 +373,9 @@ layout: section
 
 # で、どうすればいいのか
 
-意味の保有度合いを測る
+そもそも人生における意味は誰にでもあるのか
+
+意味の保有度合いを測るには
 
 意味は「見つける」もの
 
@@ -381,31 +383,55 @@ layout: section
 
 ---
 
-<style scoped>
-.lhs p {
-  @apply border-2 border-green bg-green-200 bg-opacity-20 rounded-2 p-1
-  text-center;
-}
-</style>
+# 「人生における意味」はそもそもあるのかという問題
 
-# 人はなぜ人生の意味に関心を持つのか
+<div grid grid-cols-2 gap-4  mt--3>
 
-* 興味ない人もいるでしょう (<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" w-10 inline />もそうでした)
+<fieldset border-2 border-pink bg-pink-500 bg-opacity-20 rounded-4
+  px-4 text-6 h-fit>
+  <legend text-center>誰でも元から持っているよ説</legend>
 
-* 人間が「意味」に関心を持つのは、世界を理解し、心理的な安全を感じたいという欲求があるため
+人生の意味は全員に最初から備わっていて、人間には本能的に意味を探そうという意志がある<br>(Viktor, 2014)
+</fieldset>
 
-* 意味を見つける効果
+<fieldset v-click=2 border-2 border-blue bg-blue-500 bg-opacity-20 rounded-4
+  px-4 text-6 h-fit data-id="tgt1">
+  <legend text-center>頑張った人だけ獲得できる説</legend>
 
-<div class="lhs w-70% ml-10%" grid grid-cols-2 gap-x-5>
+自己探求を通じて『獲得』していくことが可能だが、何もしなければ低いまま（無関心のまま）で終わることもある (Tatjana, 2020)
+</fieldset>
 
-より心が穏やかになる
+<div v-click=1>
 
-人生の満足度の向上
+<fieldset border-2 border-gray bg-gray-500 bg-opacity-20 rounded-4
+  mx-2 p-2 text-4.8 h-fit>
+  <legend text-center>うーん、ウソじゃない？ 派の意見</legend>
 
-孤独を感じにくくなる
-
-うつ病の抑制
+* 自分の人生に意味があるかどうかを気にかけない人々（実存的無関心）も多い
+* 人間はもともとは意味を保有していない状態からスタートする (Heidegger, 2008)
+</fieldset>
 </div>
+
+<div v-click=3>
+<fieldset border-2 border-green bg-green-500 bg-opacity-20 rounded-4
+  px-4 text-5 h-fit data-id="tgt2">
+  <legend text-center>意味を探そうという努力自体が大事</legend>
+
+日本では、意味を探そうと努力する人ほど意味を見つけたと感じる割合も高まり、<br>幸福感と正の相関を示した [(島井 2019)](https://www.jstage.jst.go.jp/article/jhpr/32/1/32_181206118/_pdf/-char/ja)
+</fieldset>
+
+<div v-click=4 text-center mt-3>
+<div w-fit data-id="src" m-auto>
+FIRE後の教科書の採用するスタンス
+</div>
+</div>
+
+</div>
+
+</div>
+
+<FancyArrow v-click=4 from="[data-id=src]@right" to="[data-id=tgt1]@right" color=red arc="-0.4"/>
+<FancyArrow v-click=4 from="[data-id=src]@right" to="[data-id=tgt2]@right" color=red arc="-0.4"/>
 
 ---
 
@@ -419,18 +445,17 @@ pre.slidev-code {
 
 研究では以下のような質問を使って人生の意味の測定をしています。
 
-> [日本人成人の発達段階による人生の意味の変化](https://www.jstage.jst.go.jp/article/jhpr/32/1/32_181206118/_pdf)の Appendix (Meaning in Life Questionnaire Japanese version) から抜粋。7段階スケールで答える。
+> [日本人成人の発達段階による人生の意味の変化](https://www.jstage.jst.go.jp/article/jhpr/32/1/32_181206118/_pdf)の Appendix (Meaning in Life Questionnaire Japanese version) の10問から抜粋。7段階スケールで答える。
 >
 > ```
 > 1. 私は自分の人生の意味を理解している
 > 2. 私は人生を有意義なものにする何かを見つけたいと思っている
-> 3. いつも人生の意味を見つけたいと思っている
 > 4. 私の人生にははっきりとした目的がある
 > 5. 自分の人生が有意義なものであると十分に感じている
 > 7. 私はいつも自分の人生を有意義にする何かを探している
 > ```
 
-このように「すでに意味を感じているか(1,4,5)」と<br>「意味を探しているか(2,3,7)」の2つを計測する方法が主流です。
+このように「すでに意味を感じているか(1,4,5)」と<br>「意味を探しているか(2,7)」の2つを計測する方法が主流です。
 
 ---
 
@@ -441,9 +466,8 @@ pre.slidev-code {
 <div v-click=1>
 
 * **“見つけて”**
-  * 意味は与えられたり、教えてもらったり、訓練するものではない
+  * 意味は他人から与えられるものではない。自分の本当の自己を知ることや、<br>意味の源（後述）へ関わることで生み出され、実感する
   * 私達の人生には、どんな状況でも意味の「種」が含まれている。それを見つける
-  * 今「意味なんてない」と感じるなら、それは「意味をまだ見つけていない」段階
 </div>
 <div v-click=2>
 
@@ -454,8 +478,7 @@ pre.slidev-code {
 <div v-click=3>
 
 * **“時間をかけて”**
-  * 見つける作業は困難や不満も伴う場合もある
-  * 一時的にはポジティブ感情が減る場合もあるが、それも必要なプロセス
+  * 見つける作業は辛い経験や感情を伴う場合もあるが、それも必要なプロセス
 </div>
 </div>
 
@@ -463,15 +486,16 @@ pre.slidev-code {
 
 # <img src="https://takibi-fire.com/slides/public/imgs/takibi.png" w-12 inline /> の解釈
 
-<div text-5.5>
+<div>
 
-* 人生における意味は自分の中に答えがある。ただしそれが何かは簡単には分からない
-  * 脳みその奥深くに埋まっているイメージ。自分のことなのに自分では分からない
-    * 「目的」＝「人生で行うことが価値があると感じること」
-    * 人生の目的を持つには、自分が何に価値を感じるかがわからないといけない
-    * 手がかりはある。目的を持ってもすぐ飽きる場合は、<br>自分がその目的に真の意味を感じていない可能性が高い
-* 意味を探そうという努力自体が大事
-  * 「日本では、意味を探そうと努力する人ほど、意味を見つけたと感じる割合も<br>高まり、幸福感と正の相関を示した」 [(島井 2019)](https://www.jstage.jst.go.jp/article/jhpr/32/1/32_181206118/_pdf/-char/ja)
+* 人生における意味は自分で発見・構築する
+* 人生の目的を持つには、自分が何に価値を感じるかがわからないといけない
+  * 「目的」＝「人生で行うことが価値があると感じること」
+  * **大問題: 「自分にとって何が大事か」が自分では簡単には分からない**
+* 手がかりはある
+  * 目的を持ってもすぐ飽きる場合は、自分がその目的に真の意味を感じて<br>いない可能性が高い
+  * 参考: [第6章: 退屈した時にするべきこと](https://takibi-fire.com/slides/fire-boredom-advice/18)
+    * 「何をやってもしっくりこない」 ← 一旦落ち着いて何が大事か探そう
 </div>
 
 ---
@@ -490,8 +514,9 @@ pre.slidev-code {
 
 リタイアした人は人間関係や仕事への価値観が急激に変わる。
 
-<div m-auto w-fit text-10 v-click=1>
-<carbon-ArrowRight/>意味を探し始めるのは自然な流れ
+<div m-auto w-fit text-9 v-click=1>
+<carbon-ArrowRight/>リタイア者が意味を探し始めるのは自然な流れ<br>
+<carbon-ArrowRight/>時間があるし今がチャンス
 </div>
 
 ---
@@ -505,7 +530,6 @@ pre.slidev-code {
 * 「26の意味の源」を紹介します [(Tatjana Schnell (2021))](https://xistens.no/sources-of-meaning-in-life/)
   * 大規模調査によって判明した共通しやすい26の源<br>
     = 多くの人にとって「人生の価値」たりえるもの
-  * FIRE民に関係ありそうなものを紹介します
   * スライドの付録に26個全て載せています
 
 ---
@@ -581,7 +605,7 @@ pre.slidev-code {
 
 ---
 
-# それでは次回「人生における意味の探し方」へどうぞ！
+# それでは次回「人生における意味の見つけ方」へどうぞ！
 
 2026/06/03: 未完
 
