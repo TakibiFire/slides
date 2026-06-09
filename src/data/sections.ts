@@ -242,6 +242,10 @@ export const sections: {
         id: 'fire-nature-of-meaning',
         title: '「人生における意味」の性質',
       },
+      {
+        id: 'fire-seeking-meaning',
+        title: '「人生における意味」の見つけ方',
+      },
     ]
   }
 };
