@@ -605,9 +605,7 @@ pre.slidev-code {
 
 ---
 
-# それでは次回「人生における意味の見つけ方」へどうぞ！
-
-2026/06/03: 未完
+# それでは次回[「人生における意味の見つけ方」](http://takibi-fire.com/slides/fire-seeking-meaning/)へどうぞ！
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness7" withSection/>
