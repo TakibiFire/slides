@@ -132,12 +132,12 @@ h1, p {
 }
 </style>
 
-# FIRE後<span text-orange-500>あなたは仕事の友人を失う</span>
+# FIRE後あなたは<span text-orange-500>仕事の友人を失います</span>
 
 * 言いすぎかもしれませんが少なくともそういう覚悟でいましょう
-* 仕事の友人は**職場**という環境で繋がっていた
-  * 「あなたが誰であるか」ではなく「あなたがどこにいるか」で繋がっていた
-* そして**共通の話題**で繋がっていた
+* 仕事の友人は**職場**という環境で繋がっていました
+  * 「あなたが誰であるか」ではなく「あなたがどこにいるか」で繋がっていました
+* そして**共通の話題**で繋がっていました
   * 会社の愚痴、ストレス、締切、...
 * FIRE後その両方を失います
 
@@ -156,16 +156,17 @@ h1, p {
 
 ---
 
-# FIRE後<span text-orange-500>元同僚からの見られ方が変化する</span>
+# FIRE後<span text-orange-500>元同僚からの見られ方が変化します</span>
 
-<div border p-2 w-fit mb-3 mx-auto rounded-2>
+<div border p-2 w-fit mb-3 mx-auto rounded-4 border-2 border-red
+  bg-red bg-opacity-20>
 
 あなたが何も変化していなくても、**元同僚からは「共感できない」存在になる**
 
 </div>
 
-* あなたが自由な暮らしを見せつければ、**元同僚は不自由さを直視しなくてはいけなくなる**
-  * 直視するのが辛いと「あなたの人生には自分はもう興味がない」という<br>反応をする人もいるでしょう
+* あなたが自由な暮らしを見せつければ、元同僚は自然と不自由さを感じます
+  * 直接あなたに文句をいうことは無いと思いますが、「あなたの人生には<br>もう興味がない」という防衛反応をする人もいるでしょう
 
 
 ---
@@ -174,23 +175,23 @@ h1, p {
 
 <div grid grid-cols-2 gap-10><div>
 
-<fieldset border rounded-3 px-6 pb-2>
-  <legend ml-10 color-green>あなたの悩み</legend>
+<fieldset border rounded-3 px-6 pb-2 rounded-4 border-2 border-red bg-red bg-opacity-20>
+  <legend text-center>仕事仲間の悩み</legend>
 
-* 自由の謳歌の仕方
-* 自分探し・自己実現
-* 趣味
+* 締め切り、つまらない仕事
+* 上司・部下
+* 育児
 
 </fieldset>
 
 </div><div>
 
-<fieldset border rounded-3 px-6 pb-2>
-  <legend ml-10 color-red>彼らの悩み</legend>
+<fieldset border rounded-3 px-6 pb-2 rounded-4 border-2 border-green bg-green bg-opacity-20>
+  <legend text-center>あなたの悩み</legend>
 
-* 締め切り、つまらない仕事
-* 上司・部下
-* 育児
+* 自由の謳歌の仕方
+* 自分探し・自己実現
+* 趣味
 
 </fieldset>
 
@@ -212,26 +213,24 @@ h1, p {
 
 <div grid grid-cols-2 gap-10><div>
 
-<fieldset border rounded-3 px-6 pb-2>
-  <legend ml-10 color-red>
-  <img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w8 hue-rotate-210 />
-  昔のたきび
+<fieldset rounded-3 px-6 pb-2 rounded-4 border-2 border-red bg-red bg-opacity-20>
+  <legend text-center>
+  昔の<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w8 hue-rotate-210 />
   </legend>
 
-* 「自己実現」とか語っちゃう人ダサい
+* 「自己実現」とか<br>語っちゃう人はダサい
 * プロジェクトに突っ走りたい
 
 </fieldset>
 
 </div><div>
 
-<fieldset border rounded-3 px-6 pb-2>
-  <legend ml-10 color-green>
-  <img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w8 />
-  今のたきび
+<fieldset rounded-3 px-6 pb-2 rounded-4 border-2 border-green bg-green bg-opacity-20>
+  <legend text-center>
+  今の<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w8 />
   </legend>
 
-* 自分が何をしたら楽しいか探したい
+* 自分が何をしたら楽しいか<br>探したい
 * ゆっくり寄り道を楽しみたい
 
 </fieldset>
@@ -254,15 +253,15 @@ layout: fact
 
 # 新しい友人の見つけ方
 
-**簡単ではない**
+結論: **簡単には見つかりません**
 
-大人になってから友人を作るのは、子供の頃よりもずっと難しい。
+大人になってから友人を作るのは、子供の頃よりもずっと難しいです。
 
-仕事の愚痴を言い合えないとなると、さらに難しい。
+仕事の愚痴を言い合えないとなると、さらに難しいです。
 
-しかし、不可能ではない。
+しかし、不可能ではありません。
 
-<div border px-6 mt-6 rounded-4 text-center w-fit mx-auto color-amber>
+<div px-6 mt-10 rounded-4 text-center w-fit mx-auto border-2 border-purple bg-purple bg-opacity-20 text-8>
 
 FIRE後の新しい価値観に合い<br>自由な時間をたっぷり持つ新しい友人を見つけよう
 
@@ -272,7 +271,7 @@ FIRE後の新しい価値観に合い<br>自由な時間をたっぷり持つ新
 layout: section
 ---
 
-# 新しい友人を見つけるヒント
+# <span font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-500>新しい友人を見つけるヒント</span>
 
 コミュニティを見つけよう
 
@@ -292,12 +291,16 @@ layout: section
 
 同じ価値観を持ちながらも、新しい視点を得られるようなコミュニティ
 
+<div ml-6>
+
 * FIRE コミュニティ
 * 地域のコミュニティ、休職者のコミュニティ、趣味のコミュニティ
 
-**複数居場所があるのが理想的**
+</div>
 
-<div class="w-2/3" border p-2 rounded-4>
+**複数居場所があるのが理想的です**
+
+<div border-2 p-2 rounded-4 w-fit m-auto>
 
 「会社での人間関係を理由に FIRE したのに、<br>また違うコミュニティに属して疲弊したくない」
 
@@ -312,30 +315,37 @@ layout: section
 
 見知らぬ人に会う場合は、**何か「一緒にすること」を選びましょう。**
 
-オフ会で語り合うのもいいですが、何か一緒に活動や作業をする方が気の合う人を見つけやすいです。
+オフ会で語り合うのもいいですが、何か一緒に活動や作業をする方が<br>気の合う人を見つけやすいです。
 
 できれば消費的な活動（ゲームや鑑賞）よりも生産的な活動が良いです。
+
+<div ml-6>
 
 * 運動
 * 料理
 * 学び
+</div>
 
 ---
 
 # 話すよりも聞く
 
 FIRE したての時は、どうしても話したくなりますよね！
+
+<div ml-6>
+
 * 達成の話を話すのは嬉しいです
 * 他の人に羨ましがられるかもしれません
-* 「会社の人に理解されにくい」FIRE話を聞いてくれるFIRE仲間は素敵な存在
+* 会社の人に理解されにくいFIRE話を聞いてくれる仲間は素敵な存在！
+</div>
 
 **でも、それを分かった上でその逆を行きましょう**。
 
 FIRE の先輩はたくさんいるので、学びましょう。
 
-<div w-fit m-auto text-center text-amber-500>
+<div px-6 mt-6 rounded-4 text-center w-fit mx-auto border-2 border-purple bg-purple bg-opacity-20 text-8>
 
-## 質問をし、相手に好奇心を持ちましょう
+質問をし、相手に好奇心を持ちましょう
 
 </div>
 
@@ -345,33 +355,45 @@ FIRE の先輩はたくさんいるので、学びましょう。
 
 聞き上手からさらに一歩進んで、引き出し上手になりましょう。
 
-* 人は他人にアドバイスを与え、賢いと感じるのが好きです。
-* アドバイスを求めると、場は和み、**相手は良い気分になり、** あなたは彼らをよりよく知ることができます。
-* 一つ聞くとその派生の情報まで色々と聞けるのが FIRE コミュニティの良いところです。
+* 誰でも他人にアドバイスを与えるのは大好きです。
+* アドバイスを求めると、あなたは相手をよりよく知ることができるし、<br>**相手も良い気分になります。** 
+* 一つ聞くとその派生の情報まで色々と聞けるのが FIRE コミュニティの<br>良いところです。
 
 ---
 
 # 贈り物や好意を与える
 
-友人を作る簡単な方法は、単に贈り物をしたり、相手のために何かしてあげたりすることです。
+贈り物をしたり、相手のために何かしてあげたりすることも友人を作る<br>いい方法です。
 
-FIREできるあなたは何かしらスキルがあるはずです。
+FIREできるあなたは何かしらスキルがあるはずです。今までは会社のために<br>
+貢献して対価をもらっていましたが、あなたはもう報酬や見返りの無い世界に<br>やってきました。
 
-今までは会社のために貢献して対価をもらっていましたが、あなたはもう報酬や見返りの無い世界にやってきました。
+<fieldset px-6 mt-4 rounded-4 text-center w-fit mx-auto border-2 border-purple bg-purple bg-opacity-20 text-6.5>
+  <legend>アドバイス</legend>
 
-自発的に**仲間を手伝ってみたり、助けてみたりしましょう。**
-
+自発的に**仲間を手伝ってみたり、助けてみたりしましょう。**<br>
 自分の得意なことを**報酬や見返りを気にせずやってみましょう。**
+
+<div mt-6 text-5>
+
+参考: [第4章: 愛情の強みを鍛えよう 〜ギバーになろう](https://takibi-fire.com/slides/fire-love/)
+</div>
+</fieldset>
 
 ---
 
 # 挑戦し続ける
 
-生涯の友達を見つけるのは試行錯誤が必要。
+<fieldset px-6 mt-4 rounded-4 text-center w-fit mx-auto border-2 border-purple bg-purple bg-opacity-20 text-8>
+  <legend>アドバイス</legend>
 
-**場数が大事です。**
+生涯の友達を見つけるのは試行錯誤が必要なので<br>**場数が大事です。**
+</fieldset>
+
+<div text-center mt-10>
 
 友人づくりの最初はぎこちなくなるかもしれませんが、<br>こういうのは結局は場数です。
+</div>
 
 ---
 
@@ -387,7 +409,7 @@ FIREできるあなたは何かしらスキルがあるはずです。
 
 ---
 
-# 良ければ他のスライド・他の章もどうぞ
+# それでは次回[「FIREは一生の決断ではない」](https://takibi-fire.com/slides/fire-not-lifelong-decision/)へどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="usefulTips" withSection/>
