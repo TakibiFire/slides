@@ -54,6 +54,10 @@ export const sections: {
       {
         id: 'fire-mentally-fi',
         title: 'FIにもレベルがある〜「心のFI」とは',
+      },
+      {
+        id: 'fire-retire-experiment',
+        title: 'FIRE = リタイア実験',
       }
     ],
   },
