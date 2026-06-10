@@ -72,7 +72,7 @@ layout: fact
 
 <div text-8>
 
-2026/06/09: <span color-green>FIRE後の教科書は建設途中です (84%完了)。</span>
+2026/06/10: <span color-green>FIRE後の教科書は建設途中です (86%完了)。</span>
 
 コンテンツを足しながらリンクも増やしていきます。
 
@@ -112,7 +112,7 @@ ul + h1 {
 
 </div><div>
 
-* FIRE = リタイア実験
+* [FIRE = リタイア実験](https://takibi-fire.com/slides/fire-retire-experiment/)
 * FIREはレールの乗り換え
 * 定期的に現在の思考を吐き出そう
 * 後5年で死ぬとしたら何をする？

@@ -442,7 +442,7 @@ ul {
 
 ---
 
-# 良ければ他のスライド・他の章もどうぞ
+# それでは次回「[FIにもレベルがある〜「心のFI」とは](https://takibi-fire.com/slides/fire-mentally-fi/)」へどうぞ！
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="usefulTips" withSection/>
