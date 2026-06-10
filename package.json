@@ -16,5 +16,8 @@
     "slidev-addon-fancy-arrow": "^0.13.13",
     "slidev-theme-neversink": "^0.4.0",
     "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.1.0"
   }
 }
