@@ -1,0 +1,41 @@
+.my-transition-enter-active,
+.my-transition-leave-active {
+  transition: opacity 1.5s ease;
+}
+.my-transition-enter-from,
+.my-transition-leave-to {
+  opacity: 0;
+}
+.slidev-layout.default h1 {
+  display: none;
+}
+
+.slidev-layout blockquote {
+  font-size: 90%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  @apply my-3 ml-5 pl-3 bg-gray-500 bg-opacity-20;
+}
+.slidev-layout table {
+  @apply w-full table-fixed;
+}
+.slidev-layout table th > * {
+  border: 1px solid gray;
+  @apply px-2 py-2 whitespace-nowrap;
+}
+.slidev-layout table tr > * {
+  border: 1px solid gray;
+  @apply px-4 py-2 whitespace-nowrap;
+}
+.slidev-layout table th:first-child,
+.slidev-layout table td:first-child {
+  @apply w-28;
+}
+
+.clock > div {
+  @apply absolute top-50% -translate-y-1/2;
+  @apply text-20/20 w-full;
+}
+.animation-inner {
+  @apply origin-[200%_50%];
+}

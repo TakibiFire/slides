@@ -77,6 +77,7 @@ potential_targets=(
 
   "flaws-in-die-with-zero"
   "korenara-katareru"
+  "korenara-2"
   "pencil-puzzles"
   "two-years-after-retirement"
 
