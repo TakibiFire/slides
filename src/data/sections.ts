@@ -58,6 +58,10 @@ export const sections: {
       {
         id: 'fire-retire-experiment',
         title: 'FIRE = リタイア実験',
+      },
+      {
+        id: 'fire-transfer',
+        title: 'FIREはレールの乗り換え',
       }
     ],
   },
