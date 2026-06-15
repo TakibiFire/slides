@@ -394,7 +394,7 @@ layout: section
 
 ---
 
-# 良ければ他のスライド・他の章もどうぞ
+# それでは次回[「FIREはレールの乗り換え」](https://takibi-fire.com/slides/fire-transfer/)へどうぞ！
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="usefulTips" withSection/>
