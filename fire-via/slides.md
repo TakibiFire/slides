@@ -91,7 +91,7 @@ h1, p {
 
 <div grid grid-cols-2 gap-6><div>
 
-<SectionLinks section="happiness4" text-5 current="fire-via"/>
+<SectionLinks section="happiness4" text-4.7 current="fire-via"/>
 
 </div><div italic text-5.5 mt--5>
 
@@ -763,4 +763,4 @@ layout: cover
 # それでは次回[「幸福度に直結する強み 1. 感謝の強みを鍛えよう」](https://takibi-fire.com/slides/fire-gratitude/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="happiness4" text-5 withSection/>
+  * <SectionLinks section="happiness4" text-4.7 withSection/>

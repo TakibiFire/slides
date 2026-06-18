@@ -102,7 +102,7 @@ h1, p {
 
 <div grid grid-cols-2 gap-6><div>
 
-<SectionLinks section="happiness4" text-5 current="fire-side-trip"/>
+<SectionLinks section="happiness4" text-4.7 current="fire-side-trip"/>
 
 </div><div italic text-5.5 mt--5>
 
@@ -605,4 +605,4 @@ layout: cover
 # それでは次回[「ひとりあそびを極めよう」](https://takibi-fire.com/slides/fire-solo-play/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="happiness4" text-5 withSection/>
+  * <SectionLinks section="happiness4" text-4.7 withSection/>

@@ -486,4 +486,4 @@ layout: fact
 # それでは第5章[「承認欲求との向き合い方」](https://takibi-fire.com/slides/fire-problems-of-approval/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="happiness4" text-5 columns-2 withSection/>
+  * <SectionLinks section="happiness4" text-4.7 columns-2 withSection/>

@@ -412,4 +412,4 @@ FIした人は上振れたお金をちょっとだけ使ってみる気持ちで
 # それでは次回[「思い出志向を避けよう」](https://takibi-fire.com/slides/fire-peak-end/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="happiness4" text-5 columns-2 withSection/>
+  * <SectionLinks section="happiness4" text-4.7 columns-2 withSection/>

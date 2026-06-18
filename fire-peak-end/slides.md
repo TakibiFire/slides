@@ -641,7 +641,7 @@ legend {
 # それでは次回[「アドバイス集まとめ」](https://takibi-fire.com/slides/fire-advice-for-happiness/)をどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="happiness4" text-5 columns-2 withSection/>
+  * <SectionLinks section="happiness4" text-4.7 columns-2 withSection/>
 
 ---
 
