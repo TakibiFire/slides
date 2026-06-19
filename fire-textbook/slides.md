@@ -114,8 +114,8 @@ ul + h1 {
 
 * [FIRE = リタイア実験](https://takibi-fire.com/slides/fire-retire-experiment/)
 * [FIREはレールの乗り換え](https://takibi-fire.com/slides/fire-transfer/)
-* 定期的に現在の思考を吐き出そう
 * 後5年で死ぬとしたら何をする？
+* 定期的に現在の思考を吐き出そう
 
 </div></div>
 
