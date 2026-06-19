@@ -395,7 +395,7 @@ FIREだけ特別何かを失うという感覚はありません。
 
 ---
 
-# 良ければ他のスライド・他の章もどうぞ
+# それでは次回[「後5年で死ぬとしたら何をする？」](https://takibi-fire.com/slides/fire-if-5-years-left/)へどうぞ！
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="usefulTips" withSection/>
+  * <SectionLinks section="usefulTips" withSection columns-2/>
