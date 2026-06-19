@@ -308,4 +308,4 @@ layout: fact
 # 良ければ他のスライド・他の章もどうぞ
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="usefulTips" withSection/>
+  * <SectionLinks section="usefulTips" withSection columns-2/>
