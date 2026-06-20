@@ -66,18 +66,6 @@ FIREをしていない人にも、FIREしてからの生活を想像するのに
 
 </div>
 
----
-layout: fact
----
-
-<div text-8>
-
-2026/06/19: <span color-green>FIRE後の教科書は建設途中です (89%完了)。</span>
-
-コンテンツを足しながらリンクも増やしていきます。
-
-</div>
-
 <!--
 `asterisc ` が m 個
 `asterisc [` が x 個なら
@@ -240,7 +228,7 @@ ul {
 
 <div grid grid-cols-2 gap-6 m-auto><div>
 
-* FIREと子育て
+* [FIREと子育て](https://takibi-fire.com/slides/fire-parenting/)
 
 </div></div>
 
