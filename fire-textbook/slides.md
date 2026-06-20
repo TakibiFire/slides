@@ -115,7 +115,6 @@ ul + h1 {
 * [FIRE = リタイア実験](https://takibi-fire.com/slides/fire-retire-experiment/)
 * [FIREはレールの乗り換え](https://takibi-fire.com/slides/fire-transfer/)
 * [後5年で死ぬとしたら何をする？](https://takibi-fire.com/slides/fire-if-5-years-left/)
-* 定期的に現在の思考を吐き出そう
 
 </div></div>
 
@@ -241,10 +240,16 @@ ul {
 
 <div grid grid-cols-2 gap-6 m-auto><div>
 
-* 1年半経って FIRE してどうだったか
-* 人生100年時代は心配しなくていい
-* ミッドライフ・クライシス
-* 40代以降の人が気をつけるべき健康
 * FIREと子育て
 
 </div></div>
+
+<!--
+
+* 1年半経って FIRE してどうだったか
+* 定期的に現在の思考を吐き出そう
+* 人生100年時代は心配しなくていい
+* ミッドライフ・クライシス
+* 40代以降の人が気をつけるべき健康
+
+-->

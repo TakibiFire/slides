@@ -259,5 +259,14 @@ export const sections: {
         title: '「人生における意味」の見つけ方',
       },
     ]
+  },
+  others: {
+    title: 'その他コラム',
+    articles: [
+      {
+        id: 'fire-parenting',
+        title: 'FIREと子育て',
+      },
+    ]
   }
 };
