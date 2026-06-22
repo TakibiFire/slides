@@ -132,3 +132,4 @@ build/
 .slidev/
 dist/
 node_modules/
+temp/
