@@ -1,0 +1,23 @@
+.my-transition-enter-active,
+.my-transition-leave-active {
+  transition: opacity 1s ease;
+}
+.my-transition-enter-from,
+.my-transition-leave-to {
+  opacity: 0;
+}
+.slidev-layout.default {
+  font-size: 150%;
+}
+.slidev-layout.default h1 {
+  margin-bottom: 1em;
+}
+.slidev-layout.default p {
+  margin-bottom: 1em;
+}
+.slidev-layout.intro {
+  font-size: 150%;
+}
+.slidev-layout legend {
+  text-align: center;
+}

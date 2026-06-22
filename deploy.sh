@@ -79,6 +79,7 @@ potential_targets=(
   "korenara-katareru"
   "korenara-2"
   "pencil-puzzles"
+  "search-ads"
   "two-years-after-retirement"
 
   # Dynamically extracted fire-* directories
