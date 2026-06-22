@@ -66,7 +66,11 @@ export const sections: {
       {
         id: 'fire-if-5-years-left',
         title: '後5年で死ぬとしたら何をする？',
-      }
+      },
+      {
+        id: 'fire-flaws-in-die-with-zero',
+        title: 'DIE WITH ZERO はここが間違っている',
+      },
     ],
   },
   happiness1: {

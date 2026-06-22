@@ -6,7 +6,7 @@ fonts:
   serif: Noto Serif JP
   # コードブロック用
   mono: Fira Code
-title: DIE WITH ZERO はここが間違っている | たきび FIRE
+title: DIE WITH ZERO はここが間違っている | FIRE後の教科書 | たきび FIRE
 titleTemplate: "%s"
 favicon: https://takibi-fire.com/slides/public/imgs/favicon.png
 highlighter: shiki
@@ -18,7 +18,7 @@ mdc: true
 layout: center
 lang: ja
 glowSeed: 4
-footerTitle: DIE WITH ZERO はここが間違っている | たきび FIRE
+footerTitle: FIRE後の教科書 > 役立つ知識・考え方 > DIE WITH ZERO はここが間違っている
 addons:
   - fancy-arrow
 ---
@@ -34,6 +34,11 @@ h1, p {
 </style>
 
 # DIE WITH ZERO は<br>ここが間違っている
+
+<div text-center mb-8 font-bold bg-gradient-to-r from-indigo-200 via-blue-500 to-purple-400 text-transparent bg-clip-text>
+  <span text-13>FIRE後の教科書</span><br>
+  <span text-8>役立つ知識・考え方</span>
+</div>
 
 <div text-center grid grid-cols-2 gap-4 m-auto w-fit>
   <div col-span-2>たきび FIRE</div>
@@ -60,6 +65,8 @@ h1, p {
 </style>
 
 # 1枚で要約
+
+<div text-center mb-7>》このスライドは1時間のプレゼン用なので長いです《</div>
 
 * DIE WITH ZERO の意見は一見聞き心地が良いですね！
 * ただその根拠となる話は**色々怪しいです**
@@ -89,6 +96,25 @@ h1, p {
 </div><div>
 
 ![icon](https://takibi-fire.com/slides/public/imgs/takibi.png)
+
+</div></div>
+
+---
+
+# [FIRE後の教科書](https://takibi-fire.com/slides/fire-textbook/) > FIRE直後に役立つ知識・考え方
+
+<div grid grid-cols-2 gap-6><div>
+
+<SectionLinks text-5.5 section="usefulTips" current="fire-flaws-in-die-with-zero" />
+
+</div><div italic text-5.5 mt--5>
+
+この章では、FIRE後に早めに知っておくと良いことをまとめています。
+
+<div text-4.5>
+序章はこちら<carbon-ArrowDown/><br>
+<SectionLinks section="intro" />
+</div>
 
 </div></div>
 
@@ -160,7 +186,7 @@ layout: cover
 * 老後の不安のために過剰に貯蓄して、「今」を犠牲にしていないか？
 * 最適なタイミングでお金を使い、人生の満足度（経験の総和）を<br>最大化しよう
 
-<div mt-8 text-center text-6 font-bold text-orange-400>
+<div text-9 mt-8 text-center text-6 font-bold text-orange-400>
 「ゼロで死ぬ」＝ 人生の最適化
 </div>
 
@@ -176,11 +202,24 @@ FIRE movement の火付け役！
 
 ---
 
-<img src="/imgs/review1.png" h25 absolute top-10 left-10/>
+<FakeX text-4.7 m-8 absolute top-10 left-10 w-160>
+  <template #content>
+DIE WITH ZERO を読んで、人生の価値観が変わりました！
+  </template>
+</FakeX>
 
-<img src="/imgs/review2.png" h32 absolute top-20 right-5/>
+<FakeX text-4.7 m-8 absolute top-40 left-30 w-160>
+  <template #content>
+100万円の出費という考え方をするんじゃなくて「10回の思い出作り」という考え方をしていこう。
+「経験への入金」だけは、絶対にケチっちゃダメだよ。
+  </template>
+</FakeX>
 
-<img src="/imgs/review3.png" h60 absolute top-60 left-50/>
+<FakeX text-4.7 m-8 absolute top-80 left-50 w-160>
+  <template #content>
+知ってる？　結局死ぬ時に思い出すのは思い出だけ。資産額とかじゃない。これに気づいてからお金で消耗することはなくなったよ。
+  </template>
+</FakeX>
 
 ---
 
@@ -652,9 +691,9 @@ layout: cover
 
 > とても楽しかった休暇旅行のことを思い出してほしい。その旅行についてあなたは、友人に話したり、自分一人で旅の回想をしたり、一緒に旅した人と思い出話に耽ったり、同じような旅行の計画を立てている誰かにアドバイスをしたりしたはずだ。こんなふうに、<strong>元の経験から副次的に生まれる経験は、まさに記憶の配当だと言える。</strong>その経験は、積み重なっていく。
 
-<div text-center text-7 text-orange>
+<div text-center text-7 >
 
-思い出の仕組みを知りましょう
+本当でしょうか？　<span text-orange>思い出の仕組みを解説します</span>
 </div>
 
 ---
