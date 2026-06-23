@@ -223,7 +223,7 @@ AIのまとめ
 </fieldset>
 
 <fieldset v-click=1 mt-5 w-fit m-auto border-2 rounded-4 bg-opacity-10 px-10 py-2 border-green bg-green>
-  <legend>問題点</legend>
+  <legend>クリック課金のメリット</legend>
 
 * 広告主は満足する
 * 検索エンジン側は**クリックされる広告を出さないといけなくなる**
@@ -241,7 +241,7 @@ AIのまとめ
 <span v-click=1><carbon-ArrowRight/> 1回の表示当たり、3円の儲けが期待される</span>
 </fieldset>
 
-<div v-click=1 mt-10 text-center text-10>
+<div v-click=2 mt-10 text-center text-10>
 この「儲けの期待値」でランキングしてみると面白いことに...
 </div>
 
@@ -321,10 +321,10 @@ AIのまとめ
 * 広告主側
   * クリック率を上げるように努力すると、支払額が減る
   * いい広告を出すインセンティブを作れる
-* 検索エンジン側
-  * 儲けの期待値はランキングを作る時に分かっているので、ビジネスの見通しが立ちやすい
 * ユーザー側
   * 関連する広告が増える
+* 検索エンジン側
+  * 儲けの期待値はランキングを作る時に分かっているので、ビジネスの見通しが立ちやすい
 </div>
 </fieldset>
 
