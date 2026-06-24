@@ -70,8 +70,8 @@ h1, p {
 
 * リタイア後は承認欲求を<u decoration-orange decoration-wavy>手放そう</u>
   * 「他人に評価されなくてもやりたいこと」を見つけよう
-  * 「他人に評価に関係ない」自分の絶対的な価値に気づこう
-    * 自分の持っているポジティブな強みに気づこう
+  * 「他人の評価に関係ない」自分の絶対的な価値に気付こう
+    * 自分の持っているポジティブな強みに気付こう
 * リタイア後こそが、承認欲求から自由になれる絶好のチャンス
 
 <div text-base absolute bottom-8 left-8>スライド一覧を流し見したい人は左下から<carbon-apps />をクリック
@@ -116,7 +116,7 @@ h1, p {
 # 前回[「承認欲求の正体・そのプロセスと弊害」](https://takibi-fire.com/slides/fire-problems-of-approval/)のまとめ
 
 * 適度な承認は心の栄養
-* ただ承認が欲しくなりすぎると中毒的になる
+* ただし承認が欲しくなりすぎると中毒的になる
   * 他人との比較が止まらない
   * 自分の行動基準が「他人がどう思うか」になってしまう
 * **根本原因は「自己価値感の低さ」**
@@ -156,7 +156,8 @@ layout: section
 <div col-span-5 border-red border-2 rounded-4 p-4>
 
 <div w-fit m-auto text-center>
-誰からの承認を欲しているか？<br>
+誰から認められたいと<br>思っているのか？
+
 <span v-mark.circle.orange=1 font-bold>「心の渇き」を客観視</span>する
 </div>
 </div>
@@ -165,15 +166,16 @@ layout: section
 <carbon-ArrowRight/>
 </div>
 
-<div col-span-5 h-fit border-green border-2 rounded-4 p-4>
+<div col-span-5 h-fit border-green border-2 rounded-4 px-2 py-4>
 
 <div w-fit m-auto text-center>
-「嬉しい」か「ダメ」か？<br>
+「認められると嬉しい」のか<br>「認められないとダメ」なのか？
+
 欲求の<span v-mark.circle.orange=1 font-bold>健全さを評価</span>する
 
 <div text-sm mt-2 op-80>
 
-「評価が無いとダメ」なら不健全
+「認められないとダメ」と感じるなら不健全
 </div>
 </div>
 </div>
@@ -192,7 +194,8 @@ layout: section
 <div grid grid-cols-21 justify-center items-center>
 <div col-span-10 border-red border-2 rounded-4 p-4>
 <div w-fit m-auto text-center>
-「本当はどんな風に時間を<br>過ごしたいか？」<br>
+「本当はどんな風に時間を<br>過ごしたいか？」
+
 <span v-mark.circle.orange=1 font-bold>自分軸を再定義</span>する
 </div>
 </div>
@@ -205,10 +208,10 @@ layout: section
 
 <div w-fit m-auto text-center>
 他人の評価を抜きにして<br>
-<span v-mark.circle.orange=1 font-bold>価値観に沿って行動</span>する
+<span v-mark.circle.orange=1 font-bold>自分の価値観に沿って行動</span>する
 
-<div text-sm mt-2 op-80>
-生き方はどんどんシンプルになる
+<div text-sm mt-4 op-80>
+行動してみると<br>「あ、これでいいんだ、簡単なことだったんだ」と<br>気付ける
 </div>
 </div>
 </div>
@@ -234,7 +237,7 @@ Yes なら自分軸です。
 
 <div w-fit m-auto text-center>
 欠点ではなく、自分の<br>
-<span v-mark.circle.orange=1 font-bold>強みを意識的に使う</span>
+<span v-mark.circle.orange=1 font-bold>強みを意識的に活かす</span>
 
 <div text-sm mt-4 op-80>
 自分の価値の発見にもつながる
@@ -247,11 +250,11 @@ Yes なら自分軸です。
 <fieldset col-span-10 border-purple border-2 bg-purple-500 bg-opacity-20 rounded-4 p-5>
   <legend text-center font-bold px-2>「仮面」を外す練習</legend>
 <div w-fit m-auto text-center>
-他者の期待に応える役割を脱ぎ<br>
+他者の期待に応える役割を辞めて<br>
 <span v-mark.circle.orange=1 font-bold>本当の自分を表現</span>する
 
 <div text-sm mt-4 op-80>
-長年の習慣を解きほぐすには時間がかかる。焦らずに！
+長年の習慣を解きほぐすには時間がかかるので焦らずに！
 </div>
 </div>
 </fieldset>
@@ -261,8 +264,9 @@ Yes なら自分軸です。
 <div v-click=1
   w-fit mx-auto my-5 px-6 py-2 text-center>
 
-自分の強み (誠実さ・好奇心など) の見つけ方は<br>
-[自分の強みを知ろう (VIA Character Strengths)](https://takibi-fire.com/slides/fire-via/)の回で<br>詳しく紹介しています。
+自分の強み (誠実さ・好奇心など) の見つけ方や活かし方は<br>
+[第4章自分の強みを知ろう (VIA Character Strengths)](https://takibi-fire.com/slides/fire-via/)の回で<br>
+詳しく紹介しています。
 </div>
 
 ---
@@ -277,7 +281,7 @@ Yes なら自分軸です。
 <span v-mark.circle.orange=1 font-bold>意識的に切り離す</span>
 
 <div text-sm mt-2 op-80>
-焦点を自分自身の成長に戻す
+自分自身の変化や成長に意識を向ける
 </div>
 </div>
 </div>
@@ -289,7 +293,7 @@ Yes なら自分軸です。
 
 <div w-fit m-auto text-center>
 失敗は学びの機会と捉える<br>
-<span v-mark.circle.orange=1 font-bold>しなやかな心（成長マインド）</span>
+<span v-mark.circle.orange=1 font-bold>成長マインド</span>
 
 <div text-sm mt-2 op-80>
 他人の評価を恐れなくなる
@@ -320,12 +324,12 @@ Yes なら自分軸です。
   <legend text-center font-bold px-2>課題の分離</legend>
 
 <div w-fit m-auto text-center>
-他人の評価は「相手の課題」
+他人からの評価は「相手の課題」
 
 <span v-mark.circle.orange=1 font-bold>制御不能なものは追わない</span>
 
 <div text-sm mt-4 op-80>
-どう振る舞うかは「自分の課題」<br>
+自分がどう振る舞うかは「自分の課題」。<br>
 コントロールできる事に集中する
 </div>
 </div>
@@ -353,7 +357,7 @@ Yes なら自分軸です。
   w-fit mx-auto my-5 px-6 py-2 text-center>
 
 **他人がどう思うかは「あちら側の自由」。**<br>
-コントロールできないことに、あなたの貴重なエネルギーを使わない。
+コントロールできないことに、自分の貴重なエネルギーを使わない。
 </div>
 
 ---
@@ -462,6 +466,7 @@ FIREしたからには<br>
 
 * 所属は永遠ではなく変化していくものだなぁ
 * 所属は自分を永遠に縛るものではないし、固執するべきものでも<br>ないなぁ
+* 参考: [FIREはレールの乗り換え](https://takibi-fire.com/slides/fire-transfer/)の回
 
 </fieldset>
 </div>
@@ -484,7 +489,7 @@ FIREしたからには<br>
 
 <fieldset border-orange border-2 rounded-4 bg-orange-500 bg-opacity-20 p-3
   w-fit>
-  <legend ml-7>自己価値感は育てられると気づく</legend>
+  <legend ml-7>自己価値感は強くできると気付く</legend>
 
 * 仕事をしていると自己価値感を気にする暇もないが、FIRE後はどっぷり対峙する時間がある
 * 自分の強みが分かると「他人が認めなくても自分には価値がある」 という気分がわかる<br><span text-5.5>→ 参考: [自分の強みを知ろう](https://takibi-fire.com/slides/fire-via/)の回</span>
@@ -496,18 +501,20 @@ FIREしたからには<br>
 
 # 「私には価値がある」と思えない時は (1/2)
 
-<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 px-6
+<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 px-10
   w-fit m-auto text-9 mb-10>
   <legend text-center>アドバイス</legend>
 
-<u decoration-wavy decoration-orange>行動する</u>ことで、価値の「定義」を変えてみる
+<u decoration-wavy decoration-orange>行動する</u>ことで、価値の定義を変えてみる
 
 </fieldset>
 
 <div text-center>
 「価値」とは、必ずしも大きな成功や<br>他人からの賞賛といったものである必要はありません。
 
-そう思い込んでいる人は、考え方を変えましょう。
+そう思い込んでいる人は、「価値とは何か」という考え方自体を変えましょう。
+
+先に行動してみて、そこに価値を見つけてみる方法がオススメです。
 </div>
 
 ---
@@ -531,13 +538,33 @@ image: https://takibi-fire.com/slides/fire-stop-seeking-approval/imgs/kannyo.jpg
 
 ---
 
+# 関与することは「人生における意味」につながる
+
+<fieldset border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 px-6
+  w-fit m-auto mb-10 text-7 text-center>
+  <legend text-center>アドバイス</legend>
+
+リタイアしたらどこでもいいのでコミュニティに属しましょう。<br>
+その場所で「何か関与はできないかな？」と考えてみましょう。
+
+参考: [FIRE後の友達の作り方](https://takibi-fire.com/slides/fire-how-to-make-friends/)の回
+</fieldset>
+
+ちなみに関与することは、この先のFIRE幸福論第7章で紹介する「人生における意味」にも深く関連しています。[『第7章 人生における意味 > 「人生における意味」の見つけ方』](https://takibi-fire.com/slides/fire-seeking-meaning/18)でこの話にまた触れます。
+
+---
+
 # まとめ
 
+<div text-7>
+
 * リタイア後は、承認欲求を「手放す」生き方へシフトしよう
-  * むしろリタイア後こそが、承認欲求から自由になれる絶好のチャンス
-* 他人の評価を抜きにして、自分のやりたいこと・自分の強みに集中しよう
+  * リタイア後こそが、承認欲求から自由になれる絶好のチャンス
+* 他人の評価を気にせず、自分のやりたいことや強みに集中しよう
 * 本当の価値は外から与えられるものではなく、自分の内側にある
-* 評価への依存を卒業し、「他者への貢献」で自己価値感を育もう
+* 評価への依存を卒業して、「他者への貢献」で自己価値感を育もう
+
+</div>
 
 <!--
 
@@ -559,9 +586,9 @@ image: https://takibi-fire.com/slides/fire-stop-seeking-approval/imgs/kannyo.jpg
 </style>
 
 <div class="tiles" w-full grid grid-cols-2 gap-2 mt--3>
-<div>自己中心的になってしまわないか？</div>
+<div>自己中心的になってしまわない？</div>
 <div>自意識過剰との違いとは？</div>
-<div>平凡化してしまう危険はないか？</div>
+<div>平凡になってしまう危険はない？</div>
 <div>組織で承認欲求を無くすと不利では？</div>
 <div>批判されたり無視されると傷つく</div>
 <div>過去のトラウマで自分を信じられない</div>
