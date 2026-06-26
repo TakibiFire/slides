@@ -586,14 +586,14 @@ image: https://takibi-fire.com/slides/fire-stop-seeking-approval/imgs/kannyo.jpg
 </style>
 
 <div class="tiles" w-full grid grid-cols-2 gap-2 mt--3>
-<div>自己中心的になってしまわない？</div>
-<div>自意識過剰との違いとは？</div>
-<div>平凡になってしまう危険はない？</div>
+<div>自分軸で生きるって自己中心的では？</div>
+<div>自分軸で生きるのって自己中心的？</div>
+<div>比較をやめたら平凡な人になりそう</div>
 <div>組織で承認欲求を無くすと不利では？</div>
 <div>批判されたり無視されると傷つく</div>
 <div>過去のトラウマで自分を信じられない</div>
 <div>自分の本当の価値観がわからない</div>
-<div>成功への意欲を失わない？</div>
+<div>成功への意欲を失うんじゃない？</div>
 <div>承認欲求に代わるモチベーションは？</div>
 <div>自分なんて役に立てないと思う</div>
 <div>「成功＝価値」と思ってしまう</div>
