@@ -286,6 +286,8 @@ layout: fact
 * 勉強している背中を見せるなど、親としてのあり方を模索中
 * 子育てが一番忙しくなるのがここから3年なので、3年はこの生活を続ける
 
+詳しくは[FIREと子育て](https://takibi-fire.com/slides/fire-parenting/)の回に書きました
+
 ---
 
 # 運動・趣味
@@ -327,24 +329,40 @@ layout: cover
 
 <style scoped>
 .slidev-layout h1 {
-  font-size: 56px;
+  @apply text-16 text-center;
 }
 </style>
 
-# 現在執筆中の[「FIRE後の教科書」](https://takibi-fire.com/slides/fire-textbook/)というスライド集シリーズも<br>ぜひ御覧ください
+# [「FIRE後の教科書」](https://takibi-fire.com/slides/fire-textbook/)という<br>スライド集を公開しました
 
-FIREを達成した人・FIREしたい人がどう幸福に暮らせばよいか、<br>資産運用以外の生活・人生面での役立つヒントを書いています。
+<div w-fit m-auto>
+FIREを達成者に向けた、どう生きていけばいいかのアイデアを散りばめた<br>50以上のスライド集です。
+アーリーリタイアをした人が直面しそうな課題、<br>今後の人生を幸せに生きるためのヒント、不幸せを減らすための手法、<br>合わせて学んでおくといいこと、心の持ち方などを解説しています。
+</div>
+
+---
+layout: cover
+---
+
+<style scoped>
+.slidev-layout h1 {
+  @apply text-15 text-center;
+}
+</style>
+
+# [「日本版FIRE後の取り崩し戦略 〜 4%ルールを信じるな」](https://takibi-fire.com/4percent-rule/)<br>というサイトを公開しました
+
+<div w-fit m-auto>
+資産取り崩し戦略として4%ルールが有名ですが、<strong>今の日本人には全く当てはまりません</strong>。
+どこが間違っているのかの解説とともに、シミュレーションをどこまで詳しくやるべきかの解析結果や、年齢ごとのFIRE成功確率の計算の仕方を紹介しています。4%ルールを信じてFIREする人が減るように願っています。
+</div>
 
 ---
 
-# 関連
+# その他リンク関連
 
 * [たきびさん@FIRE　自己紹介](https://note.com/takibi333/n/n43675b5b6264)
 * [FIRE の失敗パターンと "RE" = "Retire Experiment" という考え方](https://note.com/takibi333/n/na9b49f05a28f)
 * [FIRE = 小休止という考え方](https://note.com/takibi333/n/nf98e65c971d9)
 * [FIRE後の教科書マガジン (note)](https://note.com/takibi333/m/m853747f2d3cc)
 
-自己紹介には後で以下を足す予定です。
-
-* FIREしてみて感じた変化
-* FIREしてみて良かったこと
