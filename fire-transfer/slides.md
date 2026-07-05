@@ -6,7 +6,7 @@ fonts:
   serif: Noto Serif JP
   # コードブロック用
   mono: Fira Code
-title: FIRE = FIREはレールの乗り換え | FIRE後の教科書 | たきび FIRE
+title: FIREはレールの乗り換え | FIRE後の教科書 | たきび FIRE
 titleTemplate: "%s"
 favicon: https://takibi-fire.com/slides/public/imgs/favicon.png
 highlighter: shiki
