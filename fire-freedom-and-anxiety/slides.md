@@ -1275,10 +1275,11 @@ layout: section
 
 ---
 
-# 以上で第8章の終わりです！ もしよければコラム[「FIREと子育て」](https://takibi-fire.com/slides/fire-parenting/)へどうぞ。
+# 以上で第8章の終わりです！ FIRE幸福論も完結です！ もしよければコラム[「FIREと子育て」](https://takibi-fire.com/slides/fire-parenting/)へどうぞ。
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness8" withSection/>
+  * <SectionLinks section="others" withSection/>
 
 ---
 

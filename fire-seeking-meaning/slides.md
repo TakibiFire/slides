@@ -673,7 +673,7 @@ image: https://takibi-fire.com/slides/fire-stop-seeking-approval/imgs/kannyo.jpg
 
 ---
 
-# 以上で第7章の終わりです！ もしよければコラム[「FIREと子育て」](https://takibi-fire.com/slides/fire-parenting/)へどうぞ。
+# 以上で第7章の終わりです！ よければ第8章[「自由と不安は表裏一体」](https://takibi-fire.com/slides/fire-freedom-and-anxiety/)へどうぞ。
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness7" withSection/>

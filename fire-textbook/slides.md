@@ -221,6 +221,12 @@ ul {
 * [「人生における意味」の性質](https://takibi-fire.com/slides/fire-nature-of-meaning/)
 * [「人生における意味」の見つけ方](http://takibi-fire.com/slides/fire-seeking-meaning/)
 
+</div><div>
+
+<h2>8. 自由とは</h2>
+
+* [自由と不安は表裏一体](https://takibi-fire.com/slides/fire-freedom-and-anxiety/)
+
 </div></div>
 
 ---
