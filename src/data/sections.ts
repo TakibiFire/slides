@@ -264,6 +264,15 @@ export const sections: {
       },
     ]
   },
+  happiness8: {
+    title: 'FIRE幸福論第8章: 自由とは',
+    articles: [
+      {
+        id: 'fire-freedom-and-anxiety',
+        title: '自由と不安は表裏一体'
+      },
+    ]
+  },
   others: {
     title: 'その他コラム',
     articles: [
