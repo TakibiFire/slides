@@ -84,7 +84,7 @@ h1, p {
 
 この章では、FIREに関して感じた個人的なことなど、一般化しにくい話をまとめています。
 
-<div text-4.5>
+<div text-5.5>
 序章はこちら<carbon-ArrowDown/><br>
 <SectionLinks section="intro" />
 </div>
@@ -109,6 +109,7 @@ layout: section
 
 * 自分の周りの子持ちFIRE達成者の状況はばらばらです
   * 子供が何歳の時にFIREしたか、何人子供がいるか
+  * 子どもの性格・気質・病気・悩み
   * 子供が親のFIREを知っているかどうか
 * 一般化もできないので「子持ちFIREはいいよ〜」と安易に言えるわけではありません
 
@@ -206,6 +207,50 @@ layout: section
 
 ---
 
+# 家での方針
+
+<div text-7.5>
+
+* 食卓は囲む
+  * 日中の様子を聞く。クイズを出してもらう。携帯は見ない
+* 小さいうちは土日はなるべく外遊びに連れていく
+* 兄弟は公平に扱う。比べない
+* 結果より過程を大切にさせる
+  * 過程で頑張ったら褒める
+</div>
+
+---
+
+# 教育方針
+
+<div text-7.5>
+
+* 睡眠は一番大事
+* 基礎学力も重視
+  * 小さいうちに読書っ子にさせる
+* どのジャンルでもいいからマニアになってもらう
+  * 何かにはまりそうなら、そのジャンルの燃料を投下
+  * たいてい飽きるけど、それでもよし
+* 進路は自分で決めさせる
+</div>
+
+---
+
+# 決めていること: 進路は自分で決めさせる
+
+<fieldset text-6.8 py-2 px-6 mt-10 rounded-4 w-fit mx-auto border-2 border-gray bg-gray bg-opacity-20>
+  <legend text-7 text-center><a href="https://takibi-fire.com/slides/fire-freedom-to-make-life-vs-happiness/">第3章 幸福の性質を知ろう &gt;「人生選択の自由と幸福」</a>
+  から抜粋</legend>
+
+* 進路を自分で決めたかどうかが、大人にになってからも<br>長い間幸福感に影響するという研究結果がある
+* 以下の2つの質問で決まる
+  * 「中学から高校への進学先は誰が決めましたか？」
+  * 「高校の次の進路 (大学・短大・専門学校・進学しない) は<br>誰が決めましたか？」
+* 逆に学歴と幸福感には有意な相関はない
+</fieldset>
+
+---
+
 # 今後の展望
 
 <div text-7>
@@ -222,3 +267,4 @@ layout: section
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="others" withSection/>
+  * <SectionLinks section="usefulTips" withSection columns-2 text-5.4/>
