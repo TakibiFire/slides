@@ -18,7 +18,6 @@ mdc: true
 layout: center
 lang: ja
 glowSeed: 4
-glowDuration: 0s
 footerTitle: FIRE後の教科書 > FIRE幸福論 > 自由とは > 自由と不安は表裏一体
 addons:
   - fancy-arrow

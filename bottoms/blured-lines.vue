@@ -12,7 +12,7 @@ import seedrandom from 'seedrandom'
  * - glowOpacity: number - Opacity of the polygons (4)
  * - glowHue: number - Hue shift for the polygons (default: 0)
  * - glowSeed: string | false - Seed for the stable random distribution (default: 'default')
- * - glowDuration: string - Transition duration for the path (default: '1s')
+ * - glowDuration: string - Transition duration for the path (default: '0s')
  * - glowOnClicks: boolean - Whether to change the shape on clicks (default: false)
  */
 import { computed, ref, watch } from 'vue'
@@ -49,7 +49,7 @@ const onClicks = computed<boolean>(() => {
   const c = formatter.value.glowOnClicks ?? $slidev.configs.glowOnClicks ?? false
   return c !== 'false' && c !== false
 })
-const duration = computed<string>(() => (formatter.value.glowDuration || $slidev.configs.glowDuration || '0.4s'))
+const duration = computed<string>(() => (formatter.value.glowDuration || $slidev.configs.glowDuration || '0s'))
 const lineEndAlpha = 1;  // 0: transparent at end. 1: full color at end
 const blur = 30; // 8
 const overflow = 0.8;  // Distance beyond the screen bounds for point generation
