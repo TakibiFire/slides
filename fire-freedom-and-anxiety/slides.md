@@ -1193,14 +1193,6 @@ layout: section
 </div>
 <FancyArrow v-click=4 from="[data-id=wall]@top" to="[data-id=env]@bottom" color="purple" arc="0" width=4 />
 
-<div v-click=4 border-purple bg-purple bg-opacity-20 border-2 rounded-4 px-4 w-fit
-  absolute top-75 left-100 data-id="meaning" text-yellow-200 bold
->
-
-人生の意味
-</div>
-<FancyArrow v-click=4 from="[data-id=meaning]@bottom" to="[data-id=wall]@top" color="purple" arc="0" width=4 />
-
 <div v-click=5 border border-yellow bg-yellow bg-opacity-20 border-2 rounded-4 px-2 w-fit
   absolute top-110 left-190 data-id="self-promise"
 >
