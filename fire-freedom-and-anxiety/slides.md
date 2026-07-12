@@ -1263,14 +1263,20 @@ layout: section
 <div border-4 border-red-600 absolute top-118 left-143 w27 h7></div>
 </div>
 
-
 ---
+
+<style scoped>
+ul > li > ul {
+  @apply columns-2 text-5.5 h-90;
+}
+</style>
 
 # 以上で第8章の終わりです！ FIRE幸福論も完結です！ もしよければコラム[「FIREと子育て」](https://takibi-fire.com/slides/fire-parenting/)へどうぞ。
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * <SectionLinks section="happiness8" withSection/>
   * <SectionLinks section="others" withSection/>
+  * <SectionLinks section="usefulTips" withSection/>
 
 ---
 
