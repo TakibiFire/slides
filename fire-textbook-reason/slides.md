@@ -19,6 +19,8 @@ layout: center
 lang: ja
 glowSeed: 4
 footerTitle: FIRE後の教科書 > 作ったきっかけ
+addons:
+  - fancy-arrow
 ---
 
 <style scoped>
@@ -57,8 +59,8 @@ h1, p {
 
 * FIREしても悩みはつきもの
 * FIREしたのに不幸にはなりたくない
-* → 不幸な生活パターンを調べた
-* → 幸福についても調べた
+  * → 不幸な生活パターンを調べた
+  * → 幸福についても調べた
 * FIREコミュニティ内でプレゼン発表した
   * 「FIRE幸福論」
   * 計560枚ものスライドに。。。
@@ -100,157 +102,237 @@ h1, p {
 
 # FIREする前は悩みはつきもの
 
-* お金
-* ストレス・プレッシャー
-  * 仕事
-    * きついプロジェクト、上司、部下
-    * 評価されない、やりがいがない、学びがない
-  * 家族、親戚、地域
-* 将来やりたいこと
-  * あれもこれもしたいけど時間がない
-    * 健康でいられる時間
-    * 自分の人生これでいいのかな?
+<fieldset text-7 border-2 border-yellow bg-yellow bg-opacity-20 rounded-4 px-10 py-3 w-fit m-auto>
+  <legend text-center>FIRE前のよくある悩み</legend>
+
+* お金はどうしよう
+* 仕事のストレス
+  * きついプロジェクト、上司、部下
+  * 評価されない、やりがいがない、学びがない
+* 家族、親戚、地域のプレッシャー
+* あれもこれもしたいけど時間がない
+* 自分の人生このままでいいのか?
+</fieldset>
 
 ---
 
 # FIRE<span color-red>した後も</span>悩みはつきもの
 
-* 飽きる
-* 生活が気まますぎる
-* 生活の乱れ
-* 明確な目的がない
-  * 自分探しという言葉はかっこいいけど…
-* 社会とのつながりの少なさ
-* お金の心配
-* 何をしたら一番幸せ？と考える
-  * 考える時間がありすぎる
+<fieldset text-7 border-2 border-red bg-red bg-opacity-20 rounded-4 px-10 py-3 w-fit m-auto>
+  <legend text-center>将来の不確定要素が多すぎる</legend>
+
+* 時間がありすぎる・飽きそう
+* ルーズになりそう・生活が乱れそう
+* 社会とのつながりが無くなりそう
+* お金の心配はなくならない
+* 明確な目的がない。自分探しって何？
+* 将来何をしたら一番幸せなんだろう？
+</fieldset>
 
 ---
 
-<div grid grid-rows-2><div>
+# 考えるべきは「FIRE後どう<span color-orange>『幸せに』</span>生きるか」
 
-# FIRE後どう<span color-orange>「幸せに」</span>生きるか？
+<div text-7>
 
 * アーリーリタイアはゴールではなくスタート地点
 * 特に指導してくれる人も注意してくれる人もいない
 * **変な習慣にはまったら軌道修正できない予感**
+</div>
 
-</div><div m-auto>
+<fieldset v-click=1 mt-5 text-7.5 border-green border-2 bg-green-500 bg-opacity-20
+  px-6 rounded-4 w-fit text-7 m-auto>
+  <legend text-center>2024/11月頃の<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w12 /></legend>
 
-<h2 v-click="1">じゃあ不幸になると分かっている習慣を調べよう!</h2>
-<h2 v-click="2">ついでにどうすれば幸福になるか分かっていることを調べよう!</h2>
+<p v-click="1">じゃあ不幸になると分かっている習慣を調べよう!</p>
 
-</div></div>
-
----
-
-<style scoped>
-.slidev-layout {
-  font-size: 140%;
-}
-</style>
-
-# <span color-red>どの意見を参考にするか</span>が一番重要
-
-* ここを間違えると大変
-  * 幸福が増える・不幸を減らすと信じてやったことに効果がないようなもの
-* 関連するけどあんまり的を射ていない方法もやりたくない
-  * 「ダイエットのために大胸筋をずっと鍛えています！」　は避けたい
-
-<fieldset border rounded-3 m-auto py-2 px-6 v-click w-fit my-auto>
-<legend>調べる方針</legend>
-
-脳神経科学・ポジティブ心理学の**最新の動向**を調べたい
-
-記事や論文が**他人にレビューされているか**どうか気にする
-
-**著者が論文を書いているかどうか**、博士号を取っているかどうか気にする
-
-**反対意見が出ているか**気にする
+<p v-click="2">ついでにどうすれば幸福になるか調べよう!</p>
 
 </fieldset>
 
 ---
 
-# 例えば: 注意する例
+# 幸福を調べるに当たって一番避けたいことは何か
 
-<style scoped>
-.slidev-layout {
-  font-size: 130%;
-}
-</style>
+<fieldset border-red border-2 bg-red-500 bg-opacity-20
+  px-6 rounded-4 w-fit text-7>
+  <legend text-center>避けるべきこと</legend>
 
-* 昔の説は現代では否定されいるものも多い
-  * [マズローの欲求段階説は否定されています](https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%BA%E3%83%AD%E3%83%BC%E3%81%AE%E6%AC%B2%E6%B1%82%E6%AE%B5%E9%9A%8E%E8%AA%AC#%E7%90%86%E8%AB%96%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%90%A6%E5%AE%9A%E3%83%BB%E5%8F%8D%E8%AB%96)
-  * アドラー心理学は心理学というより考え方・哲学に近い
-* 流行っている本・説も疑似科学・根拠が乏しいものがある
-  * [MBTIは科学的根拠に乏しい疑似科学](https://nazology.kusuguru.co.jp/archives/150828)とされています
-  * 『精神科医が見つけた3つの幸福』という本が流行った
-    * 「幸福にはセロトニン > オキシトシン > ドーパミンの順に重要」と主張するけど、<br>そのような主張の英語論文は見つからなかった
-    * 著者の論文は1つも見つからないし、著者は博士号も取っていなかった
-    * 「様々な神経物質が複雑に絡み合っている」が現代脳科学の一般的見解 [(英語pdf)](https://ijip.in/wp-content/uploads/2021/08/18.01.036.0210903.pdf)
+「〇〇をすれば幸福になりますよ〜」という話を<br>信じてやってみたのに、何も効果がなかったり、<br>もっと大事なことをやり忘れていたりすること
+</fieldset>
 
-<div v-click=1 text-red text-8 rotate-5 absolute top-15 right-5>
-わかりやすい・流行っている<br>説ほど注意が必要
+<fieldset v-click=1 mt-5 border-2 rounded-4 border-green bg-green bg-opacity-20 m-auto px-6 w-fit my-auto><legend text-center>調べる方針</legend>
+
+脳神経科学・ポジティブ心理学の**最新の動向**を調べたい。
+
+記事や論文が**他人にレビューされているか**どうか気にする。
+
+**著者が論文を書いているかどうか**、博士号を取っているかどうか気にする。
+
+</fieldset>
+
+<div v-click=2 text-orange absolute top-35 w-70 left-185 rotate-5 text-7>
+
+元理系東大院生<br>としての意地！<br>
+胡散臭いからこそ<br>きちんとソースを<br>調べる！
 </div>
 
 ---
 
 <style scoped>
-fieldset {
-  position: absolute;
-}
-.slidev-layout {
-  font-size: 140%;
+.slidev-layout h1 {
+  display: none;
 }
 </style>
 
-# 難しい情報のジレンマ
+# 例えば：ちまたで有名な「幸福の◯大要素」
 
-* 「情報をわかりやすく発信」、特に難しい話は伝える時に単純化される
-* しかし **「幸福論」は単純ではない**
-  * 簡単だったら全員マスターしているはず
+<fieldset border-gray-700 border-2 px-10 py-4 rounded-4 w-fit flex text-5 m-auto>
+  <legend text-center text-8>例えば：ちまたで有名な「幸福の3~5大要素」</legend>
 
-<div grid grid-cols-12 mt-3><div col-span-5>
+<fieldset mx-2 border-red bg-red-500 bg-opacity-20 border-2 px-2 rounded-4 w-fit>
+  <legend text-center text-4>アドラー心理学</legend>
 
-<fieldset border p-2 w-fit>
-  <legend ml-5>これらは全て正しくない</legend>
+自己受容<br>
+他者信頼<br>
+他者貢献
+</fieldset>
 
-「〇〇すれば幸福になれます」
+<fieldset mx-2 border-red bg-red-500 bg-opacity-20 border-2 px-2 rounded-4 w-fit>
+  <legend text-center text-4>マズロー5段階欲求説</legend>
 
-「〇〇が幸福の秘訣」
+生理的欲求<br>
+安全の欲求<br>
+社会的欲求<br>
+承認の欲求<br>
+自己実現の欲求
+</fieldset>
+
+<fieldset  mx-2 border-red bg-red-500 bg-opacity-20 border-2 px-2 rounded-4 w-fit text-4.5>
+  <legend text-center text-4>精神科医が見つけた3つの幸福</legend>
+
+セロトニン（健康）<br>
+オキシトシン（つながり）<br>
+ドーパミン（成功）
+</fieldset>
+
+<fieldset mx-2 border-red bg-red-500 bg-opacity-20 border-2 px-2 rounded-4 w-fit>
+  <legend text-center text-4>幸福の資本論</legend>
+
+金融資産<br>
+人的資本<br>
+社会資本
+</fieldset>
 
 </fieldset>
 
-</div><div col-span-7>
+<div v-click=1 text-7>
 
-<fieldset border p-2 mr-5 v-click="[1]">
-  <legend ml-10>例えるなら</legend>
+これらは書籍で流行ったので「知っているよ〜」という人も多い<br>でしょう。でも**FIRE後の教科書では採用しません。**<br>
+現在のポジティブ心理学の研究の主流ではないからです。<br>批判もされているし、網羅的でもないからです。
 
-「大胸筋こそが健康の秘訣だった！」
+<div text-center>批判を紹介します</div>
+</div>
 
-→ 大胸筋と体力、体力と健康の相関はあるかもしれないけど、飛躍・一般化しすぎ。他の要素は？
+---
 
-→ ここまでわかりやすいと誇張に気づくけど、<br>幸福論だと気づきにくい...
+<style scoped>
+.slidev-layout h1 {
+  display: none;
+}
+</style>
 
+# 「幸福の◯大要素」はだいたい不十分
+
+<fieldset border-gray-700 border-2 px-10 pt-4 pb-2 rounded-4 w-fit flex text-5 m-auto>
+  <legend text-center text-8>「幸福の◯大要素」への批判</legend>
+
+<fieldset mx-2 border-red bg-red-500 bg-opacity-20 border-2 px-2 rounded-4 w-fit>
+  <legend text-center text-4>アドラー心理学</legend>
+
+自己受容<br>
+他者信頼<br>
+他者貢献
 </fieldset>
 
-<fieldset border p-2 mr-5 v-click="2">
-  <legend ml-10>こういうべき</legend>
+<fieldset mx-2 border-red bg-red-500 bg-opacity-20 border-2 px-2 rounded-4 w-fit>
+  <legend text-center text-4>マズロー5段階欲求説</legend>
 
-「〇〇は幸福に関係はある」
-
-**けど、もちろんそれだけじゃない**
-
+生理的欲求<br>
+安全の欲求<br>
+社会的欲求<br>
+承認の欲求<br>
+自己実現の欲求
 </fieldset>
 
-</div></div>
+<fieldset  mx-2 border-red bg-red-500 bg-opacity-20 border-2 px-2 rounded-4 w-fit text-4.5>
+  <legend text-center text-4>精神科医が見つけた3つの幸福</legend>
+
+セロトニン（健康）<br>
+オキシトシン（つながり）<br>
+ドーパミン（成功）
+</fieldset>
+
+<fieldset mx-2 border-red bg-red-500 bg-opacity-20 border-2 px-2 rounded-4 w-fit>
+  <legend text-center text-4>幸福の資本論</legend>
+
+金融資産<br>
+人的資本<br>
+社会資本
+</fieldset>
+</fieldset>
+
+<div ml--5 text-4.5 flex>
+
+<div w-75 m-2 border-yellow bg-yellow-500 bg-opacity-20 border-2 px-2 rounded-4 text-4.5>
+
+アドラー心理学(1924)は「嫌われる勇気」で有名になりました。カウンセリングの世界では使われていますが、心理学と言うより哲学・考え方です。**「科学的に検証できない」という批判があり、心理学では主流ではありません。**
+</div>
+
+<div w-60 m-2 border-yellow bg-yellow-500 bg-opacity-20 border-2 px-2 rounded-4 text-4.5>
+
+マズローの欲求説(1943)は有名ですが、**科学的に実証されたものではありません**。[英語Wikipedia](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs#Criticism)に批判の詳細があります。最終的に本人も否定しています。
+</div>
+
+<div w65 m-2 border-yellow bg-yellow-500 bg-opacity-20 border-2 px-2 rounded-4 text-4.5>
+
+この３つのホルモンが他より大事という根拠となる英語論文は全く見つかりませんでした。ちなみに神経ホルモンの作用はもっと複雑です。作者は論文を一つも出していません。
+</div>
+
+<div w-55 m-2 border-yellow bg-yellow-500 bg-opacity-20 border-2 px-2 rounded-4 text-4.5>
+
+金融資産は幸福とほぼ関係ないという研究があります[(参考)](https://takibi-fire.com/slides/fire-money-vs-happiness/)。人的資本(労働に関する個人の能力)はなくても幸福度は上げられます。
+</div>
+</div>
+
+---
+
+# 「幸福は難しい」という大前提を持ってほしい
+
+* ポジティブ心理学で研究されている幸福感やウェルビーイングは<br>**大前提としてとても複雑**
+* しかし人は「複雑な真実よりも単純な説明を好む」ことがわかっている<sup>\[1\]</sup>
+  * 複雑な解説よりも「幸福の要素は３個だった！」の方が万人受けするし、<br>
+    「わかりやすい解説ありがとうございます！」みたいな評判になる
+
+<div v-click=1>
+
+* しかし**FIRE後の教科書では難しい解説をしていきます**。それは
+</div>
+<div v-click=2 text-10 text-center text-orange>
+
+そうしないと大事な要素を取り逃すから！
+</div>
+
+<div text-5 absolute bottom-6>
+
+\[1\] 参考: [ナゾロジー | 人間の心は複雑な真実よりも単純な説明を好む](https://nazology.kusuguru.co.jp/archives/187884) <carbon-ArrowLeft/>オススメ
+</div>
 
 ---
 
 # 色々調べていくうちに発表したくなった
 
-自分の所属するFIRE コミュニティー [FIRE CAFE](https://community.camp-fire.jp/projects/view/678752?utm_source=google&utm_medium=display&utm_campaign=PO_GDN_pmax&gad_source=1&gad_campaignid=13601754635#argument=33pKQw5N&ai=a60d03e8ac3fbc) 内でプレゼン発表をしていった。
+自分の所属するFIRE コミュニティー [FIRE CAFE](https://community.camp-fire.jp/projects/view/678752?utm_source=google&utm_medium=display&utm_campaign=PO_GDN_pmax&gad_source=1&gad_campaignid=13601754635#argument=33pKQw5N&ai=a60d03e8ac3fbc) 内の勉強会でプレゼン発表をしていった。1時間のプレゼンを9回！
 
 ![プレゼン資料たち](/imgs/google-slides.png)
 
@@ -258,6 +340,22 @@ fieldset {
   <div ma rotate-10 text-red5 text-shadow-lg>
     560枚以上!
   </div>
+</div>
+
+---
+
+# 「FIREしたら一体自分は何をしだすんだろう」の答え
+
+<fieldset v-click=1 mt-5 text-9 border-green border-2 bg-green-500 bg-opacity-20
+  px-6 rounded-4 w-fit text-7 m-auto>
+  <legend text-center>2025/11月頃の<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w14 /></legend>
+
+FIRE後気づいた自分の性格は「自分の問題を<br>解決しがてら周りの人に貢献するのが好き」<br>ということでした。仕事がなくなっても<br>報酬がなくてもやりがちな行動です。
+</fieldset>
+
+<div text-center mt-10 text-6.5>
+
+参考: [本編第4章: 自分の強みを知ろう (VIA Character Strengths)](https://takibi-fire.com/slides/fire-via/)
 </div>
 
 ---
@@ -272,13 +370,25 @@ layout: fact
 
 # そして公表しても<br>いいのかなという感覚に
 
-FIREした人に向けて書いていますが
+「FIRE後の教科書」はFIREした人に向けて書いていますが
 
-FIREする人、リタイアした人も役に立てば嬉しいです
+これからFIREする人や定年退職した人にも役に立つ内容が多いと思います。
+
+お役に立てば嬉しいです。
+
+[質問があれば note質問箱へ](https://note.com/qa/takibi333)お気軽にどうぞ。
 
 ---
 
-# それでは次回[「FIRE直後に役立つ知識 > <br>リタイア後の4つのステージ」](https://takibi-fire.com/slides/fire-transfer/)へどうぞ！
+<style scoped>
+ul > li > ul {
+  @apply columns-2 text-5.5 whitespace-nowrap;
+}
+</style>
+
+# それでは最初の章「FIRE直後に役立つ知識」の始まりです。[「リタイア後の4つのステージ」](https://takibi-fire.com/slides/fire-transfer/)へどうぞ！
 
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
-  * <SectionLinks section="usefulTips" withSection columns-2/>
+  * <SectionLinks section="intro" withSection/>
+  * <SectionLinks section="usefulTips" withSection/>
+
