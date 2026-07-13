@@ -344,18 +344,61 @@ h1, p {
 
 ---
 
-# 「FIREしたら一体自分は何をしだすんだろう」の答え
+# 「FIREしたら一体自分は何をしだすんだろう」の<br>一つの形が分かった
 
 <fieldset mt-5 text-9 border-green border-2 bg-green-500 bg-opacity-20
-  px-6 rounded-4 w-fit text-7 m-auto>
-  <legend text-center>2025年末頃の<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w14 /></legend>
+  px-6 rounded-4 w-fit m-auto>
+  <legend text-center text-8>2025年末頃の<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w13 /></legend>
 
-FIRE後気づいた自分の性格は「自分の問題を<br>解決しがてら周りの人に貢献するのが好き」<br>ということでした。仕事がなくなっても<br>報酬がなくてもやりがちな行動です。
+FIRE後に気づいた自分の性格は「自分の問題を<br>解決しがてら周りの人に貢献するのが好き」<br>ということでした。仕事がなくなっても<br>報酬がなくてもやってて楽しい行動です。
 </fieldset>
 
-<div text-center mt-10 text-6.5>
+---
 
-参考: [本編第4章: 自分の強みを知ろう (VIA Character Strengths)](https://takibi-fire.com/slides/fire-via/)
+# FIRE後の教科書は自分の強みを活かしている
+
+<div text-center mt-10 text-6>
+
+<span v-mark.circle.green=6><a href="https://takibi-fire.com/slides/fire-via/">
+本編第4章: 自分の強みを知ろう (VIA Character Strengths)</a></span>で自己診断した<br>自分の強み5つがFIRE後の教科書に使われていることが分かりました。
+</div>
+
+<fieldset border-blue border-2 rounded-6 bg-blue-500 bg-opacity-20
+  w-fit h-fit text-center p-6 col-span-5 m-auto>
+  <legend mb--3>FIRE後の教科書のテーマ</legend>
+FIRE達成者は色々なパターンがあるけど、<span v-mark.circle.orange=1 data-id="dst1">なるべくみんなに</span>役に立つような<span v-mark.circle.orange=2 data-id="dst2">知識を集め</span>、情報のソースがちゃんと<span v-mark.circle.orange=3 data-id="dst3">レビューされているもの</span>を選び、<br>みんなが<span v-mark.circle.orange=4 data-id="dst4">納得しやすいアドバイス</span>にまとめ、<span v-mark.circle.orange=5 data-id="dst5">スライドにまとめて公表</span>する
+</fieldset>
+
+<style scoped>
+.elem {
+  @apply inline-block w-50 p-1 m-2 border-1 border-white rounded-2 text-center flex items-center justify-center;
+  text-shadow: 0 0 3px #008800, 0 0 10px #00cc00;
+}
+</style>
+
+<div v-click=1 class="elem" data-id="src1" absolute top-100 left-170>公平さ</div>
+<FancyArrow v-click=1 animationDelay=500
+  from="[data-id=src1]@top" to="[data-id=dst1]@bottom" color=yellow arc="-0.1" />
+
+<div v-click=2 class="elem" data-id="src2" absolute top-100 left-10>向学心</div>
+<FancyArrow v-click=2 animationDelay=500
+  from="[data-id=src2]@top" to="[data-id=dst2]@bottom" color=yellow arc="0.1" />
+
+<div v-click=3 class="elem" data-id="src3" absolute top-115 left-140>思慮深さ</div>
+<FancyArrow v-click=3 animationDelay=500
+  from="[data-id=src3]@top" to="[data-id=dst3]@bottom" color=yellow arc="0.1" />
+
+<div v-click=4 class="elem" data-id="src4" absolute top-115 left-40>大局観</div>
+<FancyArrow v-click=4 animationDelay=500
+  from="[data-id=src4]@top" to="[data-id=dst4]@bottom" color=yellow arc="0.1" />
+
+<div v-click=5 class="elem" data-id="src5" absolute top-105 left-90>創造性</div>
+<FancyArrow v-click=5 animationDelay=500
+  from="[data-id=src5]@top" to="[data-id=dst5]@bottom" color=yellow arc="0.1" />
+
+<div v-click=6 absolute top-13 right-5 text-10 bold text-green rotate-10>
+
+見てみて！
 </div>
 
 ---
