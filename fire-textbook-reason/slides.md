@@ -64,7 +64,7 @@ h1, p {
 * FIREコミュニティ内でプレゼン発表した
   * 「FIRE幸福論」
   * 計560枚ものスライドに。。。
-* [FIRE後の教科書](https://takibi-fire.com/slides/fire-textbook/)としてに公表してみよう
+* [FIRE後の教科書](https://takibi-fire.com/slides/fire-textbook/)として公表してみよう
 
 </div><div col-span-5 text-base>
 
@@ -165,9 +165,9 @@ h1, p {
 
 脳神経科学・ポジティブ心理学の**最新の動向**を調べたい。
 
-記事や論文が**他人にレビューされているか**どうか気にする。
+記事や論文が**第三者による査読があるか**どうか重視する。
 
-**著者が論文を書いているかどうか**、博士号を取っているかどうか気にする。
+**著者が論文を書いているかどうか**、博士号を取っているかどうか確認する。
 
 </fieldset>
 
@@ -229,7 +229,7 @@ h1, p {
 <div v-click=1 text-7>
 
 これらは書籍で流行ったので「知っているよ〜」という人も多い<br>でしょう。でも**FIRE後の教科書では採用しません。**<br>
-現在のポジティブ心理学の研究の主流ではないからです。<br>批判もされているし、網羅的でもないからです。
+現在のポジティブ心理学の研究の主流ではないからです。<br>多くの批判もあり、幸福の要素を網羅できているとも言えません。
 
 <div text-center>批判を紹介します</div>
 </div>
@@ -346,9 +346,9 @@ h1, p {
 
 # 「FIREしたら一体自分は何をしだすんだろう」の答え
 
-<fieldset v-click=1 mt-5 text-9 border-green border-2 bg-green-500 bg-opacity-20
+<fieldset mt-5 text-9 border-green border-2 bg-green-500 bg-opacity-20
   px-6 rounded-4 w-fit text-7 m-auto>
-  <legend text-center>2025/11月頃の<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w14 /></legend>
+  <legend text-center>2025年末頃の<img src="https://takibi-fire.com/slides/public/imgs/takibi.png" inline w14 /></legend>
 
 FIRE後気づいた自分の性格は「自分の問題を<br>解決しがてら周りの人に貢献するのが好き」<br>ということでした。仕事がなくなっても<br>報酬がなくてもやりがちな行動です。
 </fieldset>
