@@ -29,6 +29,9 @@ async function takeScreenshot(url, outputPath) {
       waitUntil: 'networkidle0',
     });
 
+    // Wait for 1 second to ensure animations or late assets are rendered.
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+
     // Capture the screenshot.
     await page.screenshot({
       path: outputPath,
