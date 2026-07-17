@@ -80,7 +80,7 @@ h1, p {
 
 <div grid grid-cols-2 gap-6><div>
 
-<SectionLinks section="usefulTips" current="fire-retire-experiment" />
+<SectionLinks text-5.5 section="usefulTips" current="fire-retire-experiment" />
 
 </div><div italic text-5.5 mt--5>
 

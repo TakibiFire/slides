@@ -106,9 +106,20 @@ h1, p {
 
 # [FIRE後の教科書](https://takibi-fire.com/slides/fire-textbook/) > FIRE直後に役立つ知識・考え方
 
+<div grid grid-cols-2 gap-6><div>
+
+<SectionLinks text-5.5 section="usefulTips" current="fire-enjoy-your-change" />
+
+</div><div italic text-5.5 mt--5>
+
 この章では、FIRE後に早めに知っておくと良いことをまとめています。
 
-<SectionLinks section="usefulTips" current="fire-enjoy-your-change" />
+<div text-4.5>
+序章はこちら<carbon-ArrowDown/><br>
+<SectionLinks section="intro" />
+</div>
+
+</div></div>
 
 ---
 
