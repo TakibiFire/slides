@@ -460,8 +460,6 @@ layout: cover
 
 # 次回、[短期的満足に注意しよう](https://takibi-fire.com/slides/fire-hedonia/)へどうぞ
 
-2025/11/13: 未完
-
 * [FIRE後の教科書](http://takibi-fire.com/slides/fire-textbook/)
   * 不幸せな習慣を減らそう
     <SectionLinks section="happiness2" />
