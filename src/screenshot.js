@@ -3,6 +3,9 @@ import puppeteer from 'puppeteer';
 /**
  * Takes a screenshot of a given URL with specified dimensions.
  * 
+ * Usage:
+ *   node src/screenshot.js http://localhost:3030/7 fire-invest-in-hobbies/public/imgs/thumbnail.png
+ * 
  * @param {string} url - The URL of the local slide.
  * @param {string} outputPath - The destination path for the screenshot.
  */
