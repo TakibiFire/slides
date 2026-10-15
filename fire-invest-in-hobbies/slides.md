@@ -123,7 +123,7 @@ h1, p {
 <img src="/imgs/hobbies-after-fire.png" h95 m-auto/>
 <div text-4>
 
-出典: [早期リタイア「FIRE」したい? もし実現したらやりたいことを聞いてみた (2021)](https://news.mynavi.jp/article/20210427-1879751/)
+出典: [早期リタイア「FIRE」したい? もし実現したらやりたいことを聞いてみた (2021) | マイナビニュース](https://news.mynavi.jp/article/20210427-1879751/)
 </div>
 </div>
 
@@ -610,7 +610,7 @@ layout: cover
 
 * 所属意識や相互の信頼感はメンタルヘルスによい
 * 普段とは違う視点の人と交流することによる視野の拡大
-* (職場や)家庭とは独立した社会的ネットワークを持つが心の支えとなる
+* 職場や家庭とは独立した社会的ネットワークを持つことが心の支えとなる
 * 孤立の防止
   * 参考: [人間関係と幸福 | FIRE後の教科書](https://takibi-fire.com/slides/fire-relationship-vs-happiness/)
 
@@ -631,7 +631,7 @@ layout: cover
 <fieldset v-click=1 text-6.5 border-lime border-2 rounded-4 bg-lime-500 bg-opacity-20 px-5 mt-3>
   <legend text-center px-2>趣味は自分に複数の顔を作る</legend>
 
-新しい趣味に取り組むことは、自分の中に眠っていた新たな一面<br>（<u decoration-orange decoration-wavy>個人アイデンティティ</u>）を再発見することにつながる。
+新しい趣味に取り組むことは、自分の中に眠っていた新たな一面<br>（<u decoration-orange decoration-wavy>個人アイデンティティ</u>）を発見することにつながる。
 
 趣味を公表すると、例えば周囲の人から「ギタリスト」などと認知<br>  される。それを受け入れることで、自身の<u decoration-orange decoration-wavy>社会的アイデンティティ</u>が形成されていく。
 
@@ -1247,10 +1247,7 @@ DIY
   * [Why Having Too Many Hobbies Isn't a Bad Thing](https://www.psychologytoday.com/us/blog/social-instincts/202310/why-having-too-many-hobbies-isnt-a-bad-thing)
   * [Why You Avoid Skilled Activities Even Though They Make You Happy](https://www.psychologytoday.com/au/blog/psychology-money-and-happiness/202504/why-you-avoid-skilled-activities-even-though-they-make)
 
-
-
 </div>
-
 
 <!--
 Leisure Studies
