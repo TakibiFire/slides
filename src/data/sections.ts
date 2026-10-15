@@ -71,6 +71,10 @@ export const sections: {
         id: 'fire-flaws-in-die-with-zero',
         title: 'DIE WITH ZERO はここが間違っている',
       },
+      {
+        id: 'fire-invest-in-hobbies',
+        title: '趣味の分散投資'
+      },
     ],
   },
   happiness1: {
