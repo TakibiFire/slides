@@ -76,17 +76,16 @@ h1, p {
 
 ---
 
-# 自己紹介：GAFAMからFIREへ
+# 自己紹介
 
 <div grid grid-cols-3>
 <div col-span-2>
 
-* 40代
-* 東大 → GAFAMエンジニア → 2024年頭にFIRE
-* 3人の子供の子育て目的でFIRE
+* 2024年頭に3人の子どもの子育て目的でFIRE
 * 運動 1/3, 勉強 1/3, 育児 1/3
 * FI = FIREしたからには資産のことは気にしない
 * RE = Retire Experiment! (リタイア実験)
+* **趣味: スケート・卓球・ジム・ペン回し・ペンシルパズル・ジャグリング・バトントワリング・ストレッチ・算数・何か発表・ゲーム・裁判傍聴**
 
 参考: [自己紹介・FIREした経緯 | FIRE後の教科書](https://takibi-fire.com/slides/fire-self-introduction/)
 
@@ -508,7 +507,7 @@ serious leisure vs. casual leisure
 layout: cover
 ---
 
-# 趣味の心身への効果
+# 趣味は何の効果がありますか？
 
 ① 脳を守る
 
@@ -618,7 +617,7 @@ layout: cover
   mt-5 px-3 w-fit m-auto>
   <legend text-6>研究結果 (<a href="https://www.researchgate.net/publication/347334106_Age_and_recognition_for_one's_creative_hobby_are_associated_with_fewer_depressive_symptoms_in_middle-aged_and_older_adults">英語pdf</a>)</legend>
 
-創造的な趣味がどのようにうつ（抑うつ症状）を防ぐかを検証した結果、<br>**趣味を通じて他人から認められること**が、<br>うつを防ぐ上で最も強力な要素だとわかった。
+創造的な趣味はうつ（抑うつ症状）を防ぐことが分かっているが、<br>その理由を検証した結果、**趣味を通じて他人から認められること**が、<br>うつを防ぐ上で最も強力な要素だとわかった。
 </fieldset>
 
 ---
@@ -626,7 +625,7 @@ layout: cover
 # 趣味の効果⑥ アイデンティティの形成
 
 * FIRE前に仕事一辺倒だった人がリタイアする時や、子育てが終わった<br>親など、役割が失われると存在意義が失われ虚無感に陥りがち
-  * 参考: [人生における意味とは](https://takibi-fire.com/slides/fire-meaning-in-life/)
+  * 参考: [人生における意味とは | FIRE後の教科書](https://takibi-fire.com/slides/fire-meaning-in-life/)
 
 <fieldset v-click=1 text-6.5 border-lime border-2 rounded-4 bg-lime-500 bg-opacity-20 px-5 mt-3>
   <legend text-center px-2>趣味は自分に複数の顔を作る</legend>
@@ -670,7 +669,7 @@ layout: cover
   mt-5 px-3 pb-3 w-fit m-auto>
   <legend text-center text-6><img src="https://takibi-fire.com/slides/public/imgs/takibi.png" w12 inline/>の意見</legend>
 
-**「趣味への投資は思いがけないタイミングで自分を救う」** という話は<br>信憑性があると思います。
+**「趣味への投資は思いがけないタイミングで自分を救う」** という話は<br>その通りだなと思います。
 自分でも、昔好きだったことやハマったことが思いがけずリバイバルすることがあります。
 その時に昔とは違う楽しみ方が出来たり、新しい関わり方ができたりもします。
 辛い時の気分転換や、気持ちの支えになったりもします。
@@ -679,11 +678,11 @@ FIRE後は積極的に<span v-mark.orange.box>**趣味に投資**</span>して�
 
 <hr mb-3/>
 
-<div text-4.2>注: ただし趣味の種類にもよります。「Netflix が趣味」の人に「Netflix に投資せよ」とは言っていません</div>
+<div text-4.2>注: ただし趣味の種類にもよります。「軽い趣味」は効果が薄いです。</div>
 
 <div text-4.2>
 
-一方 DIE WITH ZERO がいう「経験への投資」「思い出の複利効果」は間違っていると思います。<br> 
+一方 DIE WITH ZERO がいう「経験への投資」「思い出の複利効果」の論拠はだいぶ怪しいと思います。<br> 
 参考: [DIE WITH ZERO はここが間違っている > 「記憶の配当」の間違い](https://takibi-fire.com/slides/fire-flaws-in-die-with-zero/38)
 </div>
 </fieldset>
@@ -706,9 +705,8 @@ layout: cover
 
 # 趣味の分散投資
 
-* 趣味はあればあるほど良い
-  * 集中投資（一点張り）は危険。理由は後述
-* **先程の分類で別カテゴリになるものが多いほどよい**
+* 趣味はあればあるほど良い。集中投資（一点張り）は避けるべき。
+* **先程の分類で別カテゴリになるものが多いほどよい。**
 
 <div flex>
 <div v-click=1>
@@ -716,7 +714,7 @@ layout: cover
 <carbon-ArrowRight ml-10/>
 </div>
 <div v-click=2 m-auto>
-分類の仕方を見ると、<br>自分の趣味の偏りが分かる
+分類の仕方が分かると、<br>自分の趣味の偏りが分かる
 </div>
 </div>
 
@@ -775,7 +773,7 @@ layout: cover
 
 # 趣味の分散投資 > 人付き合いのバランス
 
-できれば多様にしましょう！
+趣味での人付き合いのタイプも多様にしましょう！
 
 * 人付き合いの多さのバランス
   * 普段仕事や他の趣味で人付き合いが多いなら、別の趣味は一人遊びがいいかもしれません
@@ -785,14 +783,19 @@ layout: cover
 
 ---
 
-# 趣味の分散投資 > 浅く広くでもOK
+# 趣味の分散投資 > 広く浅くでもOK
 
-<fieldset border-green border-2 rounded-4 px-5 my-5 pt-5 w-fit m-auto>
+<fieldset border-green bg-green-500 bg-opacity-20 border-2 rounded-4 px-5 my-5 p-5 w-fit m-auto>
   <legend text-6.5 text-center>「趣味を始めてもすぐ飽きてしまう」は全く問題ない</legend>
 
-* 再掲: 趣味がたくさんあればあるほど認知症の発症リスクが下がる
 * 「集中力や根気が足りない」と捉えるのではなく、「たくさんのことに<br>興味を持つ生き方」「人生を味わう生き方」と捉える
 * 新しい趣味を始めるたびに、人生という絵に新しい色が加わる
+
+</fieldset>
+
+<!--
+https://www.psychologytoday.com/us/blog/social-instincts/202310/why-having-too-many-hobbies-isnt-a-bad-thing
+
 * 「心理的に豊かな人生 (psychological richness)」における大事な3要素↓
 
 <div flex my-5>
@@ -807,16 +810,13 @@ layout: cover
 <div flex-2 rounded-4 p-2 bg-green-500 bg-opacity-20>
 新しい価値観や多様性を<br>受け入れる姿勢
 </div>
-</div>
-</fieldset>
 
-<!--
-https://www.psychologytoday.com/us/blog/social-instincts/202310/why-having-too-many-hobbies-isnt-a-bad-thing
+</div>
 -->
 
 ---
 
-# 趣味の分散投資 > 浅く広くでもOK
+# 趣味の分散投資 > 広く浅くでもOK
 
 <fieldset text-center text-7 border-purple border-2 rounded-4 bg-purple-500 bg-opacity-20 px-5 my-5 w-fit m-auto>
 
@@ -833,7 +833,7 @@ https://www.psychologytoday.com/au/blog/psychology-money-and-happiness/202504/wh
 
 ---
 
-# 趣味の<u decoration-orange decoration-wavy>分散投資</u>の効果 > 精神的回復力
+# 分散投資は「苦しい時期への支え（精神的回復力）」を倍増させる
 
 <div text-7>
 
@@ -877,7 +877,9 @@ layout: section
 
 ---
 
-# 趣味の効果は初心者でも熟練者でも同じ
+# 広く浅くでいいもう一つの理由<br>「趣味の効果は初心者でも熟練者でも同じ」
+
+<div text-center>だからどんどん挑戦していいですよ、というお話です。</div>
 
 <span text-4>[What if Your Hobby Was Better for You Than Your Phone? | PsychologyToday](https://www.psychologytoday.com/us/blog/college-mental-health/202606/what-if-your-hobby-was-better-for-you-than-your-phone) より和訳引用</span>
 
@@ -887,7 +889,7 @@ layout: section
 
 # 趣味の効果は初心者でも熟練者でも同じ
 
-<fieldset border-orange border-2 rounded-4 bg-orange-500 bg-opacity-20 px-5 my-5 w-fit m-auto>
+<fieldset text-5.7 border-orange border-2 rounded-4 bg-orange-500 bg-opacity-20 px-5 my-5 w-fit m-auto>
 
 * ちょうどいい難易度で突入する **「フロー状態」**
   * フロー状態 = 深い没入感、思考せず動く感覚、時間が一瞬で過ぎる
@@ -900,6 +902,14 @@ layout: section
 これらの効果は初心者・熟練者で差はない。
 </fieldset>
 
+<div text-center text-5>もちろん熟練者でないと楽しめない領域はあります！</div>
+
+---
+layout: section
+---
+
+# 趣味の見つけ方
+
 ---
 
 # 趣味の見つけ方
@@ -911,15 +921,13 @@ layout: section
 3. まったく新しい世界に飛び込んでみる
 </div>
 
-<FancyArrow v-click=2
+<FancyArrow v-click=1
   from="[data-id=lookback]@bottom" to="[data-id=opinion]@top" color="red" arc="-0.4"/>
 
-<fieldset text-center v-click=2 text-8 border-2 border-purple bg-purple-500 bg-opacity-20 rounded-4
-  mt-5 px-3 w-fit m-auto data-id="opinion">
-  <legend text-center text-6><img src="https://takibi-fire.com/slides/public/imgs/takibi.png" w12 inline/>の意見</legend>
-
-昔蒔いた種が今リバイバルして花開くこともあります。<br>
-同様に、今仕込んだ種が10,20年後に花開くことも<br>あるかもしれません。
+<fieldset text-center v-click=1 text-8 border-2 border-purple bg-purple-500 bg-opacity-20 rounded-4
+  mt-5 p-4 w-fit m-auto data-id="opinion">
+昔まいた種が今リバイバルして花開くこともあります。<br>
+同様に、今仕込んだ種が10、20年後に花開くことも<br>あるかもしれません。
 </fieldset>
 
 ---
@@ -960,27 +968,27 @@ layout: section
 <fieldset v-click=1 text-center text-8 mt-15 border-2 border-purple bg-purple-500 bg-opacity-20 rounded-4
   px-3 w-fit m-auto data-id="opinion">
 
-先程の「趣味の分散投資」で、自分が全くカバー<br>していないカテゴリがあれば、それに挑戦して<br>みるのも良いかも知れません。
+先程の「趣味の分散投資」で、<br>自分が全くカバーしていないカテゴリがあれば<br>それに挑戦してみるのも良いです
 </fieldset>
 
 ---
 
 # 趣味を始める時の動機で自分を見つめる
 
-例えば趣味としてワインをやってみようかな、と思ったとします。その時、自分はそれに何を求めているのかをもう少し整理してみましょう。
+例えば趣味としてワインをやってみようかな、と思ったとします。<br>その時、自分はそれに何を求めているのかをもう少し整理してみましょう。
 
 <div grid grid-cols-3 gap-3 text-4.7>
 
 <fieldset v-click=1
   text-center border-2 border-red bg-red-500 bg-opacity-20 rounded-4 p-2>
   <legend text-5.5>探究心</legend>
-もっと細かく知りたい。違いがわかるようになりたい
+もっと細かく知りたい。<br>違いがわかるようになりたい
 </fieldset>
 
 <fieldset v-click=2
   text-center border-2 border-orange bg-orange-500 bg-opacity-20 rounded-4 p-2>
   <legend text-5.5>ステータス</legend>
-「ワインの資格を持っています」がかっこいい。
+「ワインの資格」が<br>かっこいい。
 </fieldset>
 
 <fieldset v-click=3
@@ -1033,24 +1041,25 @@ layout: section
 
 <fieldset text-center text-8 border-2 border-purple bg-purple-500 bg-opacity-20 rounded-4
   px-6 py-4 w-fit m-auto>
-動機を言語化すると<br>他の似た趣味を探しやすくなります。
+動機を言語化すると<br>他の似た趣味を探しやすくなります
 </fieldset>
 
-<div v-click=1 mt-10 text-6.8 w-fit m-auto>
-
+<fieldset v-click=1 mt-6 text-6 w-fit m-auto
+  border-2 border-orange bg-orange-500 bg-opacity-20 rounded-4 px-6 pt-2>
+<legend text-center>ちなみに</legend>
 「人付き合いのためにワインを学んだら味の違いにはまってしまった」<br>
 というように、いざ趣味を始めてみると、本来の動機とずれていく<br>
 こともたくさんあります。
 
 知識・スキル・視点が増えれば新しい所に興味が移るのは自然です。<br>
-こうして、新しい自分をどんどん発見できていくようになります。
-</div>
+こうして、新しい自分をどんどん発見できるようになっていきます。
+</fieldset>
 
 ---
 layout: cover
 ---
 
-# まとめ: <br>「趣味に自分を育ててもらう」という視点
+# 最後に:<br>「趣味に自分を育ててもらう」という視点
 
 ---
 
@@ -1060,24 +1069,23 @@ layout: cover
 
 > 自分を変えたい、自己成長したいと思ったとき、多くの人は「意識して新しい習慣を作る」といった直接的なアプローチを取りがちです。
 >
-> ですが、本当に効果的な自己成長は「間接的」に起こるものだと私は考えています。自分が「やりがいがある」と感じることに夢中になっているうちに、うれしい副産物として自然と成長していくのです。
+> ですが、本当に効果的な自己成長は「間接的」に起こるものだと私は考えています。自分が「やりがいがある」と感じることに夢中になっているうちに、うれしい<u decoration-wavy decoration-orange>副産物として自然と成長していく</u>のです。
 >
 > 趣味はまさに、そうした有意義な活動が自然な自己成長につながる典型例です。
 >
-> (...中略...) 大好きな趣味を見つけ、その趣味に自分を育ててもらうこと。(...中略...) 自分に無理強いするよりも、「意味がある」「楽しい」と感じられることを通じた間接的なアプローチのほうが、結果的により大きな変化をもたらしてくれるのです。
+> (...中略...) <u decoration-wavy decoration-orange>大好きな趣味を見つけ、その趣味に自分を育ててもらうこと</u>。(...中略...) 自分に無理強いするよりも、「意味がある」「楽しい」と感じられることを通じた間接的なアプローチのほうが、結果的により大きな変化をもたらしてくれるのです。
 
 ---
 
-# 趣味は自分を作り直す
+# 創造的な趣味は自己肯定感を増す
 
-<span text-4><a href="https://www.psychologytoday.com/us/blog/imagine/200812/hobbies-the-personal-path-creativity">Hobbies: The Personal Path to Creativity | PsychologyToday</a> の和訳引用</span>
+<span text-4><a href="https://www.psychologytoday.com/us/blog/our-youths-well-being/202607/trade-screen-time-for-a-creative-hobby">Trade Screen Time for a Creative Hobby | PsychologyToday</a> の和訳引用、一部省略してつないでいます。</span>
 
-> 趣味とは、本質的に「遊び」の一種です。それは、幼少期や少年期を彩った、取っ組み合いの泥遊びや、ごっこ遊び、ブロック遊びと何ら変わりません。(...中略...)<br>
-> 趣味は「個人の創造性」を育んでくれます。それは私たち誰もが持っている、「心からの体験」「自分ならではの思考」、そして「自分にとって最も大切なことを意味ある形で表現する力」のことです。
+> 何かを受動的に消費するのではなく、自分から積極的に何かを生み出す「創作的な趣味（ジェネラティブ・ホビー）」は、自分の興味を探求して行動に移し、スキルを身につけることを通じて、<u decoration-wavy decoration-orange>自分らしさ（個性）を育ててくれます。スキルが身につくことは、自己肯定感（自尊心）の土台そのものです。</u>
 >
-> 私たちも伝えたいのは、**「本物のアマチュアとして、あふれる愛と情熱を注いで趣味を育てるなら、そのレクリエーション（気晴らし）は、あなた自身を新しく作り直す（re-createする）創造の場になる」** ということです。
+> ドイツでアマチュア音楽家1,000人以上を対象に行われた研究では、毎日楽器や音楽に触れている人ほど、前向きな感情と「自分にはできる」という有能感を強く感じていることが分かりました。
 >
-> 趣味の活動には、ほんの少しの「尊大さ」——自分にはこれを楽しみ、こう生きる権利があるのだと堂々と受け入れること——を振りかけ、そして自分なりのやり方で作り出し、発明していく「図々しさ」を一握り加えてみてください。
+> こうしたポジティブな変化が生まれるのは、自分の興味や価値観を積極的に探求して行動し、スキルを磨いて自尊心を高め、他者とつながって支え合えるようになるからです。 
 
 ---
 
@@ -1090,8 +1098,8 @@ layout: cover
   * 体を動かす・作り出す・頭を動かす
 * 趣味の数だけ自分の顔が増える
 * 趣味はリバイバルする。今始めることも将来の種まきになるかも
-* 初心者でも熟練者でも効果は同じ
-* 趣味から自分を知ろう
+  * 趣味は、人生の「貯金箱」にコツコツと貯めていくコイン
+* 趣味を育て、趣味に育ててもらう人生
 </div>
 
 ---
@@ -1287,3 +1295,31 @@ https://www.tandfonline.com/doi/full/10.1080/02614367.2026.2701742#abstract
 
 現在の友人や同僚にはあまり見られない「自分の中のもう一つの側面」に目を向けてみてください。
 -->
+
+---
+layout: cover
+---
+
+# 付録
+
+---
+
+# 創造的な趣味は自分を作り直す
+
+<span text-4><a href="https://www.psychologytoday.com/us/blog/imagine/200812/hobbies-the-personal-path-creativity">Hobbies: The Personal Path to Creativity | PsychologyToday</a> の和訳引用、一部省略してつないでいます。</span>
+
+> 20世紀の高名なイギリス首相でありながら、人生の半ばで絵画に熱中したウィンストン・チャーチルの言葉を振り返ってみます。
+>
+> 「40歳になるまで絵筆を持ったこともない人間が、ある日突然、絵の具やパレット、キャンバスを手にして、激しく情熱的な関心と行動の渦の中に飛び込む。そして、思うような結果が出なくても決して落胆しない。これは実に驚くべき、心を豊かにしてくれる体験である。ぜひ他の人たちにも味わってほしいと思う。
+>
+> ...私は絵の描き方を教えようなどと大それたことを言うつもりはない。ただ『どう楽しむか』を伝えたいだけだ。 ... 必要な資質はただ一つ、『図々しさ（Audacity）』だけだと信じてほしい ... 私たち（趣味人）は、大それた野心を持ちすぎてはならない。傑作を残そうなどと高望みする必要はないのだ。絵の具箱という乗り物に乗って、<span v-mark.orange.box>気ままなドライブを楽しむ</span>だけで十分ではないか……」
+
+---
+
+# 創造的な趣味は自分を作り直す
+
+<span text-4><a href="https://www.psychologytoday.com/us/blog/imagine/200812/hobbies-the-personal-path-creativity">Hobbies: The Personal Path to Creativity | PsychologyToday</a> の和訳引用。一部省略しています。</span>
+
+> チャーチルが伝えたかったこと、そして私たちも伝えたいのは、**「本物のアマチュアとして、あふれる愛と情熱を注いで趣味を育てるなら、そのレクリエーション（気晴らし）は、あなた自身を新しく作り直す（re-createする）創造の場になる」** ということです。
+>
+> 私たちが注目したいのは、ささやかな趣味の中に見出せる「自分だけの気ままなドライブ」です。教室に通おうと、入門書を読もうと、独学で突き進もうと、どんな趣味を選んだとしても、私たちは想像力豊かな思考、発見、そして探求の世界へと自分を解き放つことができます。そして、その学びは「自分で選んだもの」だからこそ、本質的に楽しいものであるはずです。 
