@@ -76,16 +76,17 @@ h1, p {
 
 ---
 
-# 自己紹介
+# 自己紹介：GAFAMからFIREへ
 
 <div grid grid-cols-3>
 <div col-span-2>
 
-* 2024年頭に3人の子どもの子育て目的でFIRE
+* 40代
+* 東大 → GAFAMエンジニア → 2024年頭にFIRE
+* 3人の子供の子育て目的でFIRE
 * 運動 1/3, 勉強 1/3, 育児 1/3
 * FI = FIREしたからには資産のことは気にしない
 * RE = Retire Experiment! (リタイア実験)
-* **趣味: スケート・卓球・ジム・ペン回し・ペンシルパズル・ジャグリング・バトントワリング・ストレッチ・算数・何か発表・ゲーム・裁判傍聴**
 
 参考: [自己紹介・FIREした経緯 | FIRE後の教科書](https://takibi-fire.com/slides/fire-self-introduction/)
 
