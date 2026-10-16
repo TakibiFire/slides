@@ -104,6 +104,7 @@ ul + h1 {
 * [FIREはレールの乗り換え](https://takibi-fire.com/slides/fire-transfer/)
 * [後5年で死ぬとしたら何をする？](https://takibi-fire.com/slides/fire-if-5-years-left/)
 * [DIE WITH ZERO はここが間違っている](https://takibi-fire.com/slides/fire-flaws-in-die-with-zero/)
+* [趣味の分散投資](https://takibi-fire.com/slides/fire-invest-in-hobbies/)
 
 </div></div>
 
